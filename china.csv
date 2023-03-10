@@ -1,4 +1,4 @@
-ID:,AFP,Input,Output,Enquiry,File,Interface,Added,Changed,Deleted,PDR_AFP,PDR_UFP,NPDR_AFP,NPDU_UFP,Resource,DevType,Duration,N_effort-,Effort:
+IDX,AFP,Input,Output,Enquiry,File,Interface,Added,Changed,Deleted,PDR_AFP,PDR_UFP,NPDR_AFP,NPDU_UFP,Resource,DevType,Duration,N_effort-,Effort:
 1,1587,774,260,340,128,0,1502,0,0,4.7,5,4.7,5,4,0,4,7490,7490
 2,260,9,4,3,193,41,51,138,61,16,16.6,16,16.6,2,0,17,4150,4150
 3,152,25,33,28,42,35,163,0,0,4.4,4.1,4.4,4.1,1,0,9,668,668
