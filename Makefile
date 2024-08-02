@@ -1,14 +1,14 @@
 MAKEFLAGS += --silent
 SHELL=/bin/bash
-R=$(shell git rev-parse --show-toplevel)
+Top=$(shell git rev-parse --show-toplevel)
 
 help: ## print help
-	printf "\n#readme\nmake [OPTIONS]\n\nOPTIONS:\n"
-	grep -E '^[a-zA-Z_\.-]+:.*?## .*$$' $(MAKEFILE_LIST) \
-		| sort \
-		| awk 'BEGIN {FS = ":.*?## "}\
-	               {printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2}'
+	#grep -E '^[a-zA-Z_\.-]+:.*?## .*$$' $(MAKEFILE_LIST) 
+	gawk 'BEGIN {FS = ":.*?## "; print "\nmake: [OPTIONS]\n"}\
+	          /^[^ \t].*##/     {printf "  \033[36m%-10s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
-y?=saving
-itso: ## commit to Git. To add a message, set `y=message`.
-	git commit -am "$y"; git push; git status
+pull: ## download
+	git pull
+
+push: ## save
+	echo -en "\033[33mWhy this push? \033[0m"; read x; git commit -am "$$x"; git push; git status
