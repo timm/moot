@@ -1,4 +1,4 @@
-age,menopause,tumor-size,inv-nodes,node-caps,deg-malig,breast,breast-quad,irradiat,class!
+age,menopause,tumor-size,inv-nodes,node-caps,deg-malig,breast,breast-quad,irradiat,class! 
 40-49,premeno,15-19,0-2,yes,3,right,left_up,no,recurrence-events
 50-59,ge40,15-19,0-2,no,1,right,central,no,no-recurrence-events
 50-59,ge40,35-39,0-2,no,2,left,left_low,no,recurrence-events
