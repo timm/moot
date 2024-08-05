@@ -2,13 +2,10 @@
 | ----------- | ----------- |
 | COC1000 | A | 
 | nasa93dem | B | 
-| pom3a_complete | A | 
-| pom3a_reduced | A | 
-| pom3b_complete | A | 
-| pom3b_reduced | A | 
-| pom3c_complete | A | 
-| pom3c_reduced | A | 
-| pom3d_reduced | A | 
+| pom3a | A | 
+| pom3b | A | 
+| pom3c | A | 
+| pom3d | A | 
 | xomo_flight | B | 
 | xomo_ground | B | 
 | xomo_osp | B | 
