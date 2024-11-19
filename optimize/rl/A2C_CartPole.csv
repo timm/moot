@@ -1,4 +1,4 @@
-Algorithm,Environment,EvalMeanReturn+,EvalVarReturn-,ConvergenceTime-,Score+,Learning_rate,Gamma,Nsteps,Entcoef,Vfcoef,Gradnorm,Lambda
+Algorithm,environment,EvalMeanReturn+,EvalVarReturn-,ConvergenceTime-,Score+,Learning_rate,Gamma,Nsteps,Entcoef,Vfcoef,Gradnorm,Lambda
 a2c,CartPole-v1,219.25,7198.4945,59158,0.0033040729107094,-3.912,0.961,13,0.001,0.536,0.952,0.944
 a2c,CartPole-v1,57.21,41.0829,85404,0.0006695450283771,-4.469,0.923,8,0.003,0.68,0.641,0.966
 a2c,CartPole-v1,174.23,6716.8921,57552,0.0027109116618541,-3.518,0.92,5,0.005,0.811,1.123,0.954

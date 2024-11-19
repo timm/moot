@@ -1,4 +1,4 @@
-EvalMeanReturn+,EvalVarReturn-,ConvergenceTime-,ScoreX,gamma,Learning_rate,n_steps,Ent_coef,Vf_coef,Max_grad_norm,Gae_lambda,NumLayers,Layer1Nodes,Layer2Nodes
+EvalMeanReturn+,EvalVarReturn-,ConvergenceTime-,ScoreX,Gamma,Learning_rate,N_steps,Ent_coef,Vf_coef,Max_grad_norm,Gae_lambda,NumLayers,Layer1Nodes,Layer2Nodes
 -83.67,15.6461,99527,-0.000840535817986277,0.95,-3.848,15,0.002,0.795,4.71,0.904,2,512,256
 -83.39,38.5149,99621,-0.000836740609695566,0.974,-4.069,7,0,0.596,2.005,0.924,2,128,512
 -98.5,1235.41,99349,-0.00097926727146611,0.931,-3.802,12,0.003,0.842,0.914,0.932,1,128,X
