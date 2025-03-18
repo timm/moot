@@ -1,0 +1,64 @@
+Category	SubCategory	Dataset	Original Dimensions	Intrinsic Dimensions	DRR
+Optimize	Process	coc1000	20	6	0.7
+Optimize	Process	nasa93dem	25	4	0.84
+Optimize	Process	pom3a	9	5	0.444444444
+Optimize	Process	pom3b	9	5	0.444444444
+Optimize	Process	pom3c	9	5	0.444444444
+Optimize	Process	pom3d	9	5	0.444444444
+Optimize	Process	flight	27	7	0.740740741
+Optimize	Process	ground	27	7	0.740740741
+Optimize	Process	osp	27	7	0.740740741
+Optimize	Process	osp2	27	7	0.740740741
+Optimize	Misc	auto93			#DIV/0!
+Optimize	Misc	wine quality			#DIV/0!
+Optimize	HPO	health easy			#DIV/0!
+Optimize	HPO	health hard			#DIV/0!
+Optimize	Config	Apache			#DIV/0!
+Optimize	Config	HSMGP			#DIV/0!
+Optimize	Config	rs-6d-c3-obj1			#DIV/0!
+Optimize	Config	rs-6d-c3-obj2			#DIV/0!
+Optimize	Config	sol-6d-c2-obj1			#DIV/0!
+Optimize	Config	SQL			#DIV/0!
+Optimize	Config	SS-A	3	1	0.666666667
+Optimize	Config	SS-B	3	1	0.666666667
+Optimize	Config	SS-C	3	1	0.666666667
+Optimize	Config	SS-D	3	1	0.666666667
+Optimize	Config	SS-E	3	1	0.666666667
+Optimize	Config	SS-F	3	1	0.666666667
+Optimize	Config	SS-G	3	1	0.666666667
+Optimize	Config	SS-H	4	2	0.5
+Optimize	Config	SS-I	5	2	0.6
+Optimize	Config	SS-J	6	3	0.5
+Optimize	Config	SS-K	6	3	0.5
+Optimize	Config	SS-L	11	4	0.636363636
+Optimize	Config	SS-M	16	3	0.8125
+Optimize	Config	SS-N	16	3	0.8125
+Optimize	Config	SS-O	10	7	0.3
+Optimize	Config	SS-P	11	4	0.636363636
+Optimize	Config	SS-Q	13	4	0.692307692
+Optimize	Config	SS-R	14	5	0.642857143
+Optimize	Config	SS-S	6	3	0.5
+Optimize	Config	SS-T	12	8	0.333333333
+Optimize	Config	SS-U	21	9	0.571428571
+Optimize	Config	SS-V	16	3	0.8125
+Optimize	Config	SS-W	16	3	0.8125
+Optimize	Config	SS-X	11	6	0.454545455
+Optimize	Config	wc-6d-c1-obj1	6	3	0.5
+Optimize	Config	wc+rs-3d-c4-obj1	3	1	0.666666667
+Optimize	Config	wc+sol-3d-c4-obj1	3	1	0.666666667
+Optimize	Config	wc+wc-3d-c4-obj1	3	1	0.666666667
+Optimize	Config	x264	16	4	0.75
+Optimize	BinaryConfig	Billing	88	5	0.943181818
+Optimize	BinaryConfig	ffm-125	125	8	0.936
+Optimize	BinaryConfig	ffm-250	250	7	0.972
+Optimize	BinaryConfig	ffm-500	500	7	0.986
+Optimize	BinaryConfig	ffm-1000	1000	15	0.985
+Optimize	BinaryConfig	fm-0.25	500	7	0.986
+Optimize	BinaryConfig	fm-0.50	500	9	0.982
+Optimize	BinaryConfig	fm-0.75	500	12	0.976
+Optimize	BinaryConfig	fm-1.00	500	15	0.97
+Optimize	BinaryConfig	Scrum-1k	128	7	0.9453125
+Optimize	BinaryConfig	Scrum-10k	128	7	0.9453125
+Optimize	BinaryConfig	Scrum-100k	128	7	0.9453125
+Optimize	RL	Acrobot	11	4	0.636363636
+Optimize	RL	CartPole	10	5	0.5
