@@ -1,6 +1,6 @@
 # Moot: Multi-objective optimization test data
 
-```
+```bibtex
 @misc{Dua:2019,
   author = {Menzies, Tim  and Chen, Toa},
   year = {2025},
