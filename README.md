@@ -2,7 +2,7 @@
 
 ```bibtex
 @misc{Dua:2019,
-  author = {Menzies, Tim  and Chen, Toa},
+  author = {Menzies, Tim  and Chen, Tao},
   year = {2025},
   title = {MOOT repository of Multi-objective optimization tests},
   url = {http://github.com/timm/moot},
