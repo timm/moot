@@ -1,5 +1,13 @@
 # Moot: Multi-objective optimization test data
 
+```bibtex
+@misc{Moot:2025,
+  author = {Menzies, Tim  and Chen, Tao},
+  year = {2025},
+  title = {MOOT repository of Multi-objective optimization tests},
+  url = {http://github.com/timm/moot},
+}
+```
 Moot is such a good name for datasets to be used to assess different algorithms.
 
 moot: 
