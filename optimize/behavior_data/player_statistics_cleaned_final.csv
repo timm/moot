@@ -1,4 +1,4 @@
-TeamName,PlayerName,Position,Games,Win rate,KDA,Avg kills,Avg deaths,Avg assists,CSPerMin,GoldPerMin,KP+,DamagePercent,DPM,VSPM,Avg WPM,Avg WCPM,Avg VWPM,GD@15,CSD@15,XPD@15,FB %,FB Victim,Penta Kills,Solo Kills,Country,FlashKeybind
+TeamName,PlayerName,Position,Games,Win rate,KDA,Avg kills,Avg deaths,Avg assists,CSPerMin,GoldPerMin,KP+,DamagePercent,DPM,VSPM,Avg WPM,Avg WCPM,Avg VWPM,GD_at_15,CSD_at_15,XPD_at_15,FBpercent,FB Victim,Penta Kills,Solo Kills,Country,FlashKeybind
 0.0,369.0,0.0,8.0,0.5,3.1,2.5,2.4,4.9,7.6,373.0,0.532,0.219,508.0,0.91,0.38,0.11,0.13,322.0,5.0,424.0,0.0,0.25,0.0,2.0,0.0,0.0
 0.0,369.0,0.0,9.0,0.333,4.8,5.0,2.0,4.7,10.1,449.0,0.815,0.308,650.0,1.16,0.39,0.34,0.1,-112.0,1.0,97.0,0.333,0.0,0.0,2.0,0.0,0.0
 0.0,369.0,0.0,5.0,0.2,1.5,0.2,4.4,6.2,1.2,233.0,0.622,0.079,173.0,3.59,1.91,0.52,0.49,-3.0,2.0,-256.0,0.0,0.6,0.0,1.930232558139535,0.0,0.0
