@@ -5,6 +5,9 @@
 ![GitHub stars](https://img.shields.io/github/stars/timm/moot?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/timm/moot?style=social)
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.YOUR_DOI.svg)](https://doi.org/10.5281/zenodo.YOUR_DOI)
+
 # Moot: Multi-objective optimization test data
 
 ```bibtex
