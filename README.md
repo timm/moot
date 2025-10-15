@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/181570338.svg)](https://doi.org/10.5281/zenodo.17354082)
+
 # Moot: Multi-objective optimization test data
 
 ```bibtex
