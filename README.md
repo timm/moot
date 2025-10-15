@@ -1,4 +1,9 @@
 [![DOI](https://zenodo.org/badge/181570338.svg)](https://doi.org/10.5281/zenodo.17354082)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub issues](https://img.shields.io/github/issues/timm/moot)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/timm/moot) 
+![GitHub stars](https://img.shields.io/github/stars/timm/moot?style=social)
+![GitHub forks](https://img.shields.io/github/forks/timm/moot?style=social)
 
 # Moot: Multi-objective optimization test data
 
