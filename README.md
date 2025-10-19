@@ -5,13 +5,13 @@
 ![GitHub stars](https://img.shields.io/github/stars/timm/moot?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/timm/moot?style=social)
 
-# Moot: Multi-objective optimization test data
+# Moot: Multi-objective optimization test tasks
 
 ```bibtex
 @misc{Moot:2025,
   author = {Menzies, Tim  and Chen, Tao},
   year = {2025},
-  title = {MOOT repository of Multi-objective optimization tests},
+  title = {MOOT repository of Multi-objective optimization tasks},
   url = {http://github.com/timm/moot},
 }
 ```
