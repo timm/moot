@@ -8,12 +8,22 @@
 # Moot: Multi-objective optimization  tasks
 
 ```bibtex
-@misc{Moot:2025,
-  author = {Menzies, Tim  and Chen, Tao},
-  year = {2025},
-  title = {MOOT repository of Multi-objective optimization tasks},
-  url = {http://github.com/timm/moot},
-}
+@software{mootrepo,
+  author       = {Tim Menzies and 
+                  Tao Chen  and
+                  Kishan Ganguly and 
+                  Amirali Rayegan and 
+                  Srinath Srinivasan and
+                  Andr\'e Lustosa and
+                  Katerina Vilkomir},
+  title        = {MOOT: a Repository of many
+                  Multi-objective Optimization Tasks},
+  month        = "October",
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {v0.9.0},
+  doi          = {10.5281/zenodo.17354083},
+  url          = {https://doi.org/10.5281/zenodo.17354083}}
 ```
 Moot is such a good name for datasets to be used to assess different algorithms.
 
