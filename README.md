@@ -7,23 +7,25 @@
 
 # Moot: Multi-objective optimization  tasks
 
+APA reference
+```
+Menzies, T., Chen, T., Ye, Y., Ganguly, K. K., Rayegan, A., & Srinivasan, S. (2025).
+MOOT: A repository of many multi-objective optimization tasks (Version 2025) [Data set].
+Zenodo. https://doi.org/10.5281/zenodo.17354083
+```
+
 ```bibtex
-@software{mootrepo,
-  author       = {Tim Menzies and 
-                  Tao Chen  and
-                  Kishan Ganguly and 
-                  Amirali Rayegan and 
-                  Srinath Srinivasan and
-                  Andr\'e Lustosa and
-                  Katerina Vilkomir},
-  title        = {MOOT: a Repository of many
-                  Multi-objective Optimization Tasks},
-  month        = "October",
-  year         = 2025,
-  publisher    = {Zenodo},
-  version      = {v0.9.0},
+@misc{mootdata,
+  author       = {Tim Menzies and Tao Chen and Yulong Ye and 
+                  Kishan Kumar Ganguly and Amirali Rayegan and 
+                  Srinath Srinivasan},
+  title        = {{MOOT: A Repository of Many Multi-Objective Optimization Tasks}},
+  year         = {2025},
   doi          = {10.5281/zenodo.17354083},
-  url          = {https://doi.org/10.5281/zenodo.17354083}}
+  url          = {https://doi.org/10.5281/zenodo.17354083},
+  note         = {Version 2025, GitHub: https://github.com/timm/moot},
+  publisher    = {Zenodo}
+}
 ```
 Moot is such a good name for datasets to be used to assess different algorithms.
 
