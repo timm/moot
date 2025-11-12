@@ -7,6 +7,9 @@
 
 # Moot: Multi-objective optimization  tasks
 
+
+<img width="87" height="76" align=middle alt="image" src="https://github.com/user-attachments/assets/67d70a29-0a85-44ef-88a2-08191321ffa0" />&nbsp;[Documentation](docs/moot.pdf)
+
 APA reference
 ```
 Menzies, T., Chen, T., Ye, Y., Ganguly, K. K., Rayegan, A., & Srinivasan, S. (2025).
@@ -36,3 +39,6 @@ moot:
    "Sylvia needed a vacation, and a trip to Ireland had been mooted"
 3. (noun) a mock trial set up to examine a hypothetical case as an academic exercise.    
    "the object of a moot is to provide practice in developing an argument"
+
+   <img width="1092" height="754" alt="image" src="https://github.com/user-attachments/assets/56270799-71bf-4d8d-9968-388d10df702b" />
+
