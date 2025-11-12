@@ -7,7 +7,8 @@
 
 # Moot: Multi-objective optimization  tasks
 
-
+ <img width="1092" height="754" alt="image" src="https://github.com/user-attachments/assets/56270799-71bf-4d8d-9968-388d10df702b" />
+ 
 <img  height="150" align=middle alt="image" src="https://github.com/user-attachments/assets/58d9c1d9-a5f6-4240-b74b-30396f9c8b56" />
 &nbsp;<a href="docs/moot.pdf">Documentation</a> (includes cites to where this data has been used previously).
 
@@ -37,5 +38,5 @@ Moot is such a good name for datasets to be used to assess different algorithms.
 
 >   (noun) a mock trial set up to examine a hypothetical case as an academic exercise.  "the object of a moot is to provide practice in developing an argument"
 
-   <img width="1092" height="754" alt="image" src="https://github.com/user-attachments/assets/56270799-71bf-4d8d-9968-388d10df702b" />
+  
 
