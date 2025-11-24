@@ -22,16 +22,14 @@ Zenodo. https://doi.org/10.5281/zenodo.17354083
 ```
 
 ```bibtex
-@misc{mootdata,
-  author       = {Tim Menzies and Tao Chen and Yulong Ye and 
-                  Kishan Kumar Ganguly and Amirali Rayegan and 
-                  Srinath Srinivasan},
-  title        = {{MOOT: A Repository of Many Multi-Objective Optimization Tasks}},
-  year         = {2025},
-  doi          = {10.5281/zenodo.17354083},
-  url          = {https://doi.org/10.5281/zenodo.17354083},
-  note         = {Version 2025, GitHub: https://github.com/timm/moot},
-  publisher    = {Zenodo}
+@misc{menzies2025mootrepositorymultiobjectiveoptimization,
+      title={MOOT: a Repository of Many Multi-Objective Optimization Tasks}, 
+      author={Tim Menzies and Tao Chen and Yulong Ye and Kishan Kumar Ganguly and Amirali Rayegan and Srinath Srinivasan and Andre Lustosa},
+      year={2025},
+      eprint={2511.16882},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2511.16882}, 
 }
 ```
 Moot is such a good name for datasets to be used to assess different algorithms. Its definition is 
