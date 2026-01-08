@@ -56,13 +56,13 @@ Menzies, T., Chen, T., Ye, Y., Ganguly, K. K., Rayegan, A., Srinivasan, S., & Lu
 
 ```bibtex
 @misc{menzies2025mootrepositorymultiobjectiveoptimization,
-  title         = {MOOT: a Repository of Many Multi-Objective Optimization Tasks},
-  author        = {Tim Menzies and Tao Chen and Yulong Ye and Kishan Kumar Ganguly and Amirali Rayegan and Srinath Srinivasan and Andre Lustosa},
-  year          = {2025},
-  eprint        = {2511.16882},
-  archivePrefix = {arXiv},
-  primaryClass  = {cs.SE},
-  url           = {https://arxiv.org/abs/2511.16882}
+      title={MOOT: a Repository of Many Multi-Objective Optimization Tasks}, 
+      author={Tim Menzies and Tao Chen and Yulong Ye and Kishan Kumar Ganguly and Amirali Rayegan and Srinath Srinivasan and Andre Lustosa},
+      year={2025},
+      eprint={2511.16882},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2511.16882}, 
 }
 
 ```
