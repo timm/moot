@@ -51,13 +51,17 @@ MOOT is a collaborative effort between researchers at [North Carolina State Univ
 ## Citing MOOT
 If you use MOOT in your research, please cite the following paper:
 ```
-Menzies, T., Chen, T., Ye, Y., Ganguly, K. K., Rayegan, A., Srinivasan, S., & Lustosa, A. (2025). MOOT: a Repository of Many Multi-Objective Optimization Tasks. arXiv:2511.16882
+Menzies, T., Chen, T., Ye, Y., Ganguly, 
+K. K., Rayegan, A., Srinivasan, S., & Lustosa, A. (2025). 
+MOOT: a Repository of Many Multi-Objective Optimization Tasks. 
+arXiv:2511.16882
 ```
 
 ```bibtex
 @misc{menzies2025mootrepositorymultiobjectiveoptimization,
       title={MOOT: a Repository of Many Multi-Objective Optimization Tasks}, 
-      author={Tim Menzies and Tao Chen and Yulong Ye and Kishan Kumar Ganguly and Amirali Rayegan and Srinath Srinivasan and Andre Lustosa},
+      author={Tim Menzies and Tao Chen and Yulong Ye and Kishan Kumar Ganguly 
+              and Amirali Rayegan and Srinath Srinivasan and Andre Lustosa},
       year={2025},
       eprint={2511.16882},
       archivePrefix={arXiv},
