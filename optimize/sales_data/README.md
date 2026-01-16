@@ -1,8 +1,37 @@
 ## Customer_Marketing Dataset
+- **Source**: [iFood CRM Data Analyst Case](https://www.kaggle.com/datasets/jackdaoud/marketing-data)
 - **Rows**: 2205 records
 - **X columns**: 31 features (income, household composition, product spending, campaign acceptance, demographics, education level)
 - **Y columns**: 8 (purchase behavior metrics, customer engagement, revenue metrics)
 - **Description**: Comprehensive customer marketing dataset tracking consumer behavior and campaign effectiveness. Contains socioeconomic data (income, age), household information (children demographics), purchasing patterns across product categories (wine, fruits, meat, fish, sweets, gold), campaign response metrics, customer segmentation variables (marital status, education level), and engagement indicators. This dataset enables analysis of purchasing behavior, campaign effectiveness, customer lifetime value, and development of targeted marketing strategies to optimize revenue and customer retention.
+
+| Feature | Description |
+| --- | --- |
+| **AcceptedCmp1** | 1 if customer accepted the offer in the  campaign, 0 otherwise |
+| **AcceptedCmp2** | 1 if customer accepted the offer in the  campaign, 0 otherwise |
+| **AcceptedCmp3** | 1 if customer accepted the offer in the  campaign, 0 otherwise |
+| **AcceptedCmp4** | 1 if customer accepted the offer in the  campaign, 0 otherwise |
+| **AcceptedCmp5** | 1 if customer accepted the offer in the  campaign, 0 otherwise |
+| **Response (target)** | 1 if customer accepted the offer in the last campaign, 0 otherwise |
+| **Complain** | 1 if customer complained in the last 2 years |
+| <br>**DtCustomer** | date of customer's enrollment with the company |
+| <br>**Education** | customer's level of education |
+| <br>**Marital** | customer's marital status |
+| <br>**Kidhome** | number of small children in customer's household |
+| <br>**Teenhome** | number of teenagers in customer's household |
+| <br>**Income** | customer's yearly household income |
+| <br>**MntFishProducts** | amount spent on fish products in the last 2 years |
+| <br>**MntMeatProducts** | amount spent on meat products in the last 2 years |
+| <br>**MntFruits** | amount spent on fruits in the last 2 years |
+| <br>**MntSweetProducts** | amount spent on sweet products in the last 2 years |
+| <br>**MntWines** | amount spent on wines in the last 2 years |
+| <br>**MntGoldProds** | amount spent on gold products in the last 2 years |
+| <br>**NumDealsPurchases** | number of purchases made with discount |
+| <br>**NumCatalogPurchases** | number of purchases made using catalogue |
+| <br>**NumStorePurchases** | number of purchases made directly in stores |
+| <br>**NumWebPurchases** | number of purchases made through company's web site |
+| <br>**NumWebVisitsMonth** | number of visits to company's web site in the last month |
+| <br>**Recency** | number of days since the last purchase |
 
 ## Accessories Dataset
 - **Rows**: 1121 records
