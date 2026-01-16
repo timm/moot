@@ -34,24 +34,28 @@
 | **Recency** | number of days since the last purchase |
 
 ## Accessories Dataset
+- **Source**: [Animal Crossing New Horizons Catalog](https://www.kaggle.com/datasets/jessicali9530/animal-crossing-new-horizons-nookplaza-dataset)
 - **Rows**: 1121 records
 - **X columns**: 14 features (item name, colors, size, availability, style attributes)
 - **Y columns**: 2 (Buy-, Sell+)
 - **Description**: Animal Crossing game item dataset focusing on wearable accessories. Contains detailed information about in-game clothing items including name, color variations, size, purchase method, seasonal availability, style categories, and equipment compatibility. The dataset enables price optimization analysis for buying and selling virtual items, with the Buy- and Sell+ indicators showing the negative cost of acquisition and positive resale value respectively.
 
 ## Dress-up Dataset
+- **Source**: [Animal Crossing New Horizons Catalog](https://www.kaggle.com/datasets/jessicali9530/animal-crossing-new-horizons-nookplaza-dataset)
 - **Rows**: 913 records
 - **X columns**: 20 features (item name, variation, crafting status, visual attributes, availability details)
 - **Y columns**: 2 (Buy-, Sell+)
 - **Description**: Animal Crossing game dataset focusing on clothing and costume items. Contains detailed information about in-game dresses, robes, outfits, and costumes including item variations, color schemes, seasonal availability, style classifications, thematic labels, and item compatibility. The dataset captures the virtual fashion economy with pricing metrics for buying (negative cost) and selling (positive return) items across diverse aesthetics from cute and elegant to cool and gorgeous styles.
 
 ## Socks Dataset
+- **Source**: [Animal Crossing New Horizons Catalog](https://www.kaggle.com/datasets/jessicali9530/animal-crossing-new-horizons-nookplaza-dataset)
 - **Rows**: 350 records
 - **X columns**: 20 features (item name, variation, crafting status, visual attributes, availability details)
 - **Y columns**: 1 (Buy-)
 - **Description**: Animal Crossing game dataset focusing on footwear accessories. Contains detailed information about in-game socks and stockings including item variations, color schemes, seasonal availability, style classifications, and compatibility with other items. The dataset tracks purchase pricing (Buy-) with negative values indicating cost to the player, enabling analysis of pricing patterns for this specific category of wearable items within the game's virtual economy.
 
 ## Wallpaper Dataset
+- **Source**: [Animal Crossing New Horizons Catalog](https://www.kaggle.com/datasets/jessicali9530/animal-crossing-new-horizons-nookplaza-dataset)
 - **Rows**: 247 records
 - **X columns**: 22 features (item name, visual effects, colors, window attributes, design details)
 - **Y columns**: 2 (Buy-, Sell+)
