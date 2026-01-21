@@ -49,7 +49,7 @@ These datasets are similar to the SS-Models, the only difference is that instead
 
 For Apache configurations, refer these 
 - https://httpd.apache.org/docs/2.2/mod/core.html
-- https://httpd.apache.org/docs/2.4/en/configuring.html
+- https://httpd.apache.org/docs/2.4/mod/quickreference.html
 
 For SQL configurations, refer these 
 - https://sqlite.org/compile.html
