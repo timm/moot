@@ -56,6 +56,8 @@ For SQL configurations, refer these
 - https://www.sqlite.org/pragma.html
 - https://tool.oschina.net/uploads/apidocs/sqlite/compile.html
 
+For X264 configurations, refer this 
+- http://www.chaneru.com/Roku/HLS/X264_Settings.htm
 
 ### RS | SOL | WC 
 
