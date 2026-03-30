@@ -16,6 +16,7 @@ The goal of MOOT is to provide a reusable, extensible benchmark suite that enabl
 
 ## MOOT at a glance
 
+<small>
 
 | # Datasets | Dataset Type | File Names | Primary Objective | x/y | # Rows | Cited By |
 |------------|--------------|------------|-------------------|-----|--------|----------|
@@ -41,6 +42,8 @@ The goal of MOOT is to provide a reusable, extensible benchmark suite that enabl
 | 5 | Sales | accessories, dress-up, Marketing_Analytics, socks, wallpaper | Sales analysis and prediction | 14-31/1-8 | 247–2,206 | [30,41,42] |
 | 2 | Software testing | test120, test600 | Optimize the class | 9/1 | 5,161 | — |
 | **127** | **Total** | | | | | |
+
+</small>
 
 **Note:** "x/y" denotes the number of independent and dependent attributes. All citations are detailed in [docs/cited_by.md](docs/cited_by.md).
 
