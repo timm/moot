@@ -1,0 +1,611 @@
+{
+  "actors": [
+    {
+      "id": "401f15b2-f475-46b6-bd53-b99b82a201d8",
+      "text": "Counselling",
+      "type": "istar.Actor",
+      "x": 802,
+      "y": 558,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "d2eebc96-c0d3-48b0-b865-bbb9c0c58a42",
+          "text": "Happiness",
+          "type": "istar.Quality",
+          "x": 917,
+          "y": 565,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f352add7-758d-46fd-adcf-7ae702788b7e",
+          "text": "Social Anxiety",
+          "type": "istar.Quality",
+          "x": 1088,
+          "y": 589,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c532d2b5-9145-460b-830a-4a779281be27",
+          "text": "High Quality Counselling",
+          "type": "istar.Quality",
+          "x": 835,
+          "y": 699,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8e2a2edf-e27e-4e9c-b2d7-260818e22944",
+          "text": "Listen for cues",
+          "type": "istar.Quality",
+          "x": 984,
+          "y": 768,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "af38c104-9c0f-4f0e-8ec1-80f904747829",
+          "text": "Text Messaging",
+          "type": "istar.Task",
+          "x": 905,
+          "y": 909,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7e1083c2-6ea9-4cdb-9497-080e3d9538dc",
+          "text": "Kids use Cybercafe/Portal/chatroom",
+          "type": "istar.Task",
+          "x": 1052,
+          "y": 917,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ce999fb1-4284-45f9-b9ab-d2d3eea4f4d4",
+          "text": "Provide Online Counselling",
+          "type": "istar.Goal",
+          "x": 1170,
+          "y": 807,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a7f6d9ba-17f0-4f4f-9750-7229581f6e46",
+          "text": "Issues of guilt & shame",
+          "type": "istar.Quality",
+          "x": 1144,
+          "y": 708.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "8bdee49c-ab7c-42b9-9a55-8f9ff226c511",
+      "text": "Kids & Youth",
+      "type": "istar.Actor",
+      "x": 67,
+      "y": 617,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "6e3aeb8a-768a-4e4e-ae49-723c683d6b79",
+          "text": "Get Effective Help",
+          "type": "istar.Quality",
+          "x": 144,
+          "y": 633,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "eccd3d6b-59fc-4278-a150-61892ab3c7fb",
+          "text": "Data Visibility",
+          "type": "istar.Quality",
+          "x": 289,
+          "y": 669,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4efe1080-287f-4834-8933-9168238e9199",
+          "text": "Immediacy (Service)",
+          "type": "istar.Quality",
+          "x": 420,
+          "y": 811,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "15237967-00c3-4927-b260-cc410416e49b",
+          "text": "Anonymity (Service)",
+          "type": "istar.Quality",
+          "x": 231,
+          "y": 784,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8c79dda7-c8ef-46e8-827f-3b5b1e0b6fd8",
+          "text": "Comfortableness with Service",
+          "type": "istar.Quality",
+          "x": 93,
+          "y": 775,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "777643f4-eaba-4390-aae5-a708404d8996",
+          "text": "Text Messaging",
+          "type": "istar.Task",
+          "x": 82,
+          "y": 986,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "edf8ea5f-0a7c-4162-be81-3c0484615412",
+          "text": "Kids use Cybercafe/Portal/Chatroom",
+          "type": "istar.Task",
+          "x": 410,
+          "y": 956,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e218edbe-f824-41b7-abd0-0faaf32b5888",
+          "text": "Help be Acquired",
+          "type": "istar.Goal",
+          "x": 259,
+          "y": 965,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "3a459e2e-6e79-4e71-9053-e25ab78456ee",
+      "text": "Organisation",
+      "type": "istar.Actor",
+      "x": 127,
+      "y": 27,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "54e4a434-4e33-4330-9fb9-90919fc5a1b2",
+          "text": "Help Kids",
+          "type": "istar.Quality",
+          "x": 277,
+          "y": 74,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4ada021e-bd3d-4e60-84d6-8ee5d3d2284b",
+          "text": "Scandal",
+          "type": "istar.Quality",
+          "x": 514,
+          "y": 76,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5a411d49-2a19-4480-ad0a-cd89cc6e4f2b",
+          "text": "HIgh Quality Counselling",
+          "type": "istar.Quality",
+          "x": 164,
+          "y": 233,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7fceb381-aeec-436f-83bf-9d419aca4bdf",
+          "text": "Immediacy",
+          "type": "istar.Quality",
+          "x": 359,
+          "y": 189.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8adbd135-efba-4471-a56d-9364edca8629",
+          "text": "Provide Counselling",
+          "type": "istar.Goal",
+          "x": 327,
+          "y": 313,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bc18b5b7-ff59-49b3-a023-1a00cfc54f58",
+          "text": "Text Messaging",
+          "type": "istar.Task",
+          "x": 218,
+          "y": 370,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "23eeac45-9fab-4411-b275-2a2d5dfc76a9",
+          "text": "Kids use Cybercafe/ Portal/...",
+          "type": "istar.Task",
+          "x": 405,
+          "y": 446,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b54b9c8a-54f8-4afa-b37c-046940c24763",
+          "text": "Anonymity",
+          "type": "istar.Quality",
+          "x": 516,
+          "y": 274.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6552e113-5230-4ad5-9e7b-e66bd1d51d9e",
+          "text": "High Quality Counselling",
+          "type": "istar.Quality",
+          "x": 127,
+          "y": 447,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "bc241e70-bafc-42d4-a7f8-733b329254d8",
+      "text": "Provide Counselling via Text Messaging",
+      "type": "istar.Task",
+      "x": 561.5,
+      "y": 639.5,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "bc18b5b7-ff59-49b3-a023-1a00cfc54f58",
+      "target": "af38c104-9c0f-4f0e-8ec1-80f904747829"
+    },
+    {
+      "id": "51a4d6bc-cf4b-4c48-a8c8-74dbf1f3cc82",
+      "text": "Cybercafe/Portal/Chatroom",
+      "type": "istar.Resource",
+      "x": 539,
+      "y": 781,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "23eeac45-9fab-4411-b275-2a2d5dfc76a9",
+      "target": "edf8ea5f-0a7c-4162-be81-3c0484615412"
+    },
+    {
+      "id": "d98c746d-caa6-4c22-96c8-a27d20fa6420",
+      "text": "High Quality Counselling",
+      "type": "istar.Quality",
+      "x": 559,
+      "y": 555,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "6552e113-5230-4ad5-9e7b-e66bd1d51d9e",
+      "target": "c532d2b5-9145-460b-830a-4a779281be27"
+    }
+  ],
+  "links": [
+    {
+      "id": "fbe5e06c-50c9-4ad2-8971-19f07a38eece",
+      "type": "istar.DependencyLink",
+      "source": "d98c746d-caa6-4c22-96c8-a27d20fa6420",
+      "target": "c532d2b5-9145-460b-830a-4a779281be27"
+    },
+    {
+      "id": "e5099fd1-b7fd-4602-ba4a-423eccd8ce35",
+      "type": "istar.DependencyLink",
+      "source": "6552e113-5230-4ad5-9e7b-e66bd1d51d9e",
+      "target": "d98c746d-caa6-4c22-96c8-a27d20fa6420"
+    },
+    {
+      "id": "8e30b6e9-94f7-4484-976c-c86a9605f6f8",
+      "type": "istar.DependencyLink",
+      "source": "51a4d6bc-cf4b-4c48-a8c8-74dbf1f3cc82",
+      "target": "edf8ea5f-0a7c-4162-be81-3c0484615412"
+    },
+    {
+      "id": "d0cc49bf-896c-4d90-813c-69150a5e6d4f",
+      "type": "istar.DependencyLink",
+      "source": "23eeac45-9fab-4411-b275-2a2d5dfc76a9",
+      "target": "51a4d6bc-cf4b-4c48-a8c8-74dbf1f3cc82"
+    },
+    {
+      "id": "d5a2d31c-07c6-44e1-bda5-61a488435a1c",
+      "type": "istar.DependencyLink",
+      "source": "bc241e70-bafc-42d4-a7f8-733b329254d8",
+      "target": "af38c104-9c0f-4f0e-8ec1-80f904747829"
+    },
+    {
+      "id": "2fd17c2a-3935-41c2-8064-ad13cc8ec262",
+      "type": "istar.DependencyLink",
+      "source": "bc18b5b7-ff59-49b3-a023-1a00cfc54f58",
+      "target": "bc241e70-bafc-42d4-a7f8-733b329254d8"
+    },
+    {
+      "id": "0404c77e-1262-441a-80af-31cfbd18f747",
+      "type": "istar.ContributionLink",
+      "source": "5a411d49-2a19-4480-ad0a-cd89cc6e4f2b",
+      "target": "54e4a434-4e33-4330-9fb9-90919fc5a1b2",
+      "label": "help"
+    },
+    {
+      "id": "083c7759-7788-4302-898b-59db868a8ff4",
+      "type": "istar.ContributionLink",
+      "source": "7fceb381-aeec-436f-83bf-9d419aca4bdf",
+      "target": "54e4a434-4e33-4330-9fb9-90919fc5a1b2",
+      "label": "help"
+    },
+    {
+      "id": "72ef6f30-5576-448d-b16e-0575b4d72ea0",
+      "type": "istar.OrRefinementLink",
+      "source": "bc18b5b7-ff59-49b3-a023-1a00cfc54f58",
+      "target": "8adbd135-efba-4471-a56d-9364edca8629"
+    },
+    {
+      "id": "42d2e622-d789-42de-9104-75f80b243370",
+      "type": "istar.ContributionLink",
+      "source": "b54b9c8a-54f8-4afa-b37c-046940c24763",
+      "target": "4ada021e-bd3d-4e60-84d6-8ee5d3d2284b",
+      "label": "help"
+    },
+    {
+      "id": "9f6a5865-47bd-43eb-8f14-830a63f85a1c",
+      "type": "istar.ContributionLink",
+      "source": "23eeac45-9fab-4411-b275-2a2d5dfc76a9",
+      "target": "b54b9c8a-54f8-4afa-b37c-046940c24763",
+      "label": "hurt"
+    },
+    {
+      "id": "930447c7-f5fc-4e48-8176-0092af11530c",
+      "type": "istar.OrRefinementLink",
+      "source": "23eeac45-9fab-4411-b275-2a2d5dfc76a9",
+      "target": "8adbd135-efba-4471-a56d-9364edca8629"
+    },
+    {
+      "id": "c786cbca-1ee6-4179-b8db-ab9dedc46167",
+      "type": "istar.ContributionLink",
+      "source": "23eeac45-9fab-4411-b275-2a2d5dfc76a9",
+      "target": "7fceb381-aeec-436f-83bf-9d419aca4bdf",
+      "label": "help"
+    },
+    {
+      "id": "b694b2d9-fa9e-404d-98d2-4e8f948c78c4",
+      "type": "istar.ContributionLink",
+      "source": "bc18b5b7-ff59-49b3-a023-1a00cfc54f58",
+      "target": "5a411d49-2a19-4480-ad0a-cd89cc6e4f2b",
+      "label": "break"
+    },
+    {
+      "id": "b2bb3a34-7261-4017-b25b-b345557d4c6d",
+      "type": "istar.ContributionLink",
+      "source": "23eeac45-9fab-4411-b275-2a2d5dfc76a9",
+      "target": "5a411d49-2a19-4480-ad0a-cd89cc6e4f2b",
+      "label": "hurt"
+    },
+    {
+      "id": "fe97acc2-478b-4098-a30b-55660c5eb66e",
+      "type": "istar.ContributionLink",
+      "source": "bc18b5b7-ff59-49b3-a023-1a00cfc54f58",
+      "target": "7fceb381-aeec-436f-83bf-9d419aca4bdf",
+      "label": "hurt"
+    },
+    {
+      "id": "377e1db1-31a7-4215-a42b-7d5b4a261832",
+      "type": "istar.ContributionLink",
+      "source": "8c79dda7-c8ef-46e8-827f-3b5b1e0b6fd8",
+      "target": "6e3aeb8a-768a-4e4e-ae49-723c683d6b79",
+      "label": "help"
+    },
+    {
+      "id": "7b338a2b-9aa1-4c36-8935-a493ea7baaa5",
+      "type": "istar.ContributionLink",
+      "source": "15237967-00c3-4927-b260-cc410416e49b",
+      "target": "eccd3d6b-59fc-4278-a150-61892ab3c7fb",
+      "label": "help"
+    },
+    {
+      "id": "705142a9-520f-4b94-8176-84c8d13ed05e",
+      "type": "istar.ContributionLink",
+      "source": "4efe1080-287f-4834-8933-9168238e9199",
+      "target": "6e3aeb8a-768a-4e4e-ae49-723c683d6b79",
+      "label": "help"
+    },
+    {
+      "id": "2d2f30bd-006c-4e31-889d-a6441dfb01a5",
+      "type": "istar.ContributionLink",
+      "source": "15237967-00c3-4927-b260-cc410416e49b",
+      "target": "6e3aeb8a-768a-4e4e-ae49-723c683d6b79",
+      "label": "help"
+    },
+    {
+      "id": "a0de870c-dfde-4936-bc48-130ce9360bda",
+      "type": "istar.ContributionLink",
+      "source": "777643f4-eaba-4390-aae5-a708404d8996",
+      "target": "8c79dda7-c8ef-46e8-827f-3b5b1e0b6fd8",
+      "label": "help"
+    },
+    {
+      "id": "6cee5186-3d59-4c50-9f67-9a9c3f368796",
+      "type": "istar.ContributionLink",
+      "source": "777643f4-eaba-4390-aae5-a708404d8996",
+      "target": "15237967-00c3-4927-b260-cc410416e49b",
+      "label": "help"
+    },
+    {
+      "id": "a056c587-dac5-4263-9fc7-bc66175a9d54",
+      "type": "istar.OrRefinementLink",
+      "source": "edf8ea5f-0a7c-4162-be81-3c0484615412",
+      "target": "e218edbe-f824-41b7-abd0-0faaf32b5888"
+    },
+    {
+      "id": "9dc3ad60-c16c-4847-aea1-35e68d6dc95f",
+      "type": "istar.OrRefinementLink",
+      "source": "777643f4-eaba-4390-aae5-a708404d8996",
+      "target": "e218edbe-f824-41b7-abd0-0faaf32b5888"
+    },
+    {
+      "id": "42ad1d7d-b61a-46f4-a2ea-5d7e13baba84",
+      "type": "istar.ContributionLink",
+      "source": "777643f4-eaba-4390-aae5-a708404d8996",
+      "target": "4efe1080-287f-4834-8933-9168238e9199",
+      "label": "hurt"
+    },
+    {
+      "id": "9ac2da72-9a88-40c0-a9a3-733356b0ff33",
+      "type": "istar.ContributionLink",
+      "source": "edf8ea5f-0a7c-4162-be81-3c0484615412",
+      "target": "4efe1080-287f-4834-8933-9168238e9199",
+      "label": "make"
+    },
+    {
+      "id": "8761dad9-84a6-4696-9383-c6c20053d23a",
+      "type": "istar.ContributionLink",
+      "source": "a7f6d9ba-17f0-4f4f-9750-7229581f6e46",
+      "target": "f352add7-758d-46fd-adcf-7ae702788b7e",
+      "label": "help"
+    },
+    {
+      "id": "7f51194a-a8c7-4c75-8072-b2e8843f2c78",
+      "type": "istar.ContributionLink",
+      "source": "8e2a2edf-e27e-4e9c-b2d7-260818e22944",
+      "target": "f352add7-758d-46fd-adcf-7ae702788b7e",
+      "label": "hurt"
+    },
+    {
+      "id": "93193d8b-7b12-4ff5-bed2-fd591e92184f",
+      "type": "istar.ContributionLink",
+      "source": "8e2a2edf-e27e-4e9c-b2d7-260818e22944",
+      "target": "d2eebc96-c0d3-48b0-b865-bbb9c0c58a42",
+      "label": "help"
+    },
+    {
+      "id": "88b6232a-e178-400a-b2b6-bb3018ae8013",
+      "type": "istar.ContributionLink",
+      "source": "c532d2b5-9145-460b-830a-4a779281be27",
+      "target": "d2eebc96-c0d3-48b0-b865-bbb9c0c58a42",
+      "label": "help"
+    },
+    {
+      "id": "271f3bc7-2712-448c-8452-16d5ca33ed01",
+      "type": "istar.ContributionLink",
+      "source": "8e2a2edf-e27e-4e9c-b2d7-260818e22944",
+      "target": "c532d2b5-9145-460b-830a-4a779281be27",
+      "label": "help"
+    },
+    {
+      "id": "aa97bcfe-0b9a-4d0a-9de6-13be45047e1c",
+      "type": "istar.ContributionLink",
+      "source": "af38c104-9c0f-4f0e-8ec1-80f904747829",
+      "target": "8e2a2edf-e27e-4e9c-b2d7-260818e22944",
+      "label": "break"
+    },
+    {
+      "id": "b8479171-f476-4ba1-9125-b901285e2f99",
+      "type": "istar.ContributionLink",
+      "source": "af38c104-9c0f-4f0e-8ec1-80f904747829",
+      "target": "a7f6d9ba-17f0-4f4f-9750-7229581f6e46",
+      "label": "hurt"
+    },
+    {
+      "id": "3a7f6597-0728-4dd1-b356-d54ece5772c3",
+      "type": "istar.ContributionLink",
+      "source": "7e1083c2-6ea9-4cdb-9497-080e3d9538dc",
+      "target": "8e2a2edf-e27e-4e9c-b2d7-260818e22944",
+      "label": "hurt"
+    },
+    {
+      "id": "1e53f2bf-54ce-4de9-936f-514bfa41767f",
+      "type": "istar.ContributionLink",
+      "source": "7e1083c2-6ea9-4cdb-9497-080e3d9538dc",
+      "target": "a7f6d9ba-17f0-4f4f-9750-7229581f6e46",
+      "label": "make"
+    },
+    {
+      "id": "9f32197e-427a-448f-95ea-7209f5aaafdc",
+      "type": "istar.OrRefinementLink",
+      "source": "7e1083c2-6ea9-4cdb-9497-080e3d9538dc",
+      "target": "ce999fb1-4284-45f9-b9ab-d2d3eea4f4d4"
+    },
+    {
+      "id": "4ee0aa0f-ea37-443b-90bd-67d496bc183a",
+      "type": "istar.ContributionLink",
+      "source": "6552e113-5230-4ad5-9e7b-e66bd1d51d9e",
+      "target": "5a411d49-2a19-4480-ad0a-cd89cc6e4f2b",
+      "label": "make"
+    }
+  ],
+  "display": {
+    "7e1083c2-6ea9-4cdb-9497-080e3d9538dc": {
+      "width": 129.5,
+      "height": 73.84375
+    },
+    "ce999fb1-4284-45f9-b9ab-d2d3eea4f4d4": {
+      "width": 100.5,
+      "height": 47.34375
+    },
+    "777643f4-eaba-4390-aae5-a708404d8996": {
+      "width": 114.5,
+      "height": 50.84375
+    },
+    "edf8ea5f-0a7c-4162-be81-3c0484615412": {
+      "width": 124.5,
+      "height": 66.84375
+    },
+    "bc241e70-bafc-42d4-a7f8-733b329254d8": {
+      "width": 114,
+      "height": 60.34375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Thu, 21 May 2026 21:51:02 GMT",
+  "diagram": {
+    "width": 2631,
+    "height": 2710,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version="1.0">
+   <diagram name="ERE_AGM_Reqs.ood">
+      <graphic content="SVG"/>
+      <ielement type="softgoal" id="_4BaZUHc-EeCVO5kE8HkE6g"
+                name="Effectively Analyze Agent-Goal Models in Early RE">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </ielement>
+      <ielement type="softgoal" id="_86fBEHc-EeCVO5kE8HkE6g" name="Handle Model Complexity">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_959hEHc-EeCVO5kE8HkE6g" name="Increase Model Completeness">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="_86fBEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="__ikdoHc-EeCVO5kE8HkE6g" name="Increase Model Accuracy">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_CA0owHc_EeCVO5kE8HkE6g"
+                name="Provide Model Interpretation">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="__ikdoHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_EvdZQHc_EeCVO5kE8HkE6g"
+                name="Capture Decisions and Rationale">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_959hEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_HZVlkHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="_86fBEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="_M71k0Hc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_HZVlkHc_EeCVO5kE8HkE6g" name="Involve Stakeholders">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_JxB1sHc_EeCVO5kE8HkE6g" name="Provide Analysis Power">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_M71k0Hc_EeCVO5kE8HkE6g" name="Procedure Usability">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_HZVlkHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_cpODsHc_EeCVO5kE8HkE6g"
+                name="Provide Guidelines for Procedure Selection"
+                initialEvalLabel="Denied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_RKwegXdOEeCl7dm4M6ETXA" name="R1 Scalability"
+                initialEvalLabel="PartiallyDenied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_86fBEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_SfjHMHdOEeCl7dm4M6ETXA" name="R2 Analysis Comprehension"
+                initialEvalLabel="Denied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_86fBEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_T7oqsHdOEeCl7dm4M6ETXA" name="R3 Partial Automation"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_86fBEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_3CuwQHdOEeCl7dm4M6ETXA">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_ap-yAHdOEeCl7dm4M6ETXA" name="R4 Prompt Model Iteration"
+                initialEvalLabel="PartiallySatisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_959hEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="__ikdoHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_HZVlkHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_b23b4HdOEeCl7dm4M6ETXA" name="R5 Interactive Procedure"
+                initialEvalLabel="PartiallySatisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_959hEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="__ikdoHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_HZVlkHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="_T7oqsHdOEeCl7dm4M6ETXA">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_fW1isHdOEeCl7dm4M6ETXA" name="R7 Provide Definition"
+                initialEvalLabel="PartiallyDenied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_CA0owHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="_dzwRIH22EeCYlqQwXiHNzA">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_gz9oAHdOEeCl7dm4M6ETXA" name="R9 Capture Human Judgments"
+                initialEvalLabel="PartiallySatisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_EvdZQHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_iWd8kHdOEeCl7dm4M6ETXA"
+                name="R10 Capture Decision Rationale"
+                initialEvalLabel="PartiallyDenied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_EvdZQHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_xKejcHdOEeCl7dm4M6ETXA" name="R11 Iterative Methdology"
+                initialEvalLabel="Denied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_HZVlkHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_M71k0Hc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_y3s6QHdOEeCl7dm4M6ETXA" name="R12 Analysis Questions"
+                initialEvalLabel="PartiallyDenied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_JxB1sHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="_00uAkHdOEeCl7dm4M6ETXA">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_00uAkHdOEeCl7dm4M6ETXA"
+                name="R14 Simple Analysis Procedures"
+                initialEvalLabel="PartiallySatisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_M71k0Hc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_3CuwQHdOEeCl7dm4M6ETXA" name="R15 Hidden Complexity"
+                initialEvalLabel="PartiallySatisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_M71k0Hc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_Dn0IsH22EeCYlqQwXiHNzA" name="Handle Model Flexibility">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="_Wuho8H24EeCYlqQwXiHNzA">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="_959hEHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="hurt" iref="__ikdoHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_M71k0Hc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_dzwRIH22EeCYlqQwXiHNzA"
+                name="R8 Accommodate High-Level Domain Information"
+                initialEvalLabel="PartiallySatisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_Dn0IsH22EeCYlqQwXiHNzA">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_Wuho8H24EeCYlqQwXiHNzA" name="R13 Reliable Analysis"
+                initialEvalLabel="Unknown">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_JxB1sHc_EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_XXrs8SjyEeKCYJKRKBb5vA" name="Understand the Domain">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_luah8CjyEeKCYJKRKBb5vA" name="R6 Prompt Further Iteration">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_XXrs8SjyEeKCYJKRKBb5vA">
+            <graphic content="SVG"/>
+         </ielementLink>
+         <ielementLink type="contribution" value="help" iref="_ap-yAHdOEeCl7dm4M6ETXA">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+   </diagram>
+</istarml>

@@ -1,0 +1,680 @@
+{
+  "actors": [
+    {
+      "id": "cc0cd9fd-7652-47a0-8f84-79ddd4bd306f",
+      "text": "RCCL",
+      "type": "istar.Actor",
+      "x": 4,
+      "y": 111,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "82499c54-f2f6-4c6c-ae01-48869c12cebb",
+          "text": "To be competitive in the leisure cruise business",
+          "type": "istar.Quality",
+          "x": 195,
+          "y": 129,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "be8c8aee-42b8-4922-95d3-909eb75b8ee4",
+          "text": "To reduce costs",
+          "type": "istar.Goal",
+          "x": 101,
+          "y": 248,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e8cd5d4f-2701-406b-bf82-0a123526159e",
+          "text": "To increase revenue",
+          "type": "istar.Goal",
+          "x": 203,
+          "y": 291,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3cbd8cce-a681-457c-9206-80e1b23814f2",
+          "text": "To enhance customer experience",
+          "type": "istar.Goal",
+          "x": 385,
+          "y": 195,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d4cd716e-ac30-49d2-a13c-0c1b1465312b",
+          "text": "To reduce costs on supply chain",
+          "type": "istar.Goal",
+          "x": 4,
+          "y": 323,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "69247b86-00ee-4df6-9304-58a42496f0f0",
+          "text": "To reduce costs on IT",
+          "type": "istar.Goal",
+          "x": 113,
+          "y": 332,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c1f52fbd-fa68-4deb-a3db-01e08d2cfbc8",
+          "text": "To redesign ships",
+          "type": "istar.Goal",
+          "x": 141,
+          "y": 401,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a9fae9b7-2737-4ef1-94d1-d18486aaa3d9",
+          "text": "To keep up to date with technology",
+          "type": "istar.Goal",
+          "x": 190,
+          "y": 439,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "df77f9a7-5e2b-482f-99db-4500abce108e",
+          "text": "To get more customers",
+          "type": "istar.Goal",
+          "x": 279,
+          "y": 410,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d6ade9d3-85e6-4e6d-9344-6f9c91be2cff",
+          "text": "To enhance customer trade experience",
+          "type": "istar.Goal",
+          "x": 339,
+          "y": 328,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f0a0a1c9-f350-4add-b2af-cd254f076c4b",
+          "text": "To enhance customer travel experience",
+          "type": "istar.Goal",
+          "x": 472,
+          "y": 363,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8abcedb1-7ca7-49c9-bf15-c68b8a0762b5",
+          "text": "To provide better cruising experience",
+          "type": "istar.Goal",
+          "x": 327,
+          "y": 495,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "56d9f753-7683-4517-9b77-c779bd08db1a",
+          "text": "To know customers' preferences",
+          "type": "istar.Goal",
+          "x": 445,
+          "y": 521,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "107a38e6-fc0e-4a9b-9be5-903d84119793",
+          "text": "To offer new improved services",
+          "type": "istar.Goal",
+          "x": 300,
+          "y": 246,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "0a039dbd-ff17-47a5-8818-16459a10c476",
+      "text": "IT Dept. ",
+      "type": "istar.Actor",
+      "x": 654,
+      "y": 131,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "fefe2bb7-dd49-49f7-82b1-0b3cb69f6fe2",
+          "text": "To maintain current system",
+          "type": "istar.Goal",
+          "x": 668,
+          "y": 314,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "641ed38f-6919-4654-b8fa-c2f941475ded",
+          "text": "To maintain same budget",
+          "type": "istar.Goal",
+          "x": 666,
+          "y": 413,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5017721c-b324-4a7f-8b5b-e015eac07f69",
+          "text": "System is sufficiently integrated",
+          "type": "istar.Resource",
+          "x": 756,
+          "y": 479,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "aa923255-0a63-44c6-bd8c-0fc069525a16",
+          "text": "Maintain system integrated",
+          "type": "istar.Task",
+          "x": 753,
+          "y": 394,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "894d87f9-84e6-4faf-a078-42a5a03ad6ee",
+          "text": "To integrate web-reservation system",
+          "type": "istar.Goal",
+          "x": 826,
+          "y": 315,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3379f02f-5db8-4797-89a9-c9b9f10a7e46",
+          "text": "To create flexible infrastructure",
+          "type": "istar.Goal",
+          "x": 980,
+          "y": 273,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a35879bb-b6e8-414f-b28a-dba15462e230",
+          "text": "Maintain IT operations",
+          "type": "istar.Goal",
+          "x": 739,
+          "y": 212,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8b391a57-5236-4baf-915c-4e0b523c3546",
+          "text": "Efficiency of IT Operations",
+          "type": "istar.Quality",
+          "x": 884,
+          "y": 131,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6dc7aa43-98e8-447c-9fc8-64559178ee3a",
+          "text": "To make sharp budget increase",
+          "type": "istar.Goal",
+          "x": 1061,
+          "y": 435,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "18d671b5-d91e-42bc-a87d-7a3ca31944e1",
+          "text": "To invest $8M",
+          "type": "istar.Goal",
+          "x": 861,
+          "y": 432,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6ffdf9a7-4c14-4e34-be0c-72d0cf49dac0",
+          "text": "To develop a single reservation system",
+          "type": "istar.Goal",
+          "x": 952,
+          "y": 476,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c6a09945-2a43-427f-a076-1eb8ffbd6a3b",
+          "text": "To have an automated HR system",
+          "type": "istar.Goal",
+          "x": 1106,
+          "y": 383,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f10856a2-e190-454e-930e-d951cf3bc97a",
+          "text": "To have an efficient HR system",
+          "type": "istar.Quality",
+          "x": 1163,
+          "y": 289,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "848c52b3-0b68-4730-9343-78193e66eff4",
+          "text": "To have flexible infrastructure components",
+          "type": "istar.Goal",
+          "x": 953,
+          "y": 360,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "43a7bfc5-ada1-4322-b0d1-1250665556d6",
+          "text": "Budget efficiency",
+          "type": "istar.Quality",
+          "x": 654,
+          "y": 479,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "8d09add6-3ca2-4ac3-9610-f20f875c2ab6",
+      "text": "Provide customer preference data",
+      "type": "istar.Goal",
+      "x": 546,
+      "y": 617,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "56d9f753-7683-4517-9b77-c779bd08db1a",
+      "target": "6ffdf9a7-4c14-4e34-be0c-72d0cf49dac0"
+    },
+    {
+      "id": "20d0463e-fbe0-4ec7-8a85-1098adc80e8b",
+      "text": "enable IT cost reduction",
+      "type": "istar.Goal",
+      "x": 607,
+      "y": 544,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "69247b86-00ee-4df6-9304-58a42496f0f0",
+      "target": "6dc7aa43-98e8-447c-9fc8-64559178ee3a"
+    },
+    {
+      "id": "d740e7a8-75f1-48e5-9ea2-2ca54ec43876",
+      "text": "Support new service development",
+      "type": "istar.Goal",
+      "x": 586,
+      "y": 244,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "107a38e6-fc0e-4a9b-9be5-903d84119793",
+      "target": "848c52b3-0b68-4730-9343-78193e66eff4"
+    }
+  ],
+  "links": [
+    {
+      "id": "289f8a26-ce45-45ad-8da6-7003616d8827",
+      "type": "istar.DependencyLink",
+      "source": "d740e7a8-75f1-48e5-9ea2-2ca54ec43876",
+      "target": "848c52b3-0b68-4730-9343-78193e66eff4"
+    },
+    {
+      "id": "0ed5f09d-6da6-4b12-8e0c-e9ae4d766508",
+      "type": "istar.DependencyLink",
+      "source": "107a38e6-fc0e-4a9b-9be5-903d84119793",
+      "target": "d740e7a8-75f1-48e5-9ea2-2ca54ec43876"
+    },
+    {
+      "id": "3f47b105-c286-4154-bdd6-0093a51a4b7a",
+      "type": "istar.DependencyLink",
+      "source": "20d0463e-fbe0-4ec7-8a85-1098adc80e8b",
+      "target": "6dc7aa43-98e8-447c-9fc8-64559178ee3a"
+    },
+    {
+      "id": "44f41050-d9c0-416a-9c30-83996450bf02",
+      "type": "istar.DependencyLink",
+      "source": "69247b86-00ee-4df6-9304-58a42496f0f0",
+      "target": "20d0463e-fbe0-4ec7-8a85-1098adc80e8b"
+    },
+    {
+      "id": "612c73ea-4aa4-4fff-ad25-9161a593bf95",
+      "type": "istar.DependencyLink",
+      "source": "8d09add6-3ca2-4ac3-9610-f20f875c2ab6",
+      "target": "6ffdf9a7-4c14-4e34-be0c-72d0cf49dac0"
+    },
+    {
+      "id": "f59696df-46e5-43c9-bbc1-8e0893a7815b",
+      "type": "istar.DependencyLink",
+      "source": "56d9f753-7683-4517-9b77-c779bd08db1a",
+      "target": "8d09add6-3ca2-4ac3-9610-f20f875c2ab6"
+    },
+    {
+      "id": "1596e8e0-f493-483b-9253-8aec81b4c8f8",
+      "type": "istar.ContributionLink",
+      "source": "be8c8aee-42b8-4922-95d3-909eb75b8ee4",
+      "target": "82499c54-f2f6-4c6c-ae01-48869c12cebb",
+      "label": "help"
+    },
+    {
+      "id": "067d4712-4476-4490-9ee7-c2eda460414b",
+      "type": "istar.ContributionLink",
+      "source": "e8cd5d4f-2701-406b-bf82-0a123526159e",
+      "target": "82499c54-f2f6-4c6c-ae01-48869c12cebb",
+      "label": "help"
+    },
+    {
+      "id": "cbd82c40-d459-433b-ade1-89df984fa35d",
+      "type": "istar.ContributionLink",
+      "source": "3cbd8cce-a681-457c-9206-80e1b23814f2",
+      "target": "82499c54-f2f6-4c6c-ae01-48869c12cebb",
+      "label": "help"
+    },
+    {
+      "id": "285fc00a-fe5d-4ead-bf34-572abfe23959",
+      "type": "istar.AndRefinementLink",
+      "source": "69247b86-00ee-4df6-9304-58a42496f0f0",
+      "target": "be8c8aee-42b8-4922-95d3-909eb75b8ee4"
+    },
+    {
+      "id": "54a89cf4-64d6-42f4-a073-a23b03400f3d",
+      "type": "istar.AndRefinementLink",
+      "source": "d4cd716e-ac30-49d2-a13c-0c1b1465312b",
+      "target": "be8c8aee-42b8-4922-95d3-909eb75b8ee4"
+    },
+    {
+      "id": "351af06d-cf42-4fe1-a069-6ef693376e94",
+      "type": "istar.AndRefinementLink",
+      "source": "c1f52fbd-fa68-4deb-a3db-01e08d2cfbc8",
+      "target": "e8cd5d4f-2701-406b-bf82-0a123526159e"
+    },
+    {
+      "id": "30e3f87c-7b19-48f9-9943-f9e0ddf86426",
+      "type": "istar.AndRefinementLink",
+      "source": "a9fae9b7-2737-4ef1-94d1-d18486aaa3d9",
+      "target": "e8cd5d4f-2701-406b-bf82-0a123526159e"
+    },
+    {
+      "id": "03bd232e-0dee-46d0-9598-bf1194190f88",
+      "type": "istar.AndRefinementLink",
+      "source": "df77f9a7-5e2b-482f-99db-4500abce108e",
+      "target": "e8cd5d4f-2701-406b-bf82-0a123526159e"
+    },
+    {
+      "id": "986277db-4386-45fa-bd97-2839d4e8e150",
+      "type": "istar.AndRefinementLink",
+      "source": "d6ade9d3-85e6-4e6d-9344-6f9c91be2cff",
+      "target": "3cbd8cce-a681-457c-9206-80e1b23814f2"
+    },
+    {
+      "id": "fd76e838-5501-4d6d-945f-1e95fae1150f",
+      "type": "istar.AndRefinementLink",
+      "source": "f0a0a1c9-f350-4add-b2af-cd254f076c4b",
+      "target": "3cbd8cce-a681-457c-9206-80e1b23814f2"
+    },
+    {
+      "id": "e583db40-3bae-4fdc-837f-c6ee9cece8e1",
+      "type": "istar.AndRefinementLink",
+      "source": "8abcedb1-7ca7-49c9-bf15-c68b8a0762b5",
+      "target": "d6ade9d3-85e6-4e6d-9344-6f9c91be2cff"
+    },
+    {
+      "id": "60a7a8af-40a7-4790-b4e1-37dc820539d3",
+      "type": "istar.AndRefinementLink",
+      "source": "56d9f753-7683-4517-9b77-c779bd08db1a",
+      "target": "d6ade9d3-85e6-4e6d-9344-6f9c91be2cff"
+    },
+    {
+      "id": "2dd26f61-2726-49fb-b941-a061ef833056",
+      "type": "istar.AndRefinementLink",
+      "source": "641ed38f-6919-4654-b8fa-c2f941475ded",
+      "target": "fefe2bb7-dd49-49f7-82b1-0b3cb69f6fe2"
+    },
+    {
+      "id": "ff69e005-4925-410c-bf85-8410835da087",
+      "type": "istar.NeededByLink",
+      "source": "5017721c-b324-4a7f-8b5b-e015eac07f69",
+      "target": "aa923255-0a63-44c6-bd8c-0fc069525a16"
+    },
+    {
+      "id": "687b0f8a-d2ae-4f3b-b901-b5556ced7127",
+      "type": "istar.AndRefinementLink",
+      "source": "aa923255-0a63-44c6-bd8c-0fc069525a16",
+      "target": "fefe2bb7-dd49-49f7-82b1-0b3cb69f6fe2"
+    },
+    {
+      "id": "d8b60903-0eb7-4bd2-a5ae-9e8b63772e9e",
+      "type": "istar.ContributionLink",
+      "source": "a35879bb-b6e8-414f-b28a-dba15462e230",
+      "target": "8b391a57-5236-4baf-915c-4e0b523c3546",
+      "label": "make"
+    },
+    {
+      "id": "f25928cd-b7a9-411a-86ec-ba3050e5ce2a",
+      "type": "istar.OrRefinementLink",
+      "source": "fefe2bb7-dd49-49f7-82b1-0b3cb69f6fe2",
+      "target": "a35879bb-b6e8-414f-b28a-dba15462e230"
+    },
+    {
+      "id": "84b88e34-17b2-4343-a481-bb08aff3b876",
+      "type": "istar.OrRefinementLink",
+      "source": "894d87f9-84e6-4faf-a078-42a5a03ad6ee",
+      "target": "a35879bb-b6e8-414f-b28a-dba15462e230"
+    },
+    {
+      "id": "b0a09390-acbf-4909-aabd-d657b885b4e5",
+      "type": "istar.OrRefinementLink",
+      "source": "3379f02f-5db8-4797-89a9-c9b9f10a7e46",
+      "target": "a35879bb-b6e8-414f-b28a-dba15462e230"
+    },
+    {
+      "id": "0bee155b-e7df-4318-a2eb-6e68e3b86f1d",
+      "type": "istar.AndRefinementLink",
+      "source": "18d671b5-d91e-42bc-a87d-7a3ca31944e1",
+      "target": "894d87f9-84e6-4faf-a078-42a5a03ad6ee"
+    },
+    {
+      "id": "5c9d0c67-8440-43f4-9bcd-ea381e3c876a",
+      "type": "istar.AndRefinementLink",
+      "source": "6ffdf9a7-4c14-4e34-be0c-72d0cf49dac0",
+      "target": "894d87f9-84e6-4faf-a078-42a5a03ad6ee"
+    },
+    {
+      "id": "cd28874e-68af-4fb6-a5ca-e58a859f4633",
+      "type": "istar.AndRefinementLink",
+      "source": "6dc7aa43-98e8-447c-9fc8-64559178ee3a",
+      "target": "3379f02f-5db8-4797-89a9-c9b9f10a7e46"
+    },
+    {
+      "id": "0f3f2c84-dec6-43d1-80f5-cf690c904a25",
+      "type": "istar.AndRefinementLink",
+      "source": "c6a09945-2a43-427f-a076-1eb8ffbd6a3b",
+      "target": "3379f02f-5db8-4797-89a9-c9b9f10a7e46"
+    },
+    {
+      "id": "7f8fa96f-790e-4cfb-b510-66db9ae29643",
+      "type": "istar.ContributionLink",
+      "source": "c6a09945-2a43-427f-a076-1eb8ffbd6a3b",
+      "target": "f10856a2-e190-454e-930e-d951cf3bc97a",
+      "label": "help"
+    },
+    {
+      "id": "dbffa4a2-16be-408f-b412-04abddee1d3f",
+      "type": "istar.AndRefinementLink",
+      "source": "107a38e6-fc0e-4a9b-9be5-903d84119793",
+      "target": "e8cd5d4f-2701-406b-bf82-0a123526159e"
+    },
+    {
+      "id": "b8d7f0fa-6d94-4fb7-9d39-2496bcec9eda",
+      "type": "istar.AndRefinementLink",
+      "source": "848c52b3-0b68-4730-9343-78193e66eff4",
+      "target": "3379f02f-5db8-4797-89a9-c9b9f10a7e46"
+    },
+    {
+      "id": "710c609d-4136-4359-81d3-18b897a851ee",
+      "type": "istar.ContributionLink",
+      "source": "641ed38f-6919-4654-b8fa-c2f941475ded",
+      "target": "43a7bfc5-ada1-4322-b0d1-1250665556d6",
+      "label": "help"
+    },
+    {
+      "id": "2179d1ae-b152-408c-863a-d8f8c81df84d",
+      "type": "istar.ContributionLink",
+      "source": "18d671b5-d91e-42bc-a87d-7a3ca31944e1",
+      "target": "43a7bfc5-ada1-4322-b0d1-1250665556d6",
+      "label": "hurt"
+    },
+    {
+      "id": "81d37765-0a18-4f57-9299-620ef2e63789",
+      "type": "istar.ContributionLink",
+      "source": "aa923255-0a63-44c6-bd8c-0fc069525a16",
+      "target": "43a7bfc5-ada1-4322-b0d1-1250665556d6",
+      "label": "hurt"
+    },
+    {
+      "id": "3cc2b793-c7ba-4c17-be43-af757b461bfb",
+      "type": "istar.ContributionLink",
+      "source": "6dc7aa43-98e8-447c-9fc8-64559178ee3a",
+      "target": "43a7bfc5-ada1-4322-b0d1-1250665556d6",
+      "label": "hurt"
+    }
+  ],
+  "display": {
+    "82499c54-f2f6-4c6c-ae01-48869c12cebb": {
+      "width": 118.26971435546875,
+      "height": 89.85295104980469
+    },
+    "3cbd8cce-a681-457c-9206-80e1b23814f2": {
+      "width": 103.234375,
+      "height": 55.84375
+    },
+    "d4cd716e-ac30-49d2-a13c-0c1b1465312b": {
+      "width": 105.5,
+      "height": 46.84375
+    },
+    "a9fae9b7-2737-4ef1-94d1-d18486aaa3d9": {
+      "width": 99.5,
+      "height": 49.34375
+    },
+    "d6ade9d3-85e6-4e6d-9344-6f9c91be2cff": {
+      "width": 110.5,
+      "height": 58.34375
+    },
+    "f0a0a1c9-f350-4add-b2af-cd254f076c4b": {
+      "width": 112.5,
+      "height": 56.84375
+    },
+    "8abcedb1-7ca7-49c9-bf15-c68b8a0762b5": {
+      "width": 110.5,
+      "height": 67.34375
+    },
+    "56d9f753-7683-4517-9b77-c779bd08db1a": {
+      "width": 114.5,
+      "height": 61.84375
+    },
+    "fefe2bb7-dd49-49f7-82b1-0b3cb69f6fe2": {
+      "width": 98.234375,
+      "height": 48.84375
+    },
+    "894d87f9-84e6-4faf-a078-42a5a03ad6ee": {
+      "width": 119.5,
+      "height": 66.34375
+    },
+    "3379f02f-5db8-4797-89a9-c9b9f10a7e46": {
+      "width": 98.5,
+      "height": 45.84375
+    },
+    "6dc7aa43-98e8-447c-9fc8-64559178ee3a": {
+      "width": 105.5,
+      "height": 50.84375
+    },
+    "6ffdf9a7-4c14-4e34-be0c-72d0cf49dac0": {
+      "width": 111.5,
+      "height": 69.84375
+    },
+    "c6a09945-2a43-427f-a076-1eb8ffbd6a3b": {
+      "width": 97.5,
+      "height": 45.84375
+    },
+    "848c52b3-0b68-4730-9343-78193e66eff4": {
+      "width": 105.5,
+      "height": 51.84375
+    },
+    "43a7bfc5-ada1-4322-b0d1-1250665556d6": {
+      "width": 82.52484130859375,
+      "height": 48.348846435546875
+    },
+    "8d09add6-3ca2-4ac3-9610-f20f875c2ab6": {
+      "width": 103.5,
+      "height": 46.84375
+    },
+    "2179d1ae-b152-408c-863a-d8f8c81df84d": {
+      "vertices": [
+        {
+          "x": 827,
+          "y": 543
+        }
+      ]
+    },
+    "3cc2b793-c7ba-4c17-be43-af757b461bfb": {
+      "vertices": [
+        {
+          "x": 912,
+          "y": 425
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 19 May 2026 08:51:24 GMT",
+  "diagram": {
+    "width": 2267,
+    "height": 1800,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

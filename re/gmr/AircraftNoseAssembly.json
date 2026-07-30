@@ -1,0 +1,683 @@
+{
+  "actors": [
+    {
+      "id": "13e0bdb8-64a7-4ee8-bbb5-e1e1c30e40a2",
+      "text": "Industrial Analyst",
+      "type": "istar.Actor",
+      "x": 629,
+      "y": 1088,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "4c413d26-fb13-400d-b53d-a9b4c1b46535",
+          "text": "Define PERT",
+          "type": "istar.Task",
+          "x": 690.5,
+          "y": 1122,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "965d48ff-1a45-495c-8e23-f90327322057",
+          "text": "Define zones",
+          "type": "istar.Task",
+          "x": 671,
+          "y": 1207,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "b78dffd5-7fa6-432e-989c-c4c63d17fde4",
+      "text": "Industrial Decisionmakers",
+      "type": "istar.Actor",
+      "x": 612,
+      "y": 1543,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "9b21572f-a34a-49e2-839d-9508d260174c",
+          "text": "Choose Jig and tools",
+          "type": "istar.Task",
+          "x": 687,
+          "y": 1588,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c790c77a-b645-421c-82fa-9efb5d9f7371",
+          "text": "Minimise investment costs",
+          "type": "istar.Quality",
+          "x": 674,
+          "y": 1686,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "3e4fb936-8a5d-4eef-a09c-a6b90ee7b1cd",
+      "text": "Industrial Designers",
+      "type": "istar.Actor",
+      "x": 1060,
+      "y": 1538,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "e639e290-44d8-47f0-9ca1-fb6511094cda",
+          "text": "Minimise investment cost",
+          "type": "istar.Quality",
+          "x": 1155,
+          "y": 1555.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "72e8f515-b843-4b3a-867d-a9a7960fbf8a",
+          "text": "Minimise footprint",
+          "type": "istar.Quality",
+          "x": 1077,
+          "y": 1686,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "845c1a73-d07c-4cac-8368-48b82dd7a339",
+          "text": "Minimise cash flow",
+          "type": "istar.Quality",
+          "x": 1273,
+          "y": 1657,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3c8b2990-ae68-469a-994f-ae031868cf98",
+          "text": "Minimise lead time",
+          "type": "istar.Quality",
+          "x": 1256,
+          "y": 1768,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "465e81c5-063b-418f-8248-b5395fa0596f",
+      "text": "Assembly line Operators",
+      "type": "istar.Actor",
+      "x": 1231,
+      "y": 1077,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "701ad84d-0f57-4e9f-816e-995692a2b6fe",
+          "text": "Define global structure of the assembly line",
+          "type": "istar.Task",
+          "x": 1294,
+          "y": 1187,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "807709ce-8014-474f-a925-9251ae89c8ad",
+          "text": "Minimise footprint",
+          "type": "istar.Quality",
+          "x": 1360,
+          "y": 1077,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ea537d74-0713-4e69-bd18-40376220ca05",
+          "text": "MInimise investment cost",
+          "type": "istar.Quality",
+          "x": 1509,
+          "y": 1202,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c6bf4266-8f29-4215-b484-32ae131e105c",
+          "text": "Design stations flow",
+          "type": "istar.Task",
+          "x": 1413,
+          "y": 1346,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c6faad96-d9d8-41e9-a68a-12e71f9c8f69",
+          "text": "Define stations",
+          "type": "istar.Task",
+          "x": 1263.5,
+          "y": 1306,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "8fa1aa36-5247-4a15-a5ca-1df23f76e2d4",
+      "text": "Assembly line Designers",
+      "type": "istar.Actor",
+      "x": 1257,
+      "y": 424,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "921e50e4-9409-4500-b69e-0ae8f1f0b4eb",
+          "text": "Minimise lead time",
+          "type": "istar.Quality",
+          "x": 1404,
+          "y": 429,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5842b6f3-2620-46d3-8413-20b4775808d2",
+          "text": "Minimise cash flow",
+          "type": "istar.Quality",
+          "x": 1501,
+          "y": 506,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "22ad764d-5dce-4c47-81da-9b851f77a895",
+          "text": "Minimise investment cost",
+          "type": "istar.Quality",
+          "x": 1575,
+          "y": 616,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a98a1859-df8e-437f-b6ab-513880854c75",
+          "text": "Do the balancing",
+          "type": "istar.Task",
+          "x": 1306.5,
+          "y": 565,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "25025c6a-d96a-4c69-972c-480a73a67048",
+          "text": "Design a nose by assembly line",
+          "type": "istar.Task",
+          "x": 1306,
+          "y": 660,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "abb75b1f-acca-4994-b79d-d1a0e6fed282",
+          "text": "Minimise footprint",
+          "type": "istar.Quality",
+          "x": 1505,
+          "y": 700,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e7fe083a-a048-498c-8418-cef67324bcff",
+          "text": "Design a nose by assembly line",
+          "type": "istar.Task",
+          "x": 1307,
+          "y": 755,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "3a7eaef6-96e9-4643-a704-58eb1e19beb8",
+      "text": "Management Department",
+      "type": "istar.Actor",
+      "x": 582,
+      "y": 730,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "651ce0fd-2789-41b5-9722-d9247faa074c",
+          "text": "Define a policy factories implementation",
+          "type": "istar.Task",
+          "x": 654.5,
+          "y": 790,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "4ad42909-b0ef-4ca0-8d93-0adbf3c0190d",
+      "text": "Aircraft Designers",
+      "type": "istar.Actor",
+      "x": 186,
+      "y": 561,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "3311b8d1-7b10-4190-a0b5-b555b359e583",
+          "text": "Do nose design",
+          "type": "istar.Task",
+          "x": 254.5,
+          "y": 639,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "67033034-687f-451c-9f4a-601b0f6decbc",
+      "text": "nose design",
+      "type": "istar.Resource",
+      "x": 344,
+      "y": 910,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "4c413d26-fb13-400d-b53d-a9b4c1b46535",
+      "target": "3311b8d1-7b10-4190-a0b5-b555b359e583"
+    },
+    {
+      "id": "be1f3f3b-f07e-4742-96b9-6381bddbb910",
+      "text": "nose design",
+      "type": "istar.Resource",
+      "x": 285,
+      "y": 967,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "965d48ff-1a45-495c-8e23-f90327322057",
+      "target": "3311b8d1-7b10-4190-a0b5-b555b359e583"
+    },
+    {
+      "id": "f67684e0-1c7f-4f62-be39-08118c0290ad",
+      "text": "Assembly principles",
+      "type": "istar.Resource",
+      "x": 213,
+      "y": 1034,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "9b21572f-a34a-49e2-839d-9508d260174c",
+      "target": "3311b8d1-7b10-4190-a0b5-b555b359e583"
+    },
+    {
+      "id": "88c55383-527b-4720-9483-65f57af94bc3",
+      "text": "Integrity constraints",
+      "type": "istar.Resource",
+      "x": 708,
+      "y": 547,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "3311b8d1-7b10-4190-a0b5-b555b359e583"
+    },
+    {
+      "id": "f83cda25-e919-4af5-8525-fe81216bb8bd",
+      "text": "Assembly line rate",
+      "type": "istar.Resource",
+      "x": 905,
+      "y": 751,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "651ce0fd-2789-41b5-9722-d9247faa074c"
+    },
+    {
+      "id": "d0a355f0-02f2-4228-a60c-358412f8e375",
+      "text": "PERT",
+      "type": "istar.Resource",
+      "x": 951,
+      "y": 857,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a98a1859-df8e-437f-b6ab-513880854c75",
+      "target": "4c413d26-fb13-400d-b53d-a9b4c1b46535"
+    },
+    {
+      "id": "95abd9a8-ec16-4fe6-b05c-08a50100ece3",
+      "text": "Zones",
+      "type": "istar.Resource",
+      "x": 941.5,
+      "y": 994.5,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "965d48ff-1a45-495c-8e23-f90327322057"
+    },
+    {
+      "id": "1b4d596d-acc6-4cd8-9cdc-76319f82473e",
+      "text": "Assembly line global structure",
+      "type": "istar.Resource",
+      "x": 1263,
+      "y": 960,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "701ad84d-0f57-4e9f-816e-995692a2b6fe"
+    },
+    {
+      "id": "2b956db1-5bbe-41fc-9e72-9ce8124c08f7",
+      "text": "Jig and Tools compatibility",
+      "type": "istar.Resource",
+      "x": 915,
+      "y": 1328,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6faad96-d9d8-41e9-a68a-12e71f9c8f69",
+      "target": "9b21572f-a34a-49e2-839d-9508d260174c"
+    }
+  ],
+  "links": [
+    {
+      "id": "c85eeff2-fd01-4239-8f78-342055816f12",
+      "type": "istar.DependencyLink",
+      "source": "2b956db1-5bbe-41fc-9e72-9ce8124c08f7",
+      "target": "9b21572f-a34a-49e2-839d-9508d260174c"
+    },
+    {
+      "id": "5e7e8d52-c5e9-4ea6-b416-5da3815d144a",
+      "type": "istar.DependencyLink",
+      "source": "c6faad96-d9d8-41e9-a68a-12e71f9c8f69",
+      "target": "2b956db1-5bbe-41fc-9e72-9ce8124c08f7"
+    },
+    {
+      "id": "8e11ec33-d8ec-45ec-9292-f56f9a2f2fa1",
+      "type": "istar.DependencyLink",
+      "source": "1b4d596d-acc6-4cd8-9cdc-76319f82473e",
+      "target": "701ad84d-0f57-4e9f-816e-995692a2b6fe"
+    },
+    {
+      "id": "88a7301d-fab9-47ec-b31e-5b75eecd1cf2",
+      "type": "istar.DependencyLink",
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "1b4d596d-acc6-4cd8-9cdc-76319f82473e"
+    },
+    {
+      "id": "ad181f21-e0c0-46cf-9aed-08993412cdba",
+      "type": "istar.DependencyLink",
+      "source": "95abd9a8-ec16-4fe6-b05c-08a50100ece3",
+      "target": "965d48ff-1a45-495c-8e23-f90327322057"
+    },
+    {
+      "id": "5a0a6e39-bba5-42bc-903f-73d66d5ec930",
+      "type": "istar.DependencyLink",
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "95abd9a8-ec16-4fe6-b05c-08a50100ece3"
+    },
+    {
+      "id": "93126f12-4360-4023-91f1-aea8120d710a",
+      "type": "istar.DependencyLink",
+      "source": "d0a355f0-02f2-4228-a60c-358412f8e375",
+      "target": "4c413d26-fb13-400d-b53d-a9b4c1b46535"
+    },
+    {
+      "id": "412d5a34-3cd7-43f6-8290-bfc0d192e2d3",
+      "type": "istar.DependencyLink",
+      "source": "a98a1859-df8e-437f-b6ab-513880854c75",
+      "target": "d0a355f0-02f2-4228-a60c-358412f8e375"
+    },
+    {
+      "id": "834c1b41-a484-4a7c-a013-201d22d41432",
+      "type": "istar.DependencyLink",
+      "source": "f83cda25-e919-4af5-8525-fe81216bb8bd",
+      "target": "651ce0fd-2789-41b5-9722-d9247faa074c"
+    },
+    {
+      "id": "7a42f59f-9f79-4f60-a14b-9e0f45ba0e40",
+      "type": "istar.DependencyLink",
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "f83cda25-e919-4af5-8525-fe81216bb8bd"
+    },
+    {
+      "id": "12060237-4cc7-4d03-bb0b-b04b93cf6892",
+      "type": "istar.DependencyLink",
+      "source": "88c55383-527b-4720-9483-65f57af94bc3",
+      "target": "3311b8d1-7b10-4190-a0b5-b555b359e583"
+    },
+    {
+      "id": "05491d72-6e6a-4cba-a570-74116e8f4fd0",
+      "type": "istar.DependencyLink",
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "88c55383-527b-4720-9483-65f57af94bc3"
+    },
+    {
+      "id": "c216a64e-ec53-49df-89eb-e7448467ee5b",
+      "type": "istar.DependencyLink",
+      "source": "f67684e0-1c7f-4f62-be39-08118c0290ad",
+      "target": "3311b8d1-7b10-4190-a0b5-b555b359e583"
+    },
+    {
+      "id": "05c662f2-ce74-4d77-bb80-0e6fb65c65d4",
+      "type": "istar.DependencyLink",
+      "source": "9b21572f-a34a-49e2-839d-9508d260174c",
+      "target": "f67684e0-1c7f-4f62-be39-08118c0290ad"
+    },
+    {
+      "id": "5c593e89-008b-418d-96aa-1d1c37d6a002",
+      "type": "istar.DependencyLink",
+      "source": "be1f3f3b-f07e-4742-96b9-6381bddbb910",
+      "target": "3311b8d1-7b10-4190-a0b5-b555b359e583"
+    },
+    {
+      "id": "cde4620c-fa41-4479-af59-f8a754287c35",
+      "type": "istar.DependencyLink",
+      "source": "965d48ff-1a45-495c-8e23-f90327322057",
+      "target": "be1f3f3b-f07e-4742-96b9-6381bddbb910"
+    },
+    {
+      "id": "f4b3ee44-39b5-4ede-82b1-5cfd9d0e0b91",
+      "type": "istar.DependencyLink",
+      "source": "67033034-687f-451c-9f4a-601b0f6decbc",
+      "target": "3311b8d1-7b10-4190-a0b5-b555b359e583"
+    },
+    {
+      "id": "1f03ddb1-f16e-4e3a-af25-fd8b44847e6b",
+      "type": "istar.DependencyLink",
+      "source": "4c413d26-fb13-400d-b53d-a9b4c1b46535",
+      "target": "67033034-687f-451c-9f4a-601b0f6decbc"
+    },
+    {
+      "id": "7c721954-bb6e-4cb1-b77b-169b818fdae4",
+      "type": "istar.ContributionLink",
+      "source": "abb75b1f-acca-4994-b79d-d1a0e6fed282",
+      "target": "22ad764d-5dce-4c47-81da-9b851f77a895",
+      "label": "help"
+    },
+    {
+      "id": "2a534e35-a08a-4320-8a56-93cda7f72e65",
+      "type": "istar.ContributionLink",
+      "source": "921e50e4-9409-4500-b69e-0ae8f1f0b4eb",
+      "target": "5842b6f3-2620-46d3-8413-20b4775808d2",
+      "label": "help"
+    },
+    {
+      "id": "fb3211e6-1774-48df-9567-3bd8c72dd765",
+      "type": "istar.QualificationLink",
+      "source": "921e50e4-9409-4500-b69e-0ae8f1f0b4eb",
+      "target": "a98a1859-df8e-437f-b6ab-513880854c75"
+    },
+    {
+      "id": "42b1f046-bf7f-404d-a007-03f7741179e5",
+      "type": "istar.QualificationLink",
+      "source": "abb75b1f-acca-4994-b79d-d1a0e6fed282",
+      "target": "a98a1859-df8e-437f-b6ab-513880854c75"
+    },
+    {
+      "id": "10bdb32b-4b9e-4e6b-b38d-30f5840b8e5b",
+      "type": "istar.AndRefinementLink",
+      "source": "a98a1859-df8e-437f-b6ab-513880854c75",
+      "target": "25025c6a-d96a-4c69-972c-480a73a67048"
+    },
+    {
+      "id": "c277fb1e-6908-4daa-95d5-6e07985c2f07",
+      "type": "istar.AndRefinementLink",
+      "source": "c6faad96-d9d8-41e9-a68a-12e71f9c8f69",
+      "target": "701ad84d-0f57-4e9f-816e-995692a2b6fe"
+    },
+    {
+      "id": "2899412c-1d61-47b4-9171-d1917feb3e50",
+      "type": "istar.AndRefinementLink",
+      "source": "c6bf4266-8f29-4215-b484-32ae131e105c",
+      "target": "701ad84d-0f57-4e9f-816e-995692a2b6fe"
+    },
+    {
+      "id": "88640b8f-4200-4587-9a77-dce5607efd8d",
+      "type": "istar.QualificationLink",
+      "source": "807709ce-8014-474f-a925-9251ae89c8ad",
+      "target": "701ad84d-0f57-4e9f-816e-995692a2b6fe"
+    },
+    {
+      "id": "30ea29fd-b7c1-4ee9-b506-16c9186adcc6",
+      "type": "istar.QualificationLink",
+      "source": "ea537d74-0713-4e69-bd18-40376220ca05",
+      "target": "701ad84d-0f57-4e9f-816e-995692a2b6fe"
+    },
+    {
+      "id": "dac35484-392d-4ae3-9d50-c0341b935f3e",
+      "type": "istar.ContributionLink",
+      "source": "3c8b2990-ae68-469a-994f-ae031868cf98",
+      "target": "845c1a73-d07c-4cac-8368-48b82dd7a339",
+      "label": "help"
+    },
+    {
+      "id": "05c0faec-09d4-4772-8979-265180c2324d",
+      "type": "istar.ContributionLink",
+      "source": "72e8f515-b843-4b3a-867d-a9a7960fbf8a",
+      "target": "e639e290-44d8-47f0-9ca1-fb6511094cda",
+      "label": "help"
+    },
+    {
+      "id": "a375e12d-0795-4332-ac8b-baeae2287b81",
+      "type": "istar.QualificationLink",
+      "source": "c790c77a-b645-421c-82fa-9efb5d9f7371",
+      "target": "9b21572f-a34a-49e2-839d-9508d260174c"
+    },
+    {
+      "id": "724fee87-b63c-4158-8f97-9ca5cf99aaf6",
+      "type": "istar.AndRefinementLink",
+      "source": "e7fe083a-a048-498c-8418-cef67324bcff",
+      "target": "25025c6a-d96a-4c69-972c-480a73a67048"
+    },
+    {
+      "id": "5f910d05-5a2e-4676-9381-9376a27ef06a",
+      "type": "istar.ParticipatesInLink",
+      "source": "13e0bdb8-64a7-4ee8-bbb5-e1e1c30e40a2",
+      "target": "3e4fb936-8a5d-4eef-a09c-a6b90ee7b1cd"
+    },
+    {
+      "id": "eed12c7f-2833-4e98-b7bd-3868b96764c7",
+      "type": "istar.ParticipatesInLink",
+      "source": "b78dffd5-7fa6-432e-989c-c4c63d17fde4",
+      "target": "3e4fb936-8a5d-4eef-a09c-a6b90ee7b1cd"
+    },
+    {
+      "id": "af53ba78-4f0e-43d0-8459-59ac8e07d250",
+      "type": "istar.ParticipatesInLink",
+      "source": "465e81c5-063b-418f-8248-b5395fa0596f",
+      "target": "3e4fb936-8a5d-4eef-a09c-a6b90ee7b1cd"
+    },
+    {
+      "id": "da6f54b8-6b34-4ee9-b48c-2392de0a40b3",
+      "type": "istar.ParticipatesInLink",
+      "source": "8fa1aa36-5247-4a15-a5ca-1df23f76e2d4",
+      "target": "3e4fb936-8a5d-4eef-a09c-a6b90ee7b1cd"
+    }
+  ],
+  "display": {
+    "9b21572f-a34a-49e2-839d-9508d260174c": {
+      "width": 101.59375,
+      "height": 45.84375
+    },
+    "701ad84d-0f57-4e9f-816e-995692a2b6fe": {
+      "width": 132.59375,
+      "height": 63.84375
+    },
+    "651ce0fd-2789-41b5-9722-d9247faa074c": {
+      "width": 118.59375,
+      "height": 60.84375
+    },
+    "5f910d05-5a2e-4676-9381-9376a27ef06a": {
+      "vertices": [
+        {
+          "x": 1025,
+          "y": 1105
+        },
+        {
+          "x": 1045,
+          "y": 1127
+        },
+        {
+          "x": 1069,
+          "y": 1165
+        }
+      ]
+    },
+    "da6f54b8-6b34-4ee9-b48c-2392de0a40b3": {
+      "vertices": [
+        {
+          "x": 1173,
+          "y": 1025
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 20 May 2026 06:39:48 GMT",
+  "diagram": {
+    "width": 2554,
+    "height": 2669,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

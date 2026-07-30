@@ -1,0 +1,175 @@
+<?xml version='1.0'?>
+<istarml version='1.0'>
+    <diagram name='OSS Integration' strategy_version='2.0' description='Goal model describing the relationship between the adopter organization and the OSS community when the adopter is playing an active role in the community with the purpose to share and co-create.' last_modification='04/11/2015'>
+        <actor id='COMM' name='OSS Community'/>
+        <actor id='CMP' name='OSS Adopter'>
+            <boundary>
+                <ielement id='OSS-INT' name='Integrate OSS Community' type='task'>
+                    <ielementLink type='decomposition'>
+						<ielement id='Act-SEL' name='Select OSS component' type='task' output="false">
+							<ielementLink type='decomposition'>
+								<ielement id='Act-LEARN' name='Acquire user skills' type='task' output="false">
+									<ielementLink type='decomposition'>
+										<ielement id='Act-ASK' name='Ask doubts to the community' type='task'  output="false"/>
+									</ielementLink>
+								</ielement>
+							</ielementLink>
+						</ielement>
+						<ielement id='Goal-USE' name='OSS component used' type='goal'>
+							<ielementLink type='means-end'>
+								<ielement id='Act-DEP' name='Deploy OSS component' type='task' output="false">
+									<ielementLink type='decomposition'>
+										<ielement iref='Act-LEARN'/>
+									</ielementLink>
+								</ielement>
+								<ielement id='Act-INT' name='Integrate OSS component in other software' type='task' output="false">
+									<ielementLink type='decomposition'>
+										<ielement id='Act-ACQ-Tech' name='Acquire technical skills' type='task' output="false">
+											<ielementLink type='decomposition'>
+												<ielement iref='Act-ASK' output="false"/>
+											</ielementLink>
+										</ielement>
+									</ielementLink>
+								</ielement>
+							</ielementLink>
+						</ielement>
+		                <ielement id='Goal-Quality-Tech' name='Technical quality' type='softgoal' output="true">
+							<ielementLink type='contribution' value='Help'>
+								<ielement iref='Act-ACQ-Tech'/>
+								<ielement iref='Act-LEARN'/>
+							</ielementLink>
+						</ielement>
+						<ielement id='Act-TEST-Prod' name='Test product' type='task' output="false"/>
+						<ielement id='Act-MAINT-Prod' name='Maintain product' type='task' output="false">
+							<ielementLink type='decomposition'>
+								<ielement id='Goal-COMM-Contribute' name='OSS community contributed' type='goal' output="false">
+									<ielementLink type='means-end'>
+										<ielement id='Act-PATCH' name='Develop patch' type='task' output="false">
+											<ielementLink type='decomposition'>
+												<ielement id='Goal-COMM-Practices' name='According to OSS community practices' type='softgoal' output="false">
+													<ielementLink type='contribution' value='And'>
+														<ielement id='Act-ACQ-Man' name= 'Acquire management skills' type='task' output="false"/>
+													</ielementLink>
+												</ielement>
+												<ielement id='Act-RepPATCH' name='Report patch' type='task' output="false"/>
+											</ielementLink>	
+										</ielement>
+										<ielement id='Act-RepBUG' name='Report bug' type='task' output="false"/>
+											<ielementLink type='decomposition'>
+												<ielement iref='Goal-COMM-Practices' output="false"/>
+											</ielementLink>
+										<ielement id='Act-SUPP' name='Give support to activities' type='task' output="false">
+											<ielementLink type='decomposition'>
+												<ielement iref='Goal-COMM-Practices' output="false"/>
+											</ielementLink>
+										</ielement>
+									</ielementLink>
+								</ielement>
+								<ielement id='Goal-Evolve-DF' name='OSS component evolves towards desired features' type='softgoal' output="true">
+									<ielementLink type='contribution' value='Help' iref='Goal-COMM-Contribute'/>
+									<ielementLink type='contribution' value='Help' iref='Goal-COMM-Practices'/>
+								</ielement>
+								<ielement id='Goal-Evolve-Q' name='Quality of the evolved OSS component' type='softgoal' output="true"/>
+							</ielementLink>
+						</ielement>
+						<ielement id='Act-DECIDE-Wishlist' name='Decide OSS wishlist' type='task' output="false"/>
+                    </ielementLink>
+                </ielement>
+				<ielement id='GOAL-InfluenceEvolution' name='OSS evolution influenced' type='softgoal' output="false">
+					<ielementLink type='contribution' value='Help' iref='Goal-Evolve-DF'/>
+				</ielement>
+				<ielement id='GOAL-OSSInvolvement' name='OSS involvement' type='softgoal' output="true">
+					<ielementLink type='contribution' value='help' iref='Goal-COMM-Contribute'/>
+				</ielement>
+				<ielement id='GOAL-CoCreation' name='Benefit from co-creation taken' type='softgoal' output="true">
+					<ielementLink type='contribution' value='Help' iref='GOAL-InfluenceEvolution'/>
+					<ielementLink type='contribution' value='Help' iref='GOAL-OSSInvolvement'/>
+				</ielement>
+            </boundary>
+        </actor>
+        <ielement id='Res-Tech-DOCUM' name='Technical documentation' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-ACQ-Tech'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-User-DOCUM' name='User documentation' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-LEARN'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-OSS-Comp' name='OSS component' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='OSS-INT'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-NEWFEATURE' name='New feature request' type='resource'>
+            <dependency>
+                <depender aref='COMM'/>
+                <dependee aref='CMP' iref='Act-DECIDE-Wishlist'/>
+            </dependency>
+        </ielement>
+        <ielement id='Dep-Evolve' name='OSS component evolves towards desired features' type='softgoal'>
+            <dependency>
+                <depender aref='CMP' iref='Goal-Evolve-DF'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Goal-Acceptance' name='Acceptance as contributor' type='goal'>
+            <dependency>
+                <depender aref='CMP' iref='Goal-COMM-Contribute'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-BUG' name='Bug report' type='resource'>
+            <dependency>
+                <depender aref='COMM'/>
+                <dependee aref='CMP' iref='Act-RepBUG'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-BUG' name='Bug report' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-PATCH'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-NEWFEATURE' name='New feature request' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-PATCH'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-PATCH' name='Patch' type='resource'>
+            <dependency>
+                <depender aref='COMM'/>
+                <dependee aref='CMP' iref='Act-RepPACTH'/>
+            </dependency>
+        </ielement>
+        <ielement id='Dep-SUPP' name='Supporting activities held' type='goal'>
+            <dependency>
+                <depender aref='COMM'/>
+                <dependee aref='CMP' iref='Act-SUPP'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-GOV-DOCUM' name='Governance documentation' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-ACQ-Man'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+		<ielement id='Dep-Quality' name='Quality of the evolved OSS component' type='softgoal'>
+			<dependency>
+				<depender aref='CMP' iref='Goal-Quality'/>
+				<dependee aref='COMM'/>
+			</dependency>
+		</ielement>
+		<ielement id='Dep-Help' name='Help obtained' type='goal'>
+			<dependency>
+				<depender aref='CMP' iref='Act-ASK'/>
+				<dependee aref='COMM'/>
+			</dependency>
+		</ielement>
+    </diagram>
+</istarml>

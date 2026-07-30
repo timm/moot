@@ -1,0 +1,329 @@
+{
+  "actors": [
+    {
+      "id": "c75fdd8c-ee1c-4bf3-8705-8d91a120e76a",
+      "text": "Researcher",
+      "type": "istar.Actor",
+      "x": 157,
+      "y": 147,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "b0e10022-1978-47c0-b2d7-1b678341e404",
+          "text": "Travel Organized",
+          "type": "istar.Goal",
+          "x": 345,
+          "y": 159,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6221df45-07e8-4adc-9ec4-d84688dc2aaf",
+          "text": "Tickets Booked",
+          "type": "istar.Goal",
+          "x": 261,
+          "y": 223,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "26156285-de0e-4897-b80a-c3d6f3282c60",
+          "text": "Authorization Obtained",
+          "type": "istar.Goal",
+          "x": 421,
+          "y": 236,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "87126745-26ee-4535-b16d-b6a6cfff717b",
+          "text": "Maintain Privacy",
+          "type": "istar.Quality",
+          "x": 560,
+          "y": 158,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6a5abf4d-94c7-49f5-b435-49254252b61b",
+          "text": "Authorization Offerred (after Application)",
+          "type": "istar.Goal",
+          "x": 519,
+          "y": 295,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "22c2b5b0-3fec-4608-90cb-f988bd06ce48",
+          "text": "Application Prepared (after booked Tickets)",
+          "type": "istar.Goal",
+          "x": 397,
+          "y": 332,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "778e5a3d-6ff6-4c8b-9a70-a5ed40a25146",
+          "text": "Book Refundable Tickets (ref)",
+          "type": "istar.Task",
+          "x": 157,
+          "y": 339,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f84c4dfb-a578-4276-ad2f-957dcf403034",
+          "text": "Book Non-Refundable Tickets (nRef)",
+          "type": "istar.Task",
+          "x": 265,
+          "y": 307,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "acb1413e-69de-4526-8912-275712d4050f",
+          "text": "Avoid Money Loss",
+          "type": "istar.Quality",
+          "x": 158,
+          "y": 479,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "21f4fc21-a54d-483f-b903-16300a5b4e17",
+          "text": "Reduce Cost",
+          "type": "istar.Quality",
+          "x": 262,
+          "y": 429,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "039a5056-06bb-4747-93ce-8e1301718e95",
+          "text": "Fill in paper form (ppr)",
+          "type": "istar.Task",
+          "x": 332,
+          "y": 493,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7e3f622b-6d0e-4bc3-9984-6a14a3002a57",
+          "text": "Fill in on-line form (onl)",
+          "type": "istar.Task",
+          "x": 430,
+          "y": 465,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e54ed4a6-c4e4-4b0a-bb31-2f6607c9164a",
+          "text": "Increase Efficiency",
+          "type": "istar.Quality",
+          "x": 416,
+          "y": 609,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0690e501-c9f6-4b43-be7a-32b94e75adb8",
+          "text": "Committee Authorizes (cmt)",
+          "type": "istar.Task",
+          "x": 504.5,
+          "y": 420,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1f9cd9a8-a71c-4a2a-a9cc-2e575eee33cf",
+          "text": "Head-of-Dept Authorizes (head)",
+          "type": "istar.Task",
+          "x": 639,
+          "y": 403,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "42cb2c4b-3d17-44f4-bd8f-104b0aa1836d",
+          "text": "Success chance",
+          "type": "istar.Quality",
+          "x": 591,
+          "y": 561.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "bbaa5704-7631-4979-9583-72ee7769882a",
+      "type": "istar.AndRefinementLink",
+      "source": "6221df45-07e8-4adc-9ec4-d84688dc2aaf",
+      "target": "b0e10022-1978-47c0-b2d7-1b678341e404"
+    },
+    {
+      "id": "22f47466-e21b-4757-976b-209e6d02eba1",
+      "type": "istar.AndRefinementLink",
+      "source": "26156285-de0e-4897-b80a-c3d6f3282c60",
+      "target": "b0e10022-1978-47c0-b2d7-1b678341e404"
+    },
+    {
+      "id": "4f9e7ddb-d3a9-4eb7-ad27-57aa90b45c57",
+      "type": "istar.AndRefinementLink",
+      "source": "6a5abf4d-94c7-49f5-b435-49254252b61b",
+      "target": "26156285-de0e-4897-b80a-c3d6f3282c60"
+    },
+    {
+      "id": "4a7d0d01-ca1d-46de-b077-713367b2225c",
+      "type": "istar.AndRefinementLink",
+      "source": "22c2b5b0-3fec-4608-90cb-f988bd06ce48",
+      "target": "26156285-de0e-4897-b80a-c3d6f3282c60"
+    },
+    {
+      "id": "b59946fb-c642-4ace-89af-029f76b4c336",
+      "type": "istar.ContributionLink",
+      "source": "f84c4dfb-a578-4276-ad2f-957dcf403034",
+      "target": "21f4fc21-a54d-483f-b903-16300a5b4e17",
+      "label": "help"
+    },
+    {
+      "id": "c2ebb222-7b16-4620-ad66-884b24b7fe38",
+      "type": "istar.ContributionLink",
+      "source": "f84c4dfb-a578-4276-ad2f-957dcf403034",
+      "target": "acb1413e-69de-4526-8912-275712d4050f",
+      "label": "help"
+    },
+    {
+      "id": "b6cddcf6-f01f-4cd0-9800-935ea4367d91",
+      "type": "istar.OrRefinementLink",
+      "source": "778e5a3d-6ff6-4c8b-9a70-a5ed40a25146",
+      "target": "6221df45-07e8-4adc-9ec4-d84688dc2aaf"
+    },
+    {
+      "id": "6a46a7af-3283-4e66-a9da-ece5d6da9446",
+      "type": "istar.OrRefinementLink",
+      "source": "f84c4dfb-a578-4276-ad2f-957dcf403034",
+      "target": "6221df45-07e8-4adc-9ec4-d84688dc2aaf"
+    },
+    {
+      "id": "df162b10-89e3-40cb-943e-68595afece07",
+      "type": "istar.OrRefinementLink",
+      "source": "039a5056-06bb-4747-93ce-8e1301718e95",
+      "target": "22c2b5b0-3fec-4608-90cb-f988bd06ce48"
+    },
+    {
+      "id": "7370f236-8809-4737-bcf0-8da02184ed2a",
+      "type": "istar.OrRefinementLink",
+      "source": "7e3f622b-6d0e-4bc3-9984-6a14a3002a57",
+      "target": "22c2b5b0-3fec-4608-90cb-f988bd06ce48"
+    },
+    {
+      "id": "3d6763c6-84ce-48de-92ed-c2433635a4bb",
+      "type": "istar.OrRefinementLink",
+      "source": "0690e501-c9f6-4b43-be7a-32b94e75adb8",
+      "target": "6a5abf4d-94c7-49f5-b435-49254252b61b"
+    },
+    {
+      "id": "a5132959-476b-402e-8f68-be080af03266",
+      "type": "istar.OrRefinementLink",
+      "source": "1f9cd9a8-a71c-4a2a-a9cc-2e575eee33cf",
+      "target": "6a5abf4d-94c7-49f5-b435-49254252b61b"
+    },
+    {
+      "id": "d5da39a8-a34a-4730-9435-079e2ed22957",
+      "type": "istar.ContributionLink",
+      "source": "0690e501-c9f6-4b43-be7a-32b94e75adb8",
+      "target": "42cb2c4b-3d17-44f4-bd8f-104b0aa1836d",
+      "label": "help"
+    },
+    {
+      "id": "b5b7b842-91d9-4c60-bf3d-fd1edc813f3a",
+      "type": "istar.ContributionLink",
+      "source": "1f9cd9a8-a71c-4a2a-a9cc-2e575eee33cf",
+      "target": "42cb2c4b-3d17-44f4-bd8f-104b0aa1836d",
+      "label": "hurt"
+    },
+    {
+      "id": "ce3c7053-c93c-44fd-ab58-ee800d356609",
+      "type": "istar.ContributionLink",
+      "source": "0690e501-c9f6-4b43-be7a-32b94e75adb8",
+      "target": "87126745-26ee-4535-b16d-b6a6cfff717b",
+      "label": "hurt"
+    },
+    {
+      "id": "223f6e8c-46f8-4712-a541-e581293a6fec",
+      "type": "istar.ContributionLink",
+      "source": "7e3f622b-6d0e-4bc3-9984-6a14a3002a57",
+      "target": "e54ed4a6-c4e4-4b0a-bb31-2f6607c9164a",
+      "label": "hurt"
+    },
+    {
+      "id": "ba45a384-857c-4e3b-bc1e-26f5020a95fd",
+      "type": "istar.ContributionLink",
+      "source": "0690e501-c9f6-4b43-be7a-32b94e75adb8",
+      "target": "e54ed4a6-c4e4-4b0a-bb31-2f6607c9164a",
+      "label": "help"
+    }
+  ],
+  "display": {
+    "6a5abf4d-94c7-49f5-b435-49254252b61b": {
+      "width": 99.5,
+      "height": 48.84375
+    },
+    "22c2b5b0-3fec-4608-90cb-f988bd06ce48": {
+      "width": 99.5,
+      "height": 61.84375
+    },
+    "778e5a3d-6ff6-4c8b-9a70-a5ed40a25146": {
+      "width": 103.5,
+      "height": 42.84375
+    },
+    "ce3c7053-c93c-44fd-ab58-ee800d356609": {
+      "vertices": [
+        {
+          "x": 713,
+          "y": 318
+        }
+      ]
+    },
+    "ba45a384-857c-4e3b-bc1e-26f5020a95fd": {
+      "vertices": [
+        {
+          "x": 556,
+          "y": 566
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 18 May 2026 11:04:33 GMT",
+  "diagram": {
+    "width": 1000,
+    "height": 700,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

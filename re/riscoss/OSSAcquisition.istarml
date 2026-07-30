@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<istarml version='1.0'>
+    <diagram name='OSS Acquisition' description='Goal model describing the relationship between the adopter organization and the OSS community when the adopter is not contributing to the community.' model_version='2.1' last_modification='18/01/2016'>
+        <actor id='COMM' name='OSS Community'>
+        </actor>
+        <actor id='CMP' name='OSS Adopter'>
+            <boundary>
+                <ielement id='OSS-ACQ' name='Acquire OSS component' type='task'>
+                    <ielementLink type='decomposition'>
+						<ielement id='Act-SEL' name='Select OSS component' type='task' output="false">
+							<ielementLink type='composition'>
+								<ielement id='Act-LEARN' name='Acquire user skills' type='task' output="false">
+									<ielementLink type='decomposition'>
+										<ielement id='Act-ASK' name='Ask doubts to the community' type='task' output="false"/>
+									</ielementLink>
+								</ielement>
+							</ielementLink>
+						</ielement>
+						<ielement id='Goal-USE' name='OSS component used' type='goal'>
+							<ielementLink type='means-end'>
+								<ielement id='Act-DEP' name='Deploy OSS component' type='task' output="false">
+									<ielementLink type='decomposition'>
+										<ielement iref='Act-LEARN'/>
+									</ielementLink>
+								</ielement>
+								<ielement id='Act-INT' name='Integrate OSS component in other software' type='task' output="false">
+									<ielementLink type='decomposition'>
+										<ielement id='Act-ACQ-Tech' name='Acquire technical skills' type='task' output="false">
+											<ielementLink type='decomposition'>
+												<ielement iref='Act-ASK'/>
+											</ielementLink>
+										</ielement>
+									</ielementLink>
+								</ielement>
+							</ielementLink>
+						</ielement>
+		                <ielement id='Goal-Quality-Tech' name='Technical quality' type='softgoal' output="true">
+							<ielementLink type='contribution' value='Help'>
+								<ielement iref='Act-ACQ-Tech'/>
+								<ielement iref='Act-LEARN'/>
+							</ielementLink>
+						</ielement>
+						<ielement id='Act-TEST-Prod' name='Test product' type='task' output="false"/>
+						<ielement id='Act-MAINT-Prod' name='Maintain product' type='task' output="false">
+							<ielementLink type='decomposition'>
+								<ielement iref='Act-ASK'/>
+							</ielementLink>
+						</ielement>
+                    </ielementLink>	
+                </ielement>
+				<ielement id='GOAL-MinimiseOSSInvolvement' name='OSS involvement minimised' type='softgoal' output="false">
+					<ielementLink type='contribution' value='Help' iref='OSS-ACQ'/>
+				</ielement>
+				<ielement id='GOAL-TakeBenefit' name='Take benefit from OSS Community' type='goal' output="true">
+					<ielementLink type='means-end'>
+						<ielement iref='Goal-USE'/>
+					</ielementLink>
+				</ielement>
+				<ielement id='GOAL-NoMaintenance' name='Do not care OSS evolution for maintenance' type='goal' output="false">
+					<ielementLink type='means-end'>
+						<ielement iref='OSS-ACQ'/>
+					</ielementLink>
+				</ielement>
+            </boundary>
+        </actor>
+        <ielement id='Res-Tech-DOCUM' name='Technical documentation' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-ACQ-Tech'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-User-DOCUM' name='User documentation' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-LEARN'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-OSS-Comp' name='OSS component' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='OSS-ACQ'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+		<ielement name='Help obtained' type='goal'>
+            <dependency>
+                <depender aref='CMP' iref='Act-ASK'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+    </diagram>
+</istarml>

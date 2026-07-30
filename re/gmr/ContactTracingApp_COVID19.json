@@ -1,0 +1,428 @@
+{
+  "actors": [
+    {
+      "id": "08af0fba-4946-4530-98de-cd175875def6",
+      "text": "Veggie Market",
+      "type": "istar.Agent",
+      "x": 788,
+      "y": 1493,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "5147c6ad-b873-48e1-87c2-f313921259c9",
+          "text": "Avoid Stigma of Exposure",
+          "type": "istar.Quality",
+          "x": 842,
+          "y": 1549,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "280df354-89c5-4b55-a3ab-bc20da3c00a6",
+          "text": "Determine PPE Requirements",
+          "type": "istar.Task",
+          "x": 971,
+          "y": 1530,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "a3d920a9-cc42-42fc-a61c-d88cac5ac99d",
+      "text": "Emma",
+      "type": "istar.Actor",
+      "x": 294,
+      "y": 1380,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "0f83f55d-4396-418e-bd3a-7d46de424217",
+          "text": "Practice Social Distancing",
+          "type": "istar.Task",
+          "x": 294,
+          "y": 1505,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "83d70855-aff7-4996-a4a8-62601b95a37b",
+          "text": "Avoid Exposing Others",
+          "type": "istar.Quality",
+          "x": 484,
+          "y": 1511,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "630bb571-a786-4c93-915b-e70d6513411d",
+          "text": "Stay informed about Risks",
+          "type": "istar.Task",
+          "x": 525,
+          "y": 1432,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f86ff267-49a8-45dc-97a0-6b95803cc7eb",
+          "text": "minimize exposure",
+          "type": "istar.Quality",
+          "x": 378,
+          "y": 1380,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "c56334dc-1554-483b-8184-95890929d681",
+      "text": "Tracking App",
+      "type": "istar.Actor",
+      "x": 733,
+      "y": 1106,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "e024c2a5-a592-473d-8bc1-9b351d793578",
+          "text": "Share Data with Individuals",
+          "type": "istar.Goal",
+          "x": 882,
+          "y": 1106,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cd319087-0916-4b48-9d6c-0e1e95c48a32",
+          "text": "Share Exposure",
+          "type": "istar.Task",
+          "x": 1046,
+          "y": 1159,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c0d1f910-878e-481d-88b8-bbeedac6bf39",
+          "text": "Privacy",
+          "type": "istar.Quality",
+          "x": 1035,
+          "y": 1271,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "52bcc195-52b1-4cbe-bd7d-e2b0c3a77f92",
+          "text": "Share all Data",
+          "type": "istar.Task",
+          "x": 897,
+          "y": 1215,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b9899c7b-a35f-44a6-8603-6e5702681227",
+          "text": "Transparency",
+          "type": "istar.Quality",
+          "x": 918,
+          "y": 1305.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "76125cc3-d3a5-4d82-be0f-428c014f86bc",
+          "text": "Share Places to Avoid",
+          "type": "istar.Task",
+          "x": 764.5,
+          "y": 1268,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1f1699eb-8f3b-41c7-a7c5-4f48fa688dcf",
+          "text": "Share Data with Public Health",
+          "type": "istar.Task",
+          "x": 733,
+          "y": 1181,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "67502ccf-bdf0-4978-bb26-0f3511c63a9e",
+      "text": "Public Health",
+      "type": "istar.Actor",
+      "x": 238,
+      "y": 1150,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "ccc66a1c-4676-49d4-9ceb-d2a931a01adc",
+          "text": "Create Predictive Models",
+          "type": "istar.Task",
+          "x": 321.5,
+          "y": 1162,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ee45ed0a-579e-4768-a442-c6ab78e569c0",
+          "text": "Predict staffing needs",
+          "type": "istar.Goal",
+          "x": 239,
+          "y": 1271,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a8ac2f28-7de7-4e91-94e3-f59b0f3fa719",
+          "text": "Collect Test Result Data",
+          "type": "istar.Task",
+          "x": 348,
+          "y": 1269,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "14cc0624-03c6-4a96-b0fb-87a53f089f5e",
+          "text": "Collect Location Data",
+          "type": "istar.Task",
+          "x": 473,
+          "y": 1217,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "91df8b27-8481-4fb3-85ab-aaa995314443",
+      "text": "Location Data",
+      "type": "istar.Resource",
+      "x": 603,
+      "y": 1199,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "14cc0624-03c6-4a96-b0fb-87a53f089f5e",
+      "target": "1f1699eb-8f3b-41c7-a7c5-4f48fa688dcf"
+    },
+    {
+      "id": "bad9ca6d-f2ac-478f-95e1-731d8defafec",
+      "text": "Information on risks",
+      "type": "istar.Resource",
+      "x": 684,
+      "y": 1380,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "630bb571-a786-4c93-915b-e70d6513411d",
+      "target": "76125cc3-d3a5-4d82-be0f-428c014f86bc"
+    },
+    {
+      "id": "23cd9d31-072b-42bd-8550-5737c2034e5e",
+      "text": "discretion in place sharing",
+      "type": "istar.Quality",
+      "x": 862,
+      "y": 1403,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5147c6ad-b873-48e1-87c2-f313921259c9",
+      "target": "76125cc3-d3a5-4d82-be0f-428c014f86bc"
+    }
+  ],
+  "links": [
+    {
+      "id": "4d6e8bda-fc3a-43bc-9930-29c2ce8bceef",
+      "type": "istar.DependencyLink",
+      "source": "5147c6ad-b873-48e1-87c2-f313921259c9",
+      "target": "23cd9d31-072b-42bd-8550-5737c2034e5e"
+    },
+    {
+      "id": "f60aa34a-e154-4cb4-9388-4fa29a332e26",
+      "type": "istar.DependencyLink",
+      "source": "23cd9d31-072b-42bd-8550-5737c2034e5e",
+      "target": "76125cc3-d3a5-4d82-be0f-428c014f86bc"
+    },
+    {
+      "id": "8a1f1b20-456c-495d-98ed-135ffa0720a9",
+      "type": "istar.DependencyLink",
+      "source": "630bb571-a786-4c93-915b-e70d6513411d",
+      "target": "bad9ca6d-f2ac-478f-95e1-731d8defafec"
+    },
+    {
+      "id": "b212f156-d2f4-4c51-99f6-8c2456390eec",
+      "type": "istar.DependencyLink",
+      "source": "bad9ca6d-f2ac-478f-95e1-731d8defafec",
+      "target": "76125cc3-d3a5-4d82-be0f-428c014f86bc"
+    },
+    {
+      "id": "f5fe12a3-958d-4146-a1be-dfafc9edcfcf",
+      "type": "istar.DependencyLink",
+      "source": "91df8b27-8481-4fb3-85ab-aaa995314443",
+      "target": "1f1699eb-8f3b-41c7-a7c5-4f48fa688dcf"
+    },
+    {
+      "id": "4b760f65-7a6b-4174-8356-bad32efb161d",
+      "type": "istar.DependencyLink",
+      "source": "14cc0624-03c6-4a96-b0fb-87a53f089f5e",
+      "target": "91df8b27-8481-4fb3-85ab-aaa995314443"
+    },
+    {
+      "id": "a1f5ab2d-e3f7-416b-be3a-95a47483566e",
+      "type": "istar.OrRefinementLink",
+      "source": "ccc66a1c-4676-49d4-9ceb-d2a931a01adc",
+      "target": "ee45ed0a-579e-4768-a442-c6ab78e569c0"
+    },
+    {
+      "id": "df1321e1-d3f8-44d2-a235-7b240626d7b7",
+      "type": "istar.AndRefinementLink",
+      "source": "a8ac2f28-7de7-4e91-94e3-f59b0f3fa719",
+      "target": "ccc66a1c-4676-49d4-9ceb-d2a931a01adc"
+    },
+    {
+      "id": "8f16bfa5-eb46-43b6-ad06-9e9e60039c6d",
+      "type": "istar.AndRefinementLink",
+      "source": "14cc0624-03c6-4a96-b0fb-87a53f089f5e",
+      "target": "ccc66a1c-4676-49d4-9ceb-d2a931a01adc"
+    },
+    {
+      "id": "78911515-4496-47af-ac18-f26725672107",
+      "type": "istar.ContributionLink",
+      "source": "0f83f55d-4396-418e-bd3a-7d46de424217",
+      "target": "83d70855-aff7-4996-a4a8-62601b95a37b",
+      "label": "help"
+    },
+    {
+      "id": "dfdc7770-3fbd-4546-8b02-9a14334ad64c",
+      "type": "istar.ContributionLink",
+      "source": "0f83f55d-4396-418e-bd3a-7d46de424217",
+      "target": "f86ff267-49a8-45dc-97a0-6b95803cc7eb",
+      "label": "help"
+    },
+    {
+      "id": "13af71ea-8773-4561-9e7b-a81e810e781b",
+      "type": "istar.ContributionLink",
+      "source": "630bb571-a786-4c93-915b-e70d6513411d",
+      "target": "f86ff267-49a8-45dc-97a0-6b95803cc7eb",
+      "label": "help"
+    },
+    {
+      "id": "18474dc6-9c92-4b98-ad15-7bcb0aeddba6",
+      "type": "istar.ContributionLink",
+      "source": "cd319087-0916-4b48-9d6c-0e1e95c48a32",
+      "target": "c0d1f910-878e-481d-88b8-bbeedac6bf39",
+      "label": "help"
+    },
+    {
+      "id": "1cd0fec6-205b-49ca-9d99-772c4b92783e",
+      "type": "istar.ContributionLink",
+      "source": "52bcc195-52b1-4cbe-bd7d-e2b0c3a77f92",
+      "target": "b9899c7b-a35f-44a6-8603-6e5702681227",
+      "label": "make"
+    },
+    {
+      "id": "1bd6b625-9e97-4a79-ab3e-206fcd6a215a",
+      "type": "istar.OrRefinementLink",
+      "source": "52bcc195-52b1-4cbe-bd7d-e2b0c3a77f92",
+      "target": "e024c2a5-a592-473d-8bc1-9b351d793578"
+    },
+    {
+      "id": "f64f3fbd-6b8d-42ac-8545-c74851448906",
+      "type": "istar.OrRefinementLink",
+      "source": "cd319087-0916-4b48-9d6c-0e1e95c48a32",
+      "target": "e024c2a5-a592-473d-8bc1-9b351d793578"
+    },
+    {
+      "id": "9a47d9f5-1580-4fe1-b1da-dbad50f3afbd",
+      "type": "istar.OrRefinementLink",
+      "source": "76125cc3-d3a5-4d82-be0f-428c014f86bc",
+      "target": "e024c2a5-a592-473d-8bc1-9b351d793578"
+    }
+  ],
+  "display": {
+    "08af0fba-4946-4530-98de-cd175875def6": {
+      "backgroundColor": "#EDFA86"
+    },
+    "5147c6ad-b873-48e1-87c2-f313921259c9": {
+      "backgroundColor": "#FA6E1A"
+    },
+    "a3d920a9-cc42-42fc-a61c-d88cac5ac99d": {
+      "backgroundColor": "#EDFA86"
+    },
+    "0f83f55d-4396-418e-bd3a-7d46de424217": {
+      "width": 106.5,
+      "height": 47.84375
+    },
+    "83d70855-aff7-4996-a4a8-62601b95a37b": {
+      "backgroundColor": "#FA6E1A"
+    },
+    "f86ff267-49a8-45dc-97a0-6b95803cc7eb": {
+      "backgroundColor": "#FA6E1A"
+    },
+    "c56334dc-1554-483b-8184-95890929d681": {
+      "backgroundColor": "#EDFA86"
+    },
+    "e024c2a5-a592-473d-8bc1-9b351d793578": {
+      "backgroundColor": "#FAB231",
+      "width": 99.5,
+      "height": 48.84375
+    },
+    "c0d1f910-878e-481d-88b8-bbeedac6bf39": {
+      "backgroundColor": "#FA6E1A"
+    },
+    "b9899c7b-a35f-44a6-8603-6e5702681227": {
+      "backgroundColor": "#FA6E1A"
+    },
+    "67502ccf-bdf0-4978-bb26-0f3511c63a9e": {
+      "backgroundColor": "#EDFA86"
+    },
+    "ccc66a1c-4676-49d4-9ceb-d2a931a01adc": {
+      "width": 111,
+      "height": 51.84375
+    },
+    "ee45ed0a-579e-4768-a442-c6ab78e569c0": {
+      "backgroundColor": "#FAB231"
+    },
+    "23cd9d31-072b-42bd-8550-5737c2034e5e": {
+      "backgroundColor": "#FA6E1A"
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 19 May 2026 10:16:33 GMT",
+  "diagram": {
+    "width": 2554,
+    "height": 1866,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

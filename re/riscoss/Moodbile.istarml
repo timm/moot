@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version='1.0'>
+    <diagram name='Moodbile' version='4' strategy_version='1.3.1'>
+        <actor id='MOODLE' name='MOODLE Project'/>
+        <actor id ='COMM' name='Moodbile Project'>
+			<boundary>
+				<ielement id='PROVIDE' name='MOODLE mobile solutions provided' type='goal'>
+					<ielementLink type='means-end'>
+						<ielement name='Project managed' type='task'>
+							<ielementLink type='task-decomposition'>
+								<ielement name='Project advertised' type='goal'>
+									<ielementLink type='means-end'>
+										<ielement name='Brand designed' type='goal'/>
+										<ielement id='FORUM_ALIVE' name='Forum kept alive' type='goal'/>
+										<ielement name='Inform about news and releases (blog, twitter)' type='task'/>
+									</ielementLink>
+								</ielement>
+								<ielement name='Developers team managed' type='goal'/>
+								<ielement name='Releases decided' type='goal'/>
+								<ielement name='Manage development' type='task'>
+									<ielementLink type='task-decomposition'>
+										<ielement name='Provide requirements' type='task'/>
+										<ielement id='IMP_DEP' name='Implement and deploy (Git)' type='task'/>
+										<ielement name='Run Unit Tests' type='task'/>
+										<ielement id='DOC' name='Document project' type='task' output='true'/>
+									</ielementLink>
+								</ielement>
+							</ielementLink>
+						</ielement>
+					</ielementLink>
+				</ielement>
+			</boundary>
+        </actor>
+        <actor id='CMP' name='Adopter'>
+            <boundary>
+				<ielement id='MAX_INV' name='Maximise investment in mobile platform' type='task' output='true'>
+					<ielementLink type='decomposition'>
+						<ielement name='Mobile platform maintained and evolved over the next years' type='goal' output='true'>
+							<ielementLink type='means-end'>
+								<ielement id='Act-MAINT-Prod' name='Maintain and evolve product' type='task' output='true'>
+<ielementLink type='contribution' value='Hurt'>
+	<ielement id='VOutdated_mobile_technology' name='VOutdated_mobile_technology' type='goal' output='true'/>
+</ielementLink>
+									<ielementLink type='decomposition'>
+										<ielement id='Act-ASK' name='Ask doubts to the community' type='task'/>
+									</ielementLink>
+								</ielement>
+							</ielementLink>
+						</ielement>
+						<ielement name='Investment in distance learning reused' type='goal'>
+<ielementLink type='contribution' value='Hurt'>
+	<ielement id='VInvestment_not_reused' name='VInvestment_not_reused' type='goal'/>
+</ielementLink>
+							<ielementLink type='means-end'>
+								<ielement iref='Act-MAINT-Prod'/>
+							</ielementLink>
+						</ielement>
+						<ielement name='Distance learning platform always available' type='goal'>
+							<ielementLink type='means-end'>
+								<ielement id='OSS-ACQ' name='Acquire OSS component' type='task'>
+									<ielementLink type='decomposition'>
+										<ielement id='Act-SEL' name='Select OSS component' type='task'>
+											<ielementLink type='decomposition'>
+												<ielement id='Act-LEARN' name='Acquire user skills' type='task'>
+													<ielementLink type='decomposition'>
+														<ielement iref='Act-ASK'/>
+													</ielementLink>
+												</ielement>
+											</ielementLink>
+										</ielement>
+										<ielement id='Goal-Quality-Tech' name='Technical quality' type='softgoal'>
+<ielementLink type='contribution' value='Hurt'>
+	<ielement id='VDL_buggy' name='VDL_buggy' type='goal'/>
+</ielementLink>
+											<ielementLink type='contribution' value='Help'>
+												<ielement id='Act-ACQ-Tech' name='Acquire technical skills' type='task'>
+													<ielementLink type='decomposition'>
+														<ielement iref='Act-ASK'/>
+													</ielementLink>
+												</ielement>
+												<ielement iref='Act-LEARN'/>
+											</ielementLink>
+										</ielement>
+										<ielement id='Goal-USE' name='OSS component used' type='goal'>
+											<ielementLink type='means-end'>
+												<ielement id='Act-DEP' name='Deploy OSS component' type='task'>
+													<ielementLink type='decomposition'>
+														<ielement iref='Act-LEARN'/>
+													</ielementLink>
+												</ielement>
+												<ielement id='Act-INT' name='Include OSS component in other software' type='task'>
+													<ielementLink type='decomposition'>
+														<ielement iref='Act-ACQ-Tech'/>
+														<ielement id='Goal-Selling-Preserved' name='Preserving selling capability' type='softgoal'/>
+													</ielementLink>
+												</ielement>
+											</ielementLink>
+										</ielement>
+										<ielement id='Act-TEST-Prod' name='Test product' type='task'/>
+										<ielement iref='Act-MAINT-Prod'/>
+										<ielement id='Goal-License-Preserved' name='License compatibility preserved' type='goal'/>
+									</ielementLink>
+								</ielement>
+							</ielementLink>
+						</ielement>
+						<ielement name='Student registrations maintained over the next years' type='goal'>
+<ielementLink type='contribution' value='Hurt'>
+	<ielement id='VStudents_dissatisfied' name='VStudents_dissatisfied' type='goal' output='true'/>
+</ielementLink>
+						</ielement>
+					</ielementLink>
+				</ielement>
+				<ielement name='Organisation reputation maintained' type='softgoal'>
+<ielementLink type='contribution' value='Hurt'>
+	<ielement id='VReputation_declines' name='VReputation_declines' type='goal' output='true'/>
+</ielementLink>
+					<ielementLink type='contribution' value='Some+'>
+						<ielement iref='MAX_INV'/>
+					</ielementLink>
+				</ielement>
+				<ielement name='Consensus on investment maintained' type='softgoal'>
+<ielementLink type='contribution' value='Hurt'>
+	<ielement id='VFaculty_objects' name='VFaculty_objects' type='goal' output='true'/>
+</ielementLink>
+					<ielementLink type='contribution' value='Some+'>
+						<ielement iref='MAX_INV'/>
+					</ielementLink>
+				</ielement>
+            </boundary>
+        </actor>
+        <ielement id='Res-Tech-DOCUM' name='Technical documentation' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-ACQ-Tech'/>
+                <dependee aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-User-DOCUM' name='User documentation' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='Act-LEARN'/>
+                <dependee aref='COMM' iref='DOC'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-OSS-Comp' name='Moodbile component' type='resource'>
+            <dependency>
+                <depender aref='CMP' iref='OSS-ACQ'/>
+                <dependee aref='COMM' iref='IMP_DEP'/>
+            </dependency>
+        </ielement>
+        <ielement name='Moodbile been multi-platform' type='goal'>
+            <dependency>
+                <depender aref='CMP' iref='MAX_INV'/>
+                <dependee aref='COMM' iref='PROVIDE'/>
+            </dependency>
+        </ielement>
+        <ielement name='Compatibility kept' type='goal'>
+            <dependency>
+                <depender aref='COMM' iref='IMP_DEP'/>
+                <dependee aref='MOODLE'/>
+            </dependency>
+        </ielement>
+        <ielement name='MOODLE code' type='resource'>
+            <dependency>
+                <depender aref='COMM' iref='IMP_DEP'/>
+                <dependee aref='MOODLE'/>
+            </dependency>
+        </ielement>
+		<ielement name='Help obtained' type='goal'>
+            <dependency>
+                <depender aref='CMP' iref='Act-ASK'/>
+                <dependee aref='COMM' iref='FORUM_ALIVE'/>
+            </dependency>
+        </ielement>
+    </diagram>
+</istarml>

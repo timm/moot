@@ -1,0 +1,693 @@
+{
+  "actors": [
+    {
+      "id": "cd2d3f75-934f-41ab-8ed8-0613e6131359",
+      "text": "Visitor Assistance System",
+      "type": "istar.Actor",
+      "x": 304,
+      "y": 1132,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "c28c0ca1-8305-4a24-99ce-11a7d0b680f7",
+          "text": "visitor [v] gets informed about piece of art [p] in museum [m]",
+          "type": "istar.Goal",
+          "x": 649,
+          "y": 1132,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5b501a79-d514-47f0-bbe1-43ea62166958",
+          "text": "[v] gets info. via terminal [t]",
+          "type": "istar.Goal",
+          "x": 491,
+          "y": 1282,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "603905b9-4f6b-43c0-8798-89e6bcdfb10e",
+          "text": "[v] gets info via his/her PDA",
+          "type": "istar.Goal",
+          "x": 664,
+          "y": 1288,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5c2dc0c0-fc18-41a9-a7d5-36282fd62d49",
+          "text": "[v] gets infor through [m] service staff [s]",
+          "type": "istar.Goal",
+          "x": 836,
+          "y": 1259,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8f194f7d-643c-46e4-bddf-af6fbefd7d6f",
+          "text": "[v] is notified for the service through [v]'s PDA",
+          "type": "istar.Goal",
+          "x": 356,
+          "y": 1410,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5c600c45-fc80-4b7b-b40b-d1a9f8b465c7",
+          "text": "[v] arrives to [t]",
+          "type": "istar.Goal",
+          "x": 483,
+          "y": 1444,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8abf2fec-5df7-44cf-a53c-bd7628103177",
+          "text": "[v] knows how to use [t]",
+          "type": "istar.Goal",
+          "x": 553,
+          "y": 1393,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "60f83387-1523-47bd-9adc-9fd77f4a66d8",
+          "text": "send [v] a voice command",
+          "type": "istar.Task",
+          "x": 304,
+          "y": 1544,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6b2ae337-fcd9-4f71-a048-e735a2389161",
+          "text": "alert [v] via PDA vibration and SMS",
+          "type": "istar.Task",
+          "x": 400,
+          "y": 1531,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "accd2855-91ec-4a9c-8ace-a020213cfa79",
+          "text": "direct [v] to [t] place",
+          "type": "istar.Task",
+          "x": 498.5,
+          "y": 1536,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1d735863-61aa-475b-a2f5-152ed000cff7",
+          "text": "show demo to [v] how to use [t]",
+          "type": "istar.Task",
+          "x": 578.5,
+          "y": 1478,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9a5e260b-3d95-49db-a45b-efc8095ff7a4",
+          "text": "[p] info suitable to [v] is prepared",
+          "type": "istar.Goal",
+          "x": 658,
+          "y": 1418,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "475967b5-51e6-49d3-a530-0387c693bfab",
+          "text": "[p] info is presented to [v]",
+          "type": "istar.Goal",
+          "x": 751,
+          "y": 1397.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "77fff3b6-1840-407b-8885-d8901c833339",
+          "text": "prepare [p] detailed infromation",
+          "type": "istar.Task",
+          "x": 634.5,
+          "y": 1525,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "daf4a97c-86e5-42e0-9e0f-0f819e14164f",
+          "text": "prepare [p] brief simple information",
+          "type": "istar.Task",
+          "x": 732,
+          "y": 1513,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1f3e49d3-0863-47f8-81e2-9097f248da5f",
+          "text": "[p] info is presented to [v] via video",
+          "type": "istar.Task",
+          "x": 752.5,
+          "y": 1457,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "951a88b5-9ee2-4401-bc41-4a8658f7d2b3",
+          "text": "[v] info is presented to [v] interactively",
+          "type": "istar.Task",
+          "x": 853.5,
+          "y": 1471,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "b2d2ba3f-2838-469b-b2d1-73207f88946c",
+      "text": "Staff Assistance System",
+      "type": "istar.Actor",
+      "x": 1095,
+      "y": 1484,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "76e3f432-e4cf-4290-bcee-666034e1cc62",
+          "text": "[v] gets info through [m] service staff [s]",
+          "type": "istar.Goal",
+          "x": 1379,
+          "y": 1484,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5c15c51f-7d6f-4531-af9e-12b9f187505c",
+          "text": "[s] is alerted",
+          "type": "istar.Goal",
+          "x": 1281,
+          "y": 1606,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e2d30244-3b5a-41df-af02-a684111eaa73",
+          "text": "[s] gives [p] info to [v]",
+          "type": "istar.Goal",
+          "x": 1572,
+          "y": 1590,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f0217929-c0a1-4bf4-8256-35a379acf2ca",
+          "text": "[s] is alerted through [s]'s PDA",
+          "type": "istar.Goal",
+          "x": 1180,
+          "y": 1702,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f2b5cd6d-c0c3-44fa-861c-1651e78dd60b",
+          "text": "[s] is alerted through public call",
+          "type": "istar.Goal",
+          "x": 1307,
+          "y": 1703.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ea64699b-2a01-43ed-beec-906609595504",
+          "text": "[s] is alerted via ringing tone and SMS",
+          "type": "istar.Task",
+          "x": 1095,
+          "y": 1819,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "fcd3f774-2037-41b3-9a8c-6179f9066965",
+          "text": "send [s] a voice command",
+          "type": "istar.Task",
+          "x": 1199,
+          "y": 1847,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d40b8070-4eaf-4465-8dc8-8946eee8d994",
+          "text": "alert [s] via PDA vibration and SMS",
+          "type": "istar.Task",
+          "x": 1267,
+          "y": 1801,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9bc8b8d9-f4d4-4497-b3f2-11536bfc4f75",
+          "text": "make a call through speakers in [s] current room",
+          "type": "istar.Task",
+          "x": 1367.5,
+          "y": 1846,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a65553f6-6ba8-4161-a823-3ddf4a180993",
+          "text": "[s] gives [p] info to [v] in person",
+          "type": "istar.Goal",
+          "x": 1480,
+          "y": 1680,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3544567b-9755-4c3c-ab06-00f139d1512b",
+          "text": "[s] gives [p] info to [v] by call",
+          "type": "istar.Goal",
+          "x": 1736,
+          "y": 1659,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d1dd06b9-d08f-4ed0-9a62-21a1b107aa73",
+          "text": "direct [s] to [v] place",
+          "type": "istar.Task",
+          "x": 1497.5,
+          "y": 1788,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9f13d449-727d-418d-85c9-3a1581d49496",
+          "text": "show [v] picture",
+          "type": "istar.Task",
+          "x": 1483.5,
+          "y": 1866,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cb0d822b-163c-49df-abd2-3e4546272f24",
+          "text": "direct [s] to [v] place",
+          "type": "istar.Task",
+          "x": 1594.5,
+          "y": 1864,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9d280724-ea1f-4bc6-9b05-6244283fe304",
+          "text": "make voice call between [s] and [v]",
+          "type": "istar.Task",
+          "x": 1762,
+          "y": 1776,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "920c2442-0ffa-4952-bc94-b2f6710434c0",
+          "text": "make video call between [s] and [v]",
+          "type": "istar.Task",
+          "x": 1663,
+          "y": 1817,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "03b84517-9146-4f3c-bf38-db5e879771b5",
+          "text": "visitor well informed",
+          "type": "istar.Quality",
+          "x": 1614,
+          "y": 1669,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b93eb9dc-bc30-4171-a6fd-29038913235a",
+          "text": "staff is more comfortable",
+          "type": "istar.Quality",
+          "x": 1609,
+          "y": 1743,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "c96a7c1c-b42f-4edc-9be6-0e43c4edae13",
+      "text": "provide info on [p]",
+      "type": "istar.Goal",
+      "x": 976,
+      "y": 1376,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5c2dc0c0-fc18-41a9-a7d5-36282fd62d49",
+      "target": "b2d2ba3f-2838-469b-b2d1-73207f88946c"
+    }
+  ],
+  "links": [
+    {
+      "id": "68da4eb7-7916-492e-88f6-9d9b8a7df050",
+      "type": "istar.DependencyLink",
+      "source": "c96a7c1c-b42f-4edc-9be6-0e43c4edae13",
+      "target": "b2d2ba3f-2838-469b-b2d1-73207f88946c"
+    },
+    {
+      "id": "4dc25b73-2a3a-498d-addd-18c135545c21",
+      "type": "istar.DependencyLink",
+      "source": "5c2dc0c0-fc18-41a9-a7d5-36282fd62d49",
+      "target": "c96a7c1c-b42f-4edc-9be6-0e43c4edae13"
+    },
+    {
+      "id": "f4137d25-62ef-4ed5-888b-5c1e902016e9",
+      "type": "istar.OrRefinementLink",
+      "source": "603905b9-4f6b-43c0-8798-89e6bcdfb10e",
+      "target": "c28c0ca1-8305-4a24-99ce-11a7d0b680f7"
+    },
+    {
+      "id": "7acee380-347b-4bba-9e4a-c66160d9bf64",
+      "type": "istar.OrRefinementLink",
+      "source": "5c2dc0c0-fc18-41a9-a7d5-36282fd62d49",
+      "target": "c28c0ca1-8305-4a24-99ce-11a7d0b680f7"
+    },
+    {
+      "id": "fd3deb52-1d30-4274-9148-758faf7af0df",
+      "type": "istar.OrRefinementLink",
+      "source": "5b501a79-d514-47f0-bbe1-43ea62166958",
+      "target": "c28c0ca1-8305-4a24-99ce-11a7d0b680f7"
+    },
+    {
+      "id": "4919a132-6ed8-4039-a743-826b8d8fdcdc",
+      "type": "istar.AndRefinementLink",
+      "source": "8f194f7d-643c-46e4-bddf-af6fbefd7d6f",
+      "target": "5b501a79-d514-47f0-bbe1-43ea62166958"
+    },
+    {
+      "id": "9f31530f-fc8a-4e65-9f9c-845c20165f54",
+      "type": "istar.AndRefinementLink",
+      "source": "5c600c45-fc80-4b7b-b40b-d1a9f8b465c7",
+      "target": "5b501a79-d514-47f0-bbe1-43ea62166958"
+    },
+    {
+      "id": "9cc25ae4-af73-4065-9f64-7718004a8bea",
+      "type": "istar.AndRefinementLink",
+      "source": "8abf2fec-5df7-44cf-a53c-bd7628103177",
+      "target": "5b501a79-d514-47f0-bbe1-43ea62166958"
+    },
+    {
+      "id": "7e0af9ab-2e80-423b-85d6-82436769249d",
+      "type": "istar.OrRefinementLink",
+      "source": "60f83387-1523-47bd-9adc-9fd77f4a66d8",
+      "target": "8f194f7d-643c-46e4-bddf-af6fbefd7d6f"
+    },
+    {
+      "id": "fe712888-1be9-4e63-a52c-e1607dcb1454",
+      "type": "istar.OrRefinementLink",
+      "source": "6b2ae337-fcd9-4f71-a048-e735a2389161",
+      "target": "8f194f7d-643c-46e4-bddf-af6fbefd7d6f"
+    },
+    {
+      "id": "a62fbe67-e0b4-456d-8ac9-a61894ee3a2d",
+      "type": "istar.OrRefinementLink",
+      "source": "accd2855-91ec-4a9c-8ace-a020213cfa79",
+      "target": "5c600c45-fc80-4b7b-b40b-d1a9f8b465c7"
+    },
+    {
+      "id": "f944f242-d7d2-4d3f-b4bf-dc0a51f7506a",
+      "type": "istar.OrRefinementLink",
+      "source": "1d735863-61aa-475b-a2f5-152ed000cff7",
+      "target": "8abf2fec-5df7-44cf-a53c-bd7628103177"
+    },
+    {
+      "id": "83e40449-3f14-40c5-a353-da1e3fb132a0",
+      "type": "istar.AndRefinementLink",
+      "source": "9a5e260b-3d95-49db-a45b-efc8095ff7a4",
+      "target": "603905b9-4f6b-43c0-8798-89e6bcdfb10e"
+    },
+    {
+      "id": "ebe131c7-e41e-4281-827b-82e347c79c89",
+      "type": "istar.AndRefinementLink",
+      "source": "475967b5-51e6-49d3-a530-0387c693bfab",
+      "target": "603905b9-4f6b-43c0-8798-89e6bcdfb10e"
+    },
+    {
+      "id": "b0f41d31-6429-4103-ab44-af38feddd06c",
+      "type": "istar.OrRefinementLink",
+      "source": "77fff3b6-1840-407b-8885-d8901c833339",
+      "target": "9a5e260b-3d95-49db-a45b-efc8095ff7a4"
+    },
+    {
+      "id": "1625dd16-7072-441b-89e3-385a63a1af48",
+      "type": "istar.OrRefinementLink",
+      "source": "daf4a97c-86e5-42e0-9e0f-0f819e14164f",
+      "target": "9a5e260b-3d95-49db-a45b-efc8095ff7a4"
+    },
+    {
+      "id": "e83a8d2b-9840-4c57-8fb3-ac74c8944c2d",
+      "type": "istar.OrRefinementLink",
+      "source": "1f3e49d3-0863-47f8-81e2-9097f248da5f",
+      "target": "475967b5-51e6-49d3-a530-0387c693bfab"
+    },
+    {
+      "id": "2ed848c2-e0ff-4a0f-b059-ebd8c5c53341",
+      "type": "istar.OrRefinementLink",
+      "source": "951a88b5-9ee2-4401-bc41-4a8658f7d2b3",
+      "target": "475967b5-51e6-49d3-a530-0387c693bfab"
+    },
+    {
+      "id": "55422349-0968-4a2b-bfa2-1d636885bc07",
+      "type": "istar.AndRefinementLink",
+      "source": "5c15c51f-7d6f-4531-af9e-12b9f187505c",
+      "target": "76e3f432-e4cf-4290-bcee-666034e1cc62"
+    },
+    {
+      "id": "47bb318e-10ca-4c30-b67d-5c1fb554dd67",
+      "type": "istar.AndRefinementLink",
+      "source": "e2d30244-3b5a-41df-af02-a684111eaa73",
+      "target": "76e3f432-e4cf-4290-bcee-666034e1cc62"
+    },
+    {
+      "id": "abe35454-0e01-404f-98ec-d736de6e2d43",
+      "type": "istar.OrRefinementLink",
+      "source": "f0217929-c0a1-4bf4-8256-35a379acf2ca",
+      "target": "5c15c51f-7d6f-4531-af9e-12b9f187505c"
+    },
+    {
+      "id": "a7721cd7-06dc-433f-abbb-77291b3fd258",
+      "type": "istar.OrRefinementLink",
+      "source": "f2b5cd6d-c0c3-44fa-861c-1651e78dd60b",
+      "target": "5c15c51f-7d6f-4531-af9e-12b9f187505c"
+    },
+    {
+      "id": "4a5d48fa-019c-44fa-ba06-1864bb67fdee",
+      "type": "istar.OrRefinementLink",
+      "source": "d40b8070-4eaf-4465-8dc8-8946eee8d994",
+      "target": "f0217929-c0a1-4bf4-8256-35a379acf2ca"
+    },
+    {
+      "id": "9beadee5-dcba-475c-b03e-5758c0e5dff9",
+      "type": "istar.OrRefinementLink",
+      "source": "fcd3f774-2037-41b3-9a8c-6179f9066965",
+      "target": "f0217929-c0a1-4bf4-8256-35a379acf2ca"
+    },
+    {
+      "id": "7a98bd6d-a8b7-4d67-8fdd-01cfb321a6f3",
+      "type": "istar.OrRefinementLink",
+      "source": "ea64699b-2a01-43ed-beec-906609595504",
+      "target": "f0217929-c0a1-4bf4-8256-35a379acf2ca"
+    },
+    {
+      "id": "30a6256f-5be3-4945-912a-e8fe9123b0da",
+      "type": "istar.OrRefinementLink",
+      "source": "9bc8b8d9-f4d4-4497-b3f2-11536bfc4f75",
+      "target": "f2b5cd6d-c0c3-44fa-861c-1651e78dd60b"
+    },
+    {
+      "id": "d547bce2-b8e6-4084-bf3c-dfff0618dc2d",
+      "type": "istar.OrRefinementLink",
+      "source": "a65553f6-6ba8-4161-a823-3ddf4a180993",
+      "target": "e2d30244-3b5a-41df-af02-a684111eaa73"
+    },
+    {
+      "id": "954591f6-343b-4955-b8b1-1e16e0762f62",
+      "type": "istar.OrRefinementLink",
+      "source": "3544567b-9755-4c3c-ab06-00f139d1512b",
+      "target": "e2d30244-3b5a-41df-af02-a684111eaa73"
+    },
+    {
+      "id": "85edb001-9d87-42c2-aacf-5d7a79972d1f",
+      "type": "istar.OrRefinementLink",
+      "source": "d1dd06b9-d08f-4ed0-9a62-21a1b107aa73",
+      "target": "a65553f6-6ba8-4161-a823-3ddf4a180993"
+    },
+    {
+      "id": "843bf290-0c9d-4281-8775-6e1b3d0fb2fc",
+      "type": "istar.AndRefinementLink",
+      "source": "9f13d449-727d-418d-85c9-3a1581d49496",
+      "target": "d1dd06b9-d08f-4ed0-9a62-21a1b107aa73"
+    },
+    {
+      "id": "b69792dc-2511-48e0-8975-13546be5d64d",
+      "type": "istar.AndRefinementLink",
+      "source": "cb0d822b-163c-49df-abd2-3e4546272f24",
+      "target": "d1dd06b9-d08f-4ed0-9a62-21a1b107aa73"
+    },
+    {
+      "id": "ad672921-ba6a-42fe-bb14-3eccdcf56f37",
+      "type": "istar.OrRefinementLink",
+      "source": "920c2442-0ffa-4952-bc94-b2f6710434c0",
+      "target": "3544567b-9755-4c3c-ab06-00f139d1512b"
+    },
+    {
+      "id": "357eceb5-bb38-425d-af6d-70f6089bc612",
+      "type": "istar.OrRefinementLink",
+      "source": "9d280724-ea1f-4bc6-9b05-6244283fe304",
+      "target": "3544567b-9755-4c3c-ab06-00f139d1512b"
+    },
+    {
+      "id": "5a3c9d31-eef9-4d33-bd3d-8e9716841ac1",
+      "type": "istar.ContributionLink",
+      "source": "a65553f6-6ba8-4161-a823-3ddf4a180993",
+      "target": "b93eb9dc-bc30-4171-a6fd-29038913235a",
+      "label": "help"
+    },
+    {
+      "id": "50f5db7b-ee81-43e9-b254-319ca968b053",
+      "type": "istar.ContributionLink",
+      "source": "a65553f6-6ba8-4161-a823-3ddf4a180993",
+      "target": "03b84517-9146-4f3c-bf38-db5e879771b5",
+      "label": "help"
+    },
+    {
+      "id": "6600cb39-4044-4330-a1e7-0c676adb0fab",
+      "type": "istar.ContributionLink",
+      "source": "3544567b-9755-4c3c-ab06-00f139d1512b",
+      "target": "b93eb9dc-bc30-4171-a6fd-29038913235a",
+      "label": "help"
+    },
+    {
+      "id": "c1d31da8-a389-4f94-88d8-9b532619cd0f",
+      "type": "istar.ContributionLink",
+      "source": "3544567b-9755-4c3c-ab06-00f139d1512b",
+      "target": "03b84517-9146-4f3c-bf38-db5e879771b5",
+      "label": "hurt"
+    }
+  ],
+  "display": {
+    "c28c0ca1-8305-4a24-99ce-11a7d0b680f7": {
+      "width": 134.5,
+      "height": 72.84375
+    },
+    "603905b9-4f6b-43c0-8798-89e6bcdfb10e": {
+      "width": 108.5,
+      "height": 51.34375
+    },
+    "5c2dc0c0-fc18-41a9-a7d5-36282fd62d49": {
+      "width": 106.5,
+      "height": 52.84375
+    },
+    "8f194f7d-643c-46e4-bddf-af6fbefd7d6f": {
+      "width": 120.5,
+      "height": 57.84375
+    },
+    "951a88b5-9ee2-4401-bc41-4a8658f7d2b3": {
+      "width": 105,
+      "height": 51.84375
+    },
+    "76e3f432-e4cf-4290-bcee-666034e1cc62": {
+      "width": 117.5,
+      "height": 58.84375
+    },
+    "f0217929-c0a1-4bf4-8256-35a379acf2ca": {
+      "width": 103.5,
+      "height": 51.84375
+    },
+    "f2b5cd6d-c0c3-44fa-861c-1651e78dd60b": {
+      "width": 104.5,
+      "height": 46.34375
+    },
+    "ea64699b-2a01-43ed-beec-906609595504": {
+      "width": 111.5,
+      "height": 44.84375
+    },
+    "9bc8b8d9-f4d4-4497-b3f2-11536bfc4f75": {
+      "width": 113,
+      "height": 56.84375
+    },
+    "9d280724-ea1f-4bc6-9b05-6244283fe304": {
+      "width": 119.5,
+      "height": 57.84375
+    },
+    "03b84517-9146-4f3c-bf38-db5e879771b5": {
+      "width": 70.5216064453125,
+      "height": 41.84814453125
+    },
+    "b93eb9dc-bc30-4171-a6fd-29038913235a": {
+      "width": 82.525146484375,
+      "height": 45.348388671875
+    },
+    "68da4eb7-7916-492e-88f6-9d9b8a7df050": {
+      "vertices": [
+        {
+          "x": 1042,
+          "y": 1425
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 19 May 2026 10:49:06 GMT",
+  "diagram": {
+    "width": 2554,
+    "height": 1953,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

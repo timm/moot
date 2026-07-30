@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version="1.0">
+   <diagram name="ERE_AGM_Reqs.ood">
+      <graphic content="SVG"/>
+      <ielement type="softgoal" id="_4BaZUHc-EeCVO5kE8HkE6g"
+                name="Effectively Analyze Agent-Goal Models in Early RE">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </ielement>
+      <ielement type="softgoal" id="_86fBEHc-EeCVO5kE8HkE6g" name="Handle Model Complexity">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_959hEHc-EeCVO5kE8HkE6g" name="Increase Model Completeness">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="__ikdoHc-EeCVO5kE8HkE6g" name="Increase Model Accuracy">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_CA0owHc_EeCVO5kE8HkE6g"
+                name="Provide Model Interpretation">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_EvdZQHc_EeCVO5kE8HkE6g"
+                name="Capture Decisions and Rationale">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_HZVlkHc_EeCVO5kE8HkE6g" name="Involve Stakeholders">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_JxB1sHc_EeCVO5kE8HkE6g" name="Provide Analysis Power">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_M71k0Hc_EeCVO5kE8HkE6g" name="Procedure Usability">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_cpODsHc_EeCVO5kE8HkE6g"
+                name="Provide Guidelines for Procedure Selection"
+                initialEvalLabel="Denied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_Dn0IsH22EeCYlqQwXiHNzA" name="Handle Model Flexibility">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+      <ielement type="softgoal" id="_XXrs8SjyEeKCYJKRKBb5vA" name="Understand the Domain">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <ielementLink type="contribution" value="help" iref="_4BaZUHc-EeCVO5kE8HkE6g">
+            <graphic content="SVG"/>
+         </ielementLink>
+      </ielement>
+   </diagram>
+</istarml>

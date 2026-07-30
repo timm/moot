@@ -1,0 +1,1484 @@
+{
+  "actors": [
+    {
+      "id": "9213d7d7-dd0e-4fa8-8f7d-40729b47c5ae",
+      "text": "Preference manager",
+      "type": "istar.Actor",
+      "x": 869,
+      "y": 2214,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "e5f80bcb-6d33-46eb-b16f-dfce0d3699a4",
+      "text": "Smart Home System",
+      "type": "istar.Actor",
+      "x": 245,
+      "y": 728,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "0f1197b8-6477-49ab-9d69-2850070d9a3f",
+          "text": "Temperature be managed",
+          "type": "istar.Goal",
+          "x": 757,
+          "y": 756.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+          "text": "Energy spent wisely",
+          "type": "istar.Quality",
+          "x": 563,
+          "y": 771,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2d8a4a96-cb0a-4337-b13a-8b952bf9a1d4",
+          "text": "Reliability",
+          "type": "istar.Quality",
+          "x": 921,
+          "y": 755,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "73875e3f-95be-483b-b741-d448fa8582bf",
+          "text": "Adaptability",
+          "type": "istar.Quality",
+          "x": 1026,
+          "y": 836,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "dbbef852-2d20-4d53-8715-feb02e7503a1",
+          "text": "Prevent failures",
+          "type": "istar.Task",
+          "x": 1156,
+          "y": 768,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f4891875-2aef-49c3-8835-e6b1b0d3e95c",
+          "text": "Select best behaviour according to the environment",
+          "type": "istar.Task",
+          "x": 1207,
+          "y": 895,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f52d41d5-d9d0-4e4b-905c-4d7f455cc044",
+          "text": "Control Heating Device",
+          "type": "istar.Task",
+          "x": 960,
+          "y": 933,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ef80c4d3-f8cd-498c-b6c0-46478613c75a",
+          "text": "Control air ventilator",
+          "type": "istar.Task",
+          "x": 729,
+          "y": 952,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e9df2eda-0f98-499d-9a4c-0e0206690428",
+          "text": "Control windows",
+          "type": "istar.Task",
+          "x": 426,
+          "y": 975,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7b952e98-b060-43bc-b13c-845af362f8bf",
+          "text": "Open windows",
+          "type": "istar.Task",
+          "x": 327,
+          "y": 1106,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3436e3ee-86cd-4cbe-b9bc-8bcbf12998f0",
+          "text": "Close windows",
+          "type": "istar.Task",
+          "x": 458,
+          "y": 1100,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2aec8568-8dcd-48dd-b5e3-7ece73596d1f",
+          "text": "Turn no air ventilator",
+          "type": "istar.Task",
+          "x": 619,
+          "y": 1091,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d2990c10-f509-42ba-a187-0794a6e0cf39",
+          "text": "Turn off air ventilator",
+          "type": "istar.Task",
+          "x": 764.5,
+          "y": 1097,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "16182c90-49e7-401d-99f2-4e56cf781cdd",
+          "text": "Turn on heating device",
+          "type": "istar.Task",
+          "x": 896.5,
+          "y": 1088,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1e410d16-fb63-4215-bebb-ff30234fb7f5",
+          "text": "Turn off heating device",
+          "type": "istar.Task",
+          "x": 1055,
+          "y": 1073,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "95c6a7e2-9807-4111-8d92-60414b0a525a",
+          "text": "Lighting be managed",
+          "type": "istar.Goal",
+          "x": 1236,
+          "y": 1040.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ab42d042-410e-4ca6-855d-e1af83c3ecc4",
+          "text": "Manage lighting",
+          "type": "istar.Task",
+          "x": 1259,
+          "y": 1135,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "df0dd1bf-c4e9-478f-b6cc-598be41acf56",
+          "text": "Control lights",
+          "type": "istar.Task",
+          "x": 1332,
+          "y": 1217,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e1a4ba55-f388-404b-a2d2-391041ef0773",
+          "text": "Select lighting policy",
+          "type": "istar.Task",
+          "x": 1118,
+          "y": 1152,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8144e10c-1018-4f7e-8112-a066cafd0fe2",
+          "text": "Turn on lights",
+          "type": "istar.Task",
+          "x": 1260,
+          "y": 1331,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "70dff3ad-1a92-4ba8-b943-09c4bb1f4412",
+          "text": "Turn off lights",
+          "type": "istar.Task",
+          "x": 1373.5,
+          "y": 1316,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f63e2294-e8cb-45d7-9b5b-1cf40b0fb1ea",
+          "text": "Lighting by occupancy",
+          "type": "istar.Task",
+          "x": 1090.5,
+          "y": 1283,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cb5e7938-f164-4f44-aa3d-c416038542e3",
+          "text": "Occupancy simulation",
+          "type": "istar.Task",
+          "x": 983,
+          "y": 1187,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "43d7e4a9-ae21-42a7-9ed2-c2cf19fcb99b",
+          "text": "Safety",
+          "type": "istar.Quality",
+          "x": 823,
+          "y": 1198.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "02fee4a6-8f94-4e77-aa0c-54574fff14a0",
+          "text": "Manage fire incident",
+          "type": "istar.Task",
+          "x": 579,
+          "y": 1231,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "66897d19-3cbe-4901-bd52-aafdb59d2972",
+          "text": "Control gas valves",
+          "type": "istar.Task",
+          "x": 282,
+          "y": 1194,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f5d36de8-c1b4-4033-92aa-e763f149a7d9",
+          "text": "Open gas valves",
+          "type": "istar.Task",
+          "x": 245,
+          "y": 1288,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b13975b1-8e9f-4f8e-84bb-8987b4c1db37",
+          "text": "Close gas valves",
+          "type": "istar.Task",
+          "x": 367,
+          "y": 1324,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "232d2af7-d8fa-468d-a1fb-7799bae42113",
+          "text": "Unlock doors",
+          "type": "istar.Task",
+          "x": 537,
+          "y": 1428,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "32527286-e802-4838-a614-9a8058bead32",
+          "text": "Control doors lock",
+          "type": "istar.Task",
+          "x": 455.5,
+          "y": 1358,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4c29a54e-d4d7-4dba-ae9b-03d1dfd3c4f7",
+          "text": "Lock doors",
+          "type": "istar.Task",
+          "x": 386.5,
+          "y": 1429,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a408d99a-e056-4df4-b9e6-aefca3e61322",
+          "text": "Deactivate power outlets",
+          "type": "istar.Task",
+          "x": 655,
+          "y": 1457,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "54c6bbe5-5991-4525-8184-cfea167d832d",
+          "text": "Control power outlets",
+          "type": "istar.Task",
+          "x": 696,
+          "y": 1377,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "83743657-1812-437b-b1eb-79ab3d3baaf5",
+          "text": "Activate power outlets",
+          "type": "istar.Task",
+          "x": 762.5,
+          "y": 1468,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "659548c9-d457-42c5-a94f-4077bcbb52fc",
+          "text": "Activate alarm",
+          "type": "istar.Task",
+          "x": 801,
+          "y": 1384,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "55a5e1af-ae63-4983-937f-ae474a13378a",
+          "text": "Control alarm",
+          "type": "istar.Task",
+          "x": 828.5,
+          "y": 1307,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "db670a5e-210e-4632-9835-93ad72722c76",
+          "text": "Deactivate alarm",
+          "type": "istar.Task",
+          "x": 915.5,
+          "y": 1398,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "306e8e36-e97c-49e8-bf32-5de391a6f755",
+          "text": "Save money",
+          "type": "istar.Quality",
+          "x": 267,
+          "y": 1528,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a8262649-c8ee-4a79-a53e-a45bee35e3bb",
+          "text": "Assist the tenant cooking the meal",
+          "type": "istar.Task",
+          "x": 245,
+          "y": 1664,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7ab5daff-c602-4688-855f-487d69efa929",
+          "text": "Provide meals",
+          "type": "istar.Goal",
+          "x": 401,
+          "y": 1583.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "691a2e69-92c8-469d-b596-7e638469ed72",
+          "text": "Request restaurant meals",
+          "type": "istar.Task",
+          "x": 460,
+          "y": 1705,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "444b0f7d-714c-4fd7-9b4b-ff40f60aa2a6",
+          "text": "Manage tenant nutrition",
+          "type": "istar.Task",
+          "x": 605.5,
+          "y": 1532,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8cef419e-7c24-4362-bb58-bf6ef08a8d60",
+          "text": "Suggest daily menu",
+          "type": "istar.Task",
+          "x": 556.5,
+          "y": 1639,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7de355a0-bba4-4601-a44b-d6921fed9f51",
+          "text": "Keep track of consumed food",
+          "type": "istar.Task",
+          "x": 673.5,
+          "y": 1644,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0fba3a34-f962-412b-afea-93d46e1952d3",
+          "text": "Tenant is well nourished",
+          "type": "istar.Goal",
+          "x": 852,
+          "y": 1503,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cc544c2f-9198-4094-98fd-51419219062e",
+          "text": "Keep track of consumed medicines",
+          "type": "istar.Task",
+          "x": 889.5,
+          "y": 1574,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d60abbe6-2958-4f2e-a5bd-f89b27cdd42a",
+          "text": "Monitor medicine consumption",
+          "type": "istar.Task",
+          "x": 916.5,
+          "y": 1661,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5db41fe7-a14f-4b92-bcc9-54c9b7b251f4",
+          "text": "Buy food when required",
+          "type": "istar.Task",
+          "x": 695,
+          "y": 1785,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ddda6966-00ef-4cec-9293-34092ecb3cae",
+          "text": "Manage food stock supply",
+          "type": "istar.Goal",
+          "x": 786,
+          "y": 1704.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d272be9e-0a17-4fcb-8b25-9ef6b1447d6a",
+          "text": "Order food when required",
+          "type": "istar.Task",
+          "x": 835,
+          "y": 1834,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4a5cb04c-29db-4d11-a2db-f31e4ede4f70",
+          "text": "Provide recipe",
+          "type": "istar.Task",
+          "x": 284,
+          "y": 1755,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bdcfc8dc-729e-465d-9591-b89e78b75a6e",
+          "text": "Entertainment",
+          "type": "istar.Quality",
+          "x": 1077,
+          "y": 1437.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cdad37fc-fdfd-4fb0-8c7a-4d1487b6c76b",
+          "text": "Schedule social event with a friend",
+          "type": "istar.Task",
+          "x": 1277.5,
+          "y": 1494,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4f33f1de-facc-49e7-a641-456c0868ac24",
+          "text": "Manage sound system",
+          "type": "istar.Task",
+          "x": 1085,
+          "y": 1597,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "20fe2729-bfa4-4b00-9e5e-5f86f562d591",
+          "text": "Play music",
+          "type": "istar.Task",
+          "x": 991.5,
+          "y": 1712,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "93f37011-9b3b-432e-9cfc-4b0bed758610",
+          "text": "Customize playlist according to preferences",
+          "type": "istar.Task",
+          "x": 1084,
+          "y": 1803,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "71aaefc4-7d1d-4f58-ac51-2e4bfd9873d2",
+          "text": "Direct sound only to occupied rooms",
+          "type": "istar.Task",
+          "x": 1175.5,
+          "y": 1737,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "60815211-c698-4d83-bc37-70d3a74fab48",
+          "text": "Select songs according to preferences",
+          "type": "istar.Task",
+          "x": 1031,
+          "y": 1931,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3e9e5370-d86b-497d-92be-b6d17d2b0123",
+          "text": "Fast response",
+          "type": "istar.Quality",
+          "x": 1212,
+          "y": 1556,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bc5ad10f-2a3c-4dc4-bf35-e41629f66fbc",
+          "text": "Customization",
+          "type": "istar.Quality",
+          "x": 851,
+          "y": 1912,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1a2897dd-9bdf-4965-9dbe-4469721e3953",
+          "text": "Monitor food consumption",
+          "type": "istar.Task",
+          "x": 642.5,
+          "y": 1731,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "be5b6c0d-028e-4ddb-998e-3652a66c3bc8",
+          "text": "Manage fire incident",
+          "type": "istar.Task",
+          "x": 412,
+          "y": 1225,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215",
+      "text": "Communication",
+      "type": "istar.Actor",
+      "x": 738,
+      "y": 2457,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "637150b9-9f89-4d27-bd8b-af6d174800bc",
+      "text": "Data storage",
+      "type": "istar.Actor",
+      "x": 478,
+      "y": 2209,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "cd75dfa4-fc77-42fc-bd3b-631641d930e8",
+      "text": "Customization",
+      "type": "istar.Quality",
+      "x": 698,
+      "y": 2089,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "bc5ad10f-2a3c-4dc4-bf35-e41629f66fbc",
+      "target": "9213d7d7-dd0e-4fa8-8f7d-40729b47c5ae"
+    },
+    {
+      "id": "4031181b-47cd-4441-bd59-af43d535a2e8",
+      "text": "Get musical preferences",
+      "type": "istar.Task",
+      "x": 921,
+      "y": 2075,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "60815211-c698-4d83-bc37-70d3a74fab48",
+      "target": "9213d7d7-dd0e-4fa8-8f7d-40729b47c5ae"
+    },
+    {
+      "id": "fd273767-2d5f-4cda-9a57-856cc6bf478d",
+      "text": "Fast response",
+      "type": "istar.Quality",
+      "x": 1166,
+      "y": 2079,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "3e9e5370-d86b-497d-92be-b6d17d2b0123",
+      "target": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215"
+    },
+    {
+      "id": "dc90e3b3-abd2-465b-961a-0371fdd8a282",
+      "text": "Invite a friend",
+      "type": "istar.Goal",
+      "x": 1287,
+      "y": 2177,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cdad37fc-fdfd-4fb0-8c7a-4d1487b6c76b",
+      "target": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215"
+    },
+    {
+      "id": "4c4a1cfc-7627-482a-b7bf-3751162693df",
+      "text": "Get preferences",
+      "type": "istar.Task",
+      "x": 644,
+      "y": 2244,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "9213d7d7-dd0e-4fa8-8f7d-40729b47c5ae",
+      "target": "637150b9-9f89-4d27-bd8b-af6d174800bc"
+    },
+    {
+      "id": "6741a844-0674-44c1-8349-0dfba5ca1646",
+      "text": "Get food stock status",
+      "type": "istar.Task",
+      "x": 587,
+      "y": 2040.5,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "d272be9e-0a17-4fcb-8b25-9ef6b1447d6a",
+      "target": "637150b9-9f89-4d27-bd8b-af6d174800bc"
+    },
+    {
+      "id": "10938f28-ccdc-499e-be31-be03c623f3c3",
+      "text": "Store food consumption data",
+      "type": "istar.Task",
+      "x": 413,
+      "y": 2055,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "1a2897dd-9bdf-4965-9dbe-4469721e3953",
+      "target": "637150b9-9f89-4d27-bd8b-af6d174800bc"
+    },
+    {
+      "id": "28c4732e-0769-4d44-8f85-2de835e67732",
+      "text": "Get food stock status",
+      "type": "istar.Task",
+      "x": 268,
+      "y": 2071,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "4a5cb04c-29db-4d11-a2db-f31e4ede4f70",
+      "target": "637150b9-9f89-4d27-bd8b-af6d174800bc"
+    },
+    {
+      "id": "c6777ffa-dc7c-4265-a0af-11c8d813e27e",
+      "text": "Notify fire department",
+      "type": "istar.Task",
+      "x": 99,
+      "y": 2131,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "be5b6c0d-028e-4ddb-998e-3652a66c3bc8",
+      "target": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215"
+    },
+    {
+      "id": "20bd2e28-bb85-4180-b8d5-60943d450e00",
+      "text": "Notify tenants",
+      "type": "istar.Task",
+      "x": 40,
+      "y": 1836,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "be5b6c0d-028e-4ddb-998e-3652a66c3bc8",
+      "target": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215"
+    }
+  ],
+  "links": [
+    {
+      "id": "e0a1f15d-8a3c-4f1a-a2cc-8308d3aea345",
+      "type": "istar.DependencyLink",
+      "source": "20bd2e28-bb85-4180-b8d5-60943d450e00",
+      "target": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215"
+    },
+    {
+      "id": "e73a9535-f96d-4a69-918a-8a5b935e5e62",
+      "type": "istar.DependencyLink",
+      "source": "be5b6c0d-028e-4ddb-998e-3652a66c3bc8",
+      "target": "20bd2e28-bb85-4180-b8d5-60943d450e00"
+    },
+    {
+      "id": "435984f6-1aec-49a5-9c0d-746fd41dd2e8",
+      "type": "istar.DependencyLink",
+      "source": "c6777ffa-dc7c-4265-a0af-11c8d813e27e",
+      "target": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215"
+    },
+    {
+      "id": "baf8bc91-f945-47df-8ae6-34499756efed",
+      "type": "istar.DependencyLink",
+      "source": "be5b6c0d-028e-4ddb-998e-3652a66c3bc8",
+      "target": "c6777ffa-dc7c-4265-a0af-11c8d813e27e"
+    },
+    {
+      "id": "844f07ea-6402-40ca-9abe-60daa185186c",
+      "type": "istar.DependencyLink",
+      "source": "28c4732e-0769-4d44-8f85-2de835e67732",
+      "target": "637150b9-9f89-4d27-bd8b-af6d174800bc"
+    },
+    {
+      "id": "02391d1a-c7b8-421f-81cf-5f0c30630a50",
+      "type": "istar.DependencyLink",
+      "source": "4a5cb04c-29db-4d11-a2db-f31e4ede4f70",
+      "target": "28c4732e-0769-4d44-8f85-2de835e67732"
+    },
+    {
+      "id": "213a8cf0-6b66-42ad-b566-27d3de7b1d30",
+      "type": "istar.DependencyLink",
+      "source": "10938f28-ccdc-499e-be31-be03c623f3c3",
+      "target": "637150b9-9f89-4d27-bd8b-af6d174800bc"
+    },
+    {
+      "id": "a7aab831-4249-4f99-b5bd-67710ad1bdad",
+      "type": "istar.DependencyLink",
+      "source": "1a2897dd-9bdf-4965-9dbe-4469721e3953",
+      "target": "10938f28-ccdc-499e-be31-be03c623f3c3"
+    },
+    {
+      "id": "9a8d1f4b-3b3e-4f44-bb09-f50cc406d7d9",
+      "type": "istar.DependencyLink",
+      "source": "6741a844-0674-44c1-8349-0dfba5ca1646",
+      "target": "637150b9-9f89-4d27-bd8b-af6d174800bc"
+    },
+    {
+      "id": "0e9925b3-98ce-4f6d-ac64-d8921ab6f9d0",
+      "type": "istar.DependencyLink",
+      "source": "d272be9e-0a17-4fcb-8b25-9ef6b1447d6a",
+      "target": "6741a844-0674-44c1-8349-0dfba5ca1646"
+    },
+    {
+      "id": "37ac7eb0-250b-48c7-b8cf-36a222ac7d2d",
+      "type": "istar.DependencyLink",
+      "source": "4c4a1cfc-7627-482a-b7bf-3751162693df",
+      "target": "637150b9-9f89-4d27-bd8b-af6d174800bc"
+    },
+    {
+      "id": "abb40283-30ea-4319-b5b5-f20080277cc7",
+      "type": "istar.DependencyLink",
+      "source": "9213d7d7-dd0e-4fa8-8f7d-40729b47c5ae",
+      "target": "4c4a1cfc-7627-482a-b7bf-3751162693df"
+    },
+    {
+      "id": "5e436942-a864-4cab-9d0b-59274373a53e",
+      "type": "istar.DependencyLink",
+      "source": "dc90e3b3-abd2-465b-961a-0371fdd8a282",
+      "target": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215"
+    },
+    {
+      "id": "13e7ebe8-1320-4832-b668-2dbafe2debbc",
+      "type": "istar.DependencyLink",
+      "source": "cdad37fc-fdfd-4fb0-8c7a-4d1487b6c76b",
+      "target": "dc90e3b3-abd2-465b-961a-0371fdd8a282"
+    },
+    {
+      "id": "d5e1b16e-040c-4e07-a259-a1b8214a7045",
+      "type": "istar.DependencyLink",
+      "source": "fd273767-2d5f-4cda-9a57-856cc6bf478d",
+      "target": "4cc37e42-f08a-4ac6-bc32-8f8fff00a215"
+    },
+    {
+      "id": "3fecca0a-b9ca-4ed7-bfd4-94d690ad0633",
+      "type": "istar.DependencyLink",
+      "source": "3e9e5370-d86b-497d-92be-b6d17d2b0123",
+      "target": "fd273767-2d5f-4cda-9a57-856cc6bf478d"
+    },
+    {
+      "id": "3031cd50-d475-496d-80a3-531bbffb4fb5",
+      "type": "istar.DependencyLink",
+      "source": "4031181b-47cd-4441-bd59-af43d535a2e8",
+      "target": "9213d7d7-dd0e-4fa8-8f7d-40729b47c5ae"
+    },
+    {
+      "id": "d0e1f098-3408-4afc-bd8a-54db0df3edac",
+      "type": "istar.DependencyLink",
+      "source": "60815211-c698-4d83-bc37-70d3a74fab48",
+      "target": "4031181b-47cd-4441-bd59-af43d535a2e8"
+    },
+    {
+      "id": "0ed950f6-2102-4315-be0f-4dfa92829ab6",
+      "type": "istar.DependencyLink",
+      "source": "cd75dfa4-fc77-42fc-bd3b-631641d930e8",
+      "target": "9213d7d7-dd0e-4fa8-8f7d-40729b47c5ae"
+    },
+    {
+      "id": "ae9c76b5-0313-4e69-9534-54d52f759a3e",
+      "type": "istar.DependencyLink",
+      "source": "bc5ad10f-2a3c-4dc4-bf35-e41629f66fbc",
+      "target": "cd75dfa4-fc77-42fc-bd3b-631641d930e8"
+    },
+    {
+      "id": "8be6d58f-63e3-4e9c-a004-669fd9d042e3",
+      "type": "istar.ContributionLink",
+      "source": "73875e3f-95be-483b-b741-d448fa8582bf",
+      "target": "2d8a4a96-cb0a-4337-b13a-8b952bf9a1d4",
+      "label": "help"
+    },
+    {
+      "id": "5be6947b-833f-467d-960c-50d2147266a5",
+      "type": "istar.ContributionLink",
+      "source": "dbbef852-2d20-4d53-8715-feb02e7503a1",
+      "target": "73875e3f-95be-483b-b741-d448fa8582bf",
+      "label": "help"
+    },
+    {
+      "id": "e54c579e-b0d0-447c-aacc-4e0538d659d2",
+      "type": "istar.ContributionLink",
+      "source": "f4891875-2aef-49c3-8835-e6b1b0d3e95c",
+      "target": "73875e3f-95be-483b-b741-d448fa8582bf",
+      "label": "help"
+    },
+    {
+      "id": "17091a93-8b53-41e2-ae46-d673b82943a5",
+      "type": "istar.OrRefinementLink",
+      "source": "f52d41d5-d9d0-4e4b-905c-4d7f455cc044",
+      "target": "0f1197b8-6477-49ab-9d69-2850070d9a3f"
+    },
+    {
+      "id": "b2a5108d-ec25-487c-a049-8696d8136ec0",
+      "type": "istar.OrRefinementLink",
+      "source": "ef80c4d3-f8cd-498c-b6c0-46478613c75a",
+      "target": "0f1197b8-6477-49ab-9d69-2850070d9a3f"
+    },
+    {
+      "id": "2c25a1ed-7789-47c4-b2de-420bf451b80a",
+      "type": "istar.OrRefinementLink",
+      "source": "e9df2eda-0f98-499d-9a4c-0e0206690428",
+      "target": "0f1197b8-6477-49ab-9d69-2850070d9a3f"
+    },
+    {
+      "id": "f950fc18-cee6-402c-90bf-24b5ba19f0ac",
+      "type": "istar.AndRefinementLink",
+      "source": "7b952e98-b060-43bc-b13c-845af362f8bf",
+      "target": "e9df2eda-0f98-499d-9a4c-0e0206690428"
+    },
+    {
+      "id": "67f407bd-10be-4430-b759-795f96a93ba5",
+      "type": "istar.AndRefinementLink",
+      "source": "3436e3ee-86cd-4cbe-b9bc-8bcbf12998f0",
+      "target": "e9df2eda-0f98-499d-9a4c-0e0206690428"
+    },
+    {
+      "id": "2f7afd5c-a5d7-4496-9620-0d89b01047e6",
+      "type": "istar.AndRefinementLink",
+      "source": "2aec8568-8dcd-48dd-b5e3-7ece73596d1f",
+      "target": "ef80c4d3-f8cd-498c-b6c0-46478613c75a"
+    },
+    {
+      "id": "676b40ca-8c07-47bd-b717-920329332d7e",
+      "type": "istar.AndRefinementLink",
+      "source": "d2990c10-f509-42ba-a187-0794a6e0cf39",
+      "target": "ef80c4d3-f8cd-498c-b6c0-46478613c75a"
+    },
+    {
+      "id": "ea0598d7-e754-41b8-b793-80044edb982e",
+      "type": "istar.AndRefinementLink",
+      "source": "1e410d16-fb63-4215-bebb-ff30234fb7f5",
+      "target": "f52d41d5-d9d0-4e4b-905c-4d7f455cc044"
+    },
+    {
+      "id": "c362de5d-f860-4897-b359-0db6f582141b",
+      "type": "istar.AndRefinementLink",
+      "source": "16182c90-49e7-401d-99f2-4e56cf781cdd",
+      "target": "f52d41d5-d9d0-4e4b-905c-4d7f455cc044"
+    },
+    {
+      "id": "b181cc60-ca55-4f5d-b745-583c28996bb7",
+      "type": "istar.ContributionLink",
+      "source": "3436e3ee-86cd-4cbe-b9bc-8bcbf12998f0",
+      "target": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+      "label": "help"
+    },
+    {
+      "id": "9b2d199d-b1b2-4894-93f7-fc1fdc29af72",
+      "type": "istar.ContributionLink",
+      "source": "2aec8568-8dcd-48dd-b5e3-7ece73596d1f",
+      "target": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+      "label": "hurt"
+    },
+    {
+      "id": "6c4b4a34-2f4f-440a-a209-e1926edef7a7",
+      "type": "istar.ContributionLink",
+      "source": "d2990c10-f509-42ba-a187-0794a6e0cf39",
+      "target": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+      "label": "help"
+    },
+    {
+      "id": "8e84ed64-96ce-4df2-87ce-683983e22833",
+      "type": "istar.ContributionLink",
+      "source": "16182c90-49e7-401d-99f2-4e56cf781cdd",
+      "target": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+      "label": "hurt"
+    },
+    {
+      "id": "e6cbdde8-97d0-4b50-be4a-ad78ee42834e",
+      "type": "istar.ContributionLink",
+      "source": "1e410d16-fb63-4215-bebb-ff30234fb7f5",
+      "target": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+      "label": "help"
+    },
+    {
+      "id": "5e6dd14c-5ec4-4a40-836c-2e415a504b97",
+      "type": "istar.OrRefinementLink",
+      "source": "ab42d042-410e-4ca6-855d-e1af83c3ecc4",
+      "target": "95c6a7e2-9807-4111-8d92-60414b0a525a"
+    },
+    {
+      "id": "084cc54a-6f42-4a77-938c-cab858050d8e",
+      "type": "istar.ContributionLink",
+      "source": "ab42d042-410e-4ca6-855d-e1af83c3ecc4",
+      "target": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+      "label": "help"
+    },
+    {
+      "id": "bac2ca22-e298-4224-a5ce-43ebc273d736",
+      "type": "istar.AndRefinementLink",
+      "source": "e1a4ba55-f388-404b-a2d2-391041ef0773",
+      "target": "ab42d042-410e-4ca6-855d-e1af83c3ecc4"
+    },
+    {
+      "id": "d7920ab9-a309-4a89-b220-45437e985c72",
+      "type": "istar.AndRefinementLink",
+      "source": "df0dd1bf-c4e9-478f-b6cc-598be41acf56",
+      "target": "ab42d042-410e-4ca6-855d-e1af83c3ecc4"
+    },
+    {
+      "id": "68fa05cc-be10-47e1-909e-3274a15a7a2b",
+      "type": "istar.AndRefinementLink",
+      "source": "70dff3ad-1a92-4ba8-b943-09c4bb1f4412",
+      "target": "df0dd1bf-c4e9-478f-b6cc-598be41acf56"
+    },
+    {
+      "id": "5be782fc-f6dd-4c6b-9d4c-3c9dcb373f6f",
+      "type": "istar.AndRefinementLink",
+      "source": "8144e10c-1018-4f7e-8112-a066cafd0fe2",
+      "target": "df0dd1bf-c4e9-478f-b6cc-598be41acf56"
+    },
+    {
+      "id": "0154687b-fa9a-44b7-94cd-9c0b8c5f6b17",
+      "type": "istar.AndRefinementLink",
+      "source": "f63e2294-e8cb-45d7-9b5b-1cf40b0fb1ea",
+      "target": "e1a4ba55-f388-404b-a2d2-391041ef0773"
+    },
+    {
+      "id": "b9cf3405-9617-4b8e-9674-39574a6c684c",
+      "type": "istar.AndRefinementLink",
+      "source": "cb5e7938-f164-4f44-aa3d-c416038542e3",
+      "target": "e1a4ba55-f388-404b-a2d2-391041ef0773"
+    },
+    {
+      "id": "0346cec7-62af-46d7-80c7-cb68074ca8ab",
+      "type": "istar.ContributionLink",
+      "source": "cb5e7938-f164-4f44-aa3d-c416038542e3",
+      "target": "43d7e4a9-ae21-42a7-9ed2-c2cf19fcb99b",
+      "label": "help"
+    },
+    {
+      "id": "4cc9f0a8-1e77-40ed-b68f-fa47c7d8b95b",
+      "type": "istar.ContributionLink",
+      "source": "02fee4a6-8f94-4e77-aa0c-54574fff14a0",
+      "target": "43d7e4a9-ae21-42a7-9ed2-c2cf19fcb99b",
+      "label": "help"
+    },
+    {
+      "id": "a2ff9e97-f882-4f0b-96f0-b52ac45d31e1",
+      "type": "istar.AndRefinementLink",
+      "source": "7b952e98-b060-43bc-b13c-845af362f8bf",
+      "target": "02fee4a6-8f94-4e77-aa0c-54574fff14a0"
+    },
+    {
+      "id": "831c12ff-149c-40c8-8f5f-dce79296e7ec",
+      "type": "istar.AndRefinementLink",
+      "source": "b13975b1-8e9f-4f8e-84bb-8987b4c1db37",
+      "target": "66897d19-3cbe-4901-bd52-aafdb59d2972"
+    },
+    {
+      "id": "8c6f2bc1-7e72-4b98-a166-94f7a249f3c4",
+      "type": "istar.AndRefinementLink",
+      "source": "f5d36de8-c1b4-4033-92aa-e763f149a7d9",
+      "target": "66897d19-3cbe-4901-bd52-aafdb59d2972"
+    },
+    {
+      "id": "f2573080-da91-4746-9639-8602942802b2",
+      "type": "istar.AndRefinementLink",
+      "source": "b13975b1-8e9f-4f8e-84bb-8987b4c1db37",
+      "target": "02fee4a6-8f94-4e77-aa0c-54574fff14a0"
+    },
+    {
+      "id": "047d8f88-7821-4a71-8d5e-04bb559fad8d",
+      "type": "istar.AndRefinementLink",
+      "source": "232d2af7-d8fa-468d-a1fb-7799bae42113",
+      "target": "32527286-e802-4838-a614-9a8058bead32"
+    },
+    {
+      "id": "aaeff746-4ca8-4e73-a8c0-7b6c572599fa",
+      "type": "istar.AndRefinementLink",
+      "source": "232d2af7-d8fa-468d-a1fb-7799bae42113",
+      "target": "02fee4a6-8f94-4e77-aa0c-54574fff14a0"
+    },
+    {
+      "id": "13b1d288-b5cb-4568-a0c3-4d9da1f3d52a",
+      "type": "istar.AndRefinementLink",
+      "source": "4c29a54e-d4d7-4dba-ae9b-03d1dfd3c4f7",
+      "target": "32527286-e802-4838-a614-9a8058bead32"
+    },
+    {
+      "id": "c58156cb-2923-4b2d-9493-9c52611c6dd6",
+      "type": "istar.AndRefinementLink",
+      "source": "a408d99a-e056-4df4-b9e6-aefca3e61322",
+      "target": "02fee4a6-8f94-4e77-aa0c-54574fff14a0"
+    },
+    {
+      "id": "61d67ddf-005e-481d-8ed8-aacf543bffe5",
+      "type": "istar.AndRefinementLink",
+      "source": "a408d99a-e056-4df4-b9e6-aefca3e61322",
+      "target": "54c6bbe5-5991-4525-8184-cfea167d832d"
+    },
+    {
+      "id": "80526200-de51-4e09-b4f0-bd6fbca2773e",
+      "type": "istar.AndRefinementLink",
+      "source": "83743657-1812-437b-b1eb-79ab3d3baaf5",
+      "target": "54c6bbe5-5991-4525-8184-cfea167d832d"
+    },
+    {
+      "id": "bb74fef8-cefd-4fb0-93e3-4c625133488a",
+      "type": "istar.AndRefinementLink",
+      "source": "659548c9-d457-42c5-a94f-4077bcbb52fc",
+      "target": "02fee4a6-8f94-4e77-aa0c-54574fff14a0"
+    },
+    {
+      "id": "9ed84e14-f37b-4177-bb21-d6b4e2c8975d",
+      "type": "istar.AndRefinementLink",
+      "source": "659548c9-d457-42c5-a94f-4077bcbb52fc",
+      "target": "55a5e1af-ae63-4983-937f-ae474a13378a"
+    },
+    {
+      "id": "41df3ad3-05bd-435f-89e1-36d61e4de773",
+      "type": "istar.AndRefinementLink",
+      "source": "db670a5e-210e-4632-9835-93ad72722c76",
+      "target": "55a5e1af-ae63-4983-937f-ae474a13378a"
+    },
+    {
+      "id": "6627d9ad-4851-4bb6-8a24-f07a515207bc",
+      "type": "istar.ContributionLink",
+      "source": "54c6bbe5-5991-4525-8184-cfea167d832d",
+      "target": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+      "label": "help"
+    },
+    {
+      "id": "af398e98-86cb-416e-b2a3-2a2cd573a649",
+      "type": "istar.ContributionLink",
+      "source": "ae76e21a-7d1d-4b1b-8992-89634b57a744",
+      "target": "306e8e36-e97c-49e8-bf32-5de391a6f755",
+      "label": "help"
+    },
+    {
+      "id": "ce78e120-15c6-4a44-8af8-f2c3baa5022e",
+      "type": "istar.ContributionLink",
+      "source": "a8262649-c8ee-4a79-a53e-a45bee35e3bb",
+      "target": "306e8e36-e97c-49e8-bf32-5de391a6f755",
+      "label": "help"
+    },
+    {
+      "id": "6989cc1a-9fa2-4855-8978-9446a78c1777",
+      "type": "istar.OrRefinementLink",
+      "source": "a8262649-c8ee-4a79-a53e-a45bee35e3bb",
+      "target": "7ab5daff-c602-4688-855f-487d69efa929"
+    },
+    {
+      "id": "ec967d13-ece1-4aab-a786-f3878dddbcff",
+      "type": "istar.OrRefinementLink",
+      "source": "691a2e69-92c8-469d-b596-7e638469ed72",
+      "target": "7ab5daff-c602-4688-855f-487d69efa929"
+    },
+    {
+      "id": "04ca2ab5-3f42-4806-a22a-88d05e265c58",
+      "type": "istar.ContributionLink",
+      "source": "691a2e69-92c8-469d-b596-7e638469ed72",
+      "target": "306e8e36-e97c-49e8-bf32-5de391a6f755",
+      "label": "hurt"
+    },
+    {
+      "id": "a6a1bb3d-bf7a-45fc-a3fe-5284da4939b4",
+      "type": "istar.AndRefinementLink",
+      "source": "7ab5daff-c602-4688-855f-487d69efa929",
+      "target": "444b0f7d-714c-4fd7-9b4b-ff40f60aa2a6"
+    },
+    {
+      "id": "2375d2b9-17de-4684-abd0-7a769239ea35",
+      "type": "istar.AndRefinementLink",
+      "source": "8cef419e-7c24-4362-bb58-bf6ef08a8d60",
+      "target": "444b0f7d-714c-4fd7-9b4b-ff40f60aa2a6"
+    },
+    {
+      "id": "e729f74f-3ff0-47c6-a13c-ebf068126377",
+      "type": "istar.AndRefinementLink",
+      "source": "7de355a0-bba4-4601-a44b-d6921fed9f51",
+      "target": "444b0f7d-714c-4fd7-9b4b-ff40f60aa2a6"
+    },
+    {
+      "id": "0bc5de0c-24e1-4774-ac96-8d8a3c4d6b57",
+      "type": "istar.OrRefinementLink",
+      "source": "444b0f7d-714c-4fd7-9b4b-ff40f60aa2a6",
+      "target": "0fba3a34-f962-412b-afea-93d46e1952d3"
+    },
+    {
+      "id": "76ee84e2-9bed-46ed-9f14-131d64dfe77d",
+      "type": "istar.AndRefinementLink",
+      "source": "cc544c2f-9198-4094-98fd-51419219062e",
+      "target": "444b0f7d-714c-4fd7-9b4b-ff40f60aa2a6"
+    },
+    {
+      "id": "fbb8fdeb-2582-4779-877e-e2ac106e60c1",
+      "type": "istar.AndRefinementLink",
+      "source": "d60abbe6-2958-4f2e-a5bd-f89b27cdd42a",
+      "target": "cc544c2f-9198-4094-98fd-51419219062e"
+    },
+    {
+      "id": "27051707-33d3-4e05-ae17-77e6f9f90768",
+      "type": "istar.OrRefinementLink",
+      "source": "5db41fe7-a14f-4b92-bcc9-54c9b7b251f4",
+      "target": "ddda6966-00ef-4cec-9293-34092ecb3cae"
+    },
+    {
+      "id": "f42815cf-c692-4a4e-8653-f899f5b13dae",
+      "type": "istar.AndRefinementLink",
+      "source": "d272be9e-0a17-4fcb-8b25-9ef6b1447d6a",
+      "target": "5db41fe7-a14f-4b92-bcc9-54c9b7b251f4"
+    },
+    {
+      "id": "aa58ec3a-071a-4107-918b-44949987f424",
+      "type": "istar.AndRefinementLink",
+      "source": "4a5cb04c-29db-4d11-a2db-f31e4ede4f70",
+      "target": "a8262649-c8ee-4a79-a53e-a45bee35e3bb"
+    },
+    {
+      "id": "c033df11-c8e7-4ed8-b8c7-50aa6a0b95a2",
+      "type": "istar.ContributionLink",
+      "source": "cdad37fc-fdfd-4fb0-8c7a-4d1487b6c76b",
+      "target": "bdcfc8dc-729e-465d-9591-b89e78b75a6e",
+      "label": "help"
+    },
+    {
+      "id": "72422bfb-3a28-4011-bde3-0a37747957b9",
+      "type": "istar.ContributionLink",
+      "source": "4f33f1de-facc-49e7-a641-456c0868ac24",
+      "target": "bdcfc8dc-729e-465d-9591-b89e78b75a6e",
+      "label": "help"
+    },
+    {
+      "id": "d7263aa7-7d99-4e1f-8476-e90b6c60b36b",
+      "type": "istar.AndRefinementLink",
+      "source": "20fe2729-bfa4-4b00-9e5e-5f86f562d591",
+      "target": "4f33f1de-facc-49e7-a641-456c0868ac24"
+    },
+    {
+      "id": "6f03c65f-9794-4e10-8403-61d3b2f4589c",
+      "type": "istar.AndRefinementLink",
+      "source": "93f37011-9b3b-432e-9cfc-4b0bed758610",
+      "target": "4f33f1de-facc-49e7-a641-456c0868ac24"
+    },
+    {
+      "id": "2e08768c-31d4-4522-ba23-6eb7755fcce9",
+      "type": "istar.AndRefinementLink",
+      "source": "71aaefc4-7d1d-4f58-ac51-2e4bfd9873d2",
+      "target": "4f33f1de-facc-49e7-a641-456c0868ac24"
+    },
+    {
+      "id": "5c578583-afd1-40c8-a906-fffd17273e48",
+      "type": "istar.AndRefinementLink",
+      "source": "60815211-c698-4d83-bc37-70d3a74fab48",
+      "target": "93f37011-9b3b-432e-9cfc-4b0bed758610"
+    },
+    {
+      "id": "928e84f5-7d83-409f-91c9-630204dd9c0a",
+      "type": "istar.QualificationLink",
+      "source": "3e9e5370-d86b-497d-92be-b6d17d2b0123",
+      "target": "cdad37fc-fdfd-4fb0-8c7a-4d1487b6c76b"
+    },
+    {
+      "id": "9f2f199e-ceb1-4c42-a791-c82419b3a6b8",
+      "type": "istar.AndRefinementLink",
+      "source": "1a2897dd-9bdf-4965-9dbe-4469721e3953",
+      "target": "7de355a0-bba4-4601-a44b-d6921fed9f51"
+    },
+    {
+      "id": "cf2e2f33-221e-45f8-90c9-2c6f1a68e2a6",
+      "type": "istar.AndRefinementLink",
+      "source": "be5b6c0d-028e-4ddb-998e-3652a66c3bc8",
+      "target": "02fee4a6-8f94-4e77-aa0c-54574fff14a0"
+    }
+  ],
+  "display": {
+    "f4891875-2aef-49c3-8835-e6b1b0d3e95c": {
+      "width": 137.5,
+      "height": 66.84375
+    },
+    "cdad37fc-fdfd-4fb0-8c7a-4d1487b6c76b": {
+      "width": 112,
+      "height": 49.84375
+    },
+    "93f37011-9b3b-432e-9cfc-4b0bed758610": {
+      "width": 109,
+      "height": 56.84375
+    },
+    "71aaefc4-7d1d-4f58-ac51-2e4bfd9873d2": {
+      "width": 112,
+      "height": 51.84375
+    },
+    "60815211-c698-4d83-bc37-70d3a74fab48": {
+      "width": 111.5,
+      "height": 50.84375
+    },
+    "e0a1f15d-8a3c-4f1a-a2cc-8308d3aea345": {
+      "vertices": [
+        {
+          "x": 374,
+          "y": 2208
+        }
+      ]
+    },
+    "e73a9535-f96d-4a69-918a-8a5b935e5e62": {
+      "vertices": [
+        {
+          "x": 199,
+          "y": 1530
+        }
+      ]
+    },
+    "435984f6-1aec-49a5-9c0d-746fd41dd2e8": {
+      "vertices": [
+        {
+          "x": 430,
+          "y": 2328
+        }
+      ]
+    },
+    "baf8bc91-f945-47df-8ae6-34499756efed": {
+      "vertices": [
+        {
+          "x": 179,
+          "y": 1685
+        }
+      ]
+    },
+    "b181cc60-ca55-4f5d-b745-583c28996bb7": {
+      "vertices": [
+        {
+          "x": 574,
+          "y": 994
+        }
+      ]
+    },
+    "9b2d199d-b1b2-4894-93f7-fc1fdc29af72": {
+      "vertices": [
+        {
+          "x": 625,
+          "y": 995
+        }
+      ]
+    },
+    "6c4b4a34-2f4f-440a-a209-e1926edef7a7": {
+      "vertices": [
+        {
+          "x": 695,
+          "y": 993
+        }
+      ]
+    },
+    "8e84ed64-96ce-4df2-87ce-683983e22833": {
+      "vertices": [
+        {
+          "x": 832,
+          "y": 945
+        }
+      ]
+    },
+    "e6cbdde8-97d0-4b50-be4a-ad78ee42834e": {
+      "vertices": [
+        {
+          "x": 912,
+          "y": 948
+        }
+      ]
+    },
+    "084cc54a-6f42-4a77-938c-cab858050d8e": {
+      "vertices": [
+        {
+          "x": 1058,
+          "y": 930
+        }
+      ]
+    },
+    "6627d9ad-4851-4bb6-8a24-f07a515207bc": {
+      "vertices": [
+        {
+          "x": 732,
+          "y": 1148
+        }
+      ]
+    },
+    "af398e98-86cb-416e-b2a3-2a2cd573a649": {
+      "vertices": [
+        {
+          "x": 274,
+          "y": 1062
+        }
+      ]
+    },
+    "ce78e120-15c6-4a44-8af8-f2c3baa5022e": {
+      "vertices": [
+        {
+          "x": 280,
+          "y": 1619
+        }
+      ]
+    },
+    "04ca2ab5-3f42-4806-a22a-88d05e265c58": {
+      "vertices": [
+        {
+          "x": 410,
+          "y": 1678
+        }
+      ]
+    },
+    "c033df11-c8e7-4ed8-b8c7-50aa6a0b95a2": {
+      "vertices": [
+        {
+          "x": 1219,
+          "y": 1518.92
+        }
+      ]
+    },
+    "72422bfb-3a28-4011-bde3-0a37747957b9": {
+      "vertices": [
+        {
+          "x": 1092,
+          "y": 1564
+        }
+      ]
+    },
+    "9213d7d7-dd0e-4fa8-8f7d-40729b47c5ae": {
+      "collapsed": true
+    },
+    "4cc37e42-f08a-4ac6-bc32-8f8fff00a215": {
+      "collapsed": true
+    },
+    "637150b9-9f89-4d27-bd8b-af6d174800bc": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Sat, 23 May 2026 08:03:05 GMT",
+  "diagram": {
+    "width": 2915,
+    "height": 2710,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

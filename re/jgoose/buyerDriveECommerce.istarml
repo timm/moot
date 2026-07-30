@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<istarml version="1.0"><diagrams id="" name="Exported from E4J">
+<actor id="8" name="Middleman as Seller [Service]" type="actor"/>
+<actor id="9" name="Supplier [Service]" type="actor"/>
+<actor id="2" name="Custumer as Buyer  [Service]" type="actor"/>
+<ielement id="4" name="Name a Price [Service]" type="task">
+	<dependency>
+		<depender aref="8"/>
+		<dependee aref="2"/>
+	</dependency>
+</ielement>
+<ielement id="13" name="Agreement on Price [P]" type="resource">
+	<dependency>
+		<depender aref="8"/>
+		<dependee aref="9"/>
+	</dependency>
+</ielement>
+<ielement id="3" name="Low Price Service Provider Be Found" type="goal">
+	<dependency>
+		<depender aref="2"/>
+		<dependee aref="8"/>
+	</dependency>
+</ielement>
+<ielement id="7" name="Loyalty" type="softgoal">
+	<dependency>
+		<depender aref="8"/>
+		<dependee aref="2"/>
+	</dependency>
+</ielement>
+<ielement id="12" name="Attract More Customers [Service]" type="softgoal">
+	<dependency>
+		<depender aref="9"/>
+		<dependee aref="8"/>
+	</dependency>
+</ielement>
+<ielement id="11" name="Acceptable Price [Service]" type="softgoal">
+<dependency>
+	<depender aref="9"/>
+	<dependee aref="2"/>
+</dependency>
+</ielement>
+<ielement id="10" name="Good Quality [Service]" type="softgoal">
+	<dependency>
+		<depender aref="2"/>
+		<dependee aref="9"/>
+	</dependency>
+</ielement>
+<ielement id="5" name="Pay for Purchase [Service]" type="task">
+	<dependency>
+		<depender aref="8"/>
+		<dependee aref="2"/>
+	</dependency>
+</ielement>
+</diagrams>
+</istarml>

@@ -1,0 +1,197 @@
+{
+    "edges": [
+        {
+            "component": "edge", 
+            "id": 11, 
+            "source": 6, 
+            "target": 1, 
+            "type": "contribution", 
+            "value": "someplus"
+        }, 
+        {
+            "component": "edge", 
+            "id": 12, 
+            "source": 6, 
+            "target": 2, 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 13, 
+            "source": 4, 
+            "target": 3, 
+            "type": "decompositions", 
+            "value": "and"
+        }, 
+        {
+            "component": "edge", 
+            "id": 14, 
+            "source": 5, 
+            "target": 3, 
+            "type": "decompositions", 
+            "value": "and"
+        }, 
+        {
+            "component": "edge", 
+            "id": 15, 
+            "source": 4, 
+            "target": 7, 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 16, 
+            "source": 8, 
+            "target": 6, 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 17, 
+            "source": 9, 
+            "target": 6, 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 18, 
+            "source": 5, 
+            "target": 10, 
+            "type": "dependency", 
+            "value": "dependency"
+        }
+    ], 
+    "name": "bCMS_SR_Witness", 
+    "nodes": [
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": 0, 
+            "name": "Provide accurate Information", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                11
+            ], 
+            "id": 1, 
+            "name": "To know what to do", 
+            "to_edges": [], 
+            "type": "softgoal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                12
+            ], 
+            "id": 2, 
+            "name": "Follow instructions from firemen", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                13, 
+                14
+            ], 
+            "id": 3, 
+            "name": "Provide crisis related info", 
+            "to_edges": [], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": 4, 
+            "name": "Provide to fireman", 
+            "to_edges": [
+                13, 
+                15
+            ], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": 5, 
+            "name": "Provide info to police", 
+            "to_edges": [
+                14, 
+                18
+            ], 
+            "type": "task"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                16, 
+                17
+            ], 
+            "id": 6, 
+            "name": "Receive instructions", 
+            "to_edges": [
+                11, 
+                12
+            ], 
+            "type": "goal"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                15
+            ], 
+            "id": 7, 
+            "name": "Crisis-related information(Fire)", 
+            "to_edges": [], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": 8, 
+            "name": "Instructions(Fire)", 
+            "to_edges": [
+                16
+            ], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [], 
+            "id": 9, 
+            "name": "Instructions(Police)", 
+            "to_edges": [
+                17
+            ], 
+            "type": "resource"
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "from_edges": [
+                18
+            ], 
+            "id": 10, 
+            "name": "Crisis-related information(Police)", 
+            "to_edges": [], 
+            "type": "task"
+        }
+    ]
+}

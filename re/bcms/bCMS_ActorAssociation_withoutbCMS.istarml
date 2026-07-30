@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version="1.0">
+   <diagram name="bCMS_ActorAssociation.ood">
+      <graphic content="SVG"/>
+      <actor type="role" id="_2i1X4NKvEeGgRv0sG0abZw" name="Fire Station Coordinator (FSC)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_BGGiUNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+         <actorLink type="is_a" aref="_H6iDgNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_7ajUwNKvEeGgRv0sG0abZw"
+             name="Police Station Coordinator (PSC)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_H6iDgNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+         <actorLink type="is_a" aref="_-aAvgNKvEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_-aAvgNKvEeGgRv0sG0abZw" name="Police Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_8nKcYNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_BGGiUNKwEeGgRv0sG0abZw" name="Fire Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_6PTNINKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_H6iDgNKwEeGgRv0sG0abZw" name="Coordinators">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_QshdkNKwEeGgRv0sG0abZw" name="Human Distributed Coordinator">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="plays" aref="_H6iDgNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_6PTNINKwEeGgRv0sG0abZw" name="Fire Station">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_8nKcYNKwEeGgRv0sG0abZw" name="Police Station">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_SgtikNKxEeGgRv0sG0abZw" name="Fire Station Database">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_6PTNINKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_bL04kNKxEeGgRv0sG0abZw" name="Police Station Database">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_8nKcYNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_zCXP4NKxEeGgRv0sG0abZw" name="Fireman">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_BGGiUNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="__KjwwNKxEeGgRv0sG0abZw" name="Victim">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_jY80kPnNEeG4GvNfh4M6Xg">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_CSZrcNKyEeGgRv0sG0abZw" name="Witnesses">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_jY80kPnNEeG4GvNfh4M6Xg">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_P5RJwNKyEeGgRv0sG0abZw" name="Police Officer (Policeman)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_-aAvgNKvEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_wHtnMNKyEeGgRv0sG0abZw" name="Government Agency">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="role" id="_0ngMQNKyEeGgRv0sG0abZw" name="Communication Compromiser">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="role" id="_jY80kPnNEeG4GvNfh4M6Xg" name="General Public">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+   </diagram>
+</istarml>

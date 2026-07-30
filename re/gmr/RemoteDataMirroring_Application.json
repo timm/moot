@@ -1,0 +1,545 @@
+{
+  "actors": [
+    {
+      "id": "734bda0f-2042-4efb-9a08-9f26fcd75c5f",
+      "text": "RDM",
+      "type": "istar.Actor",
+      "x": 171,
+      "y": 106,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "522a0085-7b21-4ad2-bc91-e03599e3ddc4",
+          "text": "Number of Data Copies matches Number of Servers",
+          "type": "istar.Goal",
+          "x": 356,
+          "y": 106,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cb59ddc2-9b5d-4145-85d5-b2041898fcf7",
+          "text": "Maintain Operational Costs within Budget",
+          "type": "istar.Goal",
+          "x": 249,
+          "y": 249,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c16394a2-5175-4898-bb19-9f261e557c55",
+          "text": "Data risk <= Risk Threshold",
+          "type": "istar.Goal",
+          "x": 390,
+          "y": 289,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8c01d752-ca20-43a7-bf41-c178afe2dad8",
+          "text": "Diffusion Time <= MaxTime",
+          "type": "istar.Goal",
+          "x": 534,
+          "y": 268,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "27f8891d-5090-4a59-a744-4a3485bfcc69",
+          "text": "Measure Network Properties",
+          "type": "istar.Goal",
+          "x": 220,
+          "y": 388,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "84b4bed5-a413-46a4-a571-c08e6e31aa2d",
+          "text": "Network Partitions == 0",
+          "type": "istar.Goal",
+          "x": 313,
+          "y": 374.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "47a0551e-e560-46f3-8558-d4b10dff1c8a",
+      "text": "Network Controller",
+      "type": "istar.Actor",
+      "x": 813,
+      "y": 164,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "194b0cbe-fcd5-4b3c-966d-0734cf3a49d8",
+          "text": "Send Data Synchronously",
+          "type": "istar.Task",
+          "x": 896,
+          "y": 354,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "405dd4a4-c83c-41e0-86a6-a35e99ee9c74",
+          "text": "Send Data Asynchronously",
+          "type": "istar.Task",
+          "x": 994,
+          "y": 389,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ffe06a22-b04d-4b24-99e4-bfc946038bb1",
+          "text": "Send Data",
+          "type": "istar.Task",
+          "x": 872,
+          "y": 458,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3e4a2df2-1eb2-4763-a8d2-b9f8b008f848",
+          "text": "Data Received = Data Sent",
+          "type": "istar.Task",
+          "x": 1076,
+          "y": 196,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b72fe415-54d4-4223-8032-f46e3392c4e8",
+          "text": "Data Sent = Number of Data Copies",
+          "type": "istar.Task",
+          "x": 943,
+          "y": 164,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9c4a9a5b-94f3-4654-bb30-2f93710001b2",
+          "text": "Low Diffusion Time",
+          "type": "istar.Goal",
+          "x": 889,
+          "y": 253.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "ff4930ed-fa45-4755-83d3-d78e174514c8",
+      "text": "Network Actuator",
+      "type": "istar.Actor",
+      "x": 635,
+      "y": 610,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "38052a9b-7535-4b6a-9747-84675270185e",
+          "text": "Activate Link",
+          "type": "istar.Task",
+          "x": 686,
+          "y": 728,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "58e4b4f0-d466-4b03-84d5-ec4a6b76ae3c",
+          "text": "Deactivate Link",
+          "type": "istar.Task",
+          "x": 836,
+          "y": 699,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "202cef9f-50c8-474d-8f20-03ead0279a67",
+          "text": "Network Link Connectivity",
+          "type": "istar.Goal",
+          "x": 745,
+          "y": 622,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "a60e4965-b241-4fce-878c-2fbebb3f3afc",
+      "text": "RDM Sensor",
+      "type": "istar.Agent",
+      "x": 566,
+      "y": 819,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "9ea177b3-b473-45e2-a1d7-c923982bb233",
+          "text": "Measure Workload",
+          "type": "istar.Task",
+          "x": 656,
+          "y": 859,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5656620c-7eb2-44b2-9fb9-e671307a00d3",
+      "text": "Link Sensor",
+      "type": "istar.Agent",
+      "x": 101,
+      "y": 704,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "8db7afac-54a3-4982-88d8-88e57cfaa925",
+          "text": "Measure Cost",
+          "type": "istar.Task",
+          "x": 148,
+          "y": 782,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0821e790-8923-4034-8b00-f96c19d3753c",
+          "text": "Measure Loss Rate",
+          "type": "istar.Task",
+          "x": 222,
+          "y": 859,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7f8273a3-1a4c-440e-adba-05813606e497",
+          "text": "Measure Capacity",
+          "type": "istar.Task",
+          "x": 327,
+          "y": 843,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c5ca2b7c-c39c-43b0-9d94-6654b108bcaf",
+          "text": "Measure Throughput",
+          "type": "istar.Task",
+          "x": 402,
+          "y": 793,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "98b83379-e3e6-4c10-b175-d3be7a9b7c8a",
+          "text": "Store Network Properties",
+          "type": "istar.Goal",
+          "x": 258,
+          "y": 725,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "03853b47-8a29-4e2b-a80c-1131a9cad3e7",
+      "text": "Send Data",
+      "type": "istar.Goal",
+      "x": 705,
+      "y": 374,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c16394a2-5175-4898-bb19-9f261e557c55",
+      "target": "ffe06a22-b04d-4b24-99e4-bfc946038bb1"
+    },
+    {
+      "id": "90f2a49e-10b1-4f5c-8a13-666212ebabc5",
+      "text": "Diffusion Time <= MaxTime",
+      "type": "istar.Goal",
+      "x": 702,
+      "y": 292,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "8c01d752-ca20-43a7-bf41-c178afe2dad8",
+      "target": "9c4a9a5b-94f3-4654-bb30-2f93710001b2"
+    },
+    {
+      "id": "c3298fce-99d8-4db1-b3b8-8d62b395ec37",
+      "text": "Cost, Loss Rate, Capacity, Throughput Data",
+      "type": "istar.Resource",
+      "x": 254,
+      "y": 586,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "27f8891d-5090-4a59-a744-4a3485bfcc69",
+      "target": "98b83379-e3e6-4c10-b175-d3be7a9b7c8a"
+    },
+    {
+      "id": "8f746dc7-441e-448a-bd99-8b9b73d6efcc",
+      "text": "Workload",
+      "type": "istar.Resource",
+      "x": 434,
+      "y": 629,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "27f8891d-5090-4a59-a744-4a3485bfcc69",
+      "target": "9ea177b3-b473-45e2-a1d7-c923982bb233"
+    },
+    {
+      "id": "0f073cde-c1ef-4e32-91b2-a5822067669b",
+      "text": "Network Connectivity",
+      "type": "istar.Goal",
+      "x": 550,
+      "y": 501,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "84b4bed5-a413-46a4-a571-c08e6e31aa2d",
+      "target": "202cef9f-50c8-474d-8f20-03ead0279a67"
+    }
+  ],
+  "links": [
+    {
+      "id": "8c5b83a4-1396-4f7c-848f-551bfca36c47",
+      "type": "istar.DependencyLink",
+      "source": "0f073cde-c1ef-4e32-91b2-a5822067669b",
+      "target": "202cef9f-50c8-474d-8f20-03ead0279a67"
+    },
+    {
+      "id": "0024d6b9-e9c5-42c6-bf76-04c2375453ba",
+      "type": "istar.DependencyLink",
+      "source": "84b4bed5-a413-46a4-a571-c08e6e31aa2d",
+      "target": "0f073cde-c1ef-4e32-91b2-a5822067669b"
+    },
+    {
+      "id": "5a598fa2-427d-4e85-a217-e2ad1c6c481e",
+      "type": "istar.DependencyLink",
+      "source": "8f746dc7-441e-448a-bd99-8b9b73d6efcc",
+      "target": "9ea177b3-b473-45e2-a1d7-c923982bb233"
+    },
+    {
+      "id": "0ca40ac2-ccc4-44e3-abf4-d9690b62c099",
+      "type": "istar.DependencyLink",
+      "source": "27f8891d-5090-4a59-a744-4a3485bfcc69",
+      "target": "8f746dc7-441e-448a-bd99-8b9b73d6efcc"
+    },
+    {
+      "id": "ffbb3f3e-b743-4a94-94ef-caa2c5c371da",
+      "type": "istar.DependencyLink",
+      "source": "c3298fce-99d8-4db1-b3b8-8d62b395ec37",
+      "target": "98b83379-e3e6-4c10-b175-d3be7a9b7c8a"
+    },
+    {
+      "id": "7e1e440c-5c97-4feb-8656-bfb7f1bb86b2",
+      "type": "istar.DependencyLink",
+      "source": "27f8891d-5090-4a59-a744-4a3485bfcc69",
+      "target": "c3298fce-99d8-4db1-b3b8-8d62b395ec37"
+    },
+    {
+      "id": "92e9c7cd-550f-4e08-97fd-2736c17c71c0",
+      "type": "istar.DependencyLink",
+      "source": "90f2a49e-10b1-4f5c-8a13-666212ebabc5",
+      "target": "9c4a9a5b-94f3-4654-bb30-2f93710001b2"
+    },
+    {
+      "id": "03916b73-819c-4e26-bca5-d8c5cb5a05fe",
+      "type": "istar.DependencyLink",
+      "source": "8c01d752-ca20-43a7-bf41-c178afe2dad8",
+      "target": "90f2a49e-10b1-4f5c-8a13-666212ebabc5"
+    },
+    {
+      "id": "eeb9f64c-3132-41d0-858b-c08022a3f504",
+      "type": "istar.DependencyLink",
+      "source": "03853b47-8a29-4e2b-a80c-1131a9cad3e7",
+      "target": "ffe06a22-b04d-4b24-99e4-bfc946038bb1"
+    },
+    {
+      "id": "cd9f7e44-bc7b-4eea-8684-c2c830566e0c",
+      "type": "istar.DependencyLink",
+      "source": "c16394a2-5175-4898-bb19-9f261e557c55",
+      "target": "03853b47-8a29-4e2b-a80c-1131a9cad3e7"
+    },
+    {
+      "id": "57de676e-6fc0-47b4-99bc-34223fa18e87",
+      "type": "istar.AndRefinementLink",
+      "source": "cb59ddc2-9b5d-4145-85d5-b2041898fcf7",
+      "target": "522a0085-7b21-4ad2-bc91-e03599e3ddc4"
+    },
+    {
+      "id": "ec6d37a4-93f2-4d0d-85c7-315701ba0666",
+      "type": "istar.AndRefinementLink",
+      "source": "c16394a2-5175-4898-bb19-9f261e557c55",
+      "target": "522a0085-7b21-4ad2-bc91-e03599e3ddc4"
+    },
+    {
+      "id": "3a36d955-1f05-479f-aef2-b2c4ce1ab492",
+      "type": "istar.AndRefinementLink",
+      "source": "8c01d752-ca20-43a7-bf41-c178afe2dad8",
+      "target": "522a0085-7b21-4ad2-bc91-e03599e3ddc4"
+    },
+    {
+      "id": "a0d7b1e6-0798-4cd5-a92d-260366816214",
+      "type": "istar.OrRefinementLink",
+      "source": "194b0cbe-fcd5-4b3c-966d-0734cf3a49d8",
+      "target": "ffe06a22-b04d-4b24-99e4-bfc946038bb1"
+    },
+    {
+      "id": "284a67be-25a5-4f08-bf30-e4a42f01df5e",
+      "type": "istar.OrRefinementLink",
+      "source": "405dd4a4-c83c-41e0-86a6-a35e99ee9c74",
+      "target": "ffe06a22-b04d-4b24-99e4-bfc946038bb1"
+    },
+    {
+      "id": "17ef7365-aab9-43b7-97dd-51636f2eca10",
+      "type": "istar.AndRefinementLink",
+      "source": "b72fe415-54d4-4223-8032-f46e3392c4e8",
+      "target": "9c4a9a5b-94f3-4654-bb30-2f93710001b2"
+    },
+    {
+      "id": "2a943a1d-1c28-4959-bae5-27b9b89ae84b",
+      "type": "istar.AndRefinementLink",
+      "source": "3e4a2df2-1eb2-4763-a8d2-b9f8b008f848",
+      "target": "9c4a9a5b-94f3-4654-bb30-2f93710001b2"
+    },
+    {
+      "id": "28b28ebd-5c88-4c31-85d1-2f4eadfbaaec",
+      "type": "istar.AndRefinementLink",
+      "source": "98b83379-e3e6-4c10-b175-d3be7a9b7c8a",
+      "target": "8db7afac-54a3-4982-88d8-88e57cfaa925"
+    },
+    {
+      "id": "ec20383b-d919-4023-901c-34fb568d7dce",
+      "type": "istar.AndRefinementLink",
+      "source": "98b83379-e3e6-4c10-b175-d3be7a9b7c8a",
+      "target": "0821e790-8923-4034-8b00-f96c19d3753c"
+    },
+    {
+      "id": "c0e555d4-cf3d-4df4-b9ab-ce053146cd8c",
+      "type": "istar.AndRefinementLink",
+      "source": "98b83379-e3e6-4c10-b175-d3be7a9b7c8a",
+      "target": "7f8273a3-1a4c-440e-adba-05813606e497"
+    },
+    {
+      "id": "a35fc336-172b-49d7-8ebc-5505c39a24b7",
+      "type": "istar.AndRefinementLink",
+      "source": "98b83379-e3e6-4c10-b175-d3be7a9b7c8a",
+      "target": "c5ca2b7c-c39c-43b0-9d94-6654b108bcaf"
+    },
+    {
+      "id": "3866fc5d-4f5d-4dac-8652-2c447efae9d4",
+      "type": "istar.OrRefinementLink",
+      "source": "38052a9b-7535-4b6a-9747-84675270185e",
+      "target": "202cef9f-50c8-474d-8f20-03ead0279a67"
+    },
+    {
+      "id": "e9cf984f-4f19-491b-80d8-039fa6928856",
+      "type": "istar.OrRefinementLink",
+      "source": "58e4b4f0-d466-4b03-84d5-ec4a6b76ae3c",
+      "target": "202cef9f-50c8-474d-8f20-03ead0279a67"
+    },
+    {
+      "id": "24b22b84-3df7-440e-849c-3896350164b7",
+      "type": "istar.AndRefinementLink",
+      "source": "84b4bed5-a413-46a4-a571-c08e6e31aa2d",
+      "target": "cb59ddc2-9b5d-4145-85d5-b2041898fcf7"
+    },
+    {
+      "id": "7ba88633-ca07-43ed-b104-ed0117eddabe",
+      "type": "istar.AndRefinementLink",
+      "source": "27f8891d-5090-4a59-a744-4a3485bfcc69",
+      "target": "cb59ddc2-9b5d-4145-85d5-b2041898fcf7"
+    }
+  ],
+  "display": {
+    "522a0085-7b21-4ad2-bc91-e03599e3ddc4": {
+      "width": 119.5,
+      "height": 60.34375
+    },
+    "cb59ddc2-9b5d-4145-85d5-b2041898fcf7": {
+      "width": 123.5,
+      "height": 68.84375
+    },
+    "c16394a2-5175-4898-bb19-9f261e557c55": {
+      "width": 109.5,
+      "height": 48.84375
+    },
+    "8c01d752-ca20-43a7-bf41-c178afe2dad8": {
+      "width": 99.5,
+      "height": 55.84375
+    },
+    "38052a9b-7535-4b6a-9747-84675270185e": {
+      "width": 108.5,
+      "height": 43.84375
+    },
+    "58e4b4f0-d466-4b03-84d5-ec4a6b76ae3c": {
+      "width": 114.5,
+      "height": 50.84375
+    },
+    "202cef9f-50c8-474d-8f20-03ead0279a67": {
+      "width": 105.5,
+      "height": 40.84375
+    },
+    "98b83379-e3e6-4c10-b175-d3be7a9b7c8a": {
+      "width": 104.5,
+      "height": 46.34375
+    },
+    "c3298fce-99d8-4db1-b3b8-8d62b395ec37": {
+      "width": 111.5,
+      "height": 59.84375
+    },
+    "ffbb3f3e-b743-4a94-94ef-caa2c5c371da": {
+      "vertices": [
+        {
+          "x": 314,
+          "y": 633
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Sun, 03 May 2026 18:24:01 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1291,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

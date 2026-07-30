@@ -1,0 +1,977 @@
+{
+  "actors": [
+    {
+      "id": "0288d859-9547-4862-aff9-edf1c04e60cf",
+      "text": "Patient assistant",
+      "type": "istar.Role",
+      "x": 898,
+      "y": 950,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "68dc3439-5dc2-4c03-87e0-3dbc405598dc",
+          "text": "g19: Get up patient with transfer sling",
+          "type": "istar.Goal",
+          "x": 1050,
+          "y": 978,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9fa8de91-dd37-42e2-ad55-704cd5fa9600",
+          "text": "g20: Position transfer sling",
+          "type": "istar.Goal",
+          "x": 977,
+          "y": 1099,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8de30efc-dd04-4c62-bd6c-22289b5f7500",
+          "text": "g21: Get patient up",
+          "type": "istar.Goal",
+          "x": 1130,
+          "y": 1103,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "db8c521e-7d05-470e-88ff-91cbe18d6028",
+          "text": "t22: position sling manually",
+          "type": "istar.Task",
+          "x": 898,
+          "y": 1191,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ac565a14-821a-454e-bb9e-c158adbd010d",
+          "text": "t23: position sling with remote",
+          "type": "istar.Task",
+          "x": 1004.5,
+          "y": 1202,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4c32cb34-cd66-4dc8-93a4-76853b36ac9d",
+          "text": "t24: activate sling",
+          "type": "istar.Task",
+          "x": 1174,
+          "y": 1216,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ea727195-5236-4b2c-a0ea-e31d18c469de",
+          "text": "g22: Wash patient",
+          "type": "istar.Goal",
+          "x": 1351,
+          "y": 1038,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ef6fb6a5-8270-4cee-8de1-532bad3b510c",
+          "text": "g23: Wash in basin",
+          "type": "istar.Goal",
+          "x": 1304,
+          "y": 1150,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f661fff9-65ba-4365-a65a-96a7d6921150",
+          "text": "g24: support patient in having a shower",
+          "type": "istar.Goal",
+          "x": 1477,
+          "y": 1154,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ab2cf642-8391-4a63-9275-d00c40420379",
+          "text": "t25: clean patient's face/hands",
+          "type": "istar.Task",
+          "x": 1286,
+          "y": 1271,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "840c600d-727f-483a-a1e1-8fcd8b90e4d6",
+          "text": "t28: use shower chair",
+          "type": "istar.Task",
+          "x": 1411.5,
+          "y": 1253,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "433f7e43-c507-4892-a1d9-d484d0b71db3",
+          "text": "t27: help patient to stand",
+          "type": "istar.Task",
+          "x": 1507.5,
+          "y": 1261,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "fc5c097d-6b00-4efb-a192-a5538f70d4c0",
+          "text": "g25: Get up patient by lifiting",
+          "type": "istar.Goal",
+          "x": 1519,
+          "y": 992.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0b1abc35-d1fd-4603-8c6f-875def2aa51c",
+          "text": "t28: lift up patient",
+          "type": "istar.Task",
+          "x": 1519.5,
+          "y": 1063,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "9d208536-d76e-46f8-9e55-b959d2069574",
+      "text": "Patient",
+      "type": "istar.Agent",
+      "x": 40,
+      "y": 56,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "41375298-d149-450d-914f-310589d37538",
+          "text": "g1: Pre-breakfast morning routine",
+          "type": "istar.Goal",
+          "x": 619,
+          "y": 56,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "478d1255-8f11-470f-a8df-23338dcfce93",
+          "text": "g2: get out of bed",
+          "type": "istar.Goal",
+          "x": 291,
+          "y": 330,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "31c110a3-3e3e-46bc-a3f8-7f8ce87d2e4f",
+          "text": "g5: Check Health",
+          "type": "istar.Goal",
+          "x": 626,
+          "y": 197,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "fb36f259-e468-4944-ae17-e38e0aa7e616",
+          "text": "g10: Take medicine",
+          "type": "istar.Goal",
+          "x": 947,
+          "y": 223,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4e8378fd-712d-4ad6-9690-6f8c391c58f4",
+          "text": "g13: Have a  wash",
+          "type": "istar.Goal",
+          "x": 1303,
+          "y": 208,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "28f011ba-d29f-4bc8-953e-6b7f2ba1c68f",
+          "text": "g18: Call helper",
+          "type": "istar.Goal",
+          "x": 137,
+          "y": 214,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bbc7eeb8-3da9-496e-b465-daefe4cbab97",
+          "text": "t20: phone helper",
+          "type": "istar.Task",
+          "x": 40,
+          "y": 287,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a94ab93e-a4d2-4fde-bb9a-4795abd76b13",
+          "text": "t21: send SMS",
+          "type": "istar.Task",
+          "x": 160,
+          "y": 326,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e261954d-ac55-409d-b8e1-e03ff824aa3a",
+          "text": "g3: Get up autonomously",
+          "type": "istar.Goal",
+          "x": 235,
+          "y": 433,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1586b3f7-a013-4ab0-84cc-788e67d1ab23",
+          "text": "g4: Get support to get up",
+          "type": "istar.Goal",
+          "x": 382,
+          "y": 426,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "306b74cf-aa60-4be3-ae4c-6056a00b0473",
+          "text": "t1: use pole/trapeze",
+          "type": "istar.Task",
+          "x": 148,
+          "y": 499,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bc8166c0-458c-4826-87f6-f1277fe962b7",
+          "text": "t2: get up without support",
+          "type": "istar.Task",
+          "x": 253,
+          "y": 544,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "71551baf-3808-4250-808e-dcffc4c16c0e",
+          "text": "t3: use bed rails",
+          "type": "istar.Task",
+          "x": 315.5,
+          "y": 500,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bc29f342-403b-4c62-ab20-4e3c079fe77a",
+          "text": "t4: use transfer sling",
+          "type": "istar.Task",
+          "x": 401,
+          "y": 560,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a4cdedb6-1fb4-4597-ba5b-f6bcbb833689",
+          "text": "t5: lift patient",
+          "type": "istar.Task",
+          "x": 486,
+          "y": 500,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "16172130-3def-42c4-94e3-bf5dce01ecf3",
+          "text": "Reliability",
+          "type": "istar.Quality",
+          "x": 894,
+          "y": 619,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b8dbcbde-fa36-4788-8568-e4349fcb98b9",
+          "text": "Efficacy",
+          "type": "istar.Quality",
+          "x": 713,
+          "y": 643,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "943deb00-a20b-428d-8c79-f2bdf30c80c7",
+          "text": "Low failure cost",
+          "type": "istar.Quality",
+          "x": 802,
+          "y": 591,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cff33a18-409a-40b9-8056-1bd92d03ead9",
+          "text": "g6: Routine check",
+          "type": "istar.Goal",
+          "x": 525,
+          "y": 285,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1a57cf2d-3d48-4944-9cc7-c651302fefc4",
+          "text": "g7: specific check",
+          "type": "istar.Goal",
+          "x": 713,
+          "y": 279,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7e69cb62-ec8b-489f-9973-b2111ebb54d8",
+          "text": "g8: measure glucose",
+          "type": "istar.Goal",
+          "x": 677,
+          "y": 347.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c058dd42-e053-4601-a2bb-8ac4b04ae550",
+          "text": "g9: check heart activity",
+          "type": "istar.Goal",
+          "x": 784,
+          "y": 346,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d120fdd9-9b4b-4bdc-8e5b-d73fc3bf51b8",
+          "text": "t6: use glucose meter",
+          "type": "istar.Task",
+          "x": 656.5,
+          "y": 436,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6c54ca3a-6b54-4bc8-8406-487df077823c",
+          "text": "t10: use pulse checkr",
+          "type": "istar.Task",
+          "x": 753.5,
+          "y": 470,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5a6f90a8-3238-4647-b571-18a4df455c35",
+          "text": "t11: use smart-shirt EKG",
+          "type": "istar.Task",
+          "x": 877,
+          "y": 479,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8a7ee9c7-7a5e-414a-99d1-8d0dcaddb243",
+          "text": "t6: use smart-shirt",
+          "type": "istar.Task",
+          "x": 448.5,
+          "y": 358,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d6bf68bb-1b5d-41ee-8541-44f1f8cf2870",
+          "text": "t7: use thermometer",
+          "type": "istar.Task",
+          "x": 507,
+          "y": 427,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c5f49308-3b18-4325-8701-c0745ee7034d",
+          "text": "t8: use oxymeter",
+          "type": "istar.Task",
+          "x": 566,
+          "y": 370,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0aa2b33d-5041-495a-abce-d38443e4c884",
+          "text": "g11: Regulate glucose",
+          "type": "istar.Goal",
+          "x": 909,
+          "y": 299,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6e476c9e-a4ea-414f-8005-922fd47b58dd",
+          "text": "g12: Prevent heart attack",
+          "type": "istar.Goal",
+          "x": 1038,
+          "y": 302,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "eaf5b296-0bea-4f6e-95e6-8d5eaf0d3875",
+          "text": "t12: Inject with insulin pen",
+          "type": "istar.Task",
+          "x": 893,
+          "y": 379,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d253057d-0dc0-4267-ac42-4d7d36ea9421",
+          "text": "t13: use insulin pump",
+          "type": "istar.Task",
+          "x": 975,
+          "y": 418,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "16b862a6-2e99-4ac9-9d5e-9b5f3f009088",
+          "text": "t14: take aspirin",
+          "type": "istar.Task",
+          "x": 1010.5,
+          "y": 364,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "32681c98-a149-4a4b-bc4b-c48690238fb9",
+          "text": "t15: take beta-blockers",
+          "type": "istar.Task",
+          "x": 1123,
+          "y": 389,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0cdde3e8-6ada-4059-b4b5-48e2e3ed8b8e",
+          "text": "g14: Wash autonomously",
+          "type": "istar.Goal",
+          "x": 1208,
+          "y": 305.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7605af4f-5383-4172-872a-50d5153be6ff",
+          "text": "g17: Get aid in washing",
+          "type": "istar.Goal",
+          "x": 1388,
+          "y": 323,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "746fcd58-6265-4ee8-b449-9e03cdb5b516",
+          "text": "g15: wash in basing",
+          "type": "istar.Goal",
+          "x": 1204,
+          "y": 428,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d2d4c05b-78ad-4d6f-ad03-a7e5797b3968",
+          "text": "g16: have shower",
+          "type": "istar.Goal",
+          "x": 1319,
+          "y": 438,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c019c22b-306d-42a0-a65d-04a286226f60",
+          "text": "t19: get assisted washing",
+          "type": "istar.Task",
+          "x": 1430,
+          "y": 419,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d7122cf5-7c3b-4c64-85f3-4af3719e8e93",
+          "text": "t16: wash hands/face",
+          "type": "istar.Task",
+          "x": 1134.5,
+          "y": 533,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "274e22f2-8fe0-4140-b52d-da7d99596738",
+          "text": "t17: take unassisted shower",
+          "type": "istar.Task",
+          "x": 1294,
+          "y": 551,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cf9207c4-d85f-4363-9231-7e02846ab52e",
+          "text": "t18: use grabber",
+          "type": "istar.Task",
+          "x": 1379,
+          "y": 525,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "955ea47c-2a4e-4b9d-830f-dea39494ddad",
+      "text": "Wash patient",
+      "type": "istar.Goal",
+      "x": 1458,
+      "y": 790,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c019c22b-306d-42a0-a65d-04a286226f60",
+      "target": "0288d859-9547-4862-aff9-edf1c04e60cf"
+    },
+    {
+      "id": "c01691ff-0e5f-446a-9eea-975ddf562d59",
+      "text": "Get up patient by lifiting",
+      "type": "istar.Goal",
+      "x": 657,
+      "y": 766,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a4cdedb6-1fb4-4597-ba5b-f6bcbb833689",
+      "target": "0288d859-9547-4862-aff9-edf1c04e60cf"
+    },
+    {
+      "id": "8e08a433-eb74-4fd1-91e6-966ce2c3cc79",
+      "text": "Get up patient with transfer sling",
+      "type": "istar.Goal",
+      "x": 587,
+      "y": 898,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "bc29f342-403b-4c62-ab20-4e3c079fe77a",
+      "target": "0288d859-9547-4862-aff9-edf1c04e60cf"
+    }
+  ],
+  "links": [
+    {
+      "id": "87c775b0-cd8a-4848-a32e-05afc241eeb1",
+      "type": "istar.DependencyLink",
+      "source": "8e08a433-eb74-4fd1-91e6-966ce2c3cc79",
+      "target": "0288d859-9547-4862-aff9-edf1c04e60cf"
+    },
+    {
+      "id": "5e5b1b2e-407b-4ee2-b5bd-3c534f06ed40",
+      "type": "istar.DependencyLink",
+      "source": "bc29f342-403b-4c62-ab20-4e3c079fe77a",
+      "target": "8e08a433-eb74-4fd1-91e6-966ce2c3cc79"
+    },
+    {
+      "id": "1ebb3936-b5cf-488e-9559-c4d80c8c8de8",
+      "type": "istar.DependencyLink",
+      "source": "c01691ff-0e5f-446a-9eea-975ddf562d59",
+      "target": "0288d859-9547-4862-aff9-edf1c04e60cf"
+    },
+    {
+      "id": "b5fb3f8f-493d-4c70-b3ff-aec182fa3b3a",
+      "type": "istar.DependencyLink",
+      "source": "a4cdedb6-1fb4-4597-ba5b-f6bcbb833689",
+      "target": "c01691ff-0e5f-446a-9eea-975ddf562d59"
+    },
+    {
+      "id": "9817e134-3416-4834-9194-948d80460b84",
+      "type": "istar.DependencyLink",
+      "source": "955ea47c-2a4e-4b9d-830f-dea39494ddad",
+      "target": "0288d859-9547-4862-aff9-edf1c04e60cf"
+    },
+    {
+      "id": "31e0699d-4d3b-4da9-8e00-670b6bea2b91",
+      "type": "istar.DependencyLink",
+      "source": "c019c22b-306d-42a0-a65d-04a286226f60",
+      "target": "955ea47c-2a4e-4b9d-830f-dea39494ddad"
+    },
+    {
+      "id": "89801225-0b86-4718-acf3-0f20e0fb2fb6",
+      "type": "istar.AndRefinementLink",
+      "source": "fb36f259-e468-4944-ae17-e38e0aa7e616",
+      "target": "41375298-d149-450d-914f-310589d37538"
+    },
+    {
+      "id": "b45d57ea-ad53-40ef-bc2b-dfa7be7287d1",
+      "type": "istar.AndRefinementLink",
+      "source": "31c110a3-3e3e-46bc-a3f8-7f8ce87d2e4f",
+      "target": "41375298-d149-450d-914f-310589d37538"
+    },
+    {
+      "id": "9f11c93b-e2ac-496e-bad0-62a89893beb2",
+      "type": "istar.AndRefinementLink",
+      "source": "478d1255-8f11-470f-a8df-23338dcfce93",
+      "target": "41375298-d149-450d-914f-310589d37538"
+    },
+    {
+      "id": "ffa53f11-3f3d-4314-9912-f37d836836be",
+      "type": "istar.AndRefinementLink",
+      "source": "4e8378fd-712d-4ad6-9690-6f8c391c58f4",
+      "target": "41375298-d149-450d-914f-310589d37538"
+    },
+    {
+      "id": "2edcd543-14ba-4a31-a2fe-72d1b2ca84e4",
+      "type": "istar.OrRefinementLink",
+      "source": "a94ab93e-a4d2-4fde-bb9a-4795abd76b13",
+      "target": "28f011ba-d29f-4bc8-953e-6b7f2ba1c68f"
+    },
+    {
+      "id": "71dc1315-f1da-41c0-b8c4-9134646284fb",
+      "type": "istar.OrRefinementLink",
+      "source": "bbc7eeb8-3da9-496e-b465-daefe4cbab97",
+      "target": "28f011ba-d29f-4bc8-953e-6b7f2ba1c68f"
+    },
+    {
+      "id": "2d6b666f-1e1f-4f45-aab2-b341d5a20430",
+      "type": "istar.AndRefinementLink",
+      "source": "e261954d-ac55-409d-b8e1-e03ff824aa3a",
+      "target": "478d1255-8f11-470f-a8df-23338dcfce93"
+    },
+    {
+      "id": "fe200733-afbd-4ada-b52e-9f2b3b5fbecc",
+      "type": "istar.AndRefinementLink",
+      "source": "1586b3f7-a013-4ab0-84cc-788e67d1ab23",
+      "target": "478d1255-8f11-470f-a8df-23338dcfce93"
+    },
+    {
+      "id": "dfc141a6-1b1b-48ac-ad0e-bf6797954d94",
+      "type": "istar.OrRefinementLink",
+      "source": "bc8166c0-458c-4826-87f6-f1277fe962b7",
+      "target": "e261954d-ac55-409d-b8e1-e03ff824aa3a"
+    },
+    {
+      "id": "0f5dd307-0995-4080-8a7e-225b14188fa3",
+      "type": "istar.OrRefinementLink",
+      "source": "71551baf-3808-4250-808e-dcffc4c16c0e",
+      "target": "e261954d-ac55-409d-b8e1-e03ff824aa3a"
+    },
+    {
+      "id": "2c9c1166-af44-4b79-b7b1-db6d35e6a35f",
+      "type": "istar.OrRefinementLink",
+      "source": "306b74cf-aa60-4be3-ae4c-6056a00b0473",
+      "target": "e261954d-ac55-409d-b8e1-e03ff824aa3a"
+    },
+    {
+      "id": "b11f5ead-936a-4fea-9b81-7b123560e552",
+      "type": "istar.OrRefinementLink",
+      "source": "bc29f342-403b-4c62-ab20-4e3c079fe77a",
+      "target": "1586b3f7-a013-4ab0-84cc-788e67d1ab23"
+    },
+    {
+      "id": "fbe3666f-746e-4651-9f68-67a0c41691a4",
+      "type": "istar.OrRefinementLink",
+      "source": "a4cdedb6-1fb4-4597-ba5b-f6bcbb833689",
+      "target": "1586b3f7-a013-4ab0-84cc-788e67d1ab23"
+    },
+    {
+      "id": "2032959d-3630-46d9-9f80-555d93cc3e47",
+      "type": "istar.AndRefinementLink",
+      "source": "cff33a18-409a-40b9-8056-1bd92d03ead9",
+      "target": "31c110a3-3e3e-46bc-a3f8-7f8ce87d2e4f"
+    },
+    {
+      "id": "52ed4b3f-9abb-44c3-9c41-13a4340f5f79",
+      "type": "istar.AndRefinementLink",
+      "source": "1a57cf2d-3d48-4944-9cc7-c651302fefc4",
+      "target": "31c110a3-3e3e-46bc-a3f8-7f8ce87d2e4f"
+    },
+    {
+      "id": "8247f3f8-c6b6-416c-9fc2-ae0b6d9340a7",
+      "type": "istar.OrRefinementLink",
+      "source": "d120fdd9-9b4b-4bdc-8e5b-d73fc3bf51b8",
+      "target": "7e69cb62-ec8b-489f-9973-b2111ebb54d8"
+    },
+    {
+      "id": "8cf4ab5b-9486-4c80-8972-e606314bb1ad",
+      "type": "istar.OrRefinementLink",
+      "source": "6c54ca3a-6b54-4bc8-8406-487df077823c",
+      "target": "c058dd42-e053-4601-a2bb-8ac4b04ae550"
+    },
+    {
+      "id": "0abf9eb3-9210-4df1-bf33-f5ee65184ca9",
+      "type": "istar.OrRefinementLink",
+      "source": "5a6f90a8-3238-4647-b571-18a4df455c35",
+      "target": "c058dd42-e053-4601-a2bb-8ac4b04ae550"
+    },
+    {
+      "id": "afdbafd7-01f8-4f0b-9fa3-6af8d861bc42",
+      "type": "istar.OrRefinementLink",
+      "source": "8a7ee9c7-7a5e-414a-99d1-8d0dcaddb243",
+      "target": "cff33a18-409a-40b9-8056-1bd92d03ead9"
+    },
+    {
+      "id": "df224d25-8a34-4ba6-854c-42ea7d503201",
+      "type": "istar.OrRefinementLink",
+      "source": "d6bf68bb-1b5d-41ee-8541-44f1f8cf2870",
+      "target": "cff33a18-409a-40b9-8056-1bd92d03ead9"
+    },
+    {
+      "id": "59ce6c3d-4e67-4ebe-840e-53802542a5f1",
+      "type": "istar.OrRefinementLink",
+      "source": "c5f49308-3b18-4325-8701-c0745ee7034d",
+      "target": "cff33a18-409a-40b9-8056-1bd92d03ead9"
+    },
+    {
+      "id": "592a4de9-856b-42f0-b345-aa9d1a5efc0c",
+      "type": "istar.OrRefinementLink",
+      "source": "7e69cb62-ec8b-489f-9973-b2111ebb54d8",
+      "target": "1a57cf2d-3d48-4944-9cc7-c651302fefc4"
+    },
+    {
+      "id": "35263ac7-a5dc-4710-9b6a-55d9466dfa2f",
+      "type": "istar.OrRefinementLink",
+      "source": "c058dd42-e053-4601-a2bb-8ac4b04ae550",
+      "target": "1a57cf2d-3d48-4944-9cc7-c651302fefc4"
+    },
+    {
+      "id": "c64fc46e-1371-4d82-ad60-8d0b17876a84",
+      "type": "istar.OrRefinementLink",
+      "source": "0aa2b33d-5041-495a-abce-d38443e4c884",
+      "target": "fb36f259-e468-4944-ae17-e38e0aa7e616"
+    },
+    {
+      "id": "7458a00f-aee3-4aa1-906a-d505b594510b",
+      "type": "istar.OrRefinementLink",
+      "source": "6e476c9e-a4ea-414f-8005-922fd47b58dd",
+      "target": "fb36f259-e468-4944-ae17-e38e0aa7e616"
+    },
+    {
+      "id": "08134f4f-7854-4b1e-8fed-58280a5e3915",
+      "type": "istar.OrRefinementLink",
+      "source": "eaf5b296-0bea-4f6e-95e6-8d5eaf0d3875",
+      "target": "0aa2b33d-5041-495a-abce-d38443e4c884"
+    },
+    {
+      "id": "83ba9c67-fad5-4f54-9a91-bb06161e97c0",
+      "type": "istar.OrRefinementLink",
+      "source": "d253057d-0dc0-4267-ac42-4d7d36ea9421",
+      "target": "0aa2b33d-5041-495a-abce-d38443e4c884"
+    },
+    {
+      "id": "ba82a874-e0f6-4161-9eda-584d79bd908b",
+      "type": "istar.OrRefinementLink",
+      "source": "16b862a6-2e99-4ac9-9d5e-9b5f3f009088",
+      "target": "6e476c9e-a4ea-414f-8005-922fd47b58dd"
+    },
+    {
+      "id": "cdf8e209-d35d-43d4-a86c-0cf149dbb915",
+      "type": "istar.OrRefinementLink",
+      "source": "32681c98-a149-4a4b-bc4b-c48690238fb9",
+      "target": "6e476c9e-a4ea-414f-8005-922fd47b58dd"
+    },
+    {
+      "id": "cad8dd98-dfdb-4f77-b1e3-4bbf09b47db7",
+      "type": "istar.OrRefinementLink",
+      "source": "7605af4f-5383-4172-872a-50d5153be6ff",
+      "target": "4e8378fd-712d-4ad6-9690-6f8c391c58f4"
+    },
+    {
+      "id": "e9526708-f71b-4e66-b3a6-f987bc1a6121",
+      "type": "istar.OrRefinementLink",
+      "source": "0cdde3e8-6ada-4059-b4b5-48e2e3ed8b8e",
+      "target": "4e8378fd-712d-4ad6-9690-6f8c391c58f4"
+    },
+    {
+      "id": "d76e2d8c-3d6b-4fa2-957f-2006f0c6a8b8",
+      "type": "istar.OrRefinementLink",
+      "source": "746fcd58-6265-4ee8-b449-9e03cdb5b516",
+      "target": "0cdde3e8-6ada-4059-b4b5-48e2e3ed8b8e"
+    },
+    {
+      "id": "3a25f590-3849-44fc-a411-db91bd9df926",
+      "type": "istar.OrRefinementLink",
+      "source": "d2d4c05b-78ad-4d6f-ad03-a7e5797b3968",
+      "target": "0cdde3e8-6ada-4059-b4b5-48e2e3ed8b8e"
+    },
+    {
+      "id": "be4882b3-fc09-4b0d-a726-3a873798051d",
+      "type": "istar.OrRefinementLink",
+      "source": "c019c22b-306d-42a0-a65d-04a286226f60",
+      "target": "7605af4f-5383-4172-872a-50d5153be6ff"
+    },
+    {
+      "id": "825522ba-2c4e-4324-a96e-3c957c24e158",
+      "type": "istar.OrRefinementLink",
+      "source": "274e22f2-8fe0-4140-b52d-da7d99596738",
+      "target": "d2d4c05b-78ad-4d6f-ad03-a7e5797b3968"
+    },
+    {
+      "id": "91668948-cebc-40fe-b373-0397d589f8a4",
+      "type": "istar.OrRefinementLink",
+      "source": "cf9207c4-d85f-4363-9231-7e02846ab52e",
+      "target": "d2d4c05b-78ad-4d6f-ad03-a7e5797b3968"
+    },
+    {
+      "id": "c5332735-ddb6-4dc1-9b77-5f94f5c35c7c",
+      "type": "istar.OrRefinementLink",
+      "source": "d7122cf5-7c3b-4c64-85f3-4af3719e8e93",
+      "target": "746fcd58-6265-4ee8-b449-9e03cdb5b516"
+    },
+    {
+      "id": "6c669ee2-85c5-490e-b6c1-e9bc725374ff",
+      "type": "istar.OrRefinementLink",
+      "source": "ac565a14-821a-454e-bb9e-c158adbd010d",
+      "target": "9fa8de91-dd37-42e2-ad55-704cd5fa9600"
+    },
+    {
+      "id": "fb67c11f-f26a-4067-ab81-e26c6bff4ea1",
+      "type": "istar.OrRefinementLink",
+      "source": "db8c521e-7d05-470e-88ff-91cbe18d6028",
+      "target": "9fa8de91-dd37-42e2-ad55-704cd5fa9600"
+    },
+    {
+      "id": "34fb57db-2af4-4848-85b4-813b4c62f2d5",
+      "type": "istar.AndRefinementLink",
+      "source": "9fa8de91-dd37-42e2-ad55-704cd5fa9600",
+      "target": "68dc3439-5dc2-4c03-87e0-3dbc405598dc"
+    },
+    {
+      "id": "9b58fcc8-91c9-464b-9375-7a9cf342c30c",
+      "type": "istar.AndRefinementLink",
+      "source": "8de30efc-dd04-4c62-bd6c-22289b5f7500",
+      "target": "68dc3439-5dc2-4c03-87e0-3dbc405598dc"
+    },
+    {
+      "id": "38be6768-35bd-42bb-9019-1aff712d08b8",
+      "type": "istar.OrRefinementLink",
+      "source": "4c32cb34-cd66-4dc8-93a4-76853b36ac9d",
+      "target": "8de30efc-dd04-4c62-bd6c-22289b5f7500"
+    },
+    {
+      "id": "18402ba0-c95b-4b73-b683-cda3cbd753ca",
+      "type": "istar.OrRefinementLink",
+      "source": "ef6fb6a5-8270-4cee-8de1-532bad3b510c",
+      "target": "ea727195-5236-4b2c-a0ea-e31d18c469de"
+    },
+    {
+      "id": "7620c8dd-75db-48cc-81af-0c3bf5a460c4",
+      "type": "istar.OrRefinementLink",
+      "source": "f661fff9-65ba-4365-a65a-96a7d6921150",
+      "target": "ea727195-5236-4b2c-a0ea-e31d18c469de"
+    },
+    {
+      "id": "bd526014-577e-4781-a509-1317ae7329ab",
+      "type": "istar.OrRefinementLink",
+      "source": "ab2cf642-8391-4a63-9275-d00c40420379",
+      "target": "ef6fb6a5-8270-4cee-8de1-532bad3b510c"
+    },
+    {
+      "id": "471ed9b9-6fd0-45c8-b273-c057652fc9df",
+      "type": "istar.OrRefinementLink",
+      "source": "840c600d-727f-483a-a1e1-8fcd8b90e4d6",
+      "target": "f661fff9-65ba-4365-a65a-96a7d6921150"
+    },
+    {
+      "id": "c67f28d6-7525-4808-a7a5-7f49f6ddf5b7",
+      "type": "istar.OrRefinementLink",
+      "source": "433f7e43-c507-4892-a1d9-d484d0b71db3",
+      "target": "f661fff9-65ba-4365-a65a-96a7d6921150"
+    },
+    {
+      "id": "0d044d73-8cbe-4d6d-b2e0-8536083bc889",
+      "type": "istar.OrRefinementLink",
+      "source": "0b1abc35-d1fd-4603-8c6f-875def2aa51c",
+      "target": "fc5c097d-6b00-4efb-a192-a5538f70d4c0"
+    }
+  ],
+  "display": {
+    "68dc3439-5dc2-4c03-87e0-3dbc405598dc": {
+      "width": 102.5,
+      "height": 51.34375
+    },
+    "f661fff9-65ba-4365-a65a-96a7d6921150": {
+      "width": 103.5,
+      "height": 59.84375
+    },
+    "41375298-d149-450d-914f-310589d37538": {
+      "width": 115.5,
+      "height": 54.34375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Thu, 21 May 2026 22:33:21 GMT",
+  "diagram": {
+    "width": 2786,
+    "height": 2710,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

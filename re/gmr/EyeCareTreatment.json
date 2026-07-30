@@ -1,0 +1,518 @@
+{
+  "actors": [
+    {
+      "id": "0f1013f9-f36c-41ca-85dd-5e5861e17bac",
+      "text": "Eye-Care Specialist",
+      "type": "istar.Actor",
+      "x": 951,
+      "y": 564,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "fd7443a5-966c-46a6-a9e3-a80c7998628c",
+          "text": "Achieve [Patient being satisfied] ",
+          "type": "istar.Quality",
+          "x": 1191,
+          "y": 737,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "58d91c3c-0500-4578-8682-8ec76460d3d2",
+          "text": "Achieve [Advanced Treatment for patient]",
+          "type": "istar.Goal",
+          "x": 1123,
+          "y": 564,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c595fe97-10a3-4712-85cf-3532b0409ad7",
+          "text": "Achieve [Receive Fee from patient]",
+          "type": "istar.Goal",
+          "x": 1009,
+          "y": 817,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bcfba245-5039-4817-961c-28b9b902b705",
+          "text": "Achieve [provide advanced Treatment to patient]",
+          "type": "istar.Goal",
+          "x": 959,
+          "y": 665.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "992ff7d4-e4d8-423d-ab28-df8126efe373",
+      "text": "Primary Care Physician",
+      "type": "istar.Actor",
+      "x": 298,
+      "y": 562,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "5981d32a-ed9d-43a1-9c80-b817d2bda891",
+          "text": "Achieve [provide Treatment to patient]",
+          "type": "istar.Goal",
+          "x": 507,
+          "y": 639,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f970dc1b-7c14-4a91-9e64-d5df5a2e4c0c",
+          "text": "Primary Treatment",
+          "type": "istar.Task",
+          "x": 487,
+          "y": 755,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "fb08ca13-6cd1-4928-a3b3-cfb47a427915",
+          "text": "Achieve [Receive Fee from Patient]",
+          "type": "istar.Goal",
+          "x": 647,
+          "y": 594,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "fe2eeed0-893f-4968-bd83-5f15cd5ac5e0",
+          "text": "Achieve [Examination for Treatment by Primary Care Physician]",
+          "type": "istar.Goal",
+          "x": 298,
+          "y": 652,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "32666514-d56b-45da-a90e-5569f47740b3",
+      "text": "Patient",
+      "type": "istar.Actor",
+      "x": 129,
+      "y": 109,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "9d9c0500-a605-4318-8352-118edbdb8910",
+          "text": "Eye-care Service for better Eyesight",
+          "type": "istar.Goal",
+          "x": 643,
+          "y": 159,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "66898277-d7d9-4f80-bd3c-f739df292320",
+          "text": "Achieve [primary treatment for better eyesight]",
+          "type": "istar.Goal",
+          "x": 515,
+          "y": 255,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "15bd3f17-eb74-4871-9c2c-797fda155bcd",
+          "text": "Achieve [Advanced Treatment for better eyesight]",
+          "type": "istar.Goal",
+          "x": 706,
+          "y": 260,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a32835a4-ae84-47db-80f4-2a85c469bd3b",
+          "text": "Pay fee",
+          "type": "istar.Task",
+          "x": 639,
+          "y": 376,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "332a27ad-e219-4afe-9468-7a26e626eb37",
+          "text": "Achieve [receive primary Treatment]",
+          "type": "istar.Goal",
+          "x": 526,
+          "y": 337,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6ec38cbe-29e6-4bf6-9229-df3db850f36f",
+          "text": "Achieve [receive Examination for Treatment]",
+          "type": "istar.Goal",
+          "x": 401,
+          "y": 343,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7aa5d9a4-e6e3-476f-8b60-9c21d61254a6",
+          "text": "Achieve [Referral Service for better Eyesight]",
+          "type": "istar.Goal",
+          "x": 267,
+          "y": 301,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f7dd8992-1be0-44bd-9dd9-ac04182715a2",
+          "text": "Achieve [Referral to Eye-Care Specialist for better Eyesight]",
+          "type": "istar.Goal",
+          "x": 261,
+          "y": 403,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6026e094-f9bb-4764-a63d-3d2b35821cce",
+          "text": "Achieve [Basic Treatment for better Eyesight]",
+          "type": "istar.Goal",
+          "x": 129,
+          "y": 355,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a6b2b2b4-5479-48d0-b8a9-1ea36d1c1e09",
+          "text": "pay fee for advanced treatment",
+          "type": "istar.Task",
+          "x": 749.5,
+          "y": 394,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c49126c4-ed8e-4658-b04d-b3df23284e38",
+          "text": "Achieve [Specialized Examination for Advanced Treatment by Eye-Care Specialist]",
+          "type": "istar.Goal",
+          "x": 887,
+          "y": 365,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "1cd3668f-f60d-4750-b3b3-535425112441",
+      "text": "Fee",
+      "type": "istar.Resource",
+      "x": 689.5,
+      "y": 492.5,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "fb08ca13-6cd1-4928-a3b3-cfb47a427915",
+      "target": "a32835a4-ae84-47db-80f4-2a85c469bd3b"
+    },
+    {
+      "id": "9dda3dbe-fb4e-4e43-8098-237e78043484",
+      "text": "Examination for Treatment",
+      "type": "istar.Task",
+      "x": 352,
+      "y": 476,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "6ec38cbe-29e6-4bf6-9229-df3db850f36f",
+      "target": "fe2eeed0-893f-4968-bd83-5f15cd5ac5e0"
+    },
+    {
+      "id": "66fb4e96-e7eb-42de-abd6-64d45b3dd705",
+      "text": "Primary Treatment",
+      "type": "istar.Resource",
+      "x": 530.5,
+      "y": 499.25,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "332a27ad-e219-4afe-9468-7a26e626eb37",
+      "target": "5981d32a-ed9d-43a1-9c80-b817d2bda891"
+    },
+    {
+      "id": "6d435c37-550b-4711-90d7-a884a4f109c5",
+      "text": "Fee",
+      "type": "istar.Resource",
+      "x": 793,
+      "y": 599,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c595fe97-10a3-4712-85cf-3532b0409ad7",
+      "target": "a6b2b2b4-5479-48d0-b8a9-1ea36d1c1e09"
+    },
+    {
+      "id": "013d55ed-4083-42de-9f04-9bb55d52f862",
+      "text": "Advanced Treatment ",
+      "type": "istar.Resource",
+      "x": 1003,
+      "y": 470,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c49126c4-ed8e-4658-b04d-b3df23284e38",
+      "target": "58d91c3c-0500-4578-8682-8ec76460d3d2"
+    }
+  ],
+  "links": [
+    {
+      "id": "2b996ded-8566-42ff-9168-8dc31febd955",
+      "type": "istar.DependencyLink",
+      "source": "013d55ed-4083-42de-9f04-9bb55d52f862",
+      "target": "58d91c3c-0500-4578-8682-8ec76460d3d2"
+    },
+    {
+      "id": "e3845035-4530-4433-b709-b82ac56721c2",
+      "type": "istar.DependencyLink",
+      "source": "c49126c4-ed8e-4658-b04d-b3df23284e38",
+      "target": "013d55ed-4083-42de-9f04-9bb55d52f862"
+    },
+    {
+      "id": "4e5bdf1a-c90c-4d4f-8f43-64d130fb15df",
+      "type": "istar.DependencyLink",
+      "source": "6d435c37-550b-4711-90d7-a884a4f109c5",
+      "target": "a6b2b2b4-5479-48d0-b8a9-1ea36d1c1e09"
+    },
+    {
+      "id": "f924a06e-8a11-4f8a-b94f-4bafc9ead22c",
+      "type": "istar.DependencyLink",
+      "source": "c595fe97-10a3-4712-85cf-3532b0409ad7",
+      "target": "6d435c37-550b-4711-90d7-a884a4f109c5"
+    },
+    {
+      "id": "a575bf07-5bdb-4cba-b325-10dfe5c243b7",
+      "type": "istar.DependencyLink",
+      "source": "9dda3dbe-fb4e-4e43-8098-237e78043484",
+      "target": "fe2eeed0-893f-4968-bd83-5f15cd5ac5e0"
+    },
+    {
+      "id": "25d18c19-f1ff-47cb-9920-44d6b1798cce",
+      "type": "istar.DependencyLink",
+      "source": "6ec38cbe-29e6-4bf6-9229-df3db850f36f",
+      "target": "9dda3dbe-fb4e-4e43-8098-237e78043484"
+    },
+    {
+      "id": "1db852f7-7ae3-42b0-bb02-d4b109925f44",
+      "type": "istar.DependencyLink",
+      "source": "fb08ca13-6cd1-4928-a3b3-cfb47a427915",
+      "target": "1cd3668f-f60d-4750-b3b3-535425112441"
+    },
+    {
+      "id": "a3349965-89b8-4600-9c3c-520f064e1d12",
+      "type": "istar.DependencyLink",
+      "source": "1cd3668f-f60d-4750-b3b3-535425112441",
+      "target": "a32835a4-ae84-47db-80f4-2a85c469bd3b"
+    },
+    {
+      "id": "49a14b6b-e79d-4df0-9381-1ef4b9276577",
+      "type": "istar.DependencyLink",
+      "source": "66fb4e96-e7eb-42de-abd6-64d45b3dd705",
+      "target": "5981d32a-ed9d-43a1-9c80-b817d2bda891"
+    },
+    {
+      "id": "8ac82af3-7909-426f-948b-26f3212c5652",
+      "type": "istar.DependencyLink",
+      "source": "332a27ad-e219-4afe-9468-7a26e626eb37",
+      "target": "66fb4e96-e7eb-42de-abd6-64d45b3dd705"
+    },
+    {
+      "id": "256b7013-38bc-4dd5-afcd-45c9bc36f510",
+      "type": "istar.AndRefinementLink",
+      "source": "15bd3f17-eb74-4871-9c2c-797fda155bcd",
+      "target": "9d9c0500-a605-4318-8352-118edbdb8910"
+    },
+    {
+      "id": "0504f71a-72e0-463d-b9dc-fdb69587e791",
+      "type": "istar.AndRefinementLink",
+      "source": "66898277-d7d9-4f80-bd3c-f739df292320",
+      "target": "9d9c0500-a605-4318-8352-118edbdb8910"
+    },
+    {
+      "id": "55aebff4-4feb-4a4b-b898-56303fc98733",
+      "type": "istar.OrRefinementLink",
+      "source": "f970dc1b-7c14-4a91-9e64-d5df5a2e4c0c",
+      "target": "5981d32a-ed9d-43a1-9c80-b817d2bda891"
+    },
+    {
+      "id": "7a1ebd89-c633-4604-8755-ab6fa7cb7b8a",
+      "type": "istar.AndRefinementLink",
+      "source": "332a27ad-e219-4afe-9468-7a26e626eb37",
+      "target": "66898277-d7d9-4f80-bd3c-f739df292320"
+    },
+    {
+      "id": "0c9dab34-0f66-415d-b309-b8c801317e4f",
+      "type": "istar.AndRefinementLink",
+      "source": "6ec38cbe-29e6-4bf6-9229-df3db850f36f",
+      "target": "66898277-d7d9-4f80-bd3c-f739df292320"
+    },
+    {
+      "id": "7c376dd4-9360-409a-bb52-348b67fde234",
+      "type": "istar.OrRefinementLink",
+      "source": "f970dc1b-7c14-4a91-9e64-d5df5a2e4c0c",
+      "target": "fe2eeed0-893f-4968-bd83-5f15cd5ac5e0"
+    },
+    {
+      "id": "4cba80a2-453f-4969-b836-b9fcddc30673",
+      "type": "istar.AndRefinementLink",
+      "source": "7aa5d9a4-e6e3-476f-8b60-9c21d61254a6",
+      "target": "66898277-d7d9-4f80-bd3c-f739df292320"
+    },
+    {
+      "id": "ef46ae63-d05d-49c5-b4f8-394fe8a14c66",
+      "type": "istar.AndRefinementLink",
+      "source": "f7dd8992-1be0-44bd-9dd9-ac04182715a2",
+      "target": "7aa5d9a4-e6e3-476f-8b60-9c21d61254a6"
+    },
+    {
+      "id": "01442a80-de65-4cc6-bcf3-520f3626bf53",
+      "type": "istar.AndRefinementLink",
+      "source": "6026e094-f9bb-4764-a63d-3d2b35821cce",
+      "target": "7aa5d9a4-e6e3-476f-8b60-9c21d61254a6"
+    },
+    {
+      "id": "5593e0ac-ab64-4d4f-a5ab-4c927dd9b2e7",
+      "type": "istar.ContributionLink",
+      "source": "58d91c3c-0500-4578-8682-8ec76460d3d2",
+      "target": "fd7443a5-966c-46a6-a9e3-a80c7998628c",
+      "label": "help"
+    },
+    {
+      "id": "e0159480-8a13-483d-b110-657834a75094",
+      "type": "istar.AndRefinementLink",
+      "source": "c595fe97-10a3-4712-85cf-3532b0409ad7",
+      "target": "58d91c3c-0500-4578-8682-8ec76460d3d2"
+    },
+    {
+      "id": "33c9ff23-a3db-4111-9962-f96315be74dc",
+      "type": "istar.AndRefinementLink",
+      "source": "a32835a4-ae84-47db-80f4-2a85c469bd3b",
+      "target": "66898277-d7d9-4f80-bd3c-f739df292320"
+    },
+    {
+      "id": "af3e18d0-7b1f-4b74-ac92-f5d84b406a08",
+      "type": "istar.AndRefinementLink",
+      "source": "a6b2b2b4-5479-48d0-b8a9-1ea36d1c1e09",
+      "target": "15bd3f17-eb74-4871-9c2c-797fda155bcd"
+    },
+    {
+      "id": "5870d6e0-9715-47c6-b500-3b0a77808e4a",
+      "type": "istar.AndRefinementLink",
+      "source": "c49126c4-ed8e-4658-b04d-b3df23284e38",
+      "target": "15bd3f17-eb74-4871-9c2c-797fda155bcd"
+    },
+    {
+      "id": "3f302f54-720a-4efe-a206-d4f8c7988d99",
+      "type": "istar.AndRefinementLink",
+      "source": "bcfba245-5039-4817-961c-28b9b902b705",
+      "target": "58d91c3c-0500-4578-8682-8ec76460d3d2"
+    }
+  ],
+  "display": {
+    "58d91c3c-0500-4578-8682-8ec76460d3d2": {
+      "width": 128.5,
+      "height": 51.34375
+    },
+    "c595fe97-10a3-4712-85cf-3532b0409ad7": {
+      "width": 119.5,
+      "height": 55.34375
+    },
+    "bcfba245-5039-4817-961c-28b9b902b705": {
+      "width": 137.5,
+      "height": 55.34375
+    },
+    "5981d32a-ed9d-43a1-9c80-b817d2bda891": {
+      "width": 152.5,
+      "height": 46.34375
+    },
+    "fb08ca13-6cd1-4928-a3b3-cfb47a427915": {
+      "width": 116.5,
+      "height": 48.84375
+    },
+    "fe2eeed0-893f-4968-bd83-5f15cd5ac5e0": {
+      "width": 167.5,
+      "height": 67.84375
+    },
+    "9d9c0500-a605-4318-8352-118edbdb8910": {
+      "width": 139.5,
+      "height": 46.34375
+    },
+    "66898277-d7d9-4f80-bd3c-f739df292320": {
+      "width": 157.5,
+      "height": 42.84375
+    },
+    "15bd3f17-eb74-4871-9c2c-797fda155bcd": {
+      "width": 169.5,
+      "height": 34.84375
+    },
+    "332a27ad-e219-4afe-9468-7a26e626eb37": {
+      "width": 114.5,
+      "height": 58.34375
+    },
+    "6ec38cbe-29e6-4bf6-9229-df3db850f36f": {
+      "width": 110.5,
+      "height": 47.84375
+    },
+    "7aa5d9a4-e6e3-476f-8b60-9c21d61254a6": {
+      "width": 137.5,
+      "height": 38.84375
+    },
+    "f7dd8992-1be0-44bd-9dd9-ac04182715a2": {
+      "width": 141.5,
+      "height": 34.54376220703125
+    },
+    "6026e094-f9bb-4764-a63d-3d2b35821cce": {
+      "width": 132.5,
+      "height": 45.84375
+    },
+    "c49126c4-ed8e-4658-b04d-b3df23284e38": {
+      "width": 160.5,
+      "height": 66.84375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 25 May 2026 08:12:10 GMT",
+  "diagram": {
+    "width": 2047,
+    "height": 2000,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

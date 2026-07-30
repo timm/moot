@@ -1,0 +1,669 @@
+{
+  "actors": [
+    {
+      "id": "506756f4-97df-4942-9594-b4c18e064ee4",
+      "text": "Neighbor Smart System",
+      "type": "istar.Actor",
+      "x": 1237,
+      "y": 671,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "942fde6b-2ab4-4864-a871-ca6ea4a43203",
+      "text": "Patient Caregiving System",
+      "type": "istar.Actor",
+      "x": 0,
+      "y": 109,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "f75c15b0-59a6-4ffc-8b2c-986d8fa1c256",
+          "text": "G0: Home is managed for safety of patient ",
+          "type": "istar.Goal",
+          "x": 361,
+          "y": 133,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3cb01c16-c1e5-41ca-80e6-89c0ca5ed1b1",
+          "text": "G1: enforce routine exit procedure",
+          "type": "istar.Goal",
+          "x": 216,
+          "y": 247,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0d5be629-9324-4535-b976-3de1a9a0268b",
+          "text": "G2: refresh air inside home",
+          "type": "istar.Goal",
+          "x": 405,
+          "y": 258,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8e5510e5-ed40-416a-ac27-37a53a6ddc41",
+          "text": "G3: home is protected against robbery",
+          "type": "istar.Goal",
+          "x": 677,
+          "y": 240,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "910139c8-8cd8-4567-b5d8-841cae5428c7",
+          "text": "G4: patient is alerted",
+          "type": "istar.Goal",
+          "x": 89,
+          "y": 418,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4fe6f5ac-b799-45b5-9bbd-54dd78af0326",
+          "text": "G5: patient is prevented from exiting",
+          "type": "istar.Goal",
+          "x": 267,
+          "y": 465,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ea148cbc-b20a-41ce-8950-cc0991e8314d",
+          "text": "T8: open windows",
+          "type": "istar.Task",
+          "x": 381.5,
+          "y": 373,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ce424688-0cbe-4f64-ab8f-940b566ff95f",
+          "text": "T9: turn on air ventilator",
+          "type": "istar.Task",
+          "x": 512,
+          "y": 381,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0b13a3ea-e909-4cd5-b448-ddfa1331138b",
+          "text": "SG1: patient privacy",
+          "type": "istar.Quality",
+          "x": 387,
+          "y": 499,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "293f1fd2-79f1-4361-9a9c-09e3fa069aed",
+          "text": "SG2: energy spent wisely",
+          "type": "istar.Quality",
+          "x": 484,
+          "y": 501,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b5890d7c-d936-4913-a6a8-3508cd997eee",
+          "text": "G6: give Illusion of being lived in",
+          "type": "istar.Goal",
+          "x": 631,
+          "y": 362.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c65ed603-110e-4eea-9ed6-8df2a2b78421",
+          "text": "G12: assistance comes",
+          "type": "istar.Goal",
+          "x": 902,
+          "y": 472,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bb1fbe31-1d9c-4eb7-ab5c-b6f38e74a10a",
+          "text": "T10: turn on/off light iteratively",
+          "type": "istar.Task",
+          "x": 591.5,
+          "y": 481,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5b1fe4de-9bfc-46a9-9115-484e87fd944d",
+          "text": "G11: prevent robber from entering",
+          "type": "istar.Goal",
+          "x": 756,
+          "y": 470,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4501ad35-b0f3-4f50-adff-0a72c8768ef0",
+          "text": "G7: act against potential robbery",
+          "type": "istar.Goal",
+          "x": 802,
+          "y": 365,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "51f3477a-2a71-4a1d-b673-ad6eade0de1f",
+          "text": "T14: lock doors",
+          "type": "istar.Task",
+          "x": 640,
+          "y": 565,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "62bdfb3b-f701-4bf1-82e8-b0ffaadea6c9",
+          "text": "G13: police comes",
+          "type": "istar.Goal",
+          "x": 841,
+          "y": 602,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "568e0cac-f8c1-4d96-b24d-4d45b6a5742d",
+          "text": "G14: a neighbor comes",
+          "type": "istar.Goal",
+          "x": 966,
+          "y": 599,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f3422c2d-3b19-40e2-933f-26bad493153b",
+          "text": "Police is notified",
+          "type": "istar.Task",
+          "x": 752,
+          "y": 687,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "136eccfc-d2d1-4c13-92dd-1a38273f1900",
+          "text": "T11: phone police",
+          "type": "istar.Task",
+          "x": 673,
+          "y": 799,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7547c6ad-cca7-4ecc-995f-efb276737d72",
+          "text": "T12: turn all lights on",
+          "type": "istar.Task",
+          "x": 773,
+          "y": 827,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2f334374-d2b1-4a44-8878-fdd222317c18",
+          "text": "T13: turn on security cameras",
+          "type": "istar.Task",
+          "x": 860.5,
+          "y": 779,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d6bbd3c3-fb3c-4383-8499-f312542f5339",
+          "text": "G10: calm the patient",
+          "type": "istar.Goal",
+          "x": 364,
+          "y": 610.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b0fac9d9-ca54-4e18-92a6-e8810effc568",
+          "text": "G9: notify caregiver",
+          "type": "istar.Goal",
+          "x": 267,
+          "y": 639,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5b60ee53-3392-478c-b49a-ea058645f0bc",
+          "text": "G8: actuate the home",
+          "type": "istar.Goal",
+          "x": 174,
+          "y": 570.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1ae8f118-4254-4ab8-977b-dfb4d4683188",
+          "text": "Make relaxation effects",
+          "type": "istar.Task",
+          "x": 509.5,
+          "y": 678,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8da45efe-a9d8-44ad-a06f-c05f7a7d5bcc",
+          "text": "T7: turn on calm music",
+          "type": "istar.Task",
+          "x": 602,
+          "y": 751,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c3c0f1a9-4fcd-44df-a3b2-f6262d0bdb3b",
+          "text": "T6: give warm light color",
+          "type": "istar.Task",
+          "x": 460.5,
+          "y": 793,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f8fe96a1-ef51-4183-9cc1-cab322f609d4",
+          "text": "T5: call caregiver by public call",
+          "type": "istar.Task",
+          "x": 336.5,
+          "y": 727,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a3481497-c65a-40bf-aa7d-7e8241ea301b",
+          "text": "T4: call caregiver by phone",
+          "type": "istar.Task",
+          "x": 220.5,
+          "y": 775,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "050f713f-959a-41b9-8428-40831c424f5c",
+          "text": "SG3: less noise",
+          "type": "istar.Quality",
+          "x": 341,
+          "y": 861,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "14d56bc1-af48-4c40-899d-60c318b781fa",
+          "text": "T3: lock balcony door, window & main entrance",
+          "type": "istar.Task",
+          "x": 108.5,
+          "y": 687,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5674087e-1278-49de-be2f-acc6ede49b06",
+          "text": "T2: switch on lights at patient location",
+          "type": "istar.Task",
+          "x": 152.5,
+          "y": 498,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f8efbb28-decc-4472-a8d8-c7adf2e194f5",
+          "text": "T1: alert via voice message",
+          "type": "istar.Task",
+          "x": 0,
+          "y": 510,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "8a0dea63-d68d-40d8-92da-09a3cc57c00f",
+      "text": "Neighbor comes",
+      "type": "istar.Goal",
+      "x": 1110,
+      "y": 592,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "568e0cac-f8c1-4d96-b24d-4d45b6a5742d",
+      "target": "506756f4-97df-4942-9594-b4c18e064ee4"
+    }
+  ],
+  "links": [
+    {
+      "id": "afab5b06-3167-44c9-a4b8-b7a373925d5e",
+      "type": "istar.DependencyLink",
+      "source": "8a0dea63-d68d-40d8-92da-09a3cc57c00f",
+      "target": "506756f4-97df-4942-9594-b4c18e064ee4"
+    },
+    {
+      "id": "cfd5bc78-de44-4978-b79d-c08319f0658e",
+      "type": "istar.DependencyLink",
+      "source": "568e0cac-f8c1-4d96-b24d-4d45b6a5742d",
+      "target": "8a0dea63-d68d-40d8-92da-09a3cc57c00f"
+    },
+    {
+      "id": "0085c573-b63c-44c6-8f53-fb350c531e5e",
+      "type": "istar.AndRefinementLink",
+      "source": "3cb01c16-c1e5-41ca-80e6-89c0ca5ed1b1",
+      "target": "f75c15b0-59a6-4ffc-8b2c-986d8fa1c256"
+    },
+    {
+      "id": "dcb7dec9-8e05-4954-a062-7d00927187a0",
+      "type": "istar.AndRefinementLink",
+      "source": "0d5be629-9324-4535-b976-3de1a9a0268b",
+      "target": "f75c15b0-59a6-4ffc-8b2c-986d8fa1c256"
+    },
+    {
+      "id": "94a54eb9-f116-49d2-9e6e-e971b4be3def",
+      "type": "istar.AndRefinementLink",
+      "source": "8e5510e5-ed40-416a-ac27-37a53a6ddc41",
+      "target": "f75c15b0-59a6-4ffc-8b2c-986d8fa1c256"
+    },
+    {
+      "id": "50ff5fc3-52c0-46a1-86c9-a04e6ad3ddc3",
+      "type": "istar.OrRefinementLink",
+      "source": "4fe6f5ac-b799-45b5-9bbd-54dd78af0326",
+      "target": "3cb01c16-c1e5-41ca-80e6-89c0ca5ed1b1"
+    },
+    {
+      "id": "b70cdf6e-4498-456f-8e4e-a4dfb5b3af51",
+      "type": "istar.OrRefinementLink",
+      "source": "910139c8-8cd8-4567-b5d8-841cae5428c7",
+      "target": "3cb01c16-c1e5-41ca-80e6-89c0ca5ed1b1"
+    },
+    {
+      "id": "19c0d543-0abd-4c01-ab38-05b91daaadec",
+      "type": "istar.OrRefinementLink",
+      "source": "ea148cbc-b20a-41ce-8950-cc0991e8314d",
+      "target": "0d5be629-9324-4535-b976-3de1a9a0268b"
+    },
+    {
+      "id": "2d530eb8-e51a-4ca2-bae3-cfc355660385",
+      "type": "istar.OrRefinementLink",
+      "source": "ce424688-0cbe-4f64-ab8f-940b566ff95f",
+      "target": "0d5be629-9324-4535-b976-3de1a9a0268b"
+    },
+    {
+      "id": "f3b21bde-3e23-424c-97d8-2a3ce19d81fe",
+      "type": "istar.ContributionLink",
+      "source": "ce424688-0cbe-4f64-ab8f-940b566ff95f",
+      "target": "293f1fd2-79f1-4361-9a9c-09e3fa069aed",
+      "label": "hurt"
+    },
+    {
+      "id": "db6152a7-102f-44a9-8969-251998f2ef53",
+      "type": "istar.ContributionLink",
+      "source": "ea148cbc-b20a-41ce-8950-cc0991e8314d",
+      "target": "293f1fd2-79f1-4361-9a9c-09e3fa069aed",
+      "label": "help"
+    },
+    {
+      "id": "6f0be905-b30e-4cfd-a165-e11000887fa1",
+      "type": "istar.ContributionLink",
+      "source": "ea148cbc-b20a-41ce-8950-cc0991e8314d",
+      "target": "0b13a3ea-e909-4cd5-b448-ddfa1331138b",
+      "label": "help"
+    },
+    {
+      "id": "2b97500a-a578-45f5-aa80-084ac765357d",
+      "type": "istar.ContributionLink",
+      "source": "ce424688-0cbe-4f64-ab8f-940b566ff95f",
+      "target": "0b13a3ea-e909-4cd5-b448-ddfa1331138b",
+      "label": "help"
+    },
+    {
+      "id": "0b1bcf26-0324-4778-bcf3-10bd8350a3c9",
+      "type": "istar.AndRefinementLink",
+      "source": "b5890d7c-d936-4913-a6a8-3508cd997eee",
+      "target": "8e5510e5-ed40-416a-ac27-37a53a6ddc41"
+    },
+    {
+      "id": "bfc2f557-d18e-4b98-ac0d-d22ffaed10f0",
+      "type": "istar.OrRefinementLink",
+      "source": "bb1fbe31-1d9c-4eb7-ab5c-b6f38e74a10a",
+      "target": "b5890d7c-d936-4913-a6a8-3508cd997eee"
+    },
+    {
+      "id": "314b2cdd-48db-4ba3-bca8-44cdffad794d",
+      "type": "istar.AndRefinementLink",
+      "source": "4501ad35-b0f3-4f50-adff-0a72c8768ef0",
+      "target": "8e5510e5-ed40-416a-ac27-37a53a6ddc41"
+    },
+    {
+      "id": "c052d292-1786-46b5-a6a0-e9acdafc4671",
+      "type": "istar.AndRefinementLink",
+      "source": "5b1fe4de-9bfc-46a9-9115-484e87fd944d",
+      "target": "4501ad35-b0f3-4f50-adff-0a72c8768ef0"
+    },
+    {
+      "id": "df407bc7-03b7-443e-b088-987a3e0554a8",
+      "type": "istar.AndRefinementLink",
+      "source": "c65ed603-110e-4eea-9ed6-8df2a2b78421",
+      "target": "4501ad35-b0f3-4f50-adff-0a72c8768ef0"
+    },
+    {
+      "id": "bd7f448d-053d-46d6-966e-9ba30bded61c",
+      "type": "istar.OrRefinementLink",
+      "source": "51f3477a-2a71-4a1d-b673-ad6eade0de1f",
+      "target": "5b1fe4de-9bfc-46a9-9115-484e87fd944d"
+    },
+    {
+      "id": "de6ad3f3-4a6a-4c32-b367-f7db18ef44ef",
+      "type": "istar.OrRefinementLink",
+      "source": "62bdfb3b-f701-4bf1-82e8-b0ffaadea6c9",
+      "target": "c65ed603-110e-4eea-9ed6-8df2a2b78421"
+    },
+    {
+      "id": "a6067e2c-7d0f-4c75-879d-53ee8e3bf919",
+      "type": "istar.OrRefinementLink",
+      "source": "568e0cac-f8c1-4d96-b24d-4d45b6a5742d",
+      "target": "c65ed603-110e-4eea-9ed6-8df2a2b78421"
+    },
+    {
+      "id": "7f9339cc-dead-4297-8ebe-f3fc936018ae",
+      "type": "istar.OrRefinementLink",
+      "source": "f3422c2d-3b19-40e2-933f-26bad493153b",
+      "target": "62bdfb3b-f701-4bf1-82e8-b0ffaadea6c9"
+    },
+    {
+      "id": "9d3cfcbd-75dc-48cb-9623-9cd482d815bc",
+      "type": "istar.AndRefinementLink",
+      "source": "2f334374-d2b1-4a44-8878-fdd222317c18",
+      "target": "f3422c2d-3b19-40e2-933f-26bad493153b"
+    },
+    {
+      "id": "67b9b802-bf9b-4d92-8717-4e63576f88c7",
+      "type": "istar.AndRefinementLink",
+      "source": "7547c6ad-cca7-4ecc-995f-efb276737d72",
+      "target": "f3422c2d-3b19-40e2-933f-26bad493153b"
+    },
+    {
+      "id": "657e2e04-5bbb-4c3f-be67-09590b4850a0",
+      "type": "istar.AndRefinementLink",
+      "source": "136eccfc-d2d1-4c13-92dd-1a38273f1900",
+      "target": "f3422c2d-3b19-40e2-933f-26bad493153b"
+    },
+    {
+      "id": "a84b272a-bc38-485a-9681-4806fd176a4d",
+      "type": "istar.AndRefinementLink",
+      "source": "d6bbd3c3-fb3c-4383-8499-f312542f5339",
+      "target": "4fe6f5ac-b799-45b5-9bbd-54dd78af0326"
+    },
+    {
+      "id": "a5b856fd-4cab-441a-b6e7-e13d009b2bf6",
+      "type": "istar.AndRefinementLink",
+      "source": "b0fac9d9-ca54-4e18-92a6-e8810effc568",
+      "target": "4fe6f5ac-b799-45b5-9bbd-54dd78af0326"
+    },
+    {
+      "id": "1735760f-d070-4ffd-97de-80897a89980b",
+      "type": "istar.AndRefinementLink",
+      "source": "5b60ee53-3392-478c-b49a-ea058645f0bc",
+      "target": "4fe6f5ac-b799-45b5-9bbd-54dd78af0326"
+    },
+    {
+      "id": "095040fd-4bb1-40af-83ad-bbda2373850d",
+      "type": "istar.OrRefinementLink",
+      "source": "1ae8f118-4254-4ab8-977b-dfb4d4683188",
+      "target": "d6bbd3c3-fb3c-4383-8499-f312542f5339"
+    },
+    {
+      "id": "12cabafe-fa27-44d1-ac7d-d04b1e40846d",
+      "type": "istar.OrRefinementLink",
+      "source": "8da45efe-a9d8-44ad-a06f-c05f7a7d5bcc",
+      "target": "1ae8f118-4254-4ab8-977b-dfb4d4683188"
+    },
+    {
+      "id": "7c468684-0b64-433c-a94f-c86805233eb8",
+      "type": "istar.OrRefinementLink",
+      "source": "c3c0f1a9-4fcd-44df-a3b2-f6262d0bdb3b",
+      "target": "1ae8f118-4254-4ab8-977b-dfb4d4683188"
+    },
+    {
+      "id": "fa4ac7fb-9168-49b1-8c7f-c1da49852788",
+      "type": "istar.OrRefinementLink",
+      "source": "a3481497-c65a-40bf-aa7d-7e8241ea301b",
+      "target": "b0fac9d9-ca54-4e18-92a6-e8810effc568"
+    },
+    {
+      "id": "c348c658-1291-41f1-836f-19e15951fca2",
+      "type": "istar.OrRefinementLink",
+      "source": "f8fe96a1-ef51-4183-9cc1-cab322f609d4",
+      "target": "b0fac9d9-ca54-4e18-92a6-e8810effc568"
+    },
+    {
+      "id": "a6553f31-b4ee-4fca-9b54-8b6902f0f73f",
+      "type": "istar.ContributionLink",
+      "source": "a3481497-c65a-40bf-aa7d-7e8241ea301b",
+      "target": "050f713f-959a-41b9-8428-40831c424f5c",
+      "label": "help"
+    },
+    {
+      "id": "25a500a9-eecf-4af2-bc48-37e595cfa8e5",
+      "type": "istar.ContributionLink",
+      "source": "f8fe96a1-ef51-4183-9cc1-cab322f609d4",
+      "target": "050f713f-959a-41b9-8428-40831c424f5c",
+      "label": "hurt"
+    },
+    {
+      "id": "de4def97-3196-4ae6-ab29-6abfb910dfb1",
+      "type": "istar.OrRefinementLink",
+      "source": "14d56bc1-af48-4c40-899d-60c318b781fa",
+      "target": "5b60ee53-3392-478c-b49a-ea058645f0bc"
+    },
+    {
+      "id": "7566f064-a3fd-4e57-97e5-655c059dbb7d",
+      "type": "istar.OrRefinementLink",
+      "source": "f8efbb28-decc-4472-a8d8-c7adf2e194f5",
+      "target": "910139c8-8cd8-4567-b5d8-841cae5428c7"
+    },
+    {
+      "id": "fded3980-6873-4731-84e4-79afda0b4a07",
+      "type": "istar.OrRefinementLink",
+      "source": "5674087e-1278-49de-be2f-acc6ede49b06",
+      "target": "910139c8-8cd8-4567-b5d8-841cae5428c7"
+    }
+  ],
+  "display": {
+    "f75c15b0-59a6-4ffc-8b2c-986d8fa1c256": {
+      "width": 126.5,
+      "height": 50.84375
+    },
+    "3cb01c16-c1e5-41ca-80e6-89c0ca5ed1b1": {
+      "width": 113.5,
+      "height": 41.34375
+    },
+    "8e5510e5-ed40-416a-ac27-37a53a6ddc41": {
+      "width": 130.5,
+      "height": 46.84375
+    },
+    "4fe6f5ac-b799-45b5-9bbd-54dd78af0326": {
+      "width": 105.5,
+      "height": 47.34375
+    },
+    "b5890d7c-d936-4913-a6a8-3508cd997eee": {
+      "width": 106.5,
+      "height": 39.34375
+    },
+    "5b1fe4de-9bfc-46a9-9115-484e87fd944d": {
+      "width": 108.5,
+      "height": 43.34375
+    },
+    "4501ad35-b0f3-4f50-adff-0a72c8768ef0": {
+      "width": 126.5,
+      "height": 41.84375
+    },
+    "14d56bc1-af48-4c40-899d-60c318b781fa": {
+      "width": 129,
+      "height": 47.84375
+    },
+    "5674087e-1278-49de-be2f-acc6ede49b06": {
+      "width": 111,
+      "height": 41.84375
+    },
+    "506756f4-97df-4942-9594-b4c18e064ee4": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Sun, 24 May 2026 20:07:38 GMT",
+  "diagram": {
+    "width": 1442,
+    "height": 2000,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

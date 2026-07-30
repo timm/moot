@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version="1.0">
+   <diagram name="bCMS_ActorAssociation.ood">
+      <graphic content="SVG"/>
+      <ielement type="resource" id="_o4UB0NWSEeGoBsT_nT6Xsg" name="Funding"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee iref="_ewhScNWSEeGoBsT_nT6Xsg" aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_peYjUNWSEeGoBsT_nT6Xsg" name="Funding"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_6PTNINKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee iref="_buRpcNWSEeGoBsT_nT6Xsg" aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="goal" id="_2M3BENWSEeGoBsT_nT6Xsg" name="Follow policies"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_ewhScNWSEeGoBsT_nT6Xsg" aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="goal" id="_3ce14NWSEeGoBsT_nT6Xsg" name="Follow policies"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_buRpcNWSEeGoBsT_nT6Xsg" aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_6PTNINKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_H8QbANWTEeGoBsT_nT6Xsg" name="Policies"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_6PTNINKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee iref="_in5MoNWSEeGoBsT_nT6Xsg" aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_LKdcYNWTEeGoBsT_nT6Xsg" name="Policies"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee iref="_in5MoNWSEeGoBsT_nT6Xsg" aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <actor type="role" id="_-aAvgNKvEeGgRv0sG0abZw" name="Police Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_8nKcYNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_BGGiUNKwEeGgRv0sG0abZw" name="Fire Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_6PTNINKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_6PTNINKwEeGgRv0sG0abZw" name="Fire Station">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_8nKcYNKwEeGgRv0sG0abZw" name="Police Station">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_wHtnMNKyEeGgRv0sG0abZw" name="Government Agency">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <boundary>
+            <graphic content="basic" xpos="660" ypos="396" width="469" height="409" shape="ellipse"
+                     unit="pt"
+                     bgcolor="FFFFFF"
+                     fontfamily="Segoe UI"
+                     fontcolor="000000"
+                     fontsize="12"/>
+            <ielement type="softgoal" id="_qxUnUNWREeGoBsT_nT6Xsg"
+                      name="Provide funding for the system">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="decomposition" value="and" iref="_yWK40NWREeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="decomposition" value="and" iref="_d0_eUNWSEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_sWrbkNWREeGoBsT_nT6Xsg"
+                      name="Improve communities living standard">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="task" id="_yWK40NWREeGoBsT_nT6Xsg" name="Deploy the system">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_sWrbkNWREeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_CnVaMNWSEeGoBsT_nT6Xsg" name="Keep community safe">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_sWrbkNWREeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_E-PnMNWSEeGoBsT_nT6Xsg" name="Ensure minimal costs">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_GSUeMNWSEeGoBsT_nT6Xsg"
+                      name="Ensure effective response times">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_CnVaMNWSEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="task" id="_buRpcNWSEeGoBsT_nT6Xsg"
+                      name="Provide funding for fire departments">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="decomposition" value="and" iref="_d0_eUNWSEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="task" id="_d0_eUNWSEeGoBsT_nT6Xsg" name="Provide funding">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="task" id="_ewhScNWSEeGoBsT_nT6Xsg"
+                      name="Provide funding for police departments">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="decomposition" value="and" iref="_d0_eUNWSEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="goal" id="_in5MoNWSEeGoBsT_nT6Xsg"
+                      name="Establish policies for both groups">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+         </boundary>
+      </actor>
+   </diagram>
+</istarml>

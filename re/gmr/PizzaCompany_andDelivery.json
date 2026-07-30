@@ -1,0 +1,382 @@
+{
+  "actors": [
+    {
+      "id": "6bd84410-6a9d-4911-a0a4-1baa31ebb771",
+      "text": "Management",
+      "type": "istar.Actor",
+      "x": 55,
+      "y": 1214,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "984659ab-d558-463e-807a-81f4d1998849",
+      "text": "Commercial Competition",
+      "type": "istar.Role",
+      "x": 878,
+      "y": 1115,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "a94bef4f-9c2e-4d0c-8719-ad7b62d1e19c",
+      "text": "Pizzeria [Commercial premises]",
+      "type": "istar.Agent",
+      "x": 398,
+      "y": 1291,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "09dc232e-2054-4425-8ba7-fb722afafedc",
+          "text": "Make pizzas",
+          "type": "istar.Task",
+          "x": 632,
+          "y": 1432,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c810d13f-aaa1-4882-95f9-845e468d53e9",
+          "text": "Deliver pizzas",
+          "type": "istar.Task",
+          "x": 628,
+          "y": 1550,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c0fe8749-bc58-4089-b76e-6fb9333820f8",
+          "text": "Deliveries in limited territory",
+          "type": "istar.Quality",
+          "x": 537,
+          "y": 1623,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cd7de41a-920f-4ce9-9591-5dc23fc189d5",
+          "text": "Speed",
+          "type": "istar.Quality",
+          "x": 633,
+          "y": 1689,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b943eded-ee59-4c71-b050-2779b2b5d3a3",
+          "text": "Delivery within one time limit",
+          "type": "istar.Quality",
+          "x": 769,
+          "y": 1641,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d3479a32-d2bc-4462-952b-f801de36f9c6",
+          "text": "Pizzas are delivered at domicile",
+          "type": "istar.Goal",
+          "x": 805,
+          "y": 1553.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9d13d82a-d618-479d-bd2d-b3f9b6535462",
+          "text": "Pizzas delivered on-time [95% by January 1, 2007]",
+          "type": "istar.Goal",
+          "x": 840,
+          "y": 1457,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e6965c37-4db5-43d3-a2b8-06ee76411e9f",
+          "text": "Mututal benefits [customer / company]",
+          "type": "istar.Quality",
+          "x": 841,
+          "y": 1369.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "22571268-8c16-4c4b-81a1-8b296b7d24cb",
+          "text": "Increase market share",
+          "type": "istar.Quality",
+          "x": 651,
+          "y": 1317.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8d4ab4d7-c37b-42a5-8401-16e20f3a0d29",
+          "text": "Instructions and Current Trade regulations",
+          "type": "istar.Resource",
+          "x": 398,
+          "y": 1455,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "52184f0f-59bd-4869-90ce-7aed0232564a",
+          "text": "Safety [kitchen, streets]",
+          "type": "istar.Quality",
+          "x": 473,
+          "y": 1338,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "52b41ed5-0cda-4ea0-bbba-9f3af5596f22",
+          "text": "Hire driver",
+          "type": "istar.Task",
+          "x": 405,
+          "y": 1594,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "89e37df7-bfaa-4beb-b84c-c293a3878996",
+      "text": "Pizza Company",
+      "type": "istar.Actor",
+      "x": 290,
+      "y": 1128,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "04bdd9ce-d4ea-4657-b9a9-34863b257844",
+      "text": "Increase market share",
+      "type": "istar.Quality",
+      "x": 658,
+      "y": 1136,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a94bef4f-9c2e-4d0c-8719-ad7b62d1e19c",
+      "target": "984659ab-d558-463e-807a-81f4d1998849"
+    },
+    {
+      "id": "405fd5bc-8043-4c50-a34f-8116142a5792",
+      "text": "Instructions and current trade regulations",
+      "type": "istar.Resource",
+      "x": 169,
+      "y": 1373,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "8d4ab4d7-c37b-42a5-8401-16e20f3a0d29",
+      "target": "6bd84410-6a9d-4911-a0a4-1baa31ebb771"
+    },
+    {
+      "id": "d88bc5b3-c539-425e-9a2a-52635f3f7df4",
+      "text": "Hire Driver",
+      "type": "istar.Task",
+      "x": 79,
+      "y": 1491,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "52b41ed5-0cda-4ea0-bbba-9f3af5596f22",
+      "target": "6bd84410-6a9d-4911-a0a4-1baa31ebb771"
+    }
+  ],
+  "links": [
+    {
+      "id": "ded344b2-4026-418a-87fc-d4c6c953e0d0",
+      "type": "istar.DependencyLink",
+      "source": "d88bc5b3-c539-425e-9a2a-52635f3f7df4",
+      "target": "6bd84410-6a9d-4911-a0a4-1baa31ebb771"
+    },
+    {
+      "id": "18cd3986-eb6e-46d8-adb3-9b33e459a207",
+      "type": "istar.DependencyLink",
+      "source": "52b41ed5-0cda-4ea0-bbba-9f3af5596f22",
+      "target": "d88bc5b3-c539-425e-9a2a-52635f3f7df4"
+    },
+    {
+      "id": "8fac64de-d3aa-40ed-a882-df76d4abdab2",
+      "type": "istar.DependencyLink",
+      "source": "405fd5bc-8043-4c50-a34f-8116142a5792",
+      "target": "6bd84410-6a9d-4911-a0a4-1baa31ebb771"
+    },
+    {
+      "id": "e0a69abf-9abf-49cd-b3e7-5a821ef21bc2",
+      "type": "istar.DependencyLink",
+      "source": "8d4ab4d7-c37b-42a5-8401-16e20f3a0d29",
+      "target": "405fd5bc-8043-4c50-a34f-8116142a5792"
+    },
+    {
+      "id": "886099be-6a9a-4c3a-8c26-ecb5624d7e40",
+      "type": "istar.DependencyLink",
+      "source": "04bdd9ce-d4ea-4657-b9a9-34863b257844",
+      "target": "984659ab-d558-463e-807a-81f4d1998849"
+    },
+    {
+      "id": "5313a2c8-2fb1-48c4-8a4f-6b3d2500798c",
+      "type": "istar.DependencyLink",
+      "source": "a94bef4f-9c2e-4d0c-8719-ad7b62d1e19c",
+      "target": "04bdd9ce-d4ea-4657-b9a9-34863b257844"
+    },
+    {
+      "id": "b8c16d40-ee82-4179-8627-a37803992356",
+      "type": "istar.AndRefinementLink",
+      "source": "c810d13f-aaa1-4882-95f9-845e468d53e9",
+      "target": "09dc232e-2054-4425-8ba7-fb722afafedc"
+    },
+    {
+      "id": "dac5fc0f-4899-4ccb-b874-be7e142c80c9",
+      "type": "istar.OrRefinementLink",
+      "source": "c810d13f-aaa1-4882-95f9-845e468d53e9",
+      "target": "d3479a32-d2bc-4462-952b-f801de36f9c6"
+    },
+    {
+      "id": "e8446920-7604-4bc8-817f-5bcdb25a366f",
+      "type": "istar.ContributionLink",
+      "source": "c810d13f-aaa1-4882-95f9-845e468d53e9",
+      "target": "b943eded-ee59-4c71-b050-2779b2b5d3a3",
+      "label": "help"
+    },
+    {
+      "id": "3f771142-02eb-45a7-aaab-1362d60e1fb3",
+      "type": "istar.ContributionLink",
+      "source": "c810d13f-aaa1-4882-95f9-845e468d53e9",
+      "target": "c0fe8749-bc58-4089-b76e-6fb9333820f8",
+      "label": "make"
+    },
+    {
+      "id": "25bc336a-8274-4e0a-838f-44f748840ebd",
+      "type": "istar.ContributionLink",
+      "source": "c0fe8749-bc58-4089-b76e-6fb9333820f8",
+      "target": "cd7de41a-920f-4ce9-9591-5dc23fc189d5",
+      "label": "help"
+    },
+    {
+      "id": "e6322c80-b04b-44e3-8016-6a7bfa84f137",
+      "type": "istar.ContributionLink",
+      "source": "cd7de41a-920f-4ce9-9591-5dc23fc189d5",
+      "target": "b943eded-ee59-4c71-b050-2779b2b5d3a3",
+      "label": "help"
+    },
+    {
+      "id": "f7a5163a-e528-4d98-b811-aa8fe850039b",
+      "type": "istar.OrRefinementLink",
+      "source": "c810d13f-aaa1-4882-95f9-845e468d53e9",
+      "target": "9d13d82a-d618-479d-bd2d-b3f9b6535462"
+    },
+    {
+      "id": "fcc81a5a-d782-4f8a-ba1f-bc785ebfb13e",
+      "type": "istar.ContributionLink",
+      "source": "09dc232e-2054-4425-8ba7-fb722afafedc",
+      "target": "e6965c37-4db5-43d3-a2b8-06ee76411e9f",
+      "label": "help"
+    },
+    {
+      "id": "aa8eaa72-20b2-468b-be08-d2b034274fda",
+      "type": "istar.ContributionLink",
+      "source": "09dc232e-2054-4425-8ba7-fb722afafedc",
+      "target": "22571268-8c16-4c4b-81a1-8b296b7d24cb",
+      "label": "help"
+    },
+    {
+      "id": "630181f9-de1e-4268-8149-d62d51b6729c",
+      "type": "istar.ParticipatesInLink",
+      "source": "6bd84410-6a9d-4911-a0a4-1baa31ebb771",
+      "target": "89e37df7-bfaa-4beb-b84c-c293a3878996"
+    },
+    {
+      "id": "c472b5fd-b735-4757-ae40-ad2f6b9a4ddb",
+      "type": "istar.ParticipatesInLink",
+      "source": "a94bef4f-9c2e-4d0c-8719-ad7b62d1e19c",
+      "target": "89e37df7-bfaa-4beb-b84c-c293a3878996"
+    },
+    {
+      "id": "c5747b4c-f022-4bbf-93c5-34b0af417f8b",
+      "type": "istar.NeededByLink",
+      "source": "8d4ab4d7-c37b-42a5-8401-16e20f3a0d29",
+      "target": "09dc232e-2054-4425-8ba7-fb722afafedc"
+    },
+    {
+      "id": "ee00c67e-afb6-4ab2-bb65-8e39830864a4",
+      "type": "istar.ContributionLink",
+      "source": "8d4ab4d7-c37b-42a5-8401-16e20f3a0d29",
+      "target": "52184f0f-59bd-4869-90ce-7aed0232564a",
+      "label": "help"
+    },
+    {
+      "id": "f1e12443-5ce8-428b-90b5-aaac59f56b74",
+      "type": "istar.AndRefinementLink",
+      "source": "52b41ed5-0cda-4ea0-bbba-9f3af5596f22",
+      "target": "09dc232e-2054-4425-8ba7-fb722afafedc"
+    }
+  ],
+  "display": {
+    "cd7de41a-920f-4ce9-9591-5dc23fc189d5": {
+      "width": 70.521240234375,
+      "height": 48.8487548828125
+    },
+    "9d13d82a-d618-479d-bd2d-b3f9b6535462": {
+      "width": 129.5,
+      "height": 63.84375
+    },
+    "8d4ab4d7-c37b-42a5-8401-16e20f3a0d29": {
+      "width": 107.5,
+      "height": 56.84375
+    },
+    "405fd5bc-8043-4c50-a34f-8116142a5792": {
+      "width": 113.5,
+      "height": 52.84375
+    },
+    "c472b5fd-b735-4757-ae40-ad2f6b9a4ddb": {
+      "vertices": [
+        {
+          "x": 384,
+          "y": 1208
+        }
+      ]
+    },
+    "6bd84410-6a9d-4911-a0a4-1baa31ebb771": {
+      "collapsed": true
+    },
+    "984659ab-d558-463e-807a-81f4d1998849": {
+      "collapsed": true
+    },
+    "89e37df7-bfaa-4beb-b84c-c293a3878996": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 19 May 2026 20:08:59 GMT",
+  "diagram": {
+    "width": 2554,
+    "height": 1953,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

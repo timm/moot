@@ -1,0 +1,5186 @@
+{
+    "edges": [
+        {
+            "component": "edge", 
+            "id": 206, 
+            "source": "Use Blue Pumpkin", 
+            "target": "Track Call Lengths", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 207, 
+            "source": "Facilitate Faster Changes in Counsellor Duties1", 
+            "target": "Facilitate Faster Changes in Counsellor Duties", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 208, 
+            "source": "Second Reading of Web Posts1", 
+            "target": "Avoid Liability Problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 209, 
+            "source": "Request Shifts", 
+            "target": "Accommodate Schedules [Counselling Managers]2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 210, 
+            "source": "Analyze Service Levels", 
+            "target": "Make Schedules", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 211, 
+            "source": "Reduce Turnover [Counsellors]", 
+            "target": "Happiness [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 212, 
+            "source": "Pressure Counsellors [to Provide Online Services]", 
+            "target": "*Provide Online Services [All Counsellors] ", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 213, 
+            "source": "Consider Counsellors Feedback", 
+            "target": "*Happiness of Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 214, 
+            "source": "Increase IT Methods to Acquire Feedback1", 
+            "target": "Increase [Feedback]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 215, 
+            "source": "Second Reading of Web Posts", 
+            "target": "Second Reading of Web Posts2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 216, 
+            "source": "Avoid Relationships with Specific Counsellor1", 
+            "target": "Avoid Refusal of Services", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 217, 
+            "source": "Positive Internal Opinion", 
+            "target": "Positive Internal Opinion1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 218, 
+            "source": "*Effective Use of Technology [Counsellors]1", 
+            "target": "*High Quality [Online Counselling]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 219, 
+            "source": "Environment Conductive to Concentration", 
+            "target": "Happiness [Counselling Manager]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 220, 
+            "source": "Increase Communication [Between Counsellors and Supervisors]", 
+            "target": "*Happiness of Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 221, 
+            "source": "Clearer Call Classification Catagories", 
+            "target": "Clearer Call Classification Catagories1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 222, 
+            "source": "Make Schedules", 
+            "target": "Effective Scheduling", 
+            "type": "contribution", 
+            "value": "make"
+        }, 
+        {
+            "component": "edge", 
+            "id": 223, 
+            "source": "!Performance Review Information Be Collected in Data Base", 
+            "target": "Improve Quality Assurance Technology", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 224, 
+            "source": "Happiness [Counselling Management]", 
+            "target": "Happiness [Counselling Manager]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 225, 
+            "source": "Avoid Refusal of Services", 
+            "target": "*Help as Many Kids as Possible", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 226, 
+            "source": "Pressure Counsellors [to Provide Online Services]", 
+            "target": "Pressure Counsellors [to Provide Online Services]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 227, 
+            "source": "Negotiate with Counsellors Union", 
+            "target": "Manage Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 228, 
+            "source": "Accountability [Services]1", 
+            "target": "Accountability [Services]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 229, 
+            "source": "Improve Quality Assurance Technology", 
+            "target": "Support Day to Day Clinical Needs of Counsellors1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 230, 
+            "source": "Put On Counselling Workshops", 
+            "target": "Counselling Workshops", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 231, 
+            "source": "Improved Quality Assurance [Counselling Reviews and Evaluation]1", 
+            "target": "Improved Quality Assurance [Counselling Reviews and Evaluation]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 232, 
+            "source": "Call Duration Consistency [Counsellors]", 
+            "target": "*Happiness of Counsellors", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 233, 
+            "source": "!An IT Trainer Be Present", 
+            "target": "*Increase [IT Training for Counsellors]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 234, 
+            "source": "Increase Enthusiasm [Counsellors for IT]", 
+            "target": "*Positive Attitude Towards IT [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 235, 
+            "source": "Increase Funding for Training1", 
+            "target": "Increase Training [for Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 236, 
+            "source": "Clearer Call Classification Catagories1", 
+            "target": "Accurate Caller Statistics", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 237, 
+            "source": "Advance Notice to Counsellors [About IT Transitions]", 
+            "target": "Reduce Resistance [Counsellors for IT]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 238, 
+            "source": "Improved Quality Assurance [Counselling Reviews and Evaluation]2", 
+            "target": "Improved Quality Assurance [Counselling Reviews and Evaluation]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 239, 
+            "source": "!A Training Program Be Present", 
+            "target": "Increase Training [for Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 240, 
+            "source": "Reduce Turnover [Counsellors]", 
+            "target": "Happiness [Counselling Manager]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 241, 
+            "source": "Second Reading of Web Posts", 
+            "target": "Provide Feedback on Web Posts", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 242, 
+            "source": "Negotiate with Counsellors Union2", 
+            "target": "Easier Job", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 243, 
+            "source": "*Positive Attitude Towards IT [Counsellors]", 
+            "target": "*Provide Online Services [All Counsellors] ", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 244, 
+            "source": "*High Quality Counselling", 
+            "target": "*High Quality Counselling1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 245, 
+            "source": "Improved Writing Skills [Counsellors]", 
+            "target": "Improved Writing Skills [Counsellors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 246, 
+            "source": "*Help as Many Kids as Possible", 
+            "target": "*Help as Many Kids as Possible1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 247, 
+            "source": "Increase Number [of Counsellors]2", 
+            "target": "Reduce Cost of Counselling HR2", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 248, 
+            "source": "*Increase [IT Training for Counsellors]1", 
+            "target": "Increase Training [for Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 249, 
+            "source": "*Sufficient Counselling Resources2", 
+            "target": "*Sufficient Counselling Resources", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 250, 
+            "source": "Supervision Be Performed At Least Every 3 Months", 
+            "target": "Perform Supervision for Experienced Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 251, 
+            "source": "Facilitate Faster Changes in Counsellor Duties", 
+            "target": "Advance Notice to Counsellors [About IT Transitions]", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 252, 
+            "source": "Debrief Web Posts", 
+            "target": "Debrief with Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 253, 
+            "source": "Analyze Call Statistics2", 
+            "target": "Call Duration Consistency [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 254, 
+            "source": "Clear Communication About the Purpose of IT [to Counselors]", 
+            "target": "Increased Understanding of Purposes of IT [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 255, 
+            "source": "Continual Improvement [Counselling Skills]1", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 256, 
+            "source": "Improve Quality Assurance Technology", 
+            "target": "Improved Quality Assurance [Counselling Reviews and Evaluation]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 257, 
+            "source": "Analyze Call Statistics", 
+            "target": "Reduce Cost of Counselling HR", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 258, 
+            "source": "Counsellors Be Paid", 
+            "target": "Manage Staffing and Recruiting ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 259, 
+            "source": "Increased Counselling Resources", 
+            "target": "Increased Counselling Resource", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 260, 
+            "source": "Track Call Lengths", 
+            "target": "Analyze Call Statistics", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 261, 
+            "source": "Consider Counsellors Feedback", 
+            "target": "Increase Communication [Between Counsellors and Supervisors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 262, 
+            "source": "Perform Supervision for New Counsellors", 
+            "target": "Perform Counselling Quality Assurance", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 263, 
+            "source": "Provide Feedback on Web Posts", 
+            "target": "441", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 264, 
+            "source": "Calls Be Monitored ", 
+            "target": "441", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 265, 
+            "source": "Counsellors Be Kept Informed", 
+            "target": "Increase Communication [Between Counsellors and Supervisors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 266, 
+            "source": "Increased Understanding of Purposes of IT [Counsellors]", 
+            "target": "Reduce Resistance [Counsellors for IT]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 267, 
+            "source": "Negotiate with Counsellors Union", 
+            "target": "Negotiate with Counsellors Union1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 268, 
+            "source": "Effective Scheduling", 
+            "target": "Reduce Staggering of Schedules1", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 269, 
+            "source": "*Increase [IT Training for Counsellors]", 
+            "target": "*Increase [IT Training for Counsellors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 270, 
+            "source": "Accommodate Schedules [Counselling Managers]2", 
+            "target": "Happiness [Counselling Manager]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 271, 
+            "source": "Perform Supervision for New Counsellors", 
+            "target": "Perform Supervision", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 272, 
+            "source": "!Performance Review Information Be Collected in Data Base1", 
+            "target": "!Performance Review Information Be Collected in Data Base", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 273, 
+            "source": "Easier Job", 
+            "target": "Happiness [Counselling Manager]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 274, 
+            "source": "!A Training Computer Be Present", 
+            "target": "*Increase [IT Training for Counsellors]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 275, 
+            "source": "Improved Quality Assurance [Counselling Reviews and Evaluation]", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 276, 
+            "source": "Set Counselling Policies", 
+            "target": "Manage Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 277, 
+            "source": "Counselling Policies Be Followed1", 
+            "target": "Manage Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 278, 
+            "source": "Holes in Operations Managing Be Removed", 
+            "target": "Make Schedules", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 279, 
+            "source": "Supervision Be Performed At Least Every 3 Months", 
+            "target": "Supervision Be Performed At Least Every 3 Months2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 280, 
+            "source": "Negotiate with Counsellors Union1", 
+            "target": "Negotiate with Counsellors Union2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 281, 
+            "source": "Feedback to Counsellors Be Provided", 
+            "target": "Support Day to Day Clinical Needs of Counsellors1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 282, 
+            "source": "Feedback to Counsellors Be Provided2", 
+            "target": "Feedback to Counsellors Be Provided1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 283, 
+            "source": "Accommodate Schedules [Counselling Managers]", 
+            "target": "Accommodate Schedules [Counselling Managers]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 284, 
+            "source": "Put on Orientation Process for Cousellors", 
+            "target": "Training Be Given to New Employees", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 285, 
+            "source": "Improved Quality Assurance [Counselling Reviews and Evaluation]", 
+            "target": "Qualified [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 286, 
+            "source": "Three Months of Review Be Given to New Counsellors", 
+            "target": "Perform Supervision for New Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 287, 
+            "source": "Increased Understanding of Purposes of IT [Counsellors]", 
+            "target": "Increase Enthusiasm [Counsellors for IT]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 288, 
+            "source": "Put on Orientation Process for Cousellors", 
+            "target": "Training Be Given to Current Employees", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 289, 
+            "source": "!Improve Hiring Process [of Counsellors]", 
+            "target": "!Improve Hiring Process [of Counsellors]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 290, 
+            "source": "!Improve Job Descriptions [Counsellors]", 
+            "target": "!Improve Hiring Process [of Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 291, 
+            "source": "Reduce Cost of Counselling HR", 
+            "target": "Reduce Cost of Counselling HR1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 292, 
+            "source": "Provide One-on-One Support to Counsellors", 
+            "target": "Support Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 293, 
+            "source": "Analyze Call Statistics", 
+            "target": "Analyze Call Statistics1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 294, 
+            "source": "Perform Supervision", 
+            "target": "Staff Performance Be Managed", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 295, 
+            "source": "*Positive Attitude Towards IT [Counsellors]", 
+            "target": "*Effective Use of Technology [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 296, 
+            "source": "Increase Training [for Counsellors]", 
+            "target": "Continual Improvement [Counselling Skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 297, 
+            "source": "Reduce Staggering of Schedules1", 
+            "target": "Reduce Staggering of Schedules", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 298, 
+            "source": "Support Day to Day on the Floor Needs of Counsellors", 
+            "target": "Support Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 299, 
+            "source": "Happiness [Counselling Manager]1", 
+            "target": "Reduce Turnover [Counselling Management]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 300, 
+            "source": "Accommodate Schedules [Counsellors]2", 
+            "target": "Accommodate Schedules [Counsellors]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 301, 
+            "source": "!Improve Training [for Counsellors]", 
+            "target": "Continual Improvement [Counselling Skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 302, 
+            "source": "Reduce Turnover [Counselling Management]", 
+            "target": "Happiness [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 303, 
+            "source": "Call Duration Consistency [Counsellors]", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 304, 
+            "source": "Improve [IT Skills of Counsellors]1", 
+            "target": "*Provide Online Services [All Counsellors] ", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 305, 
+            "source": "Bilingual Counsellors Be Hired", 
+            "target": "Reduce Cost of Counselling HR2", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 306, 
+            "source": "Improve [IT Skills of Counsellors]1", 
+            "target": "*Effective Use of Technology [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 307, 
+            "source": "Listen to Live Call", 
+            "target": "Calls Be Monitored ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 308, 
+            "source": "Improved Writing Skills [Counsellors]3", 
+            "target": "Improved Writing Skills [Counsellors]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 309, 
+            "source": "Happiness [Counsellors]1", 
+            "target": "Happiness [Counsellors]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 310, 
+            "source": "Support Counsellors", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 311, 
+            "source": "Happiness [Counsellors]1", 
+            "target": "*Happiness of Counsellors", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 312, 
+            "source": "Support Counsellors", 
+            "target": "*Happiness of Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 313, 
+            "source": "Reduce Spending on Employees Salaries", 
+            "target": "Happiness [Counsellors]", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 314, 
+            "source": "*Effective Use of Technology [Counsellors]", 
+            "target": "*Effective Use of Technology [Counsellors]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 315, 
+            "source": "Feedback to Counsellors Be Provided1", 
+            "target": "Continual Improvement [Counselling Skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 316, 
+            "source": "!Hire Counselling Managers", 
+            "target": "Manage Staffing and Recruiting ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 317, 
+            "source": "Increase [Feedback]", 
+            "target": "Continual Improvement [Counselling Skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 318, 
+            "source": "Acquire Web Training from Operations", 
+            "target": "Second Reading of Web Posts", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 319, 
+            "source": "Increase Counsellors Experience [with Technology]", 
+            "target": "Improve [IT Skills of Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 320, 
+            "source": "Support Day to Day Clinical Needs of Counsellors2", 
+            "target": "Support Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 321, 
+            "source": "Historical Data of Call Volumes", 
+            "target": "Analyze Call Statistics", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 322, 
+            "source": "Consider Counsellors Feedback", 
+            "target": "Consideration of Feedback [Managers]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 323, 
+            "source": "Accommodate Schedules [Counselling Managers]1", 
+            "target": "Accommodate Schedules [Counselling Managers]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 324, 
+            "source": "Technology Be Used to Ensure Counsellors are Keeping Correct Hours", 
+            "target": "Manage Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 325, 
+            "source": "*Happiness of Counsellors", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 326, 
+            "source": "Reduce Spending on Employees Salaries", 
+            "target": "Reduce Cost of Counselling HR2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 327, 
+            "source": "Increased Counselling Resource", 
+            "target": "Increase Number [of Counsellors]2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 328, 
+            "source": "!Calls Be Recorded into a Data Base", 
+            "target": "Improve Quality Assurance Technology", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 329, 
+            "source": "Avoid Liability Problems1", 
+            "target": "Avoid Liability Problems", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 330, 
+            "source": "Improve [IT Skills of Counsellors]", 
+            "target": "Continual Improvement [Counselling Skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 331, 
+            "source": "Write Yearly Peformance Evaluations for Counsellors", 
+            "target": "Perform Supervision for Experienced Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 332, 
+            "source": "Supervision Be Performed At Least Every 3 Months1", 
+            "target": "Continual Improvement [Counselling Skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 333, 
+            "source": "Bilingual Counsellors Be Hired", 
+            "target": "Bilingual Counsellors Be Hired1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 334, 
+            "source": "Improve [IT Skills of Counsellors]", 
+            "target": "Improve [IT Skills of Counsellors]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 335, 
+            "source": "Counsellors Be Kept Informed", 
+            "target": "Manage Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 336, 
+            "source": "Increase Number [of Counsellors]", 
+            "target": "*Happiness of Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 337, 
+            "source": "Supervision Be Performed At Least Every 3 Months2", 
+            "target": "Supervision Be Performed At Least Every 3 Months1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 338, 
+            "source": "Put on Web Moderator Meetings", 
+            "target": "Web Moderator Meetings", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 339, 
+            "source": "*Sufficient Counselling Resources1", 
+            "target": "*Sufficient Counselling Resources", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 340, 
+            "source": "Debrief with Counsellors", 
+            "target": "Increase Communication [Between Counsellors and Supervisors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 341, 
+            "source": "Accommodate Schedules [Counsellors]1", 
+            "target": "Accommodate Schedules [Counsellors]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 342, 
+            "source": "Professional Counsellors Be Used", 
+            "target": "Continual Improvement [Counselling Skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 343, 
+            "source": "Increased Counselling Resource", 
+            "target": "Happiness [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 344, 
+            "source": "*High Quality Counselling2", 
+            "target": "*High Quality Counselling", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 345, 
+            "source": "!Hire Counsellors", 
+            "target": "Manage Staffing and Recruiting ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 346, 
+            "source": "Positive Internal Opinion1", 
+            "target": "Happiness [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 347, 
+            "source": "!Improve Hiring Process [of Counsellors]1", 
+            "target": "Qualified [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 348, 
+            "source": "Communicate CS Information to Counsellors", 
+            "target": "Counsellors Be Kept Informed", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 349, 
+            "source": "Review Tape", 
+            "target": "Calls Be Monitored ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 350, 
+            "source": "Professional Work Environment1", 
+            "target": "Professional Work Environment", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 351, 
+            "source": "Continual Improvement [Counselling Skills]2", 
+            "target": "Continual Improvement [Counselling Skills]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 352, 
+            "source": "Pressure Counsellors [to Provide Online Services]1", 
+            "target": "*Happiness of Counsellors", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 353, 
+            "source": "Track Call Volume", 
+            "target": "Analyze Call Statistics", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 354, 
+            "source": "Qualified [Counsellors]", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 355, 
+            "source": "!A Training Room Be Present", 
+            "target": "!Improve Training [for Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 356, 
+            "source": "Happiness [Counsellors]", 
+            "target": "Reduce Turnover [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 357, 
+            "source": "Attend Part Time Meetings", 
+            "target": "Increase Communication [Between Counsellors and Supervisors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 358, 
+            "source": "Support Analysis [Counsellors Time]1", 
+            "target": "Support Analysis [Counsellors Time]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 359, 
+            "source": "!Increased Emphasis on IT in Hiring Process [of Counsellors]1", 
+            "target": "Improve [IT Skills of Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 360, 
+            "source": "Reduce Cost of Counselling HR2", 
+            "target": "Reduce Cost of Counselling HR1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 361, 
+            "source": "Double Head Set", 
+            "target": "Listen to Live Call", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 362, 
+            "source": "Improve [IT Skills of Counsellors]2", 
+            "target": "Improve [IT Skills of Counsellors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 363, 
+            "source": "Set Counselling Policies", 
+            "target": "Counselling Policies", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 364, 
+            "source": "Feedback to Counsellors Be Provided", 
+            "target": "Feedback to Counsellors Be Provided2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 365, 
+            "source": "!Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "target": "Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 366, 
+            "source": "Increase Funding for Training", 
+            "target": "Increase Funding for Training1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 367, 
+            "source": "Professional Counsellors Be Used", 
+            "target": "Professional Counsellors Be Used1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 368, 
+            "source": "Avoid Relationships with Specific Counsellor", 
+            "target": "Avoid Relationships with Specific Counsellor1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 369, 
+            "source": "Improved Writing Skills [Counsellors]1", 
+            "target": "Improved Writing Skills [Counsellors]3", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 370, 
+            "source": "Second Reading of Web Posts2", 
+            "target": "Second Reading of Web Posts1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 371, 
+            "source": "Accurate Caller Statistics", 
+            "target": "Accountability [Services]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 372, 
+            "source": "Support Analysis [Counsellors Time]", 
+            "target": "Reduce Resistance [Counsellors for IT]", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 373, 
+            "source": "Counselling Policies Be Followed", 
+            "target": "Counselling Policies Be Followed1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 374, 
+            "source": "Perform Counselling Quality Assurance", 
+            "target": "Perform Supervision for Experienced Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 375, 
+            "source": "Increase IT Methods to Acquire Feedback", 
+            "target": "Increase IT Methods to Acquire Feedback1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 376, 
+            "source": "Improve [IT Skills]", 
+            "target": "Improve [IT Skills of Counsellors]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 377, 
+            "source": "Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "target": "!Increased Emphasis on IT in Hiring Process [of Counsellors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 378, 
+            "source": "Analyze Call Statistics", 
+            "target": "Make Schedules", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 379, 
+            "source": "Training Be Given to Current Employees", 
+            "target": "Employee Learning and Training Be Managed", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 380, 
+            "source": "Provide Feedback on Web Posts", 
+            "target": "Perform Supervision for Experienced Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 381, 
+            "source": "Effective Scheduling2", 
+            "target": "Effective Scheduling1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 382, 
+            "source": "Increase Number [of Counsellors]1", 
+            "target": "Increase Number [of Counsellors]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 383, 
+            "source": "Support Day to Day Clinical Needs of Counsellors1", 
+            "target": "Support Day to Day Clinical Needs of Counsellors", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 384, 
+            "source": "!Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "target": "!Improve Hiring Process [of Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 385, 
+            "source": "Effective Scheduling", 
+            "target": "Accommodate Schedules [Counselling Managers]", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 386, 
+            "source": "Calls Be Monitored ", 
+            "target": "Perform Supervision for Experienced Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 387, 
+            "source": "Continual Improvement [Counselling Skills]", 
+            "target": "Continual Improvement [Counselling Skills]2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 388, 
+            "source": "Use Blue Pumpkin", 
+            "target": "Track Call Volume", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 389, 
+            "source": "Call Statistics", 
+            "target": "Analyze Call Statistics", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 390, 
+            "source": "Happiness [Counselling Manager]", 
+            "target": "Happiness [Counselling Management]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 391, 
+            "source": "Rigorous [Employee Evaluations]", 
+            "target": "Improved Quality Assurance [Counselling Reviews and Evaluation]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 392, 
+            "source": "Contracts Be Reviewed", 
+            "target": "Manage Staffing and Recruiting ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 393, 
+            "source": "Clearer Call Classification Catagories1", 
+            "target": "*Happiness of Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 394, 
+            "source": "Effective Scheduling", 
+            "target": "Accommodate Schedules [Counsellors]1", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 395, 
+            "source": "Improved Writing Skills [Counsellors]2", 
+            "target": "*High Quality [Online Counselling]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 396, 
+            "source": "Training Be Given to New Employees", 
+            "target": "Employee Learning and Training Be Managed", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 397, 
+            "source": "Debrief with Counsellors", 
+            "target": "Support Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 398, 
+            "source": "Effective Scheduling", 
+            "target": "Effective Scheduling2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 399, 
+            "source": "Avoid Liability Problems", 
+            "target": "Happiness [Counselling Manager]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 400, 
+            "source": "Acquire Resources for Staffing", 
+            "target": "Manage Staffing and Recruiting ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 401, 
+            "source": "Accommodate Schedules [Counsellors]", 
+            "target": "*Happiness of Counsellors", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 402, 
+            "source": "Pressure Counsellors [to Provide Online Services]2", 
+            "target": "Pressure Counsellors [to Provide Online Services]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 403, 
+            "source": "Facilitate Faster Changes in Counsellor Duties", 
+            "target": "*Provide Online Services [All Counsellors] ", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 404, 
+            "source": "*Increase [IT Training for Counsellors]1", 
+            "target": "Improve [IT Skills of Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 405, 
+            "source": "Full Time Night Complement Be Acquired", 
+            "target": "Manage Staffing and Recruiting ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 406, 
+            "source": "!A Training Room Be Present", 
+            "target": "Increase Training [for Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 407, 
+            "source": "Bilingual Counsellors Be Hired1", 
+            "target": "Bilingual Counsellors Be Hired2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 408, 
+            "source": "Professional Work Environment", 
+            "target": "Environment Conductive to Concentration", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 409, 
+            "source": "Bilingual Counsellors Be Hired2", 
+            "target": "*Help as Many Kids as Possible", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 410, 
+            "source": "Put On Counselling Workshops", 
+            "target": "Training Be Given to Current Employees", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 411, 
+            "source": "Perform Supervision for Experienced Counsellors", 
+            "target": "Perform Supervision", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 412, 
+            "source": "Support Analysis [Counsellors Time]", 
+            "target": "Increase Enthusiasm [Counsellors for IT]", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 413, 
+            "source": "Counsellors Be Paid", 
+            "target": "*Salary", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 414, 
+            "source": "Improve [Call Recording Equipment]", 
+            "target": "Improve [Call Recording Equipment]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 415, 
+            "source": "Increase Number [of Counsellors]2", 
+            "target": "Increase Number [of Counsellors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 416, 
+            "source": "*Effective Use of Technology [Counsellors]2", 
+            "target": "*Effective Use of Technology [Counsellors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 417, 
+            "source": "Create Call Classification Catagories", 
+            "target": "Manage Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 418, 
+            "source": "!Improve Hiring Process [of Counsellors]2", 
+            "target": "!Improve Hiring Process [of Counsellors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 419, 
+            "source": "Provide Feedback on Web Posts", 
+            "target": "Support Day to Day Clinical Needs of Counsellors1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 420, 
+            "source": "Counselling Resources", 
+            "target": "Acquire Resources for Staffing", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 421, 
+            "source": "!A Training Computer Be Present1", 
+            "target": "!A Training Computer Be Present", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 422, 
+            "source": "Increase Comfortableness [with Learning Process]", 
+            "target": "Continual Improvement [Counselling Skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 423, 
+            "source": "Reduce Cost of Counselling HR2", 
+            "target": "Increased Counselling Resource", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 424, 
+            "source": "Support Day to Day Clinical Needs of Counsellors", 
+            "target": "Support Day to Day Clinical Needs of Counsellors2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 425, 
+            "source": "!Calls Be Recorded into a Data Base1", 
+            "target": "!Calls Be Recorded into a Data Base", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 426, 
+            "source": "Effective Scheduling1", 
+            "target": "*Help as Many Kids as Possible", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 427, 
+            "source": "Policies Be Reviewed", 
+            "target": "Manage Staffing and Recruiting ", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 428, 
+            "source": "*Effective Use of Technology [Counsellors]1", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 429, 
+            "source": "Effective Scheduling", 
+            "target": "*Sufficient Counselling Resources2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 430, 
+            "source": "Perform Counselling as Instructed By Supervisor [Counsellors]", 
+            "target": "Perform Counselling as Instructed By Supervisor [Counsellors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 431, 
+            "source": "!An IT Trainer Be Present1", 
+            "target": "!An IT Trainer Be Present", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 432, 
+            "source": "Reduce Resistance [Counsellors for IT]", 
+            "target": "*Positive Attitude Towards IT [Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 433, 
+            "source": "Improve [Call Recording Equipment]1", 
+            "target": "Improve Quality Assurance Technology", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 434, 
+            "source": "Put on Web Moderator Meetings", 
+            "target": "Improve [IT Skills of Counsellors]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 435, 
+            "source": "Feedback to Counsellors Be Provided", 
+            "target": "Perform Supervision for New Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 436, 
+            "source": "Increased Counselling Resource", 
+            "target": "*Sufficient Counselling Resources1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 437, 
+            "source": "Analyze Staffing Levels", 
+            "target": "Make Schedules", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 438, 
+            "source": "Debrief Calls", 
+            "target": "Debrief with Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 439, 
+            "source": "!A Training Program Be Present", 
+            "target": "!Improve Training [for Counsellors]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 440, 
+            "source": "Reduce Turnover [Counselling Management]", 
+            "target": "Happiness [Counselling Manager]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 441, 
+            "source": "Analyze Call Statistics1", 
+            "target": "Analyze Call Statistics2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 442, 
+            "source": "Counsellors Pass Probation within Six Months", 
+            "target": "Perform Supervision for New Counsellors", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 443, 
+            "source": "Perform Counselling as Instructed By Supervisor [Counsellors]1", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 444, 
+            "source": "*High Quality [Online Counselling]", 
+            "target": "*High Quality Counselling", 
+            "type": "contribution", 
+            "value": "help"
+        }
+    ], 
+    "name": "CSCounsellingManagement", 
+    "nodes": [
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                431
+            ], 
+            "id": "!An IT Trainer Be Present", 
+            "is_random": false, 
+            "name": "!An IT Trainer Be Present", 
+            "to_edges": [
+                233
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                322
+            ], 
+            "id": "Consideration of Feedback [Managers]", 
+            "is_random": false, 
+            "name": "Consideration of Feedback [Managers]", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                244
+            ], 
+            "id": "*High Quality Counselling1", 
+            "is_random": false, 
+            "name": "*High Quality Counselling1", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                367
+            ], 
+            "id": "Professional Counsellors Be Used1", 
+            "is_random": false, 
+            "name": "Professional Counsellors Be Used1", 
+            "to_edges": [], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                283
+            ], 
+            "id": "Accommodate Schedules [Counselling Managers]1", 
+            "is_random": false, 
+            "name": "Accommodate Schedules [Counselling Managers]1", 
+            "to_edges": [
+                323
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                356
+            ], 
+            "id": "Reduce Turnover [Counsellors]", 
+            "is_random": false, 
+            "name": "Reduce Turnover [Counsellors]", 
+            "to_edges": [
+                211, 
+                240
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                430
+            ], 
+            "id": "Perform Counselling as Instructed By Supervisor [Counsellors]1", 
+            "is_random": false, 
+            "name": "Perform Counselling as Instructed By Supervisor [Counsellors]1", 
+            "to_edges": [
+                443
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                284
+            ], 
+            "id": "Training Be Given to New Employees", 
+            "is_random": false, 
+            "name": "Training Be Given to New Employees", 
+            "to_edges": [
+                396
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Increase Comfortableness [with Learning Process]", 
+            "is_random": false, 
+            "name": "Increase Comfortableness [with Learning Process]", 
+            "to_edges": [
+                422
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                223, 
+                328, 
+                433
+            ], 
+            "id": "Improve Quality Assurance Technology", 
+            "is_random": false, 
+            "name": "Improve Quality Assurance Technology", 
+            "to_edges": [
+                229, 
+                256
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                318
+            ], 
+            "id": "Second Reading of Web Posts", 
+            "is_random": false, 
+            "name": "Second Reading of Web Posts", 
+            "to_edges": [
+                215, 
+                241
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                300
+            ], 
+            "id": "Accommodate Schedules [Counsellors]", 
+            "is_random": false, 
+            "name": "Accommodate Schedules [Counsellors]", 
+            "to_edges": [
+                401
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                293
+            ], 
+            "id": "Analyze Call Statistics1", 
+            "is_random": false, 
+            "name": "Analyze Call Statistics1", 
+            "to_edges": [
+                441
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                291, 
+                360
+            ], 
+            "id": "Reduce Cost of Counselling HR1", 
+            "is_random": false, 
+            "name": "Reduce Cost of Counselling HR1", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!Calls Be Recorded into a Data Base1", 
+            "is_random": false, 
+            "name": "!Calls Be Recorded into a Data Base1", 
+            "to_edges": [
+                425
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Communicate CS Information to Counsellors", 
+            "is_random": false, 
+            "name": "Communicate CS Information to Counsellors", 
+            "to_edges": [
+                348
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Professional Counsellors Be Used", 
+            "is_random": false, 
+            "name": "Professional Counsellors Be Used", 
+            "to_edges": [
+                342, 
+                367
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                334
+            ], 
+            "id": "Improve [IT Skills of Counsellors]2", 
+            "is_random": false, 
+            "name": "Improve [IT Skills of Counsellors]2", 
+            "to_edges": [
+                362
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                314
+            ], 
+            "id": "*Effective Use of Technology [Counsellors]2", 
+            "is_random": false, 
+            "name": "*Effective Use of Technology [Counsellors]2", 
+            "to_edges": [
+                416
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                238
+            ], 
+            "id": "Improved Quality Assurance [Counselling Reviews and Evaluation]", 
+            "is_random": false, 
+            "name": "Improved Quality Assurance [Counselling Reviews and Evaluation]", 
+            "to_edges": [
+                275, 
+                285
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                290, 
+                384
+            ], 
+            "id": "!Improve Hiring Process [of Counsellors]", 
+            "is_random": false, 
+            "name": "!Improve Hiring Process [of Counsellors]", 
+            "to_edges": [
+                289
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                233, 
+                269, 
+                274
+            ], 
+            "id": "*Increase [IT Training for Counsellors]1", 
+            "is_random": false, 
+            "name": "*Increase [IT Training for Counsellors]1", 
+            "to_edges": [
+                248, 
+                404
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                227, 
+                276, 
+                277, 
+                324, 
+                335, 
+                417
+            ], 
+            "id": "Manage Counsellors", 
+            "is_random": false, 
+            "name": "Manage Counsellors", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                361
+            ], 
+            "id": "Listen to Live Call", 
+            "is_random": false, 
+            "name": "Listen to Live Call", 
+            "to_edges": [
+                307
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                252, 
+                438
+            ], 
+            "id": "Debrief with Counsellors", 
+            "is_random": false, 
+            "name": "Debrief with Counsellors", 
+            "to_edges": [
+                340, 
+                397
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Clear Communication About the Purpose of IT [to Counselors]", 
+            "is_random": false, 
+            "name": "Clear Communication About the Purpose of IT [to Counselors]", 
+            "to_edges": [
+                254
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Contracts Be Reviewed", 
+            "is_random": false, 
+            "name": "Contracts Be Reviewed", 
+            "to_edges": [
+                392
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                226
+            ], 
+            "id": "Pressure Counsellors [to Provide Online Services]2", 
+            "is_random": false, 
+            "name": "Pressure Counsellors [to Provide Online Services]2", 
+            "to_edges": [
+                402
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                209, 
+                323
+            ], 
+            "id": "Accommodate Schedules [Counselling Managers]2", 
+            "is_random": false, 
+            "name": "Accommodate Schedules [Counselling Managers]2", 
+            "to_edges": [
+                270
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                414
+            ], 
+            "id": "Improve [Call Recording Equipment]1", 
+            "is_random": false, 
+            "name": "Improve [Call Recording Equipment]1", 
+            "to_edges": [
+                433
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                355, 
+                439
+            ], 
+            "id": "!Improve Training [for Counsellors]", 
+            "is_random": false, 
+            "name": "!Improve Training [for Counsellors]", 
+            "to_edges": [
+                301
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Acquire Web Training from Operations", 
+            "is_random": false, 
+            "name": "Acquire Web Training from Operations", 
+            "to_edges": [
+                318
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!Improve Job Descriptions [Counsellors]", 
+            "is_random": false, 
+            "name": "!Improve Job Descriptions [Counsellors]", 
+            "to_edges": [
+                290
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                272
+            ], 
+            "id": "!Performance Review Information Be Collected in Data Base", 
+            "is_random": false, 
+            "name": "!Performance Review Information Be Collected in Data Base", 
+            "to_edges": [
+                223
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Positive Internal Opinion", 
+            "is_random": false, 
+            "name": "Positive Internal Opinion", 
+            "to_edges": [
+                217
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                289
+            ], 
+            "id": "!Improve Hiring Process [of Counsellors]2", 
+            "is_random": false, 
+            "name": "!Improve Hiring Process [of Counsellors]2", 
+            "to_edges": [
+                418
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Rigorous [Employee Evaluations]", 
+            "is_random": false, 
+            "name": "Rigorous [Employee Evaluations]", 
+            "to_edges": [
+                391
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Debrief Web Posts", 
+            "is_random": false, 
+            "name": "Debrief Web Posts", 
+            "to_edges": [
+                252
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Double Head Set", 
+            "is_random": false, 
+            "name": "Double Head Set", 
+            "to_edges": [
+                361
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Provide One-on-One Support to Counsellors", 
+            "is_random": false, 
+            "name": "Provide One-on-One Support to Counsellors", 
+            "to_edges": [
+                292
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Happiness [Counsellors]1", 
+            "is_random": false, 
+            "name": "Happiness [Counsellors]1", 
+            "to_edges": [
+                309, 
+                311
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Improved Writing Skills [Counsellors]", 
+            "is_random": false, 
+            "name": "Improved Writing Skills [Counsellors]", 
+            "to_edges": [
+                245
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Perform Counselling as Instructed By Supervisor [Counsellors]", 
+            "is_random": false, 
+            "name": "Perform Counselling as Instructed By Supervisor [Counsellors]", 
+            "to_edges": [
+                430
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!An IT Trainer Be Present1", 
+            "is_random": false, 
+            "name": "!An IT Trainer Be Present1", 
+            "to_edges": [
+                431
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                362, 
+                434
+            ], 
+            "id": "Improve [IT Skills of Counsellors]1", 
+            "is_random": false, 
+            "name": "Improve [IT Skills of Counsellors]1", 
+            "to_edges": [
+                304, 
+                306
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                228
+            ], 
+            "id": "Accountability [Services]", 
+            "is_random": false, 
+            "name": "Accountability [Services]", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Increased Counselling Resources", 
+            "is_random": false, 
+            "name": "Increased Counselling Resources", 
+            "to_edges": [
+                259
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                225, 
+                409, 
+                426
+            ], 
+            "id": "*Help as Many Kids as Possible", 
+            "is_random": false, 
+            "name": "*Help as Many Kids as Possible", 
+            "to_edges": [
+                246
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                260, 
+                321, 
+                353, 
+                389
+            ], 
+            "id": "Analyze Call Statistics", 
+            "is_random": false, 
+            "name": "Analyze Call Statistics", 
+            "to_edges": [
+                257, 
+                293, 
+                378
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                333
+            ], 
+            "id": "Bilingual Counsellors Be Hired1", 
+            "is_random": false, 
+            "name": "Bilingual Counsellors Be Hired1", 
+            "to_edges": [
+                407
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                207
+            ], 
+            "id": "Facilitate Faster Changes in Counsellor Duties", 
+            "is_random": false, 
+            "name": "Facilitate Faster Changes in Counsellor Duties", 
+            "to_edges": [
+                251, 
+                403
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                247, 
+                305, 
+                326
+            ], 
+            "id": "Reduce Cost of Counselling HR2", 
+            "is_random": false, 
+            "name": "Reduce Cost of Counselling HR2", 
+            "to_edges": [
+                360, 
+                423
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                299
+            ], 
+            "id": "Reduce Turnover [Counselling Management]", 
+            "is_random": false, 
+            "name": "Reduce Turnover [Counselling Management]", 
+            "to_edges": [
+                302, 
+                440
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Put on Web Moderator Meetings", 
+            "is_random": false, 
+            "name": "Put on Web Moderator Meetings", 
+            "to_edges": [
+                338, 
+                434
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Consider Counsellors Feedback", 
+            "is_random": false, 
+            "name": "Consider Counsellors Feedback", 
+            "to_edges": [
+                213, 
+                261, 
+                322
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Counsellors Pass Probation within Six Months", 
+            "is_random": false, 
+            "name": "Counsellors Pass Probation within Six Months", 
+            "to_edges": [
+                442
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                236
+            ], 
+            "id": "Accurate Caller Statistics", 
+            "is_random": false, 
+            "name": "Accurate Caller Statistics", 
+            "to_edges": [
+                371
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                369
+            ], 
+            "id": "Improved Writing Skills [Counsellors]3", 
+            "is_random": false, 
+            "name": "Improved Writing Skills [Counsellors]3", 
+            "to_edges": [
+                308
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Avoid Liability Problems1", 
+            "is_random": false, 
+            "name": "Avoid Liability Problems1", 
+            "to_edges": [
+                329
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                294
+            ], 
+            "id": "Staff Performance Be Managed", 
+            "is_random": false, 
+            "name": "Staff Performance Be Managed", 
+            "to_edges": [], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                254
+            ], 
+            "id": "Increased Understanding of Purposes of IT [Counsellors]", 
+            "is_random": false, 
+            "name": "Increased Understanding of Purposes of IT [Counsellors]", 
+            "to_edges": [
+                266, 
+                287
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                408
+            ], 
+            "id": "Environment Conductive to Concentration", 
+            "is_random": false, 
+            "name": "Environment Conductive to Concentration", 
+            "to_edges": [
+                219
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                418
+            ], 
+            "id": "!Improve Hiring Process [of Counsellors]1", 
+            "is_random": false, 
+            "name": "!Improve Hiring Process [of Counsellors]1", 
+            "to_edges": [
+                347
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Support Day to Day on the Floor Needs of Counsellors", 
+            "is_random": false, 
+            "name": "Support Day to Day on the Floor Needs of Counsellors", 
+            "to_edges": [
+                298
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                219, 
+                270, 
+                273, 
+                399
+            ], 
+            "id": "Happiness [Counselling Manager]", 
+            "is_random": false, 
+            "name": "Happiness [Counselling Manager]", 
+            "to_edges": [
+                390
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Put On Counselling Workshops", 
+            "is_random": false, 
+            "name": "Put On Counselling Workshops", 
+            "to_edges": [
+                230, 
+                410
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Improve [IT Skills]", 
+            "is_random": false, 
+            "name": "Improve [IT Skills]", 
+            "to_edges": [
+                376
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                350
+            ], 
+            "id": "Professional Work Environment", 
+            "is_random": false, 
+            "name": "Professional Work Environment", 
+            "to_edges": [
+                408
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Increase Funding for Training", 
+            "is_random": false, 
+            "name": "Increase Funding for Training", 
+            "to_edges": [
+                366
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                385
+            ], 
+            "id": "Accommodate Schedules [Counselling Managers]", 
+            "is_random": false, 
+            "name": "Accommodate Schedules [Counselling Managers]", 
+            "to_edges": [
+                283
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Support Analysis [Counsellors Time]1", 
+            "is_random": false, 
+            "name": "Support Analysis [Counsellors Time]1", 
+            "to_edges": [
+                358
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Negotiate with Counsellors Union", 
+            "is_random": false, 
+            "name": "Negotiate with Counsellors Union", 
+            "to_edges": [
+                227, 
+                267
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                307, 
+                349
+            ], 
+            "id": "Calls Be Monitored ", 
+            "is_random": false, 
+            "name": "Calls Be Monitored ", 
+            "to_edges": [
+                386
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                218, 
+                395
+            ], 
+            "id": "*High Quality [Online Counselling]", 
+            "is_random": false, 
+            "name": "*High Quality [Online Counselling]", 
+            "to_edges": [
+                444
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!Performance Review Information Be Collected in Data Base1", 
+            "is_random": false, 
+            "name": "!Performance Review Information Be Collected in Data Base1", 
+            "to_edges": [
+                272
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Counselling Resources", 
+            "is_random": false, 
+            "name": "Counselling Resources", 
+            "to_edges": [
+                420
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Attend Part Time Meetings", 
+            "is_random": false, 
+            "name": "Attend Part Time Meetings", 
+            "to_edges": [
+                357
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                387
+            ], 
+            "id": "Continual Improvement [Counselling Skills]2", 
+            "is_random": false, 
+            "name": "Continual Improvement [Counselling Skills]2", 
+            "to_edges": [
+                351
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                337
+            ], 
+            "id": "Supervision Be Performed At Least Every 3 Months1", 
+            "is_random": false, 
+            "name": "Supervision Be Performed At Least Every 3 Months1", 
+            "to_edges": [
+                332
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                388
+            ], 
+            "id": "Track Call Volume", 
+            "is_random": false, 
+            "name": "Track Call Volume", 
+            "to_edges": [
+                353
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Increase IT Methods to Acquire Feedback", 
+            "is_random": false, 
+            "name": "Increase IT Methods to Acquire Feedback", 
+            "to_edges": [
+                375
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "*High Quality Counselling2", 
+            "is_random": false, 
+            "name": "*High Quality Counselling2", 
+            "to_edges": [
+                344
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Create Call Classification Catagories", 
+            "is_random": false, 
+            "name": "Create Call Classification Catagories", 
+            "to_edges": [
+                417
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                441
+            ], 
+            "id": "Analyze Call Statistics2", 
+            "is_random": false, 
+            "name": "Analyze Call Statistics2", 
+            "to_edges": [
+                253
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                308
+            ], 
+            "id": "Improved Writing Skills [Counsellors]2", 
+            "is_random": false, 
+            "name": "Improved Writing Skills [Counsellors]2", 
+            "to_edges": [
+                395
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                436
+            ], 
+            "id": "*Sufficient Counselling Resources1", 
+            "is_random": false, 
+            "name": "*Sufficient Counselling Resources1", 
+            "to_edges": [
+                339
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                208, 
+                329
+            ], 
+            "id": "Avoid Liability Problems", 
+            "is_random": false, 
+            "name": "Avoid Liability Problems", 
+            "to_edges": [
+                399
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                253
+            ], 
+            "id": "Call Duration Consistency [Counsellors]", 
+            "is_random": false, 
+            "name": "Call Duration Consistency [Counsellors]", 
+            "to_edges": [
+                232, 
+                303
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!A Training Room Be Present", 
+            "is_random": false, 
+            "name": "!A Training Room Be Present", 
+            "to_edges": [
+                355, 
+                406
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                366
+            ], 
+            "id": "Increase Funding for Training1", 
+            "is_random": false, 
+            "name": "Increase Funding for Training1", 
+            "to_edges": [
+                235
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                230
+            ], 
+            "id": "Counselling Workshops", 
+            "is_random": false, 
+            "name": "Counselling Workshops", 
+            "to_edges": [], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Counselling Training Management", 
+            "is_random": false, 
+            "name": "Counselling Training Management", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                221
+            ], 
+            "id": "Clearer Call Classification Catagories1", 
+            "is_random": false, 
+            "name": "Clearer Call Classification Catagories1", 
+            "to_edges": [
+                236, 
+                393
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                416
+            ], 
+            "id": "*Effective Use of Technology [Counsellors]1", 
+            "is_random": false, 
+            "name": "*Effective Use of Technology [Counsellors]1", 
+            "to_edges": [
+                218, 
+                428
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Policies Be Reviewed", 
+            "is_random": false, 
+            "name": "Policies Be Reviewed", 
+            "to_edges": [
+                427
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                365
+            ], 
+            "id": "Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "is_random": false, 
+            "name": "Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "to_edges": [
+                377
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                216
+            ], 
+            "id": "Avoid Refusal of Services", 
+            "is_random": false, 
+            "name": "Avoid Refusal of Services", 
+            "to_edges": [
+                225
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                370
+            ], 
+            "id": "Second Reading of Web Posts1", 
+            "is_random": false, 
+            "name": "Second Reading of Web Posts1", 
+            "to_edges": [
+                208
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                241
+            ], 
+            "id": "Provide Feedback on Web Posts", 
+            "is_random": false, 
+            "name": "Provide Feedback on Web Posts", 
+            "to_edges": [
+                380, 
+                419
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                287, 
+                412
+            ], 
+            "id": "Increase Enthusiasm [Counsellors for IT]", 
+            "is_random": false, 
+            "name": "Increase Enthusiasm [Counsellors for IT]", 
+            "to_edges": [
+                234
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Pressure Counsellors [to Provide Online Services]", 
+            "is_random": false, 
+            "name": "Pressure Counsellors [to Provide Online Services]", 
+            "to_edges": [
+                212, 
+                226
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                231
+            ], 
+            "id": "Improved Quality Assurance [Counselling Reviews and Evaluation]2", 
+            "is_random": false, 
+            "name": "Improved Quality Assurance [Counselling Reviews and Evaluation]2", 
+            "to_edges": [
+                238
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                224, 
+                240, 
+                440
+            ], 
+            "id": "Happiness [Counselling Manager]1", 
+            "is_random": false, 
+            "name": "Happiness [Counselling Manager]1", 
+            "to_edges": [
+                299
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                262
+            ], 
+            "id": "Perform Counselling Quality Assurance", 
+            "is_random": false, 
+            "name": "Perform Counselling Quality Assurance", 
+            "to_edges": [
+                374
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                288, 
+                410
+            ], 
+            "id": "Training Be Given to Current Employees", 
+            "is_random": false, 
+            "name": "Training Be Given to Current Employees", 
+            "to_edges": [
+                379
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                268
+            ], 
+            "id": "Reduce Staggering of Schedules1", 
+            "is_random": false, 
+            "name": "Reduce Staggering of Schedules1", 
+            "to_edges": [
+                297
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                420
+            ], 
+            "id": "Acquire Resources for Staffing", 
+            "is_random": false, 
+            "name": "Acquire Resources for Staffing", 
+            "to_edges": [
+                400
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                398
+            ], 
+            "id": "Effective Scheduling2", 
+            "is_random": false, 
+            "name": "Effective Scheduling2", 
+            "to_edges": [
+                381
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                415
+            ], 
+            "id": "Increase Number [of Counsellors]1", 
+            "is_random": false, 
+            "name": "Increase Number [of Counsellors]1", 
+            "to_edges": [
+                382
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                413
+            ], 
+            "id": "*Salary", 
+            "is_random": false, 
+            "name": "*Salary", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                267
+            ], 
+            "id": "Negotiate with Counsellors Union1", 
+            "is_random": false, 
+            "name": "Negotiate with Counsellors Union1", 
+            "to_edges": [
+                280
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Bilingual Counsellors Be Hired", 
+            "is_random": false, 
+            "name": "Bilingual Counsellors Be Hired", 
+            "to_edges": [
+                305, 
+                333
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!A Training Computer Be Present1", 
+            "is_random": false, 
+            "name": "!A Training Computer Be Present1", 
+            "to_edges": [
+                421
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                206
+            ], 
+            "id": "Track Call Lengths", 
+            "is_random": false, 
+            "name": "Track Call Lengths", 
+            "to_edges": [
+                260
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                259, 
+                423
+            ], 
+            "id": "Increased Counselling Resource", 
+            "is_random": false, 
+            "name": "Increased Counselling Resource", 
+            "to_edges": [
+                327, 
+                343, 
+                436
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Counselling Policies Be Followed", 
+            "is_random": false, 
+            "name": "Counselling Policies Be Followed", 
+            "to_edges": [
+                373
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Feedback to Counsellors Be Provided", 
+            "is_random": false, 
+            "name": "Feedback to Counsellors Be Provided", 
+            "to_edges": [
+                281, 
+                364, 
+                435
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Avoid Relationships with Specific Counsellor", 
+            "is_random": false, 
+            "name": "Avoid Relationships with Specific Counsellor", 
+            "to_edges": [
+                368
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                338
+            ], 
+            "id": "Web Moderator Meetings", 
+            "is_random": false, 
+            "name": "Web Moderator Meetings", 
+            "to_edges": [], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!Hire Counselling Managers", 
+            "is_random": false, 
+            "name": "!Hire Counselling Managers", 
+            "to_edges": [
+                316
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!Hire Counsellors", 
+            "is_random": false, 
+            "name": "!Hire Counsellors", 
+            "to_edges": [
+                345
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                348
+            ], 
+            "id": "Counsellors Be Kept Informed", 
+            "is_random": false, 
+            "name": "Counsellors Be Kept Informed", 
+            "to_edges": [
+                265, 
+                335
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                271, 
+                411
+            ], 
+            "id": "Perform Supervision", 
+            "is_random": false, 
+            "name": "Perform Supervision", 
+            "to_edges": [
+                294
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                246
+            ], 
+            "id": "*Help as Many Kids as Possible1", 
+            "is_random": false, 
+            "name": "*Help as Many Kids as Possible1", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                249, 
+                339
+            ], 
+            "id": "*Sufficient Counselling Resources", 
+            "is_random": false, 
+            "name": "*Sufficient Counselling Resources", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                424
+            ], 
+            "id": "Support Day to Day Clinical Needs of Counsellors2", 
+            "is_random": false, 
+            "name": "Support Day to Day Clinical Needs of Counsellors2", 
+            "to_edges": [
+                320
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                377
+            ], 
+            "id": "!Increased Emphasis on IT in Hiring Process [of Counsellors]1", 
+            "is_random": false, 
+            "name": "!Increased Emphasis on IT in Hiring Process [of Counsellors]1", 
+            "to_edges": [
+                359
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Increase Counsellors Experience [with Technology]", 
+            "is_random": false, 
+            "name": "Increase Counsellors Experience [with Technology]", 
+            "to_edges": [
+                319
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                237, 
+                266, 
+                372
+            ], 
+            "id": "Reduce Resistance [Counsellors for IT]", 
+            "is_random": false, 
+            "name": "Reduce Resistance [Counsellors for IT]", 
+            "to_edges": [
+                432
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                407
+            ], 
+            "id": "Bilingual Counsellors Be Hired2", 
+            "is_random": false, 
+            "name": "Bilingual Counsellors Be Hired2", 
+            "to_edges": [
+                409
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                251
+            ], 
+            "id": "Advance Notice to Counsellors [About IT Transitions]", 
+            "is_random": false, 
+            "name": "Advance Notice to Counsellors [About IT Transitions]", 
+            "to_edges": [
+                237
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                255, 
+                275, 
+                303, 
+                310, 
+                325, 
+                344, 
+                354, 
+                428, 
+                443, 
+                444
+            ], 
+            "id": "*High Quality Counselling", 
+            "is_random": false, 
+            "name": "*High Quality Counselling", 
+            "to_edges": [
+                244
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                222
+            ], 
+            "id": "Effective Scheduling", 
+            "is_random": false, 
+            "name": "Effective Scheduling", 
+            "to_edges": [
+                268, 
+                385, 
+                394, 
+                398, 
+                429
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Analyze Staffing Levels", 
+            "is_random": false, 
+            "name": "Analyze Staffing Levels", 
+            "to_edges": [
+                437
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                363
+            ], 
+            "id": "Counselling Policies", 
+            "is_random": false, 
+            "name": "Counselling Policies", 
+            "to_edges": [], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                280
+            ], 
+            "id": "Negotiate with Counsellors Union2", 
+            "is_random": false, 
+            "name": "Negotiate with Counsellors Union2", 
+            "to_edges": [
+                242
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                295, 
+                306
+            ], 
+            "id": "*Effective Use of Technology [Counsellors]", 
+            "is_random": false, 
+            "name": "*Effective Use of Technology [Counsellors]", 
+            "to_edges": [
+                314
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Debrief Calls", 
+            "is_random": false, 
+            "name": "Debrief Calls", 
+            "to_edges": [
+                438
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "is_random": false, 
+            "name": "!Increased Emphasis on IT in Hiring Process [of Counsellors]", 
+            "to_edges": [
+                365, 
+                384
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Analyze Service Levels", 
+            "is_random": false, 
+            "name": "Analyze Service Levels", 
+            "to_edges": [
+                210
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                261, 
+                265, 
+                340, 
+                357
+            ], 
+            "id": "Increase Communication [Between Counsellors and Supervisors]", 
+            "is_random": false, 
+            "name": "Increase Communication [Between Counsellors and Supervisors]", 
+            "to_edges": [
+                220
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                215
+            ], 
+            "id": "Second Reading of Web Posts2", 
+            "is_random": false, 
+            "name": "Second Reading of Web Posts2", 
+            "to_edges": [
+                370
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Review Tape", 
+            "is_random": false, 
+            "name": "Review Tape", 
+            "to_edges": [
+                349
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                257
+            ], 
+            "id": "Reduce Cost of Counselling HR", 
+            "is_random": false, 
+            "name": "Reduce Cost of Counselling HR", 
+            "to_edges": [
+                291
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Reduce Spending on Employees Salaries", 
+            "is_random": false, 
+            "name": "Reduce Spending on Employees Salaries", 
+            "to_edges": [
+                313, 
+                326
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                217
+            ], 
+            "id": "Positive Internal Opinion1", 
+            "is_random": false, 
+            "name": "Positive Internal Opinion1", 
+            "to_edges": [
+                346
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                351
+            ], 
+            "id": "Continual Improvement [Counselling Skills]1", 
+            "is_random": false, 
+            "name": "Continual Improvement [Counselling Skills]1", 
+            "to_edges": [
+                255
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                364
+            ], 
+            "id": "Feedback to Counsellors Be Provided2", 
+            "is_random": false, 
+            "name": "Feedback to Counsellors Be Provided2", 
+            "to_edges": [
+                282
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Set Counselling Policies", 
+            "is_random": false, 
+            "name": "Set Counselling Policies", 
+            "to_edges": [
+                276, 
+                363
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                292, 
+                298, 
+                320, 
+                397
+            ], 
+            "id": "Support Counsellors", 
+            "is_random": false, 
+            "name": "Support Counsellors", 
+            "to_edges": [
+                310, 
+                312
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Professional Work Environment1", 
+            "is_random": false, 
+            "name": "Professional Work Environment1", 
+            "to_edges": [
+                350
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                390
+            ], 
+            "id": "Happiness [Counselling Management]", 
+            "is_random": false, 
+            "name": "Happiness [Counselling Management]", 
+            "to_edges": [
+                224
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Request Shifts", 
+            "is_random": false, 
+            "name": "Request Shifts", 
+            "to_edges": [
+                209
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Counselling Manager", 
+            "is_random": false, 
+            "name": "Counselling Manager", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Holes in Operations Managing Be Removed", 
+            "is_random": false, 
+            "name": "Holes in Operations Managing Be Removed", 
+            "to_edges": [
+                278
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                368
+            ], 
+            "id": "Avoid Relationships with Specific Counsellor1", 
+            "is_random": false, 
+            "name": "Avoid Relationships with Specific Counsellor1", 
+            "to_edges": [
+                216
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Facilitate Faster Changes in Counsellor Duties1", 
+            "is_random": false, 
+            "name": "Facilitate Faster Changes in Counsellor Duties1", 
+            "to_edges": [
+                207
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                371
+            ], 
+            "id": "Accountability [Services]1", 
+            "is_random": false, 
+            "name": "Accountability [Services]1", 
+            "to_edges": [
+                228
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                383
+            ], 
+            "id": "Support Day to Day Clinical Needs of Counsellors", 
+            "is_random": false, 
+            "name": "Support Day to Day Clinical Needs of Counsellors", 
+            "to_edges": [
+                424
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Write Yearly Peformance Evaluations for Counsellors", 
+            "is_random": false, 
+            "name": "Write Yearly Peformance Evaluations for Counsellors", 
+            "to_edges": [
+                331
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Historical Data of Call Volumes", 
+            "is_random": false, 
+            "name": "Historical Data of Call Volumes", 
+            "to_edges": [
+                321
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Improve [Call Recording Equipment]", 
+            "is_random": false, 
+            "name": "Improve [Call Recording Equipment]", 
+            "to_edges": [
+                414
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Full Time Night Complement Be Acquired", 
+            "is_random": false, 
+            "name": "Full Time Night Complement Be Acquired", 
+            "to_edges": [
+                405
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                258, 
+                316, 
+                345, 
+                392, 
+                400, 
+                405, 
+                427
+            ], 
+            "id": "Manage Staffing and Recruiting ", 
+            "is_random": false, 
+            "name": "Manage Staffing and Recruiting ", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                297
+            ], 
+            "id": "Reduce Staggering of Schedules", 
+            "is_random": false, 
+            "name": "Reduce Staggering of Schedules", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                394
+            ], 
+            "id": "Accommodate Schedules [Counsellors]1", 
+            "is_random": false, 
+            "name": "Accommodate Schedules [Counsellors]1", 
+            "to_edges": [
+                341
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                296, 
+                301, 
+                315, 
+                317, 
+                330, 
+                332, 
+                342, 
+                422
+            ], 
+            "id": "Continual Improvement [Counselling Skills]", 
+            "is_random": false, 
+            "name": "Continual Improvement [Counselling Skills]", 
+            "to_edges": [
+                387
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                234, 
+                432
+            ], 
+            "id": "*Positive Attitude Towards IT [Counsellors]", 
+            "is_random": false, 
+            "name": "*Positive Attitude Towards IT [Counsellors]", 
+            "to_edges": [
+                243, 
+                295
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                425
+            ], 
+            "id": "!Calls Be Recorded into a Data Base", 
+            "is_random": false, 
+            "name": "!Calls Be Recorded into a Data Base", 
+            "to_edges": [
+                328
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                282
+            ], 
+            "id": "Feedback to Counsellors Be Provided1", 
+            "is_random": false, 
+            "name": "Feedback to Counsellors Be Provided1", 
+            "to_edges": [
+                315
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Put on Orientation Process for Cousellors", 
+            "is_random": false, 
+            "name": "Put on Orientation Process for Cousellors", 
+            "to_edges": [
+                284, 
+                288
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                279
+            ], 
+            "id": "Supervision Be Performed At Least Every 3 Months2", 
+            "is_random": false, 
+            "name": "Supervision Be Performed At Least Every 3 Months2", 
+            "to_edges": [
+                337
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                381
+            ], 
+            "id": "Effective Scheduling1", 
+            "is_random": false, 
+            "name": "Effective Scheduling1", 
+            "to_edges": [
+                426
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Call Statistics", 
+            "is_random": false, 
+            "name": "Call Statistics", 
+            "to_edges": [
+                389
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                250, 
+                331, 
+                374, 
+                380, 
+                386
+            ], 
+            "id": "Perform Supervision for Experienced Counsellors", 
+            "is_random": false, 
+            "name": "Perform Supervision for Experienced Counsellors", 
+            "to_edges": [
+                411
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                213, 
+                220, 
+                232, 
+                311, 
+                312, 
+                336, 
+                352, 
+                393, 
+                401
+            ], 
+            "id": "*Happiness of Counsellors", 
+            "is_random": false, 
+            "name": "*Happiness of Counsellors", 
+            "to_edges": [
+                325
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                341
+            ], 
+            "id": "Accommodate Schedules [Counsellors]2", 
+            "is_random": false, 
+            "name": "Accommodate Schedules [Counsellors]2", 
+            "to_edges": [
+                300
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                256, 
+                391
+            ], 
+            "id": "Improved Quality Assurance [Counselling Reviews and Evaluation]1", 
+            "is_random": false, 
+            "name": "Improved Quality Assurance [Counselling Reviews and Evaluation]1", 
+            "to_edges": [
+                231
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Counsellors Be Paid", 
+            "is_random": false, 
+            "name": "Counsellors Be Paid", 
+            "to_edges": [
+                258, 
+                413
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "*Increase [IT Training for Counsellors]", 
+            "is_random": false, 
+            "name": "*Increase [IT Training for Counsellors]", 
+            "to_edges": [
+                269
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                319, 
+                359, 
+                376, 
+                404
+            ], 
+            "id": "Improve [IT Skills of Counsellors]", 
+            "is_random": false, 
+            "name": "Improve [IT Skills of Counsellors]", 
+            "to_edges": [
+                330, 
+                334
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                235, 
+                239, 
+                248, 
+                406
+            ], 
+            "id": "Increase Training [for Counsellors]", 
+            "is_random": false, 
+            "name": "Increase Training [for Counsellors]", 
+            "to_edges": [
+                296
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                358
+            ], 
+            "id": "Support Analysis [Counsellors Time]", 
+            "is_random": false, 
+            "name": "Support Analysis [Counsellors Time]", 
+            "to_edges": [
+                372, 
+                412
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                211, 
+                302, 
+                309, 
+                313, 
+                343, 
+                346
+            ], 
+            "id": "Happiness [Counsellors]", 
+            "is_random": false, 
+            "name": "Happiness [Counsellors]", 
+            "to_edges": [
+                356
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!A Training Program Be Present", 
+            "is_random": false, 
+            "name": "!A Training Program Be Present", 
+            "to_edges": [
+                239, 
+                439
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                286, 
+                435, 
+                442
+            ], 
+            "id": "Perform Supervision for New Counsellors", 
+            "is_random": false, 
+            "name": "Perform Supervision for New Counsellors", 
+            "to_edges": [
+                262, 
+                271
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                210, 
+                278, 
+                378, 
+                437
+            ], 
+            "id": "Make Schedules", 
+            "is_random": false, 
+            "name": "Make Schedules", 
+            "to_edges": [
+                222
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Clearer Call Classification Catagories", 
+            "is_random": false, 
+            "name": "Clearer Call Classification Catagories", 
+            "to_edges": [
+                221
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                212, 
+                243, 
+                304, 
+                403
+            ], 
+            "id": "*Provide Online Services [All Counsellors] ", 
+            "is_random": false, 
+            "name": "*Provide Online Services [All Counsellors] ", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                229, 
+                281, 
+                419
+            ], 
+            "id": "Support Day to Day Clinical Needs of Counsellors1", 
+            "is_random": false, 
+            "name": "Support Day to Day Clinical Needs of Counsellors1", 
+            "to_edges": [
+                383
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                429
+            ], 
+            "id": "*Sufficient Counselling Resources2", 
+            "is_random": false, 
+            "name": "*Sufficient Counselling Resources2", 
+            "to_edges": [
+                249
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Supervision Be Performed At Least Every 3 Months", 
+            "is_random": false, 
+            "name": "Supervision Be Performed At Least Every 3 Months", 
+            "to_edges": [
+                250, 
+                279
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Technology Be Used to Ensure Counsellors are Keeping Correct Hours", 
+            "is_random": false, 
+            "name": "Technology Be Used to Ensure Counsellors are Keeping Correct Hours", 
+            "to_edges": [
+                324
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                285, 
+                347
+            ], 
+            "id": "Qualified [Counsellors]", 
+            "is_random": false, 
+            "name": "Qualified [Counsellors]", 
+            "to_edges": [
+                354
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                421
+            ], 
+            "id": "!A Training Computer Be Present", 
+            "is_random": false, 
+            "name": "!A Training Computer Be Present", 
+            "to_edges": [
+                274
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Three Months of Review Be Given to New Counsellors", 
+            "is_random": false, 
+            "name": "Three Months of Review Be Given to New Counsellors", 
+            "to_edges": [
+                286
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                379, 
+                396
+            ], 
+            "id": "Employee Learning and Training Be Managed", 
+            "is_random": false, 
+            "name": "Employee Learning and Training Be Managed", 
+            "to_edges": [], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                402
+            ], 
+            "id": "Pressure Counsellors [to Provide Online Services]1", 
+            "is_random": false, 
+            "name": "Pressure Counsellors [to Provide Online Services]1", 
+            "to_edges": [
+                352
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                214
+            ], 
+            "id": "Increase [Feedback]", 
+            "is_random": false, 
+            "name": "Increase [Feedback]", 
+            "to_edges": [
+                317
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                327
+            ], 
+            "id": "Increase Number [of Counsellors]2", 
+            "is_random": false, 
+            "name": "Increase Number [of Counsellors]2", 
+            "to_edges": [
+                247, 
+                415
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                245
+            ], 
+            "id": "Improved Writing Skills [Counsellors]1", 
+            "is_random": false, 
+            "name": "Improved Writing Skills [Counsellors]1", 
+            "to_edges": [
+                369
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                373
+            ], 
+            "id": "Counselling Policies Be Followed1", 
+            "is_random": false, 
+            "name": "Counselling Policies Be Followed1", 
+            "to_edges": [
+                277
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Use Blue Pumpkin", 
+            "is_random": false, 
+            "name": "Use Blue Pumpkin", 
+            "to_edges": [
+                206, 
+                388
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                375
+            ], 
+            "id": "Increase IT Methods to Acquire Feedback1", 
+            "is_random": false, 
+            "name": "Increase IT Methods to Acquire Feedback1", 
+            "to_edges": [
+                214
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                242
+            ], 
+            "id": "Easier Job", 
+            "is_random": false, 
+            "name": "Easier Job", 
+            "to_edges": [
+                273
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                382
+            ], 
+            "id": "Increase Number [of Counsellors]", 
+            "is_random": false, 
+            "name": "Increase Number [of Counsellors]", 
+            "to_edges": [
+                336
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }
+    ]
+}

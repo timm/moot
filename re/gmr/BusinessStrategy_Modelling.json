@@ -1,0 +1,379 @@
+{
+  "actors": [
+    {
+      "id": "6ff93d51-7c20-4650-8c83-5af89e50cb85",
+      "text": "Agent (step 3)",
+      "type": "istar.Role",
+      "x": 917,
+      "y": 206,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "7a893b59-7009-451d-8fe9-6436ec97305a",
+      "text": "Rentals Team (step 3)",
+      "type": "istar.Agent",
+      "x": 667,
+      "y": 270,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "e67e4a53-a08b-4189-b67e-91216813f3ef",
+      "text": "Legal Department (step 2)",
+      "type": "istar.Agent",
+      "x": 540,
+      "y": 48,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "fb1ba1db-d18f-4b7d-b929-90e400e566a7",
+      "text": "Abroad Customer Segment (step 1)",
+      "type": "istar.Actor",
+      "x": 72,
+      "y": 239,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "8d303957-d291-4c2b-921f-50818bb3aa82",
+      "text": "Real Estate Agency (step 1)",
+      "type": "istar.Agent",
+      "x": 237,
+      "y": 175,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "77a36448-14d6-4c3f-a4dc-7ebdd735e0ad",
+          "text": "Protect from legal issues (step 2)",
+          "type": "istar.Task",
+          "x": 301,
+          "y": 183,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "59acd069-cddb-4c17-9b2f-7ceb1ca78261",
+          "text": "offer on-line rent service (step 2)",
+          "type": "istar.Goal",
+          "x": 305,
+          "y": 301,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "54f73c39-2a6c-4091-bbef-5441399bd82a",
+          "text": "Implement virtual showroom and booking (step 2)",
+          "type": "istar.Task",
+          "x": 301,
+          "y": 401,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "47423a9c-9af3-4d8b-ba31-07afd46ace97",
+      "text": "Head of Legal (step 3)",
+      "type": "istar.Role",
+      "x": 861,
+      "y": 50,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "23ee14c5-ec6e-4b5f-9ced-c6aee54a4a41",
+      "text": "Tenant (step 4)",
+      "type": "istar.Role",
+      "x": 852,
+      "y": 412,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "0fc8fa22-50a0-42a4-9ccc-c597ca937aee",
+      "text": "remote property renting (step 1)",
+      "type": "istar.Goal",
+      "x": 75,
+      "y": 66,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "fb1ba1db-d18f-4b7d-b929-90e400e566a7",
+      "target": "8d303957-d291-4c2b-921f-50818bb3aa82"
+    },
+    {
+      "id": "bf9aee34-bca8-4588-a8be-6586d25e8151",
+      "text": "legal support for on-line contract (step2 )",
+      "type": "istar.Task",
+      "x": 363,
+      "y": 76,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "8d303957-d291-4c2b-921f-50818bb3aa82",
+      "target": "e67e4a53-a08b-4189-b67e-91216813f3ef"
+    },
+    {
+      "id": "0991908b-7b07-4f26-a35a-61e940de0cb4",
+      "text": "less than 1% of rents with legal problems (step 3)",
+      "type": "istar.Goal",
+      "x": 652,
+      "y": 40,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e67e4a53-a08b-4189-b67e-91216813f3ef",
+      "target": "47423a9c-9af3-4d8b-ba31-07afd46ace97"
+    },
+    {
+      "id": "80f69bc1-0bd5-4dde-a7f6-74dd1027999e",
+      "text": "develop on-line booking and payment (step 2)",
+      "type": "istar.Task",
+      "x": 479,
+      "y": 186,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "54f73c39-2a6c-4091-bbef-5441399bd82a",
+      "target": "7a893b59-7009-451d-8fe9-6436ec97305a"
+    },
+    {
+      "id": "55732db6-47c0-4e0e-9d3f-de549521719e",
+      "text": "develop virtual showroom (step 2)",
+      "type": "istar.Task",
+      "x": 502,
+      "y": 384,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "54f73c39-2a6c-4091-bbef-5441399bd82a",
+      "target": "7a893b59-7009-451d-8fe9-6436ec97305a"
+    },
+    {
+      "id": "a091c880-f876-4fa2-8ff0-4069a3f38a6f",
+      "text": "10 bookings per week",
+      "type": "istar.Goal",
+      "x": 724,
+      "y": 146,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "7a893b59-7009-451d-8fe9-6436ec97305a",
+      "target": "6ff93d51-7c20-4650-8c83-5af89e50cb85"
+    },
+    {
+      "id": "ca80ae7d-a730-469f-98cb-91155fcef76a",
+      "text": "available properties shown (step 4)",
+      "type": "istar.Goal",
+      "x": 774,
+      "y": 297,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "23ee14c5-ec6e-4b5f-9ced-c6aee54a4a41",
+      "target": "6ff93d51-7c20-4650-8c83-5af89e50cb85"
+    },
+    {
+      "id": "b0fd742c-0c9e-4ac2-870d-6e2be9af6410",
+      "text": "property booked (step 4)",
+      "type": "istar.Goal",
+      "x": 926,
+      "y": 322,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "6ff93d51-7c20-4650-8c83-5af89e50cb85",
+      "target": "23ee14c5-ec6e-4b5f-9ced-c6aee54a4a41"
+    }
+  ],
+  "links": [
+    {
+      "id": "25d456e7-1508-491b-b6c0-3ae400c41b53",
+      "type": "istar.DependencyLink",
+      "source": "b0fd742c-0c9e-4ac2-870d-6e2be9af6410",
+      "target": "23ee14c5-ec6e-4b5f-9ced-c6aee54a4a41"
+    },
+    {
+      "id": "72c5fd5d-c9d0-42e0-97e2-46c9c4b32b22",
+      "type": "istar.DependencyLink",
+      "source": "6ff93d51-7c20-4650-8c83-5af89e50cb85",
+      "target": "b0fd742c-0c9e-4ac2-870d-6e2be9af6410"
+    },
+    {
+      "id": "aabd6c6c-f6a9-4e57-bce6-a24842195477",
+      "type": "istar.DependencyLink",
+      "source": "ca80ae7d-a730-469f-98cb-91155fcef76a",
+      "target": "6ff93d51-7c20-4650-8c83-5af89e50cb85"
+    },
+    {
+      "id": "6231ef5a-91e8-406b-ae9c-57dce7a760c2",
+      "type": "istar.DependencyLink",
+      "source": "23ee14c5-ec6e-4b5f-9ced-c6aee54a4a41",
+      "target": "ca80ae7d-a730-469f-98cb-91155fcef76a"
+    },
+    {
+      "id": "263c4d0f-41ec-41a5-a975-9b54423fc613",
+      "type": "istar.DependencyLink",
+      "source": "a091c880-f876-4fa2-8ff0-4069a3f38a6f",
+      "target": "6ff93d51-7c20-4650-8c83-5af89e50cb85"
+    },
+    {
+      "id": "74a9beae-f5f4-4f91-bd1e-9790956bf638",
+      "type": "istar.DependencyLink",
+      "source": "7a893b59-7009-451d-8fe9-6436ec97305a",
+      "target": "a091c880-f876-4fa2-8ff0-4069a3f38a6f"
+    },
+    {
+      "id": "892d7af9-2ce6-47e5-978b-790ca036a0c5",
+      "type": "istar.DependencyLink",
+      "source": "55732db6-47c0-4e0e-9d3f-de549521719e",
+      "target": "7a893b59-7009-451d-8fe9-6436ec97305a"
+    },
+    {
+      "id": "6bc4aac1-37e6-4109-b143-9caba4f6ac40",
+      "type": "istar.DependencyLink",
+      "source": "54f73c39-2a6c-4091-bbef-5441399bd82a",
+      "target": "55732db6-47c0-4e0e-9d3f-de549521719e"
+    },
+    {
+      "id": "09705c72-37c2-4216-bfbb-8b5201701684",
+      "type": "istar.DependencyLink",
+      "source": "80f69bc1-0bd5-4dde-a7f6-74dd1027999e",
+      "target": "7a893b59-7009-451d-8fe9-6436ec97305a"
+    },
+    {
+      "id": "2dcb5440-6058-4fbb-ae27-96b5bf939ef7",
+      "type": "istar.DependencyLink",
+      "source": "54f73c39-2a6c-4091-bbef-5441399bd82a",
+      "target": "80f69bc1-0bd5-4dde-a7f6-74dd1027999e"
+    },
+    {
+      "id": "4614816e-40aa-4ac0-9741-bfe6a1c7be9e",
+      "type": "istar.DependencyLink",
+      "source": "0991908b-7b07-4f26-a35a-61e940de0cb4",
+      "target": "47423a9c-9af3-4d8b-ba31-07afd46ace97"
+    },
+    {
+      "id": "8b4104b2-8913-4249-923f-55223ea1b4ed",
+      "type": "istar.DependencyLink",
+      "source": "e67e4a53-a08b-4189-b67e-91216813f3ef",
+      "target": "0991908b-7b07-4f26-a35a-61e940de0cb4"
+    },
+    {
+      "id": "ded8b9ec-a000-419c-a4b9-1f2e183052f5",
+      "type": "istar.DependencyLink",
+      "source": "bf9aee34-bca8-4588-a8be-6586d25e8151",
+      "target": "e67e4a53-a08b-4189-b67e-91216813f3ef"
+    },
+    {
+      "id": "8c8baea8-ff08-4ac4-87fa-954230281930",
+      "type": "istar.DependencyLink",
+      "source": "8d303957-d291-4c2b-921f-50818bb3aa82",
+      "target": "bf9aee34-bca8-4588-a8be-6586d25e8151"
+    },
+    {
+      "id": "0f0e2157-bfac-4d5a-8d33-6ac331559fb0",
+      "type": "istar.DependencyLink",
+      "source": "0fc8fa22-50a0-42a4-9ccc-c597ca937aee",
+      "target": "8d303957-d291-4c2b-921f-50818bb3aa82"
+    },
+    {
+      "id": "1e3f7024-2657-4677-9f48-eef1c3d0cb57",
+      "type": "istar.DependencyLink",
+      "source": "fb1ba1db-d18f-4b7d-b929-90e400e566a7",
+      "target": "0fc8fa22-50a0-42a4-9ccc-c597ca937aee"
+    },
+    {
+      "id": "21069bf9-e833-44a9-9cf2-de530df564c3",
+      "type": "istar.AndRefinementLink",
+      "source": "54f73c39-2a6c-4091-bbef-5441399bd82a",
+      "target": "59acd069-cddb-4c17-9b2f-7ceb1ca78261"
+    },
+    {
+      "id": "ca41222a-ab62-40cd-b0fe-0d41cdd5f63f",
+      "type": "istar.AndRefinementLink",
+      "source": "77a36448-14d6-4c3f-a4dc-7ebdd735e0ad",
+      "target": "59acd069-cddb-4c17-9b2f-7ceb1ca78261"
+    }
+  ],
+  "display": {
+    "54f73c39-2a6c-4091-bbef-5441399bd82a": {
+      "width": 119.5,
+      "height": 59.84375
+    },
+    "0fc8fa22-50a0-42a4-9ccc-c597ca937aee": {
+      "width": 106.5,
+      "height": 61.84375
+    },
+    "bf9aee34-bca8-4588-a8be-6586d25e8151": {
+      "width": 109.5,
+      "height": 46.84375
+    },
+    "0991908b-7b07-4f26-a35a-61e940de0cb4": {
+      "width": 108.5,
+      "height": 58.84375
+    },
+    "80f69bc1-0bd5-4dde-a7f6-74dd1027999e": {
+      "width": 108.5,
+      "height": 52.84375
+    },
+    "55732db6-47c0-4e0e-9d3f-de549521719e": {
+      "width": 123.5,
+      "height": 57.84375
+    },
+    "ca80ae7d-a730-469f-98cb-91155fcef76a": {
+      "width": 104.5,
+      "height": 48.84375
+    },
+    "6ff93d51-7c20-4650-8c83-5af89e50cb85": {
+      "collapsed": true
+    },
+    "7a893b59-7009-451d-8fe9-6436ec97305a": {
+      "collapsed": true
+    },
+    "e67e4a53-a08b-4189-b67e-91216813f3ef": {
+      "collapsed": true
+    },
+    "fb1ba1db-d18f-4b7d-b929-90e400e566a7": {
+      "collapsed": true
+    },
+    "47423a9c-9af3-4d8b-ba31-07afd46ace97": {
+      "collapsed": true
+    },
+    "23ee14c5-ec6e-4b5f-9ced-c6aee54a4a41": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 12 May 2026 16:13:03 GMT",
+  "diagram": {
+    "width": 1218,
+    "height": 700,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version="1.0">
+   <diagram name="bCMS_ActorAssociation.ood">
+      <graphic content="SVG"/>
+      <ielement type="resource" id="__PrYUNWFEeGYNcpsYk8Hog" name="Crisis-related information">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_blkFQNWFEeGYNcpsYk8Hog" aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee iref="_rEBIkNWLEeGQbccZHIZA_A" aref="_CSZrcNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_3KWdsNWKEeGQbccZHIZA_A" name="Crisis-related information">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_BGGiUNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee iref="_tPLYkNWLEeGQbccZHIZA_A" aref="_CSZrcNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_I70FcNWREeGoBsT_nT6Xsg" name="Instructions">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_kTi6UNWLEeGQbccZHIZA_A" aref="_CSZrcNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_J8SrANWREeGoBsT_nT6Xsg" name="Instructions">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_kTi6UNWLEeGQbccZHIZA_A" aref="_CSZrcNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_BGGiUNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <actor type="role" id="_BGGiUNKwEeGgRv0sG0abZw" name="Fire Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="role" id="_CSZrcNKyEeGgRv0sG0abZw" name="Witnesses">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_-lv9EPnNEeG4GvNfh4M6Xg">
+            <graphic content="SVG"/>
+         </actorLink>
+         <boundary>
+            <graphic content="basic" xpos="576" ypos="216" width="638" height="481" shape="ellipse"
+                     unit="pt"
+                     bgcolor="FFFFFF"
+                     fontfamily="Segoe UI"
+                     fontcolor="000000"
+                     fontsize="12"/>
+            <ielement type="task" id="_rEBIkNWLEeGQbccZHIZA_A" name="Provide information to police">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="decomposition" value="and" iref="_ZoRDYNWLEeGQbccZHIZA_A">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="task" id="_ZoRDYNWLEeGQbccZHIZA_A"
+                      name="Provide crisis-related information">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="task" id="_tPLYkNWLEeGQbccZHIZA_A" name="Provide to firemen">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="decomposition" value="and" iref="_ZoRDYNWLEeGQbccZHIZA_A">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_W-ZeINWLEeGQbccZHIZA_A"
+                      name="To know what to do at different stages in the crisis">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="goal" id="_kTi6UNWLEeGQbccZHIZA_A" name="Receive instructions">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="some+" iref="_W-ZeINWLEeGQbccZHIZA_A">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="decomposition" value="and" iref="_jjQs4NWLEeGQbccZHIZA_A">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="task" id="_jjQs4NWLEeGQbccZHIZA_A"
+                      name="Follow instructions from firemen and police">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_DoiN8NWREeGoBsT_nT6Xsg"
+                      name="Provide accurate information about the crisis to police and firemen">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+         </boundary>
+      </actor>
+      <actor type="role" id="_P5RJwNKyEeGgRv0sG0abZw" name="Police Officer (Policeman)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <boundary>
+            <graphic content="basic" xpos="1332" ypos="540" width="100" height="100" shape="ellipse"
+                     unit="pt"
+                     bgcolor="FFFFFF"
+                     fontfamily="Segoe UI"
+                     fontcolor="000000"
+                     fontsize="12"/>
+            <ielement type="goal" id="_SWvlQNWFEeGYNcpsYk8Hog"
+                      name="To receive requests to go to/return from the crisis location">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="decomposition" value="and" iref="_Aqg3QdWJEeGQbccZHIZA_A">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="goal" id="_V7344NWFEeGYNcpsYk8Hog" name="Report location status to PSC">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="decomposition" value="and" iref="_qYIhsNWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_HZiQ0NWFEeGYNcpsYk8Hog" name="Minimize damage to property">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_KkuacNWFEeGYNcpsYk8Hog"
+                      name="Have confidence in coordinator">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_MIMYUNWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_PmFbgNWFEeGYNcpsYk8Hog"
+                      name="Keep up to date regarding crisis situation">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_MIMYUNWFEeGYNcpsYk8Hog" name="Follow instructions well">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_JImasNWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="contribution" value="help" iref="_Ct5oINWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_JImasNWFEeGYNcpsYk8Hog" name="Work well in a team">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_Ct5oINWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="goal" id="_YvGOcNWFEeGYNcpsYk8Hog"
+                      name="Report conditions of the crisis to FSC and all policemen">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="decomposition" value="and" iref="_qYIhsNWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_Ct5oINWFEeGYNcpsYk8Hog" name="Minimize injury">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_A1J90dWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="goal" id="_blkFQNWFEeGYNcpsYk8Hog"
+                      name="Communicate with the victim and the witness at the crisis location">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_PmFbgNWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="contribution" value="help" iref="_FjJW8NWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="decomposition" value="and" iref="_qYIhsNWFEeGYNcpsYk8Hog">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="task" id="_qYIhsNWFEeGYNcpsYk8Hog" name="Provide updates">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_FjJW8NWFEeGYNcpsYk8Hog" name="Save and support the victim">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_A1J90dWFEeGYNcpsYk8Hog" name="Stay Alive">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="task" id="_Aqg3QdWJEeGQbccZHIZA_A"
+                      name="Acts on orders received from the PSC">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_RL17kNWJEeGQbccZHIZA_A" name="Re-establish order">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="task" id="_WQ3UoNWJEeGQbccZHIZA_A" name="Manage traffic and people">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="some+" iref="_RL17kNWJEeGQbccZHIZA_A">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+         </boundary>
+      </actor>
+      <actor type="role" id="_-lv9EPnNEeG4GvNfh4M6Xg" name="General Public">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+   </diagram>
+</istarml>

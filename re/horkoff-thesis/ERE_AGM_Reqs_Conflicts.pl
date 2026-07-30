@@ -1,0 +1,31 @@
+% ERE_AGM_Reqs_Conflicts  (nfr3 dialect, from istarml)
+:- discontiguous (<--)/2.
+:- dynamic (<--)/2.
+goals(soft) <--
+  [ or([ effectivelyAnalyzeAgentGoalModelsInEarlyRE,
+         handleModelComplexity,
+         increaseModelCompleteness,
+         increaseModelAccuracy,
+         provideModelInterpretation,
+         captureDecisionsAndRationale,
+         involveStakeholders,
+         provideAnalysisPower,
+         procedureUsability,
+         provideGuidelinesForProcedureSelection,
+         r1Scalability,
+         r2AnalysisComprehension,
+         r3PartialAutomation,
+         r4PromptModelIteration,
+         r5InteractiveProcedure,
+         r7ProvideDefinition,
+         r9CaptureHumanJudgments,
+         r10CaptureDecisionRationale,
+         r11IterativeMethdology,
+         r12AnalysisQuestions,
+         r14SimpleAnalysisProcedures,
+         r15HiddenComplexity,
+         handleModelFlexibility,
+         r8AccommodateHighLevelDomainInformation,
+         r13ReliableAnalysis,
+         understandTheDomain,
+         r6PromptFurtherIteration ]) ].

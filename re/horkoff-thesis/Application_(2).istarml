@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version="1.0">
+   <diagram name="Application.ood">
+      <graphic content="SVG"/>
+      <actor id="_FpAa0PKBEd-YfprVbBw8cw" name="Application">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <boundary>
+            <graphic content="basic" xpos="72" ypos="84" width="457" height="397" shape="ellipse"
+                     unit="pt"
+                     bgcolor="FFFFFF"
+                     fontfamily=""
+                     fontcolor="000000"
+                     fontsize="12"/>
+            <ielement type="goal" id="_JRUlUPKBEd-YfprVbBw8cw" name="Implement Password System"
+                      QualitativeReasoningCombinedLabel="Satisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="task" id="_LAxwwPKBEd-YfprVbBw8cw" name="Restrict Structure of Password"
+                      QualitativeReasoningCombinedLabel="Satisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="hurt" iref="_Sp1M0PKBEd-YfprVbBw8cw">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="contribution" value="make" iref="_T49SYPKBEd-YfprVbBw8cw">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="decomposition" value="or" iref="_JRUlUPKBEd-YfprVbBw8cw">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="task" id="_NyjU0PKBEd-YfprVbBw8cw" name="Ask for Secret Question"
+                      QualitativeReasoningCombinedLabel="Satisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_Sp1M0PKBEd-YfprVbBw8cw">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="decomposition" value="or" iref="_JRUlUPKBEd-YfprVbBw8cw">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_RVf3IPKBEd-YfprVbBw8cw" name="Attract Users"
+                      QualitativeReasoningCombinedLabel="Unknown"
+                      initialEvalLabel="PartiallySatisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_Sp1M0PKBEd-YfprVbBw8cw" name="Usability"
+                      QualitativeReasoningCombinedLabel="Unknown"
+                      initialEvalLabel="PartiallySatisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_RVf3IPKBEd-YfprVbBw8cw">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_T49SYPKBEd-YfprVbBw8cw" name="Security"
+                      QualitativeReasoningCombinedLabel="Satisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_RVf3IPKBEd-YfprVbBw8cw">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+         </boundary>
+      </actor>
+   </diagram>
+</istarml>

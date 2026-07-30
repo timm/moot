@@ -1,0 +1,172 @@
+<?xml version='1.0'?>
+<istarml version='1.0'>
+    <diagram name='OSS Fork'>
+        <actor id='OLDCOMM' name='OSS Community'>
+            <boundary>
+                <ielement id='OSS-D' name='Develop OSS Component' type='task'>
+                    <ielementLink type='decomposition'>
+						<ielement id='DEV' name='Act-DEV' type='task'/>
+						<ielement id='TST-C' name='Act-TEST-Comp' type='task'/>
+						<ielement id='MNT-C' name='Act-MAINT-Comp' type='task'/>
+						<ielement id='RLS' name='Act-RELEASE' type='task'/>
+                    </ielementLink>
+                </ielement>
+            </boundary>
+        </actor>
+        <actor id='COMM' name='New OSS Community'>
+            <boundary>
+                <ielement id='OSS-E' name='Evolve OSS Component' type='task'>
+                    <ielementLink type='decomposition'>
+						<ielement id='TST-C' name='Act-TEST-Comp' type='task'/>
+						<ielement id='MNT-C' name='Act-MAINT-Comp' type='task'/>
+						<ielement id='RLS' name='Act-RELEASE' type='task'/>
+                    </ielementLink>
+                </ielement>
+                <ielement id='CM' name='Community Managed' type='goal'>
+                    <ielementLink type='means-end'>
+						<ielement id='DCD-R' name='Act-DECIDE-Roadmap' type='task'/>
+						<ielement id='DCD-A' name='Act-DECIDE-ACC' type='task'/>
+                    </ielementLink>
+                </ielement>
+                <ielement id='SA' name='Supporting Activities Held' type='goal'/>
+            </boundary>
+        </actor>
+        <actor id='CMP' name='The Company'>
+            <boundary>
+                <ielement id='OSS-FRK' name='Perform OSS Fork' type='task'>
+                    <ielementLink type='decomposition'>
+						<ielement id='SLT' name='Act-SEL' type='task'/>
+						<ielement id='NEW-C' name='Act-NewCOMM' type='task'/>
+						<ielement id='USE' name='OSS Component Used (Deploy or Integrate)' type='goal'>
+							<ielementLink type='means-end'>
+								<ielement id='DPL' name='Act-DEP' type='task'/>
+								<ielement id='INT' name='Act-INT' type='goal'/>
+							</ielementLink>
+						</ielement>
+						<ielement id='DCD-W' name='Act-DECIDE-Wishlist' type='task'/>
+						<ielement id='ACQ-MS' name='Act-ACQ-Man' type='task'/>
+		                <ielement id='TQ' name='Technical Quality' type='softgoal' creation_date='10/14/13'>
+							<ielementLink type='contribution' value='help'>
+								<ielement id='ACQ-TS' name='Act-ACQ-Tech' type='task'/>
+								<ielement id='ACQ-OS' name='Act-Learn' type='task'/>
+							</ielementLink>
+						</ielement>
+						<ielement id='MNT-P' name='Act-MAINT-Prod' type='task'>
+							<ielementLink type='decomposition'>
+								<ielement id='EVL-DF' name='OSS Evolves towards Desired Features' type='softgoal'>
+									<ielementLink type='contribution' value='Help'>
+										<ielement iref='CNT-CP'/>
+										<ielement iref='CNT'/>
+									</ielementLink>
+								</ielement>
+								<ielement id='Q' name='Quality of the Evolved OSS Component' type='softgoal'/>
+							</ielementLink>
+						</ielement>
+						<ielement id='TST-P' name='Act-TEST-Prod' type='task'/>
+	                </ielementLink>
+                </ielement>
+				<ielement id='CNT' name='OSS Community Contributed' type='goal'>
+					<ielementLink type='means-end'>
+						<ielement id='RPT-B' name='Act-RepBUG' type='task'/>
+						<ielement id='PTCH-D' name='Act-PATCH' type='task'>
+							<ielementLink type='decomposition'>
+								<ielement id='RPT-P' name='Act-RepPATCH' type='task'/>
+							</ielementLink>			
+						</ielement>
+						<ielement id='SPT' name='Act-SUPP' type='task'/>
+						<ielement id='CNT-CP' name='According to OSS Community Practices' type='softgoal'>
+							<ielementLink type='contribution' value='Help'>
+								<ielement iref='ACQ-MS'/>
+							</ielementLink>
+						</ielement>
+						<ielement iref='TQ'/>
+					</ielementLink>
+				</ielement>
+            </boundary>
+        </actor>
+        <ielement id='OSSC+DCM' name='Res-OSS-Comp-with-Docum' type='resource'>
+            <dependency>
+                <depender iref='RLS' aref='CMP'/>
+                <dependee iref='OSS-D' aref='OLDCOMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='OSSC+DCM' name='Res-OSS-Comp-with-Docum' type='resource'>
+            <dependency>
+                <depender iref='OSS-E' aref='COMM'/>
+                <dependee iref='NEW-C' aref='CMP'/>
+            </dependency>
+        </ielement>
+        <ielement id='OSSC+DCM' name='Res-OSS-Comp-with-Docum' type='resource'>
+            <dependency>
+                <depender iref='TST-P' aref='CMP'/>
+                <dependee iref='RLS' aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='OSSC+DCM' name='Res-OSS-Comp-with-Docum' type='resource'>
+            <dependency>
+                <depender iref='MNT-P' aref='CMP'/>
+                <dependee iref='RLS' aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='DCM-T' name='Res-Tech-DOCUM' type='resource'>
+            <dependency>
+                <depender iref='ACQ-TS' aref='CMP'/>
+                <dependee iref='RLS' aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='DCM-T' name='Res-User-DOCUM' type='resource'>
+            <dependency>
+                <depender iref='ACQ-OS' aref='CMP'/>
+                <dependee iref='RLS' aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='BUG' name='Res-BUG' type='resource'>
+            <dependency>
+                <depender iref='MNT-C' aref='COMM'/>
+                <dependee iref='RPT-B' aref='CMP'/>
+            </dependency>
+        </ielement>
+        <ielement id='BUG' name='Res-BUG' type='resource'>
+            <dependency>
+                <depender iref='PTCH-D' aref='CMP'/>
+                <dependee iref='MNT-C' aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='NF' name='Res-NEWFEATURE' type='resource'>
+            <dependency>
+                <depender iref='DCD-R' aref='COMM'/>
+                <dependee iref='DCD-W' aref='CMP'/>
+            </dependency>
+        </ielement>
+        <ielement id='NF' name='Res-NEWFEATURE' type='resource'>
+            <dependency>
+                <depender iref='PTCH-D' aref='CMP'/>
+                <dependee iref='MNT-C' aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='PTCH' name='Res-PATCH' type='resource'>
+            <dependency>
+                <depender iref='MNT-C' aref='COMM'/>
+                <dependee iref='RPT-P' aref='CMP'/>
+            </dependency>
+        </ielement>
+        <ielement id='EVL-DF' name='OSS Component Evolves towards Desired Features' type='softgoal'>
+            <dependency>
+                <depender iref='EVL-DF' aref='CMP'/>
+                <dependee iref='DCD-R' aref='COMM'/>
+            </dependency>
+        </ielement>
+        <ielement id='GS' name='Give Support' type='task'>
+            <dependency>
+                <depender iref='SA' aref='COMM'/>
+                <dependee iref='SPT' aref='CMP'/>
+            </dependency>
+        </ielement>
+		<ielement id='Q' name='Quality of the Evolved OSS Component' type='softgoal'>
+			<dependency>
+				<depender iref='Q' aref='CMP'/>
+				<dependee iref='MNT-C' aref='COMM'/>
+			</dependency>
+		</ielement>
+    </diagram>
+</istarml>

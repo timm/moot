@@ -1,0 +1,797 @@
+{
+  "actors": [
+    {
+      "id": "7ef99b1d-c9e0-49f3-9af1-dfd526e28c45",
+      "text": "Text Translator",
+      "type": "istar.Role",
+      "x": 302,
+      "y": 733,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "5520af09-95b2-494b-8693-c287a43860c7",
+      "text": "Requirements Analysis Client",
+      "type": "istar.Actor",
+      "x": 116,
+      "y": 173,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "2bedb0cd-91de-4d7e-b25d-e63a35da5465",
+          "text": "Analyze Requirements Document",
+          "type": "istar.Task",
+          "x": 257,
+          "y": 173,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "59e3a856-b273-47a1-b8bb-bd3f8b7abc30",
+          "text": "Requirements Text Obtained",
+          "type": "istar.Goal",
+          "x": 202,
+          "y": 295,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a3181815-d1e1-40b1-abea-91137bc1596e",
+          "text": "Convert Document to PDF",
+          "type": "istar.Task",
+          "x": 116,
+          "y": 379,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "30115be5-3c40-47eb-b3dd-027a9be0e279",
+          "text": "Provide Document as PDF",
+          "type": "istar.Task",
+          "x": 239,
+          "y": 427,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7a2445c8-3076-44a0-b482-288e0f8dc4cf",
+          "text": "High Availability",
+          "type": "istar.Quality",
+          "x": 335,
+          "y": 305,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9d930816-ef56-4f0a-990f-255fcfa3a839",
+          "text": "Use Remote Components of High Availability",
+          "type": "istar.Task",
+          "x": 356.5,
+          "y": 399,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "899a7709-1834-4802-adb4-c67db30bbb67",
+          "text": "Obtain Requirements Document",
+          "type": "istar.Goal",
+          "x": 367,
+          "y": 238,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "1129d715-ccde-4a8b-beba-c3202beb4645",
+      "text": "Requirements Pre-processor",
+      "type": "istar.Actor",
+      "x": 95,
+      "y": 595,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "55997048-b2c4-4255-88e0-c08083eeb775",
+      "text": "Requirements Analysis Server",
+      "type": "istar.Actor",
+      "x": 621,
+      "y": 529,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "a119f46b-94ad-4691-85b4-a677fcc19e39",
+      "text": "Translator A",
+      "type": "istar.Agent",
+      "x": 150,
+      "y": 913,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "b1e4f7f5-2871-4514-a54f-5becb998cf1f",
+      "text": "Translator B",
+      "type": "istar.Agent",
+      "x": 253,
+      "y": 917,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "e3eaa8e5-827b-490e-ba3c-a1244f5eca05",
+      "text": "Translator C",
+      "type": "istar.Agent",
+      "x": 361,
+      "y": 918,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "be2bf78b-d4fc-4ce7-b05d-96f5b936ed42",
+      "text": "Translator D",
+      "type": "istar.Agent",
+      "x": 465,
+      "y": 922,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "47a447b7-95d3-4c9d-9ae9-8902e20866ca",
+      "text": "Document Converter",
+      "type": "istar.Role",
+      "x": 611,
+      "y": 37,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "f44b85e6-f376-4f9d-a743-6a49874ad69e",
+          "text": "Convert Document to PDF",
+          "type": "istar.Task",
+          "x": 616,
+          "y": 179,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b6c05229-3fcf-4f1e-bc52-3974d759ead4",
+          "text": "High availability",
+          "type": "istar.Quality",
+          "x": 752,
+          "y": 91,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "a6ab52d4-9134-4740-92b8-358a76a9eece",
+      "text": "PDFm",
+      "type": "istar.Agent",
+      "x": 1019,
+      "y": 64,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "0b3cc47b-f5b1-40d8-bb38-66e985a45649",
+          "text": "Convert Document to PDF",
+          "type": "istar.Task",
+          "x": 1019,
+          "y": 174,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e9a86a68-d451-4067-a69c-53dcdc053862",
+          "text": "High Availability",
+          "type": "istar.Quality",
+          "x": 1092,
+          "y": 74.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f918c7ce-3349-4811-b80a-768d84eee7de",
+          "text": "Low Response Time",
+          "type": "istar.Quality",
+          "x": 1227,
+          "y": 153,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ab3d25ef-7674-4f61-aff3-c5def7d3999d",
+          "text": "Low Cost",
+          "type": "istar.Quality",
+          "x": 1182,
+          "y": 250,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4e921707-526d-42f5-9d23-c548a6db1476",
+          "text": "High Condentiality",
+          "type": "istar.Quality",
+          "x": 1070,
+          "y": 265.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "13467789-370f-453e-8812-04a8086c0ad5",
+      "text": "PDFt",
+      "type": "istar.Agent",
+      "x": 805,
+      "y": 297,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "db126baa-a24a-4c2a-bf59-5dc1897ebc10",
+          "text": "High Availability",
+          "type": "istar.Quality",
+          "x": 933.5,
+          "y": 314,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8ff3a16b-cf75-4f07-8ba3-33398ba42d8e",
+          "text": "Convert Document to PDF ",
+          "type": "istar.Task",
+          "x": 809.5,
+          "y": 409,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2424eb0e-4d3d-4186-81c3-37d44e378859",
+          "text": "Low Response Time",
+          "type": "istar.Quality",
+          "x": 993.5,
+          "y": 393.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "14812b49-5f3f-4eac-a5cd-1311635b754d",
+          "text": "Low Cost",
+          "type": "istar.Quality",
+          "x": 1032.5,
+          "y": 492,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8c4c2181-83d5-4128-85fb-1b4cfadf8f7b",
+          "text": "High Condentiality",
+          "type": "istar.Quality",
+          "x": 995.5,
+          "y": 577,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "26f0ffb7-73cc-4c8c-8665-4bb02b8db0e2",
+          "text": "Merge Documents",
+          "type": "istar.Task",
+          "x": 1123.5,
+          "y": 674,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2acb50be-df9a-4800-9112-d2af1ad3fd5e",
+          "text": "Convert Document to TXT",
+          "type": "istar.Task",
+          "x": 805,
+          "y": 651,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "e9e88a9d-952b-46e6-878f-05be30b29c15",
+      "text": "Requirements Analyzer",
+      "type": "istar.Actor",
+      "x": 677,
+      "y": 875,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "0e53b585-fc3b-4999-afac-781bc55febd7",
+      "text": "Requirements Text Pre-Processed",
+      "type": "istar.Goal",
+      "x": 358,
+      "y": 562,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "55997048-b2c4-4255-88e0-c08083eeb775",
+      "target": "1129d715-ccde-4a8b-beba-c3202beb4645"
+    },
+    {
+      "id": "d7f0a99e-b29b-4bed-9e3f-94918e50b5a0",
+      "text": "Translate Text",
+      "type": "istar.Task",
+      "x": 120,
+      "y": 724,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "1129d715-ccde-4a8b-beba-c3202beb4645",
+      "target": "7ef99b1d-c9e0-49f3-9af1-dfd526e28c45"
+    },
+    {
+      "id": "96f7124a-30bb-44cc-b658-a257c309a29b",
+      "text": "Analyze Requirements Text",
+      "type": "istar.Task",
+      "x": 628,
+      "y": 706,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "55997048-b2c4-4255-88e0-c08083eeb775",
+      "target": "e9e88a9d-952b-46e6-878f-05be30b29c15"
+    },
+    {
+      "id": "c0092424-3cb8-4623-9d45-3a3c690eb1db",
+      "text": "Convert Document to PDF",
+      "type": "istar.Task",
+      "x": 235,
+      "y": 29,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a3181815-d1e1-40b1-abea-91137bc1596e",
+      "target": "f44b85e6-f376-4f9d-a743-6a49874ad69e"
+    },
+    {
+      "id": "da089783-b703-4120-9b40-a746cd0917b8",
+      "text": "Requirements Text Pre-Processed",
+      "type": "istar.Goal",
+      "x": 525,
+      "y": 381,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "899a7709-1834-4802-adb4-c67db30bbb67",
+      "target": "55997048-b2c4-4255-88e0-c08083eeb775"
+    },
+    {
+      "id": "e6a41aa8-100d-4886-b5cf-b682ab47c938",
+      "text": "Analyze Requirements Text",
+      "type": "istar.Task",
+      "x": 632,
+      "y": 310,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "899a7709-1834-4802-adb4-c67db30bbb67",
+      "target": "55997048-b2c4-4255-88e0-c08083eeb775"
+    }
+  ],
+  "links": [
+    {
+      "id": "f314ae86-b751-4eaa-861e-446784dd4d5f",
+      "type": "istar.DependencyLink",
+      "source": "e6a41aa8-100d-4886-b5cf-b682ab47c938",
+      "target": "55997048-b2c4-4255-88e0-c08083eeb775"
+    },
+    {
+      "id": "7f4e7e20-d42b-41c7-8869-25e73651891e",
+      "type": "istar.DependencyLink",
+      "source": "899a7709-1834-4802-adb4-c67db30bbb67",
+      "target": "e6a41aa8-100d-4886-b5cf-b682ab47c938"
+    },
+    {
+      "id": "1c9640f5-60b7-4f7b-a4f7-25f2ae1107d3",
+      "type": "istar.DependencyLink",
+      "source": "da089783-b703-4120-9b40-a746cd0917b8",
+      "target": "55997048-b2c4-4255-88e0-c08083eeb775"
+    },
+    {
+      "id": "35c906aa-b676-4eb9-b29f-9a41ed26699b",
+      "type": "istar.DependencyLink",
+      "source": "899a7709-1834-4802-adb4-c67db30bbb67",
+      "target": "da089783-b703-4120-9b40-a746cd0917b8"
+    },
+    {
+      "id": "199f8d85-fd3b-4b32-a8fe-8d21ba5dcfc2",
+      "type": "istar.DependencyLink",
+      "source": "c0092424-3cb8-4623-9d45-3a3c690eb1db",
+      "target": "f44b85e6-f376-4f9d-a743-6a49874ad69e"
+    },
+    {
+      "id": "fd70c387-0b35-4f58-ae6b-1115951cc37d",
+      "type": "istar.DependencyLink",
+      "source": "a3181815-d1e1-40b1-abea-91137bc1596e",
+      "target": "c0092424-3cb8-4623-9d45-3a3c690eb1db"
+    },
+    {
+      "id": "b53a19e5-dfcf-4808-85e1-70d9923c41a8",
+      "type": "istar.DependencyLink",
+      "source": "96f7124a-30bb-44cc-b658-a257c309a29b",
+      "target": "e9e88a9d-952b-46e6-878f-05be30b29c15"
+    },
+    {
+      "id": "53ad667f-6b4b-4eef-8219-f5d78f8b0bbe",
+      "type": "istar.DependencyLink",
+      "source": "55997048-b2c4-4255-88e0-c08083eeb775",
+      "target": "96f7124a-30bb-44cc-b658-a257c309a29b"
+    },
+    {
+      "id": "3565d9c1-ee2f-4dba-8cb1-d76a0b590166",
+      "type": "istar.DependencyLink",
+      "source": "d7f0a99e-b29b-4bed-9e3f-94918e50b5a0",
+      "target": "7ef99b1d-c9e0-49f3-9af1-dfd526e28c45"
+    },
+    {
+      "id": "a2026f72-28f2-4e5d-a883-639e0f70c16a",
+      "type": "istar.DependencyLink",
+      "source": "1129d715-ccde-4a8b-beba-c3202beb4645",
+      "target": "d7f0a99e-b29b-4bed-9e3f-94918e50b5a0"
+    },
+    {
+      "id": "3b7d84d8-f3c7-46f6-82e8-e09f7a6deb95",
+      "type": "istar.DependencyLink",
+      "source": "0e53b585-fc3b-4999-afac-781bc55febd7",
+      "target": "1129d715-ccde-4a8b-beba-c3202beb4645"
+    },
+    {
+      "id": "a28f2684-6005-43f3-bfbd-93a527f592db",
+      "type": "istar.DependencyLink",
+      "source": "55997048-b2c4-4255-88e0-c08083eeb775",
+      "target": "0e53b585-fc3b-4999-afac-781bc55febd7"
+    },
+    {
+      "id": "5ac1aa80-79c7-47f1-bd3c-abdd310abe25",
+      "type": "istar.AndRefinementLink",
+      "source": "59e3a856-b273-47a1-b8bb-bd3f8b7abc30",
+      "target": "2bedb0cd-91de-4d7e-b25d-e63a35da5465"
+    },
+    {
+      "id": "42480392-c2f9-4dc3-a969-f8336617bb98",
+      "type": "istar.OrRefinementLink",
+      "source": "30115be5-3c40-47eb-b3dd-027a9be0e279",
+      "target": "59e3a856-b273-47a1-b8bb-bd3f8b7abc30"
+    },
+    {
+      "id": "986aa75a-93f0-413d-ba1a-a1f0999bcc9c",
+      "type": "istar.OrRefinementLink",
+      "source": "a3181815-d1e1-40b1-abea-91137bc1596e",
+      "target": "59e3a856-b273-47a1-b8bb-bd3f8b7abc30"
+    },
+    {
+      "id": "694d1b78-d6dc-4ebf-9d63-cf37a98b6736",
+      "type": "istar.ContributionLink",
+      "source": "9d930816-ef56-4f0a-990f-255fcfa3a839",
+      "target": "7a2445c8-3076-44a0-b482-288e0f8dc4cf",
+      "label": "help"
+    },
+    {
+      "id": "baa06dff-cec5-4a08-8476-6cd4653b0bf3",
+      "type": "istar.ParticipatesInLink",
+      "source": "a119f46b-94ad-4691-85b4-a677fcc19e39",
+      "target": "7ef99b1d-c9e0-49f3-9af1-dfd526e28c45"
+    },
+    {
+      "id": "b08a726f-3c65-49d4-907d-6e06c7fd4b08",
+      "type": "istar.ParticipatesInLink",
+      "source": "b1e4f7f5-2871-4514-a54f-5becb998cf1f",
+      "target": "7ef99b1d-c9e0-49f3-9af1-dfd526e28c45"
+    },
+    {
+      "id": "0fe7c34a-ceca-4918-b2a1-be64374f64ac",
+      "type": "istar.ParticipatesInLink",
+      "source": "e3eaa8e5-827b-490e-ba3c-a1244f5eca05",
+      "target": "7ef99b1d-c9e0-49f3-9af1-dfd526e28c45"
+    },
+    {
+      "id": "bde0b41e-9d3e-4762-a3ef-71548e86de6d",
+      "type": "istar.ParticipatesInLink",
+      "source": "be2bf78b-d4fc-4ce7-b05d-96f5b936ed42",
+      "target": "7ef99b1d-c9e0-49f3-9af1-dfd526e28c45"
+    },
+    {
+      "id": "7c98f1d4-7b41-4701-aebb-b0fcdac717f4",
+      "type": "istar.ContributionLink",
+      "source": "f44b85e6-f376-4f9d-a743-6a49874ad69e",
+      "target": "b6c05229-3fcf-4f1e-bc52-3974d759ead4",
+      "label": "make"
+    },
+    {
+      "id": "cde90616-dc69-4eab-b66a-699f6715d4c4",
+      "type": "istar.ParticipatesInLink",
+      "source": "a6ab52d4-9134-4740-92b8-358a76a9eece",
+      "target": "47a447b7-95d3-4c9d-9ae9-8902e20866ca"
+    },
+    {
+      "id": "f2dd5590-40e4-480f-b0a0-87064de969b6",
+      "type": "istar.ContributionLink",
+      "source": "0b3cc47b-f5b1-40d8-bb38-66e985a45649",
+      "target": "4e921707-526d-42f5-9d23-c548a6db1476",
+      "label": "hurt"
+    },
+    {
+      "id": "df5b8d0a-36f9-4a63-ac5d-e511ef5c8545",
+      "type": "istar.ContributionLink",
+      "source": "0b3cc47b-f5b1-40d8-bb38-66e985a45649",
+      "target": "ab3d25ef-7674-4f61-aff3-c5def7d3999d",
+      "label": "make"
+    },
+    {
+      "id": "3627b068-b57b-4386-adcb-65c1d3e9dda9",
+      "type": "istar.ContributionLink",
+      "source": "0b3cc47b-f5b1-40d8-bb38-66e985a45649",
+      "target": "f918c7ce-3349-4811-b80a-768d84eee7de",
+      "label": "help"
+    },
+    {
+      "id": "0d8da5b9-8c7c-4dd4-8525-274461021fe7",
+      "type": "istar.ContributionLink",
+      "source": "0b3cc47b-f5b1-40d8-bb38-66e985a45649",
+      "target": "e9a86a68-d451-4067-a69c-53dcdc053862",
+      "label": "make"
+    },
+    {
+      "id": "dccd938e-a4e0-4e49-bd02-87ec1e07d595",
+      "type": "istar.ContributionLink",
+      "source": "8ff3a16b-cf75-4f07-8ba3-33398ba42d8e",
+      "target": "db126baa-a24a-4c2a-bf59-5dc1897ebc10",
+      "label": "make"
+    },
+    {
+      "id": "38018cfe-a3dd-4390-aa19-650f44175d41",
+      "type": "istar.ContributionLink",
+      "source": "8ff3a16b-cf75-4f07-8ba3-33398ba42d8e",
+      "target": "14812b49-5f3f-4eac-a5cd-1311635b754d",
+      "label": "hurt"
+    },
+    {
+      "id": "22b744f4-817c-4baf-9059-4cc090564513",
+      "type": "istar.ContributionLink",
+      "source": "8ff3a16b-cf75-4f07-8ba3-33398ba42d8e",
+      "target": "8c4c2181-83d5-4128-85fb-1b4cfadf8f7b",
+      "label": "help"
+    },
+    {
+      "id": "a94217f1-e2f4-4dec-a44f-d2fecd79412f",
+      "type": "istar.ContributionLink",
+      "source": "8ff3a16b-cf75-4f07-8ba3-33398ba42d8e",
+      "target": "2424eb0e-4d3d-4186-81c3-37d44e378859",
+      "label": "help"
+    },
+    {
+      "id": "acd1b979-214b-4c81-b221-4f7beb41d47b",
+      "type": "istar.ContributionLink",
+      "source": "26f0ffb7-73cc-4c8c-8665-4bb02b8db0e2",
+      "target": "8c4c2181-83d5-4128-85fb-1b4cfadf8f7b",
+      "label": "help"
+    },
+    {
+      "id": "1c7699ef-3eee-4739-b8c8-1cee28d3cd95",
+      "type": "istar.ContributionLink",
+      "source": "26f0ffb7-73cc-4c8c-8665-4bb02b8db0e2",
+      "target": "14812b49-5f3f-4eac-a5cd-1311635b754d",
+      "label": "hurt"
+    },
+    {
+      "id": "fcc8ad30-3220-4336-9bbc-bca615ba2e6c",
+      "type": "istar.ContributionLink",
+      "source": "26f0ffb7-73cc-4c8c-8665-4bb02b8db0e2",
+      "target": "2424eb0e-4d3d-4186-81c3-37d44e378859",
+      "label": "hurt"
+    },
+    {
+      "id": "3fc1def0-96e7-4b7f-a2cc-30f0aa08c343",
+      "type": "istar.ContributionLink",
+      "source": "26f0ffb7-73cc-4c8c-8665-4bb02b8db0e2",
+      "target": "db126baa-a24a-4c2a-bf59-5dc1897ebc10",
+      "label": "make"
+    },
+    {
+      "id": "f32d6e14-e700-4d1f-8227-0ebdb8534746",
+      "type": "istar.ContributionLink",
+      "source": "2acb50be-df9a-4800-9112-d2af1ad3fd5e",
+      "target": "8c4c2181-83d5-4128-85fb-1b4cfadf8f7b",
+      "label": "help"
+    },
+    {
+      "id": "ae5b7671-d743-466c-a717-5a92e00f89fe",
+      "type": "istar.ContributionLink",
+      "source": "2acb50be-df9a-4800-9112-d2af1ad3fd5e",
+      "target": "14812b49-5f3f-4eac-a5cd-1311635b754d",
+      "label": "hurt"
+    },
+    {
+      "id": "e62c02f1-13d0-4d9a-aee8-c43a232b0709",
+      "type": "istar.ContributionLink",
+      "source": "2acb50be-df9a-4800-9112-d2af1ad3fd5e",
+      "target": "2424eb0e-4d3d-4186-81c3-37d44e378859",
+      "label": "make"
+    },
+    {
+      "id": "8186d824-7454-4656-8565-6d89fc93484b",
+      "type": "istar.ContributionLink",
+      "source": "2acb50be-df9a-4800-9112-d2af1ad3fd5e",
+      "target": "db126baa-a24a-4c2a-bf59-5dc1897ebc10",
+      "label": "make"
+    },
+    {
+      "id": "8de9f6b4-4f80-4f0f-8b59-883e41be2470",
+      "type": "istar.ParticipatesInLink",
+      "source": "13467789-370f-453e-8812-04a8086c0ad5",
+      "target": "47a447b7-95d3-4c9d-9ae9-8902e20866ca"
+    },
+    {
+      "id": "38c8afec-8647-4a16-a342-3669f2192990",
+      "type": "istar.AndRefinementLink",
+      "source": "899a7709-1834-4802-adb4-c67db30bbb67",
+      "target": "2bedb0cd-91de-4d7e-b25d-e63a35da5465"
+    }
+  ],
+  "display": {
+    "2bedb0cd-91de-4d7e-b25d-e63a35da5465": {
+      "width": 106.5,
+      "height": 46.84375
+    },
+    "59e3a856-b273-47a1-b8bb-bd3f8b7abc30": {
+      "width": 111.5,
+      "height": 44.84375
+    },
+    "a3181815-d1e1-40b1-abea-91137bc1596e": {
+      "width": 108.5,
+      "height": 49.84375
+    },
+    "30115be5-3c40-47eb-b3dd-027a9be0e279": {
+      "width": 111.5,
+      "height": 48.84375
+    },
+    "9d930816-ef56-4f0a-990f-255fcfa3a839": {
+      "width": 115,
+      "height": 57.84375
+    },
+    "0e53b585-fc3b-4999-afac-781bc55febd7": {
+      "width": 100.5,
+      "height": 46.84375
+    },
+    "da089783-b703-4120-9b40-a746cd0917b8": {
+      "width": 103.5,
+      "height": 52.84375
+    },
+    "7c98f1d4-7b41-4701-aebb-b0fcdac717f4": {
+      "vertices": [
+        {
+          "x": 718,
+          "y": 170
+        }
+      ]
+    },
+    "cde90616-dc69-4eab-b66a-699f6715d4c4": {
+      "vertices": [
+        {
+          "x": 841,
+          "y": 21
+        }
+      ]
+    },
+    "1c7699ef-3eee-4739-b8c8-1cee28d3cd95": {
+      "vertices": [
+        {
+          "x": 1107.5,
+          "y": 612
+        }
+      ]
+    },
+    "fcc8ad30-3220-4336-9bbc-bca615ba2e6c": {
+      "vertices": [
+        {
+          "x": 1167.5,
+          "y": 554
+        }
+      ]
+    },
+    "3fc1def0-96e7-4b7f-a2cc-30f0aa08c343": {
+      "vertices": [
+        {
+          "x": 1212.5,
+          "y": 482
+        }
+      ]
+    },
+    "8de9f6b4-4f80-4f0f-8b59-883e41be2470": {
+      "vertices": [
+        {
+          "x": 907,
+          "y": 84
+        }
+      ]
+    },
+    "7ef99b1d-c9e0-49f3-9af1-dfd526e28c45": {
+      "collapsed": true
+    },
+    "1129d715-ccde-4a8b-beba-c3202beb4645": {
+      "collapsed": true
+    },
+    "55997048-b2c4-4255-88e0-c08083eeb775": {
+      "collapsed": true
+    },
+    "a119f46b-94ad-4691-85b4-a677fcc19e39": {
+      "collapsed": true
+    },
+    "b1e4f7f5-2871-4514-a54f-5becb998cf1f": {
+      "collapsed": true
+    },
+    "e3eaa8e5-827b-490e-ba3c-a1244f5eca05": {
+      "collapsed": true
+    },
+    "be2bf78b-d4fc-4ce7-b05d-96f5b936ed42": {
+      "collapsed": true
+    },
+    "e9e88a9d-952b-46e6-878f-05be30b29c15": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 20 May 2026 17:49:32 GMT",
+  "diagram": {
+    "width": 2631,
+    "height": 2669,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

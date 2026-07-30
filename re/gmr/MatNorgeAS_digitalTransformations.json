@@ -1,0 +1,396 @@
+{
+  "actors": [
+    {
+      "id": "04aa0941-3715-4247-b893-0594f8659df1",
+      "text": "Store owner",
+      "type": "istar.Role",
+      "x": 27,
+      "y": 586,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "82d77460-5069-4f71-8ddf-e059e0bfd333",
+          "text": "Improved business operation",
+          "type": "istar.Goal",
+          "x": 161,
+          "y": 628.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "688cfb2b-e5c1-4ab1-a83b-68126c36580e",
+          "text": "Customer Satisfaction",
+          "type": "istar.Quality",
+          "x": 89,
+          "y": 755,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7e20e8ef-daf7-4a83-b2a3-92c2c2642ea2",
+          "text": "Improved performance",
+          "type": "istar.Quality",
+          "x": 289,
+          "y": 745,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "387d5f77-7405-471c-9866-290a1c6a9933",
+          "text": "transform digitally",
+          "type": "istar.Task",
+          "x": 495,
+          "y": 711,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "af75b937-6c11-4840-9b64-c2ace5f04126",
+          "text": "sustainable development",
+          "type": "istar.Goal",
+          "x": 174,
+          "y": 922,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "31e49888-efbe-4251-baa5-96756158064a",
+          "text": "sustainability",
+          "type": "istar.Quality",
+          "x": 360,
+          "y": 831.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c1a1e204-488b-4607-a5ff-b2a326b41061",
+          "text": "change org. structure and process",
+          "type": "istar.Task",
+          "x": 491.5,
+          "y": 842,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5cce2c34-e0e7-41a6-9e68-343d6c61869f",
+          "text": "adopt new technology",
+          "type": "istar.Task",
+          "x": 628,
+          "y": 849,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "60a7fc8d-587b-4a0a-bac7-d00eb4c68ed0",
+          "text": "Participation",
+          "type": "istar.Task",
+          "x": 27,
+          "y": 1049,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "82ec7b2a-cd66-4ad9-9173-7f66fad21842",
+          "text": "Changing status quo",
+          "type": "istar.Task",
+          "x": 136,
+          "y": 1084,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5a47646b-638e-4821-87eb-080470783d8e",
+          "text": "Eco feedback",
+          "type": "istar.Task",
+          "x": 239.5,
+          "y": 1075,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7ec51758-1b2e-4269-a9e2-94ce1f1f8f76",
+          "text": "Optimization",
+          "type": "istar.Task",
+          "x": 322.5,
+          "y": 1016,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "7bb9242a-a787-473c-8e93-1d2e689e7fcb",
+      "text": "Mat Norge",
+      "type": "istar.Agent",
+      "x": 1042,
+      "y": 593,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "e4b6a5b7-1644-4bf4-b9e9-a6beea817927",
+          "text": "B2B problem-solution fit",
+          "type": "istar.Goal",
+          "x": 1198,
+          "y": 634.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ed11779d-aa55-4182-a759-b8570a4eadf3",
+          "text": "Customize the technology set",
+          "type": "istar.Task",
+          "x": 1119,
+          "y": 753,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c2fec8b5-7ce0-4e20-9bc5-155a758d2064",
+          "text": "identify wasting areas",
+          "type": "istar.Task",
+          "x": 1357,
+          "y": 736,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b8b2adc8-ccad-4b16-a9c0-9536297c72cf",
+          "text": "select data analytic services",
+          "type": "istar.Task",
+          "x": 1042,
+          "y": 884,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e18348e9-215a-40b9-813d-b60b82a58f34",
+          "text": "tailor RMA",
+          "type": "istar.Task",
+          "x": 1133,
+          "y": 942,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8b75c2f9-fb82-4c79-b176-c4501822cd7f",
+          "text": "customize mobile apps",
+          "type": "istar.Task",
+          "x": 1220,
+          "y": 891,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "829bff30-abce-4b87-bc19-0bf927c5a3ca",
+          "text": "Greening by IT",
+          "type": "istar.Goal",
+          "x": 1138,
+          "y": 1051,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "a567bd44-1f11-4eb0-a04b-05c60b0f4131",
+      "text": "Scalability",
+      "type": "istar.Quality",
+      "x": 769,
+      "y": 994,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "829bff30-abce-4b87-bc19-0bf927c5a3ca",
+      "target": "af75b937-6c11-4840-9b64-c2ace5f04126"
+    },
+    {
+      "id": "ae9af4b4-d3de-4317-b150-8994bc6d0369",
+      "text": "resources (finance, people, process)",
+      "type": "istar.Resource",
+      "x": 839,
+      "y": 700,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e4b6a5b7-1644-4bf4-b9e9-a6beea817927",
+      "target": "387d5f77-7405-471c-9866-290a1c6a9933"
+    }
+  ],
+  "links": [
+    {
+      "id": "7986e2f7-8eeb-4a4d-97df-cdb3300e1e6d",
+      "type": "istar.DependencyLink",
+      "source": "ae9af4b4-d3de-4317-b150-8994bc6d0369",
+      "target": "387d5f77-7405-471c-9866-290a1c6a9933"
+    },
+    {
+      "id": "545c6f0d-c488-417d-9974-1a339c4e1f66",
+      "type": "istar.DependencyLink",
+      "source": "e4b6a5b7-1644-4bf4-b9e9-a6beea817927",
+      "target": "ae9af4b4-d3de-4317-b150-8994bc6d0369"
+    },
+    {
+      "id": "643ac3b0-5c37-4cb6-a71d-a479646f8c8c",
+      "type": "istar.DependencyLink",
+      "source": "a567bd44-1f11-4eb0-a04b-05c60b0f4131",
+      "target": "af75b937-6c11-4840-9b64-c2ace5f04126"
+    },
+    {
+      "id": "3b2b2aa7-dc77-45b1-abf9-040c068917c9",
+      "type": "istar.DependencyLink",
+      "source": "829bff30-abce-4b87-bc19-0bf927c5a3ca",
+      "target": "a567bd44-1f11-4eb0-a04b-05c60b0f4131"
+    },
+    {
+      "id": "e6f42234-9353-4104-a47a-30c3f8ca29a5",
+      "type": "istar.QualificationLink",
+      "source": "7e20e8ef-daf7-4a83-b2a3-92c2c2642ea2",
+      "target": "82d77460-5069-4f71-8ddf-e059e0bfd333"
+    },
+    {
+      "id": "dbc773b1-ee30-42be-93aa-d08b9b60f79c",
+      "type": "istar.QualificationLink",
+      "source": "688cfb2b-e5c1-4ab1-a83b-68126c36580e",
+      "target": "82d77460-5069-4f71-8ddf-e059e0bfd333"
+    },
+    {
+      "id": "775283e4-a839-4575-a036-02daf523b03a",
+      "type": "istar.QualificationLink",
+      "source": "31e49888-efbe-4251-baa5-96756158064a",
+      "target": "af75b937-6c11-4840-9b64-c2ace5f04126"
+    },
+    {
+      "id": "9a8c504a-2d89-4c0c-802c-ac556696ac26",
+      "type": "istar.ContributionLink",
+      "source": "af75b937-6c11-4840-9b64-c2ace5f04126",
+      "target": "688cfb2b-e5c1-4ab1-a83b-68126c36580e",
+      "label": "help"
+    },
+    {
+      "id": "c8cb2c28-6e23-42fd-906b-4bd584f92341",
+      "type": "istar.ContributionLink",
+      "source": "387d5f77-7405-471c-9866-290a1c6a9933",
+      "target": "7e20e8ef-daf7-4a83-b2a3-92c2c2642ea2",
+      "label": "help"
+    },
+    {
+      "id": "8772c9cb-dbd8-4ed8-8184-c40b2bb6d71e",
+      "type": "istar.AndRefinementLink",
+      "source": "387d5f77-7405-471c-9866-290a1c6a9933",
+      "target": "c1a1e204-488b-4607-a5ff-b2a326b41061"
+    },
+    {
+      "id": "ed27d5be-ec9b-4f26-9573-ad0f17744467",
+      "type": "istar.AndRefinementLink",
+      "source": "387d5f77-7405-471c-9866-290a1c6a9933",
+      "target": "5cce2c34-e0e7-41a6-9e68-343d6c61869f"
+    },
+    {
+      "id": "9353cedd-5c8a-4aac-8b94-b1c9b9ba4d24",
+      "type": "istar.OrRefinementLink",
+      "source": "60a7fc8d-587b-4a0a-bac7-d00eb4c68ed0",
+      "target": "af75b937-6c11-4840-9b64-c2ace5f04126"
+    },
+    {
+      "id": "4e069487-bb7b-449b-8dbe-1385d81be9cf",
+      "type": "istar.OrRefinementLink",
+      "source": "82ec7b2a-cd66-4ad9-9173-7f66fad21842",
+      "target": "af75b937-6c11-4840-9b64-c2ace5f04126"
+    },
+    {
+      "id": "3ac452fa-c13d-49e2-b5f1-94e458c76327",
+      "type": "istar.OrRefinementLink",
+      "source": "5a47646b-638e-4821-87eb-080470783d8e",
+      "target": "af75b937-6c11-4840-9b64-c2ace5f04126"
+    },
+    {
+      "id": "8fc5b899-0592-4e28-9dd9-15c1ed8dca00",
+      "type": "istar.OrRefinementLink",
+      "source": "7ec51758-1b2e-4269-a9e2-94ce1f1f8f76",
+      "target": "af75b937-6c11-4840-9b64-c2ace5f04126"
+    },
+    {
+      "id": "3e6c7cdb-c033-431b-8d4c-5faaafbd2009",
+      "type": "istar.AndRefinementLink",
+      "source": "e4b6a5b7-1644-4bf4-b9e9-a6beea817927",
+      "target": "c2fec8b5-7ce0-4e20-9bc5-155a758d2064"
+    },
+    {
+      "id": "4fb37bc7-57ab-49c2-86a1-24323a3ca972",
+      "type": "istar.AndRefinementLink",
+      "source": "e4b6a5b7-1644-4bf4-b9e9-a6beea817927",
+      "target": "ed11779d-aa55-4182-a759-b8570a4eadf3"
+    },
+    {
+      "id": "b1842469-36d6-4b46-81be-20a2b3f1ada4",
+      "type": "istar.OrRefinementLink",
+      "source": "ed11779d-aa55-4182-a759-b8570a4eadf3",
+      "target": "b8b2adc8-ccad-4b16-a9c0-9536297c72cf"
+    },
+    {
+      "id": "9488a904-c2e2-4efd-9815-bdab66e059a1",
+      "type": "istar.OrRefinementLink",
+      "source": "ed11779d-aa55-4182-a759-b8570a4eadf3",
+      "target": "e18348e9-215a-40b9-813d-b60b82a58f34"
+    },
+    {
+      "id": "6366037b-cb97-4d52-8423-b2cb9433c34e",
+      "type": "istar.OrRefinementLink",
+      "source": "ed11779d-aa55-4182-a759-b8570a4eadf3",
+      "target": "8b75c2f9-fb82-4c79-b176-c4501822cd7f"
+    }
+  ],
+  "display": {
+    "82d77460-5069-4f71-8ddf-e059e0bfd333": {
+      "width": 131.5,
+      "height": 62.34375
+    },
+    "7bb9242a-a787-473c-8e93-1d2e689e7fcb": {
+      "backgroundColor": "#81A8FA"
+    },
+    "ed11779d-aa55-4182-a759-b8570a4eadf3": {
+      "width": 104.5,
+      "height": 47.84375
+    },
+    "ae9af4b4-d3de-4317-b150-8994bc6d0369": {
+      "width": 111,
+      "height": 54.09375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 26 May 2026 07:19:23 GMT",
+  "diagram": {
+    "width": 2047,
+    "height": 2000,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

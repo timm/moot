@@ -1,0 +1,772 @@
+{
+  "actors": [
+    {
+      "id": "77f2133b-a87f-47af-91a5-98517f98b2e1",
+      "text": "Healthcare Provider",
+      "type": "istar.Actor",
+      "x": 980,
+      "y": 212,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "1fc0d35d-b574-4e90-90a2-3461522ac82b",
+          "text": "Viable Healthcare Service",
+          "type": "istar.Quality",
+          "x": 1133,
+          "y": 242,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "679f3b0f-52c0-42ea-a7d9-0e1e67ca7266",
+          "text": "Effective Treatment",
+          "type": "istar.Quality",
+          "x": 980,
+          "y": 373,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0b2b6eb2-0ed7-437f-8c0a-39000433b8d7",
+          "text": "Efficient Operation",
+          "type": "istar.Quality",
+          "x": 1239,
+          "y": 394,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "898b99e6-7f96-4419-94c0-3ea1af28dfc5",
+          "text": "Cost",
+          "type": "istar.Quality",
+          "x": 1353,
+          "y": 245,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "01bc5935-c821-40dc-a7d0-86395da6a519",
+          "text": "Waiting time",
+          "type": "istar.Quality",
+          "x": 1470,
+          "y": 376,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0de08143-bc4d-436d-99ff-4626df8941ef",
+          "text": "Comfortable Treatment",
+          "type": "istar.Quality",
+          "x": 1045,
+          "y": 570,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c8ba4c36-2b8a-4ca2-876e-338ad19e57fa",
+          "text": "Medical Facility",
+          "type": "istar.Quality",
+          "x": 1270,
+          "y": 519,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "21082558-f664-427a-9cda-024833352a02",
+          "text": "Treatment",
+          "type": "istar.Goal",
+          "x": 1244,
+          "y": 880,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "58f2181a-f33a-4315-8be5-cffb5b0c2713",
+          "text": "Patient Centered Treatment",
+          "type": "istar.Task",
+          "x": 1055,
+          "y": 748,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3a9028d5-886e-4cd8-8fe7-334d64da8c5d",
+          "text": "Holistic Centered Treatment",
+          "type": "istar.Task",
+          "x": 1253,
+          "y": 775,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f81b331a-95b7-420d-9574-f237b24bf5b9",
+          "text": "Carer Feeling",
+          "type": "istar.Quality",
+          "x": 1505,
+          "y": 515.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f9e5ba78-d463-4bcd-8707-2467d2eaf5ed",
+          "text": "Provider Centered Treatment",
+          "type": "istar.Task",
+          "x": 1481,
+          "y": 743,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "f49898f8-e783-43e4-8672-d52cdbb21084",
+      "text": "Patient",
+      "type": "istar.Actor",
+      "x": 102,
+      "y": 194,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "e4e462f0-6806-4809-a774-b861111a5803",
+          "text": "Happiness",
+          "type": "istar.Quality",
+          "x": 278,
+          "y": 194,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e061d76a-8ff3-42b1-96a9-3b0389fee2ee",
+          "text": "Quality of Care",
+          "type": "istar.Quality",
+          "x": 127,
+          "y": 340,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2fe855d1-715d-460e-8af4-4b45b2a342e6",
+          "text": "Normal LIfestyle",
+          "type": "istar.Quality",
+          "x": 315,
+          "y": 423,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "85e75c67-60ea-46e8-b1e4-9c84e7cf3013",
+          "text": "Expense",
+          "type": "istar.Quality",
+          "x": 481,
+          "y": 228,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0ed8edc4-030e-4e1f-8d86-8d603f388acb",
+          "text": "Flexible Treatment",
+          "type": "istar.Quality",
+          "x": 501,
+          "y": 396,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "939f53e8-016b-4105-847e-688d0e5d9942",
+          "text": "Fast Recovery",
+          "type": "istar.Quality",
+          "x": 116,
+          "y": 518,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5ea13610-6d23-44c4-899d-65721f5ebf0c",
+          "text": "Cultural Spiritual Wellbeing",
+          "type": "istar.Quality",
+          "x": 441,
+          "y": 572,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "63f8d322-d977-4398-ae61-5439c9561a12",
+          "text": "Comfort",
+          "type": "istar.Quality",
+          "x": 236,
+          "y": 644,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "08afa999-c235-4e11-8dda-31bc5515c71d",
+          "text": "Time for Treatment",
+          "type": "istar.Quality",
+          "x": 592,
+          "y": 527,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "14fda1f6-a81f-4087-aa68-2495189dd2d4",
+          "text": "Time Saving",
+          "type": "istar.Quality",
+          "x": 745,
+          "y": 375,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6916f760-2d71-4335-a9eb-ac1aca637c9f",
+          "text": "Privacy",
+          "type": "istar.Quality",
+          "x": 750,
+          "y": 499,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "be86a71b-7b0d-4de0-90ae-21bd8abfeb20",
+          "text": "Treatment",
+          "type": "istar.Goal",
+          "x": 432,
+          "y": 892,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "90585c49-349d-4268-b3d6-9f40d142eced",
+          "text": "Patient Centered Treatment",
+          "type": "istar.Task",
+          "x": 213,
+          "y": 854,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "623f128d-d3f3-42e5-b8fb-e7965461ab81",
+          "text": "Holistic Centered Treatment",
+          "type": "istar.Task",
+          "x": 428,
+          "y": 798,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "18cffe66-91e5-422b-a4c1-d73724b9d393",
+          "text": "Provider Centered Treatment",
+          "type": "istar.Task",
+          "x": 570,
+          "y": 813,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "f50f63df-4cbf-4fd3-b6f2-e6d901bdd6c0",
+      "text": "Viable Healthcare",
+      "type": "istar.Quality",
+      "x": 593,
+      "y": 60,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "f49898f8-e783-43e4-8672-d52cdbb21084",
+      "target": "77f2133b-a87f-47af-91a5-98517f98b2e1"
+    }
+  ],
+  "links": [
+    {
+      "id": "9de4dccd-7834-49b2-b396-e7caae2da66e",
+      "type": "istar.DependencyLink",
+      "source": "f50f63df-4cbf-4fd3-b6f2-e6d901bdd6c0",
+      "target": "77f2133b-a87f-47af-91a5-98517f98b2e1"
+    },
+    {
+      "id": "b4971f15-1181-41ee-935a-a271c9090e65",
+      "type": "istar.DependencyLink",
+      "source": "f49898f8-e783-43e4-8672-d52cdbb21084",
+      "target": "f50f63df-4cbf-4fd3-b6f2-e6d901bdd6c0"
+    },
+    {
+      "id": "00102e01-485b-4d5c-9846-3b6f769572a9",
+      "type": "istar.ContributionLink",
+      "source": "e061d76a-8ff3-42b1-96a9-3b0389fee2ee",
+      "target": "e4e462f0-6806-4809-a774-b861111a5803",
+      "label": "make"
+    },
+    {
+      "id": "b6897077-eaa5-48e5-a4b7-675973c24455",
+      "type": "istar.ContributionLink",
+      "source": "939f53e8-016b-4105-847e-688d0e5d9942",
+      "target": "e061d76a-8ff3-42b1-96a9-3b0389fee2ee",
+      "label": "help"
+    },
+    {
+      "id": "a35f3cb4-1054-4094-88d1-c9fabae5f4cc",
+      "type": "istar.ContributionLink",
+      "source": "939f53e8-016b-4105-847e-688d0e5d9942",
+      "target": "2fe855d1-715d-460e-8af4-4b45b2a342e6",
+      "label": "help"
+    },
+    {
+      "id": "23d66424-845e-4cfe-87e7-e1b52fd9fce5",
+      "type": "istar.ContributionLink",
+      "source": "2fe855d1-715d-460e-8af4-4b45b2a342e6",
+      "target": "e4e462f0-6806-4809-a774-b861111a5803",
+      "label": "make"
+    },
+    {
+      "id": "40c72a8d-5ac2-4265-9e9e-929193a5459f",
+      "type": "istar.ContributionLink",
+      "source": "e061d76a-8ff3-42b1-96a9-3b0389fee2ee",
+      "target": "85e75c67-60ea-46e8-b1e4-9c84e7cf3013",
+      "label": "help"
+    },
+    {
+      "id": "d66e9d1b-018f-4b4f-83e5-976de0d633be",
+      "type": "istar.ContributionLink",
+      "source": "2fe855d1-715d-460e-8af4-4b45b2a342e6",
+      "target": "85e75c67-60ea-46e8-b1e4-9c84e7cf3013",
+      "label": "help"
+    },
+    {
+      "id": "a54c07f8-c858-4c36-91bf-5b2bd57df7b2",
+      "type": "istar.ContributionLink",
+      "source": "0ed8edc4-030e-4e1f-8d86-8d603f388acb",
+      "target": "e061d76a-8ff3-42b1-96a9-3b0389fee2ee",
+      "label": "help"
+    },
+    {
+      "id": "2f358b14-6d4c-407e-840a-e0b597146a91",
+      "type": "istar.ContributionLink",
+      "source": "0ed8edc4-030e-4e1f-8d86-8d603f388acb",
+      "target": "2fe855d1-715d-460e-8af4-4b45b2a342e6",
+      "label": "help"
+    },
+    {
+      "id": "525d3539-73d7-4312-8e02-a28693f1ca89",
+      "type": "istar.ContributionLink",
+      "source": "63f8d322-d977-4398-ae61-5439c9561a12",
+      "target": "939f53e8-016b-4105-847e-688d0e5d9942",
+      "label": "help"
+    },
+    {
+      "id": "154197c5-bc04-4f4d-b5c8-1a742560cd4e",
+      "type": "istar.ContributionLink",
+      "source": "5ea13610-6d23-44c4-899d-65721f5ebf0c",
+      "target": "939f53e8-016b-4105-847e-688d0e5d9942",
+      "label": "help"
+    },
+    {
+      "id": "956b1032-a745-4491-bcb7-3c01c78028ff",
+      "type": "istar.ContributionLink",
+      "source": "08afa999-c235-4e11-8dda-31bc5515c71d",
+      "target": "939f53e8-016b-4105-847e-688d0e5d9942",
+      "label": "help"
+    },
+    {
+      "id": "55e0c752-8b0d-4e97-b464-449b436651b6",
+      "type": "istar.ContributionLink",
+      "source": "5ea13610-6d23-44c4-899d-65721f5ebf0c",
+      "target": "0ed8edc4-030e-4e1f-8d86-8d603f388acb",
+      "label": "help"
+    },
+    {
+      "id": "79eaf87c-69a5-4ddd-b704-16d9eb13c296",
+      "type": "istar.ContributionLink",
+      "source": "63f8d322-d977-4398-ae61-5439c9561a12",
+      "target": "0ed8edc4-030e-4e1f-8d86-8d603f388acb",
+      "label": "help"
+    },
+    {
+      "id": "695457c5-b558-442e-b384-e3ca565ae6a9",
+      "type": "istar.ContributionLink",
+      "source": "14fda1f6-a81f-4087-aa68-2495189dd2d4",
+      "target": "85e75c67-60ea-46e8-b1e4-9c84e7cf3013",
+      "label": "make"
+    },
+    {
+      "id": "12a3a0b1-32b5-4ebb-8d11-e697973e95b0",
+      "type": "istar.ContributionLink",
+      "source": "0ed8edc4-030e-4e1f-8d86-8d603f388acb",
+      "target": "14fda1f6-a81f-4087-aa68-2495189dd2d4",
+      "label": "help"
+    },
+    {
+      "id": "9b60bf56-36df-43dc-a391-afd85c78ce06",
+      "type": "istar.ContributionLink",
+      "source": "939f53e8-016b-4105-847e-688d0e5d9942",
+      "target": "14fda1f6-a81f-4087-aa68-2495189dd2d4",
+      "label": "help"
+    },
+    {
+      "id": "a23452eb-e66c-42ee-95a9-3814b61ec625",
+      "type": "istar.ContributionLink",
+      "source": "6916f760-2d71-4335-a9eb-ac1aca637c9f",
+      "target": "0ed8edc4-030e-4e1f-8d86-8d603f388acb",
+      "label": "help"
+    },
+    {
+      "id": "45b90d88-fd59-47d8-953c-47fa5cd19098",
+      "type": "istar.OrRefinementLink",
+      "source": "90585c49-349d-4268-b3d6-9f40d142eced",
+      "target": "be86a71b-7b0d-4de0-90ae-21bd8abfeb20"
+    },
+    {
+      "id": "526146e7-f931-4878-b4aa-2f08621065a4",
+      "type": "istar.ContributionLink",
+      "source": "90585c49-349d-4268-b3d6-9f40d142eced",
+      "target": "63f8d322-d977-4398-ae61-5439c9561a12",
+      "label": "help"
+    },
+    {
+      "id": "bc56dbf3-28a9-4f3c-9d0c-321aa7fade8f",
+      "type": "istar.ContributionLink",
+      "source": "623f128d-d3f3-42e5-b8fb-e7965461ab81",
+      "target": "5ea13610-6d23-44c4-899d-65721f5ebf0c",
+      "label": "make"
+    },
+    {
+      "id": "b7d6b8e1-3fb7-4778-b22b-2a7c345f05a0",
+      "type": "istar.OrRefinementLink",
+      "source": "623f128d-d3f3-42e5-b8fb-e7965461ab81",
+      "target": "be86a71b-7b0d-4de0-90ae-21bd8abfeb20"
+    },
+    {
+      "id": "ccdd3d65-c8f5-4bd9-8bfd-fd510fa9775e",
+      "type": "istar.ContributionLink",
+      "source": "623f128d-d3f3-42e5-b8fb-e7965461ab81",
+      "target": "63f8d322-d977-4398-ae61-5439c9561a12",
+      "label": "help"
+    },
+    {
+      "id": "ef9c4278-7b95-4d66-b961-cb59a6ae7c32",
+      "type": "istar.ContributionLink",
+      "source": "623f128d-d3f3-42e5-b8fb-e7965461ab81",
+      "target": "6916f760-2d71-4335-a9eb-ac1aca637c9f",
+      "label": "hurt"
+    },
+    {
+      "id": "d5bac8cb-234d-45d3-8257-673e2de4b2a9",
+      "type": "istar.ContributionLink",
+      "source": "18cffe66-91e5-422b-a4c1-d73724b9d393",
+      "target": "6916f760-2d71-4335-a9eb-ac1aca637c9f",
+      "label": "hurt"
+    },
+    {
+      "id": "8eeb03f6-02f5-4c28-b377-50e9aa220ff1",
+      "type": "istar.ContributionLink",
+      "source": "18cffe66-91e5-422b-a4c1-d73724b9d393",
+      "target": "08afa999-c235-4e11-8dda-31bc5515c71d",
+      "label": "help"
+    },
+    {
+      "id": "b98240cc-5cfd-479d-9c1f-77b307e81204",
+      "type": "istar.ContributionLink",
+      "source": "18cffe66-91e5-422b-a4c1-d73724b9d393",
+      "target": "5ea13610-6d23-44c4-899d-65721f5ebf0c",
+      "label": "help"
+    },
+    {
+      "id": "e4d35485-2d93-45a5-b24f-b90a1a6ba54f",
+      "type": "istar.ContributionLink",
+      "source": "90585c49-349d-4268-b3d6-9f40d142eced",
+      "target": "6916f760-2d71-4335-a9eb-ac1aca637c9f",
+      "label": "help"
+    },
+    {
+      "id": "14dd9f91-0cee-4235-8bfd-8dad74f3f460",
+      "type": "istar.OrRefinementLink",
+      "source": "18cffe66-91e5-422b-a4c1-d73724b9d393",
+      "target": "be86a71b-7b0d-4de0-90ae-21bd8abfeb20"
+    },
+    {
+      "id": "6cd8917c-34b1-4f25-a4ac-da3fb3645f80",
+      "type": "istar.ContributionLink",
+      "source": "90585c49-349d-4268-b3d6-9f40d142eced",
+      "target": "5ea13610-6d23-44c4-899d-65721f5ebf0c",
+      "label": "hurt"
+    },
+    {
+      "id": "d1336f1a-fbe0-4020-8310-3f0f45351339",
+      "type": "istar.ContributionLink",
+      "source": "90585c49-349d-4268-b3d6-9f40d142eced",
+      "target": "08afa999-c235-4e11-8dda-31bc5515c71d",
+      "label": "help"
+    },
+    {
+      "id": "0eb87dee-4ff2-4fbd-9dad-f3bf7c27d8a3",
+      "type": "istar.ContributionLink",
+      "source": "623f128d-d3f3-42e5-b8fb-e7965461ab81",
+      "target": "08afa999-c235-4e11-8dda-31bc5515c71d",
+      "label": "hurt"
+    },
+    {
+      "id": "1a963cb2-0c6a-4a36-8960-84e78ebf7830",
+      "type": "istar.ContributionLink",
+      "source": "18cffe66-91e5-422b-a4c1-d73724b9d393",
+      "target": "63f8d322-d977-4398-ae61-5439c9561a12",
+      "label": "hurt"
+    },
+    {
+      "id": "e1e325d9-01ee-43f2-88ac-4ba8409570be",
+      "type": "istar.ContributionLink",
+      "source": "679f3b0f-52c0-42ea-a7d9-0e1e67ca7266",
+      "target": "1fc0d35d-b574-4e90-90a2-3461522ac82b",
+      "label": "make"
+    },
+    {
+      "id": "63e0c9ff-7779-4b0b-a161-9618e51412c9",
+      "type": "istar.ContributionLink",
+      "source": "0b2b6eb2-0ed7-437f-8c0a-39000433b8d7",
+      "target": "1fc0d35d-b574-4e90-90a2-3461522ac82b",
+      "label": "help"
+    },
+    {
+      "id": "7e2fe9a3-1780-4f7e-91f6-9f878576e658",
+      "type": "istar.ContributionLink",
+      "source": "679f3b0f-52c0-42ea-a7d9-0e1e67ca7266",
+      "target": "898b99e6-7f96-4419-94c0-3ea1af28dfc5",
+      "label": "help"
+    },
+    {
+      "id": "b176c34e-9af4-4e54-b061-144f836c01de",
+      "type": "istar.ContributionLink",
+      "source": "0b2b6eb2-0ed7-437f-8c0a-39000433b8d7",
+      "target": "898b99e6-7f96-4419-94c0-3ea1af28dfc5",
+      "label": "help"
+    },
+    {
+      "id": "79e2e539-ee20-4e60-a5a0-3fb93b4f973d",
+      "type": "istar.ContributionLink",
+      "source": "01bc5935-c821-40dc-a7d0-86395da6a519",
+      "target": "898b99e6-7f96-4419-94c0-3ea1af28dfc5",
+      "label": "help"
+    },
+    {
+      "id": "71586eb2-b68d-45c9-a0f8-a0ccbbedbf3c",
+      "type": "istar.ContributionLink",
+      "source": "0de08143-bc4d-436d-99ff-4626df8941ef",
+      "target": "679f3b0f-52c0-42ea-a7d9-0e1e67ca7266",
+      "label": "make"
+    },
+    {
+      "id": "b00b706a-58c3-48e4-9fa0-9fd3fcb5b326",
+      "type": "istar.ContributionLink",
+      "source": "0de08143-bc4d-436d-99ff-4626df8941ef",
+      "target": "0b2b6eb2-0ed7-437f-8c0a-39000433b8d7",
+      "label": "hurt"
+    },
+    {
+      "id": "ab18672a-2d85-4025-af71-0bcd5d8fdc61",
+      "type": "istar.ContributionLink",
+      "source": "c8ba4c36-2b8a-4ca2-876e-338ad19e57fa",
+      "target": "01bc5935-c821-40dc-a7d0-86395da6a519",
+      "label": "help"
+    },
+    {
+      "id": "3b6bb4cd-16b6-4502-b9f9-b2703e5785a0",
+      "type": "istar.ContributionLink",
+      "source": "c8ba4c36-2b8a-4ca2-876e-338ad19e57fa",
+      "target": "0b2b6eb2-0ed7-437f-8c0a-39000433b8d7",
+      "label": "help"
+    },
+    {
+      "id": "86a30872-dd90-4925-a9b6-b77985936967",
+      "type": "istar.ContributionLink",
+      "source": "c8ba4c36-2b8a-4ca2-876e-338ad19e57fa",
+      "target": "679f3b0f-52c0-42ea-a7d9-0e1e67ca7266",
+      "label": "make"
+    },
+    {
+      "id": "26a3de3f-610b-44d1-9237-80b88fe0a721",
+      "type": "istar.OrRefinementLink",
+      "source": "58f2181a-f33a-4315-8be5-cffb5b0c2713",
+      "target": "21082558-f664-427a-9cda-024833352a02"
+    },
+    {
+      "id": "623a9551-1f4c-448f-979f-cdc86a6af3eb",
+      "type": "istar.ContributionLink",
+      "source": "58f2181a-f33a-4315-8be5-cffb5b0c2713",
+      "target": "0de08143-bc4d-436d-99ff-4626df8941ef",
+      "label": "help"
+    },
+    {
+      "id": "8b2ad9b4-1478-4b03-8b97-e272d748327e",
+      "type": "istar.OrRefinementLink",
+      "source": "3a9028d5-886e-4cd8-8fe7-334d64da8c5d",
+      "target": "21082558-f664-427a-9cda-024833352a02"
+    },
+    {
+      "id": "0395e2a2-3ede-4a56-b530-8a0e93f32a1d",
+      "type": "istar.ContributionLink",
+      "source": "3a9028d5-886e-4cd8-8fe7-334d64da8c5d",
+      "target": "0de08143-bc4d-436d-99ff-4626df8941ef",
+      "label": "make"
+    },
+    {
+      "id": "ddec6ff9-d7d3-4527-9075-f57cfa5cbf4d",
+      "type": "istar.ContributionLink",
+      "source": "3a9028d5-886e-4cd8-8fe7-334d64da8c5d",
+      "target": "c8ba4c36-2b8a-4ca2-876e-338ad19e57fa",
+      "label": "hurt"
+    },
+    {
+      "id": "403ec182-6035-4edc-99ea-c69f8fb379e3",
+      "type": "istar.ContributionLink",
+      "source": "58f2181a-f33a-4315-8be5-cffb5b0c2713",
+      "target": "f81b331a-95b7-420d-9574-f237b24bf5b9",
+      "label": "help"
+    },
+    {
+      "id": "f4a89aef-d5d7-44fe-b018-6a3d283c28e8",
+      "type": "istar.ContributionLink",
+      "source": "f9e5ba78-d463-4bcd-8707-2467d2eaf5ed",
+      "target": "f81b331a-95b7-420d-9574-f237b24bf5b9",
+      "label": "hurt"
+    },
+    {
+      "id": "5fb2fcab-81b2-4ee0-a862-1ba4787d2174",
+      "type": "istar.ContributionLink",
+      "source": "f81b331a-95b7-420d-9574-f237b24bf5b9",
+      "target": "0b2b6eb2-0ed7-437f-8c0a-39000433b8d7",
+      "label": "help"
+    },
+    {
+      "id": "7dc5272d-6f41-428c-bcda-bd39cbaaea12",
+      "type": "istar.ContributionLink",
+      "source": "f81b331a-95b7-420d-9574-f237b24bf5b9",
+      "target": "679f3b0f-52c0-42ea-a7d9-0e1e67ca7266",
+      "label": "help"
+    },
+    {
+      "id": "501cd04d-c353-47ae-ab25-941a92a1af33",
+      "type": "istar.ContributionLink",
+      "source": "3a9028d5-886e-4cd8-8fe7-334d64da8c5d",
+      "target": "f81b331a-95b7-420d-9574-f237b24bf5b9",
+      "label": "help"
+    },
+    {
+      "id": "3b835908-dff6-489e-b162-5185edf790c7",
+      "type": "istar.ContributionLink",
+      "source": "f9e5ba78-d463-4bcd-8707-2467d2eaf5ed",
+      "target": "c8ba4c36-2b8a-4ca2-876e-338ad19e57fa",
+      "label": "make"
+    },
+    {
+      "id": "d557597a-191d-4488-8acd-4d2b134208a3",
+      "type": "istar.ContributionLink",
+      "source": "f9e5ba78-d463-4bcd-8707-2467d2eaf5ed",
+      "target": "0de08143-bc4d-436d-99ff-4626df8941ef",
+      "label": "hurt"
+    },
+    {
+      "id": "cc2e684c-fb92-4699-b084-10c0405f8499",
+      "type": "istar.OrRefinementLink",
+      "source": "f9e5ba78-d463-4bcd-8707-2467d2eaf5ed",
+      "target": "21082558-f664-427a-9cda-024833352a02"
+    }
+  ],
+  "display": {
+    "77f2133b-a87f-47af-91a5-98517f98b2e1": {
+      "backgroundColor": "#BFFAFA"
+    },
+    "f49898f8-e783-43e4-8672-d52cdbb21084": {
+      "backgroundColor": "#BFFAFA"
+    },
+    "23d66424-845e-4cfe-87e7-e1b52fd9fce5": {
+      "vertices": [
+        {
+          "x": 340,
+          "y": 348
+        }
+      ]
+    },
+    "ef9c4278-7b95-4d66-b961-cb59a6ae7c32": {
+      "vertices": [
+        {
+          "x": 594,
+          "y": 713
+        }
+      ]
+    },
+    "b98240cc-5cfd-479d-9c1f-77b307e81204": {
+      "vertices": [
+        {
+          "x": 533,
+          "y": 753
+        }
+      ]
+    },
+    "e4d35485-2d93-45a5-b24f-b90a1a6ba54f": {
+      "vertices": [
+        {
+          "x": 491,
+          "y": 757
+        }
+      ]
+    },
+    "d1336f1a-fbe0-4020-8310-3f0f45351339": {
+      "vertices": [
+        {
+          "x": 418,
+          "y": 754
+        }
+      ]
+    },
+    "1a963cb2-0c6a-4a36-8960-84e78ebf7830": {
+      "vertices": [
+        {
+          "x": 432,
+          "y": 856
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 20 May 2026 07:07:40 GMT",
+  "diagram": {
+    "width": 2631,
+    "height": 2669,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

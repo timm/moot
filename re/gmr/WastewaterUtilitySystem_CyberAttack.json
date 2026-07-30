@@ -1,0 +1,384 @@
+{
+  "actors": [
+    {
+      "id": "d4d75c61-7901-4fb0-a4bc-3b902fe38264",
+      "text": "Company Controller",
+      "type": "istar.Actor",
+      "x": 1355,
+      "y": 647,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "2f8fc314-56ff-48ca-9aab-c9e2d6631e39",
+          "text": "Monitoring and Reporting",
+          "type": "istar.Goal",
+          "x": 1447,
+          "y": 683.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "13230060-603d-4c4d-8651-a4ccac2d3add",
+          "text": "Manage Alarms",
+          "type": "istar.Task",
+          "x": 1355,
+          "y": 766,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5a5b6b48-b80e-4ef6-a95e-7efa9167f1a5",
+          "text": "Produce accurate daily reports",
+          "type": "istar.Task",
+          "x": 1505.5,
+          "y": 760,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "643609bd-b6cd-4e2b-a9f5-a614df274c78",
+      "text": "External Attacker",
+      "type": "istar.Actor",
+      "x": 1257,
+      "y": 330,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "3076e875-b82d-4e24-8b8d-18e1d21f2574",
+          "text": "Antigoals",
+          "type": "istar.Goal",
+          "x": 1315,
+          "y": 398,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "577afe73-335b-4664-bfd8-75c88f0f9fb4",
+      "text": "Wastewater Site Manager",
+      "type": "istar.Role",
+      "x": 632,
+      "y": 376,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "aa963f05-c69b-49f3-9e58-fda725669efc",
+          "text": "Automated treatment with operation conditions",
+          "type": "istar.Goal",
+          "x": 754,
+          "y": 389.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9f1d316a-b43c-4edb-91e7-9b093d3d52e9",
+          "text": "Normal operation managed",
+          "type": "istar.Goal",
+          "x": 681,
+          "y": 506,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5c59cf6f-3c99-4eca-bb87-3c4a75c7d44b",
+          "text": "Abnormal event detected and reported",
+          "type": "istar.Goal",
+          "x": 866,
+          "y": 508,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0ca7d9f2-b01b-483f-8ea1-7de12263470e",
+          "text": "Automated water treatment",
+          "type": "istar.Task",
+          "x": 632,
+          "y": 650,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9b456ef1-357f-4872-86ff-e30d47ea0b9f",
+          "text": "Data collection",
+          "type": "istar.Task",
+          "x": 738,
+          "y": 692,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c3265ac9-12f4-46e6-9c53-101f29fc6684",
+          "text": "Switch to safe state",
+          "type": "istar.Task",
+          "x": 857.5,
+          "y": 623,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f0a2c59e-2acb-4ad7-a6fd-695810ca9052",
+          "text": "Generate alarm on problem",
+          "type": "istar.Task",
+          "x": 996,
+          "y": 583,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "c4e3a83c-5239-4970-ae2c-509607a7696e",
+      "text": "Sensor Data",
+      "type": "istar.Resource",
+      "x": 1127,
+      "y": 921,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "9b456ef1-357f-4872-86ff-e30d47ea0b9f",
+      "target": "5a5b6b48-b80e-4ef6-a95e-7efa9167f1a5"
+    },
+    {
+      "id": "ae057a6c-dee4-434a-9cb9-aaf43989e770",
+      "text": "Alarm",
+      "type": "istar.Resource",
+      "x": 1178,
+      "y": 645,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "f0a2c59e-2acb-4ad7-a6fd-695810ca9052",
+      "target": "13230060-603d-4c4d-8651-a4ccac2d3add"
+    },
+    {
+      "id": "4d0f2914-61ea-475f-97e3-040f3fc5d282",
+      "text": "Generate False Alarm to Break availability",
+      "type": "istar.Task",
+      "x": 1025,
+      "y": 329,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "3076e875-b82d-4e24-8b8d-18e1d21f2574",
+      "target": "9f1d316a-b43c-4edb-91e7-9b093d3d52e9"
+    },
+    {
+      "id": "264dc228-04b8-4781-80ea-e268e19c2d1b",
+      "text": "Inject wrong data to Break availability/integrity",
+      "type": "istar.Task",
+      "x": 1049,
+      "y": 788,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "3076e875-b82d-4e24-8b8d-18e1d21f2574",
+      "target": "9b456ef1-357f-4872-86ff-e30d47ea0b9f"
+    },
+    {
+      "id": "28d18cdb-c7a5-40d1-bf2c-3f7545fa81e4",
+      "text": "Alter report to Break integrity",
+      "type": "istar.Task",
+      "x": 1576,
+      "y": 533,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "3076e875-b82d-4e24-8b8d-18e1d21f2574",
+      "target": "5a5b6b48-b80e-4ef6-a95e-7efa9167f1a5"
+    }
+  ],
+  "links": [
+    {
+      "id": "e9e7425d-c946-4aa4-8b6f-3d0a1da05868",
+      "type": "istar.DependencyLink",
+      "source": "28d18cdb-c7a5-40d1-bf2c-3f7545fa81e4",
+      "target": "5a5b6b48-b80e-4ef6-a95e-7efa9167f1a5"
+    },
+    {
+      "id": "830c89dd-910c-4f8b-ad01-f7507e899f17",
+      "type": "istar.DependencyLink",
+      "source": "3076e875-b82d-4e24-8b8d-18e1d21f2574",
+      "target": "28d18cdb-c7a5-40d1-bf2c-3f7545fa81e4"
+    },
+    {
+      "id": "9d5c561b-18a3-4d50-9d4c-fd2afc7cc38b",
+      "type": "istar.DependencyLink",
+      "source": "264dc228-04b8-4781-80ea-e268e19c2d1b",
+      "target": "9b456ef1-357f-4872-86ff-e30d47ea0b9f"
+    },
+    {
+      "id": "abf916f5-0941-46b0-afe5-e9bba11dd4a1",
+      "type": "istar.DependencyLink",
+      "source": "3076e875-b82d-4e24-8b8d-18e1d21f2574",
+      "target": "264dc228-04b8-4781-80ea-e268e19c2d1b"
+    },
+    {
+      "id": "5c694040-ebb8-43a7-808d-def6595b808c",
+      "type": "istar.DependencyLink",
+      "source": "4d0f2914-61ea-475f-97e3-040f3fc5d282",
+      "target": "9f1d316a-b43c-4edb-91e7-9b093d3d52e9"
+    },
+    {
+      "id": "d6ebe5cd-afd8-4f25-b6f9-a0992bf38af0",
+      "type": "istar.DependencyLink",
+      "source": "3076e875-b82d-4e24-8b8d-18e1d21f2574",
+      "target": "4d0f2914-61ea-475f-97e3-040f3fc5d282"
+    },
+    {
+      "id": "45095954-e2f7-432c-aada-7ed57efb4c3b",
+      "type": "istar.DependencyLink",
+      "source": "ae057a6c-dee4-434a-9cb9-aaf43989e770",
+      "target": "13230060-603d-4c4d-8651-a4ccac2d3add"
+    },
+    {
+      "id": "ead20d8f-f250-4f1a-b4e0-5b6c83925d15",
+      "type": "istar.DependencyLink",
+      "source": "f0a2c59e-2acb-4ad7-a6fd-695810ca9052",
+      "target": "ae057a6c-dee4-434a-9cb9-aaf43989e770"
+    },
+    {
+      "id": "9223c623-4556-4db3-bc39-bdbb6e0f97d9",
+      "type": "istar.DependencyLink",
+      "source": "c4e3a83c-5239-4970-ae2c-509607a7696e",
+      "target": "5a5b6b48-b80e-4ef6-a95e-7efa9167f1a5"
+    },
+    {
+      "id": "3101ab7b-3f43-462e-b37a-8f5a378a8684",
+      "type": "istar.DependencyLink",
+      "source": "9b456ef1-357f-4872-86ff-e30d47ea0b9f",
+      "target": "c4e3a83c-5239-4970-ae2c-509607a7696e"
+    },
+    {
+      "id": "3b39594c-407c-4c13-b8f7-c84c4cf597b8",
+      "type": "istar.AndRefinementLink",
+      "source": "9f1d316a-b43c-4edb-91e7-9b093d3d52e9",
+      "target": "aa963f05-c69b-49f3-9e58-fda725669efc"
+    },
+    {
+      "id": "e0b1b928-72d9-4546-abd8-85591997188c",
+      "type": "istar.AndRefinementLink",
+      "source": "5c59cf6f-3c99-4eca-bb87-3c4a75c7d44b",
+      "target": "aa963f05-c69b-49f3-9e58-fda725669efc"
+    },
+    {
+      "id": "48ef812e-4b46-48a2-a4e7-7daa7bb7ba60",
+      "type": "istar.AndRefinementLink",
+      "source": "0ca7d9f2-b01b-483f-8ea1-7de12263470e",
+      "target": "9f1d316a-b43c-4edb-91e7-9b093d3d52e9"
+    },
+    {
+      "id": "14c6fd20-0b24-44cf-9cc6-ff6be6ec2b0b",
+      "type": "istar.AndRefinementLink",
+      "source": "9b456ef1-357f-4872-86ff-e30d47ea0b9f",
+      "target": "9f1d316a-b43c-4edb-91e7-9b093d3d52e9"
+    },
+    {
+      "id": "f7400f5b-7879-4a3d-ab56-41a3c4799494",
+      "type": "istar.AndRefinementLink",
+      "source": "c3265ac9-12f4-46e6-9c53-101f29fc6684",
+      "target": "5c59cf6f-3c99-4eca-bb87-3c4a75c7d44b"
+    },
+    {
+      "id": "42a7a093-2bec-410a-89b3-1c54e2c506ae",
+      "type": "istar.AndRefinementLink",
+      "source": "f0a2c59e-2acb-4ad7-a6fd-695810ca9052",
+      "target": "5c59cf6f-3c99-4eca-bb87-3c4a75c7d44b"
+    },
+    {
+      "id": "90b63cdc-8f3f-425e-9f5b-cca0b87d8188",
+      "type": "istar.AndRefinementLink",
+      "source": "13230060-603d-4c4d-8651-a4ccac2d3add",
+      "target": "2f8fc314-56ff-48ca-9aab-c9e2d6631e39"
+    },
+    {
+      "id": "9dbf4746-4e52-4dd5-a4eb-69ee612dabd7",
+      "type": "istar.AndRefinementLink",
+      "source": "5a5b6b48-b80e-4ef6-a95e-7efa9167f1a5",
+      "target": "2f8fc314-56ff-48ca-9aab-c9e2d6631e39"
+    }
+  ],
+  "display": {
+    "643609bd-b6cd-4e2b-a9f5-a614df274c78": {
+      "backgroundColor": "#FA0606"
+    },
+    "3076e875-b82d-4e24-8b8d-18e1d21f2574": {
+      "backgroundColor": "#FA0606"
+    },
+    "aa963f05-c69b-49f3-9e58-fda725669efc": {
+      "width": 127.09375,
+      "height": 63.34375
+    },
+    "9f1d316a-b43c-4edb-91e7-9b093d3d52e9": {
+      "width": 113.09375,
+      "height": 55.84375
+    },
+    "5c59cf6f-3c99-4eca-bb87-3c4a75c7d44b": {
+      "width": 123.09375,
+      "height": 64.84375
+    },
+    "4d0f2914-61ea-475f-97e3-040f3fc5d282": {
+      "backgroundColor": "#FA0606",
+      "width": 112.09375,
+      "height": 66.84375
+    },
+    "264dc228-04b8-4781-80ea-e268e19c2d1b": {
+      "backgroundColor": "#FA0606",
+      "width": 121.09375,
+      "height": 70.84375
+    },
+    "28d18cdb-c7a5-40d1-bf2c-3f7545fa81e4": {
+      "backgroundColor": "#FA0606",
+      "width": 122.09375,
+      "height": 59.84375
+    },
+    "abf916f5-0941-46b0-afe5-e9bba11dd4a1": {
+      "vertices": [
+        {
+          "x": 1300,
+          "y": 677
+        }
+      ]
+    },
+    "d6ebe5cd-afd8-4f25-b6f9-a0992bf38af0": {
+      "vertices": [
+        {
+          "x": 1118,
+          "y": 363
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 20 May 2026 09:08:09 GMT",
+  "diagram": {
+    "width": 2631,
+    "height": 2669,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

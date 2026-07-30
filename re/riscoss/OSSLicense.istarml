@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<istarml version='1.0'>
+    <diagram name='OSS License' description='Goal model describing the goals related to the OSS license management.' model_version='1.1' last_modification='14/01/2016'>
+        <actor id='COMM' name='OSS Community'>
+        </actor>
+        <actor id='CMP' name='OSS Adopter'>
+            <boundary>
+				<ielement id='GOAL-ImproveBrand' name='Brand improved' type='softgoal' output='true'>
+					<ielementLink type='contribution' value='Help'>
+						<ielement id='GOAL-GoodReputation' name='Good reputation' type='softgoal' output='true'>
+							<ielementLink type='contribution' value='Help'>
+								<ielement id='GOAL-LawCompliance' name='Law compliance' type='goal' output='true'>
+									<ielementLink type='means-end'>
+										<ielement id='Act-CompatibleLicense' name='Choose compatible target license' type='task' output='true'>
+											<ielementLink type='decomposition'>
+												<ielement id='Act-ACQ-Legal' name='Acquire OSS legal skills' type='task' output='false'>
+													<ielementLink type='decomposition'>
+														<ielement id='Act-ASK' name='Ask doubts to the community' type='task' output='false'/>
+													</ielementLink>
+												</ielement>
+											</ielementLink>
+										</ielement>
+									</ielementLink>
+								</ielement>
+							</ielementLink>
+						</ielement>
+					</ielementLink>
+				</ielement>
+				<ielement id='Act-DEP' name='Deploy OSS component' type='task' output="false"/>
+				<ielement id='Act-INT' name='Integrate OSS component in other software' type='task' output="false">
+					<ielementLink type='decomposition'>
+						<ielement iref='Act-CompatibleLicense'/>
+					</ielementLink>
+				</ielement>
+				<ielement id='GOAL-FutureLicenseStability' name='Future license stability' type='softgoal' output="true"/>
+				<ielement id='GOAL-EasyLicenseManagement' name='Easy license management' type='softgoal' output="true">
+					<ielementLink type='contribution' value='Help' iref='Act-DEP'/>
+					<ielementLink type='contribution' value='Hurt' iref='Act-INT'/>
+					<ielementLink type='contribution' value='Help' iref='GOAL-FutureLicenseStability'/>
+				</ielement>
+            </boundary>
+        </actor>
+		<ielement>
+		    <dependency>
+                <depender aref='CMP' iref='Act-CompatibleLicense'/>
+                <dependee aref='COMM'/>
+            </dependency>
+		</ielement>
+    </diagram>
+</istarml>

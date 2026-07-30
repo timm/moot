@@ -1,0 +1,390 @@
+{
+  "actors": [
+    {
+      "id": "542bbbbc-5a58-4a6d-a231-21a9dfc90f6f",
+      "text": "Physician",
+      "type": "istar.Actor",
+      "x": 295,
+      "y": 1188,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "dffbe429-cb5b-4eb9-be69-d9dd1e8ee1f8",
+          "text": "Obtain access to patient's records during medical consultation",
+          "type": "istar.Goal",
+          "x": 357,
+          "y": 1276.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "abb88d47-762e-4bcb-be33-cb0f9b801c24",
+          "text": "Obtain access to patient's clinical history",
+          "type": "istar.Goal",
+          "x": 635,
+          "y": 1332,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "63cabd18-1193-43dc-a63a-95f4f3093be8",
+          "text": "Obtain patient's data",
+          "type": "istar.Goal",
+          "x": 533,
+          "y": 1406,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5236cec6-72f7-4ec2-bc5c-c374ad2aec9e",
+          "text": "Diagnose patient's health state",
+          "type": "istar.Goal",
+          "x": 895,
+          "y": 1400,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a4b3ddf9-7605-4172-89f6-9a6dff44bae4",
+          "text": "Select the most suitable treatment for patient",
+          "type": "istar.Quality",
+          "x": 708,
+          "y": 1188,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f449c149-f441-4e00-a627-824b920e8fb9",
+          "text": "Provide medical care to patient through medical consultation",
+          "type": "istar.Goal",
+          "x": 1074,
+          "y": 1190,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d8ef4205-2362-4a52-961c-c6cdd735bd1f",
+          "text": "Provide medical care to patient",
+          "type": "istar.Goal",
+          "x": 875,
+          "y": 1195,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "96fae3d7-73fc-4a33-b6a7-05f76382a6cc",
+          "text": "prescribe patient's treatment",
+          "type": "istar.Task",
+          "x": 1222,
+          "y": 1410,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a82c56e6-30a5-4d63-9b79-9c66f8191d7f",
+          "text": "Drugs prescribition",
+          "type": "istar.Resource",
+          "x": 1244,
+          "y": 1311,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "80f1ef3f-18b0-48f6-953f-2afd35a98ebd",
+          "text": "Acquire technical skills",
+          "type": "istar.Quality",
+          "x": 1159,
+          "y": 1475,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e9e5c333-9dff-4cf1-93a2-0fe4006e492e",
+          "text": "Obtain access to specialists in areas related to rheumatology",
+          "type": "istar.Goal",
+          "x": 392,
+          "y": 1558.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "dab830ac-39e0-47ed-bb10-81d85949cc09",
+          "text": "Diagnosis rheumatologic condition",
+          "type": "istar.Goal",
+          "x": 637,
+          "y": 1534,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5b41aab8-1efa-4ca5-8f15-3896d98d5067",
+          "text": "Standardize diagnosis cue sheets",
+          "type": "istar.Goal",
+          "x": 509,
+          "y": 1670,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ab774487-1d6f-4e82-8e23-674a8cda32de",
+          "text": "Diagnosis serious rheumatological conditions",
+          "type": "istar.Goal",
+          "x": 653,
+          "y": 1703,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1ec0e225-2104-4c00-9b3b-683e94e144f6",
+          "text": "Diagnosis mild rheumatological conditions",
+          "type": "istar.Goal",
+          "x": 810,
+          "y": 1708,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6adc1c00-50ee-47fa-8216-6c7721768ecc",
+          "text": "rheumatologic diagnosis",
+          "type": "istar.Goal",
+          "x": 836,
+          "y": 1498.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9621cb70-d70b-4523-a98c-c786ba361568",
+          "text": "Diagnosis non-rheumatologic diseases",
+          "type": "istar.Goal",
+          "x": 907,
+          "y": 1622,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a6b8ec85-4a80-4c23-82ba-bfdd3407c33a",
+          "text": "Examination Request",
+          "type": "istar.Resource",
+          "x": 1084,
+          "y": 1582,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "eb096bfb-e2a1-417b-850a-219fee4bac15",
+          "text": "examinate patient",
+          "type": "istar.Task",
+          "x": 982.5,
+          "y": 1522,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "57322c06-a05c-4bab-8ada-3a30920262ff",
+      "type": "istar.OrRefinementLink",
+      "source": "dffbe429-cb5b-4eb9-be69-d9dd1e8ee1f8",
+      "target": "63cabd18-1193-43dc-a63a-95f4f3093be8"
+    },
+    {
+      "id": "2df02541-4669-42a6-869e-02da1088f360",
+      "type": "istar.OrRefinementLink",
+      "source": "dffbe429-cb5b-4eb9-be69-d9dd1e8ee1f8",
+      "target": "abb88d47-762e-4bcb-be33-cb0f9b801c24"
+    },
+    {
+      "id": "9c9e53e2-7089-492e-bb7f-7a7680471ec6",
+      "type": "istar.OrRefinementLink",
+      "source": "f449c149-f441-4e00-a627-824b920e8fb9",
+      "target": "d8ef4205-2362-4a52-961c-c6cdd735bd1f"
+    },
+    {
+      "id": "fc85c233-1d6b-4104-8de7-5e807ec9b6a7",
+      "type": "istar.AndRefinementLink",
+      "source": "5236cec6-72f7-4ec2-bc5c-c374ad2aec9e",
+      "target": "f449c149-f441-4e00-a627-824b920e8fb9"
+    },
+    {
+      "id": "311102ca-f751-4227-a825-ab9bd192213a",
+      "type": "istar.NeededByLink",
+      "source": "a82c56e6-30a5-4d63-9b79-9c66f8191d7f",
+      "target": "96fae3d7-73fc-4a33-b6a7-05f76382a6cc"
+    },
+    {
+      "id": "de1c3c4c-4972-4d6b-9d19-75c58734e02d",
+      "type": "istar.AndRefinementLink",
+      "source": "96fae3d7-73fc-4a33-b6a7-05f76382a6cc",
+      "target": "f449c149-f441-4e00-a627-824b920e8fb9"
+    },
+    {
+      "id": "62fde18d-de41-43aa-927a-94da57e02d5a",
+      "type": "istar.QualificationLink",
+      "source": "80f1ef3f-18b0-48f6-953f-2afd35a98ebd",
+      "target": "5236cec6-72f7-4ec2-bc5c-c374ad2aec9e"
+    },
+    {
+      "id": "e5a692c4-f2f6-44b5-adc9-ea7a4bb6156b",
+      "type": "istar.QualificationLink",
+      "source": "a4b3ddf9-7605-4172-89f6-9a6dff44bae4",
+      "target": "5236cec6-72f7-4ec2-bc5c-c374ad2aec9e"
+    },
+    {
+      "id": "11af6e2f-d618-4004-85e8-cbca4236e6de",
+      "type": "istar.OrRefinementLink",
+      "source": "dab830ac-39e0-47ed-bb10-81d85949cc09",
+      "target": "6adc1c00-50ee-47fa-8216-6c7721768ecc"
+    },
+    {
+      "id": "d90a23ae-9b45-4604-adfb-faaf26777b1c",
+      "type": "istar.OrRefinementLink",
+      "source": "ab774487-1d6f-4e82-8e23-674a8cda32de",
+      "target": "dab830ac-39e0-47ed-bb10-81d85949cc09"
+    },
+    {
+      "id": "83a68edc-9e08-4c69-8d4f-c2d60e701482",
+      "type": "istar.OrRefinementLink",
+      "source": "5b41aab8-1efa-4ca5-8f15-3896d98d5067",
+      "target": "dab830ac-39e0-47ed-bb10-81d85949cc09"
+    },
+    {
+      "id": "898a7d7b-c0cf-42a9-8ef0-ff10ada9c6b0",
+      "type": "istar.OrRefinementLink",
+      "source": "e9e5c333-9dff-4cf1-93a2-0fe4006e492e",
+      "target": "dab830ac-39e0-47ed-bb10-81d85949cc09"
+    },
+    {
+      "id": "9f9b9845-ed6a-4e36-af5b-4de7c91e7b15",
+      "type": "istar.OrRefinementLink",
+      "source": "1ec0e225-2104-4c00-9b3b-683e94e144f6",
+      "target": "dab830ac-39e0-47ed-bb10-81d85949cc09"
+    },
+    {
+      "id": "da167e59-f260-4d75-94e6-5250924f4acf",
+      "type": "istar.OrRefinementLink",
+      "source": "9621cb70-d70b-4523-a98c-c786ba361568",
+      "target": "6adc1c00-50ee-47fa-8216-6c7721768ecc"
+    },
+    {
+      "id": "ad9d6bd5-9ca7-4623-b9b6-76f4bc6a9317",
+      "type": "istar.AndRefinementLink",
+      "source": "6adc1c00-50ee-47fa-8216-6c7721768ecc",
+      "target": "5236cec6-72f7-4ec2-bc5c-c374ad2aec9e"
+    },
+    {
+      "id": "8dea766e-f011-4d89-8b59-9faefe2485b7",
+      "type": "istar.AndRefinementLink",
+      "source": "abb88d47-762e-4bcb-be33-cb0f9b801c24",
+      "target": "5236cec6-72f7-4ec2-bc5c-c374ad2aec9e"
+    },
+    {
+      "id": "33544d87-7c01-47e8-95a4-d1c6948f0d4c",
+      "type": "istar.NeededByLink",
+      "source": "a6b8ec85-4a80-4c23-82ba-bfdd3407c33a",
+      "target": "eb096bfb-e2a1-417b-850a-219fee4bac15"
+    },
+    {
+      "id": "da33ff4b-e87e-4ff8-af21-b34e3054bdb7",
+      "type": "istar.AndRefinementLink",
+      "source": "eb096bfb-e2a1-417b-850a-219fee4bac15",
+      "target": "5236cec6-72f7-4ec2-bc5c-c374ad2aec9e"
+    }
+  ],
+  "display": {
+    "dffbe429-cb5b-4eb9-be69-d9dd1e8ee1f8": {
+      "width": 154.5,
+      "height": 99.34375
+    },
+    "abb88d47-762e-4bcb-be33-cb0f9b801c24": {
+      "width": 110.5,
+      "height": 62.84375
+    },
+    "5236cec6-72f7-4ec2-bc5c-c374ad2aec9e": {
+      "width": 108.5,
+      "height": 48.84375
+    },
+    "a4b3ddf9-7605-4172-89f6-9a6dff44bae4": {
+      "width": 105.531494140625,
+      "height": 71.85107421875
+    },
+    "f449c149-f441-4e00-a627-824b920e8fb9": {
+      "width": 113.5,
+      "height": 105.84375
+    },
+    "d8ef4205-2362-4a52-961c-c6cdd735bd1f": {
+      "width": 102.5,
+      "height": 59.34375
+    },
+    "e9e5c333-9dff-4cf1-93a2-0fe4006e492e": {
+      "width": 132.5,
+      "height": 91.34375
+    },
+    "dab830ac-39e0-47ed-bb10-81d85949cc09": {
+      "width": 113.5,
+      "height": 61.34375
+    },
+    "5b41aab8-1efa-4ca5-8f15-3896d98d5067": {
+      "width": 105.5,
+      "height": 63.34375
+    },
+    "ab774487-1d6f-4e82-8e23-674a8cda32de": {
+      "width": 119.5,
+      "height": 76.34375
+    },
+    "1ec0e225-2104-4c00-9b3b-683e94e144f6": {
+      "width": 120.5,
+      "height": 80.34375
+    },
+    "6adc1c00-50ee-47fa-8216-6c7721768ecc": {
+      "width": 115.5,
+      "height": 52.34375
+    },
+    "9621cb70-d70b-4523-a98c-c786ba361568": {
+      "width": 120.5,
+      "height": 62.84375
+    },
+    "62fde18d-de41-43aa-927a-94da57e02d5a": {
+      "vertices": [
+        {
+          "x": 1057,
+          "y": 1458
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Tue, 19 May 2026 17:46:45 GMT",
+  "diagram": {
+    "width": 2554,
+    "height": 1953,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

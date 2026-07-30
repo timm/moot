@@ -1,0 +1,316 @@
+{
+  "actors": [
+    {
+      "id": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05",
+      "text": "Proposers",
+      "type": "istar.Actor",
+      "x": 512,
+      "y": 149,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "305f311d-ae33-434c-b15b-b60f9a798824",
+      "text": "Chair of Conference Board",
+      "type": "istar.Actor",
+      "x": 829,
+      "y": 254,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "7c0d6f12-f2d9-4d4d-a94b-646ce1b43f41",
+          "text": "Good candidates to choose from",
+          "type": "istar.Quality",
+          "x": 860,
+          "y": 357,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8727ed73-d605-48c5-a48a-6a55d6026e8a",
+          "text": "Conference Host Selected",
+          "type": "istar.Goal",
+          "x": 940,
+          "y": 295.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e9645deb-a06a-4467-9bb2-4588739f1c67",
+          "text": "Distribute rules for making a selection",
+          "type": "istar.Task",
+          "x": 1038,
+          "y": 405,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2afdf07d-756e-4cdc-8c7c-c6ccbb9352b0",
+          "text": "Select conference host",
+          "type": "istar.Task",
+          "x": 1083.5,
+          "y": 324,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e47a5bec-7ff9-4548-b0f2-4316a49dd1ef",
+          "text": "Send an invitation for hosting conference",
+          "type": "istar.Task",
+          "x": 904,
+          "y": 483,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5ab06565-fc47-421c-8818-c6c8e4073d59",
+          "text": "Notify the proposers about the decision",
+          "type": "istar.Task",
+          "x": 856,
+          "y": 581,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "64ba2d9d-966f-4d5c-a862-a011a29f7325",
+      "text": "Conference Board",
+      "type": "istar.Actor",
+      "x": 1437,
+      "y": 316,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "3246accf-3453-4b70-848d-5788ca3066c6",
+      "text": "No hard feeling among those not selected",
+      "type": "istar.Quality",
+      "x": 689,
+      "y": 113,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05",
+      "target": "305f311d-ae33-434c-b15b-b60f9a798824"
+    },
+    {
+      "id": "3318fc01-4987-4ba4-9ba1-b764fe385e63",
+      "text": "Invitation letter with conference history info",
+      "type": "istar.Resource",
+      "x": 708,
+      "y": 316,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05",
+      "target": "e47a5bec-7ff9-4548-b0f2-4316a49dd1ef"
+    },
+    {
+      "id": "9c617c3a-40aa-493e-b865-2c87aacc27bd",
+      "text": "Proposals for hosting conference",
+      "type": "istar.Resource",
+      "x": 591,
+      "y": 346,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e47a5bec-7ff9-4548-b0f2-4316a49dd1ef",
+      "target": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05"
+    },
+    {
+      "id": "fa783eba-9bbf-4e88-b031-b76a4f4e82a0",
+      "text": "Notification about the decision",
+      "type": "istar.Resource",
+      "x": 551,
+      "y": 516,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05",
+      "target": "5ab06565-fc47-421c-8818-c6c8e4073d59"
+    },
+    {
+      "id": "f0144d55-3751-4e42-9c2b-3a8deb3d514a",
+      "text": "Decision",
+      "type": "istar.Resource",
+      "x": 1260.25,
+      "y": 320,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "2afdf07d-756e-4cdc-8c7c-c6ccbb9352b0",
+      "target": "64ba2d9d-966f-4d5c-a862-a011a29f7325"
+    },
+    {
+      "id": "40880795-840b-4ca6-931c-ca9e2a6d072a",
+      "text": "Rules for decision",
+      "type": "istar.Resource",
+      "x": 1243,
+      "y": 454,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "64ba2d9d-966f-4d5c-a862-a011a29f7325",
+      "target": "e9645deb-a06a-4467-9bb2-4588739f1c67"
+    }
+  ],
+  "links": [
+    {
+      "id": "2b139759-8f53-4266-8b96-f62ead856a65",
+      "type": "istar.DependencyLink",
+      "source": "40880795-840b-4ca6-931c-ca9e2a6d072a",
+      "target": "e9645deb-a06a-4467-9bb2-4588739f1c67"
+    },
+    {
+      "id": "60370c53-923f-4e94-94a9-0710d44eb899",
+      "type": "istar.DependencyLink",
+      "source": "64ba2d9d-966f-4d5c-a862-a011a29f7325",
+      "target": "40880795-840b-4ca6-931c-ca9e2a6d072a"
+    },
+    {
+      "id": "c51fa9bf-649c-4e8e-955f-24119a927cf0",
+      "type": "istar.DependencyLink",
+      "source": "f0144d55-3751-4e42-9c2b-3a8deb3d514a",
+      "target": "64ba2d9d-966f-4d5c-a862-a011a29f7325"
+    },
+    {
+      "id": "d5763543-ef6c-4c4f-bb03-282630251765",
+      "type": "istar.DependencyLink",
+      "source": "2afdf07d-756e-4cdc-8c7c-c6ccbb9352b0",
+      "target": "f0144d55-3751-4e42-9c2b-3a8deb3d514a"
+    },
+    {
+      "id": "435ca094-65c8-4337-9a03-b799e20d6578",
+      "type": "istar.DependencyLink",
+      "source": "fa783eba-9bbf-4e88-b031-b76a4f4e82a0",
+      "target": "5ab06565-fc47-421c-8818-c6c8e4073d59"
+    },
+    {
+      "id": "0d1172a3-cc97-4561-bef9-7edef6e4a06f",
+      "type": "istar.DependencyLink",
+      "source": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05",
+      "target": "fa783eba-9bbf-4e88-b031-b76a4f4e82a0"
+    },
+    {
+      "id": "d7c61160-ec0c-40e0-8aec-d01d54e55006",
+      "type": "istar.DependencyLink",
+      "source": "9c617c3a-40aa-493e-b865-2c87aacc27bd",
+      "target": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05"
+    },
+    {
+      "id": "853109e3-15a3-4ea0-a676-09fb6041b1dd",
+      "type": "istar.DependencyLink",
+      "source": "e47a5bec-7ff9-4548-b0f2-4316a49dd1ef",
+      "target": "9c617c3a-40aa-493e-b865-2c87aacc27bd"
+    },
+    {
+      "id": "12e530f9-ae71-4169-8c22-61936513f54f",
+      "type": "istar.DependencyLink",
+      "source": "3318fc01-4987-4ba4-9ba1-b764fe385e63",
+      "target": "e47a5bec-7ff9-4548-b0f2-4316a49dd1ef"
+    },
+    {
+      "id": "b0205d64-a3be-477f-843c-ca871523d40d",
+      "type": "istar.DependencyLink",
+      "source": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05",
+      "target": "3318fc01-4987-4ba4-9ba1-b764fe385e63"
+    },
+    {
+      "id": "6fb42ff8-14b4-416f-b1c7-08d3ff63dbe9",
+      "type": "istar.DependencyLink",
+      "source": "3246accf-3453-4b70-848d-5788ca3066c6",
+      "target": "305f311d-ae33-434c-b15b-b60f9a798824"
+    },
+    {
+      "id": "3b3758ed-3f39-40d8-bc6b-446a70a760f4",
+      "type": "istar.DependencyLink",
+      "source": "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05",
+      "target": "3246accf-3453-4b70-848d-5788ca3066c6"
+    },
+    {
+      "id": "1e06d5d2-b38c-4063-b299-9f9869dd0365",
+      "type": "istar.OrRefinementLink",
+      "source": "e9645deb-a06a-4467-9bb2-4588739f1c67",
+      "target": "8727ed73-d605-48c5-a48a-6a55d6026e8a"
+    },
+    {
+      "id": "5a9935dd-f571-4ec3-a067-aa986e0fc999",
+      "type": "istar.OrRefinementLink",
+      "source": "2afdf07d-756e-4cdc-8c7c-c6ccbb9352b0",
+      "target": "8727ed73-d605-48c5-a48a-6a55d6026e8a"
+    },
+    {
+      "id": "aa639476-57a6-4b03-a600-d3fd94ac6fe8",
+      "type": "istar.ContributionLink",
+      "source": "e47a5bec-7ff9-4548-b0f2-4316a49dd1ef",
+      "target": "7c0d6f12-f2d9-4d4d-a94b-646ce1b43f41",
+      "label": "help"
+    }
+  ],
+  "display": {
+    "e9645deb-a06a-4467-9bb2-4588739f1c67": {
+      "width": 113.09375,
+      "height": 52.84375
+    },
+    "2afdf07d-756e-4cdc-8c7c-c6ccbb9352b0": {
+      "width": 107.59375,
+      "height": 46.84375
+    },
+    "e47a5bec-7ff9-4548-b0f2-4316a49dd1ef": {
+      "width": 135.09375,
+      "height": 69.84375
+    },
+    "5ab06565-fc47-421c-8818-c6c8e4073d59": {
+      "width": 125.09375,
+      "height": 70.84375
+    },
+    "3246accf-3453-4b70-848d-5788ca3066c6": {
+      "width": 104.12481689453125,
+      "height": 63.850364685058594
+    },
+    "3318fc01-4987-4ba4-9ba1-b764fe385e63": {
+      "width": 105.09375,
+      "height": 53.84375
+    },
+    "9c617c3a-40aa-493e-b865-2c87aacc27bd": {
+      "width": 104.09375,
+      "height": 51.84375
+    },
+    "fa783eba-9bbf-4e88-b031-b76a4f4e82a0": {
+      "width": 100.09375,
+      "height": 44.84375
+    },
+    "00f9cf59-0ccb-40f9-a3e6-8bcbf959fa05": {
+      "collapsed": true
+    },
+    "64ba2d9d-966f-4d5c-a862-a011a29f7325": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 20 May 2026 10:34:38 GMT",
+  "diagram": {
+    "width": 2631,
+    "height": 2669,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

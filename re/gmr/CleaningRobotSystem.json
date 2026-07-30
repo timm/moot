@@ -1,0 +1,538 @@
+{
+  "actors": [
+    {
+      "id": "4607afbb-8255-4b96-ae1c-e5a4ed9284a1",
+      "text": "Cleaning robot",
+      "type": "istar.Actor",
+      "x": 519,
+      "y": 107,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "f1b92baf-7c84-48a2-84f3-f476d87f63df",
+          "text": "Field cleaned",
+          "type": "istar.Goal",
+          "x": 926,
+          "y": 141,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e388e9a3-ab28-40e0-899b-4ec6de034175",
+          "text": "Battery maintained",
+          "type": "istar.Goal",
+          "x": 924,
+          "y": 316,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "479fca70-e6a3-444e-953c-8afcc0edf14f",
+          "text": "Object reachable",
+          "type": "istar.Goal",
+          "x": 1284,
+          "y": 302,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "656b4a55-6a6d-463a-b199-52d85b0a5e6a",
+          "text": "Battery level observed",
+          "type": "istar.Goal",
+          "x": 802,
+          "y": 420,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ca14f0ca-6a68-4f6f-9f29-877cad5aa6f7",
+          "text": "Station reachable",
+          "type": "istar.Goal",
+          "x": 948,
+          "y": 458,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ce93fe38-3443-4e74-89ef-73dff63b1770",
+          "text": "Battery charged",
+          "type": "istar.Goal",
+          "x": 1058,
+          "y": 412,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "862d1c14-8030-4a59-b4eb-befbc569e35f",
+          "text": "Battery station",
+          "type": "istar.Resource",
+          "x": 1142,
+          "y": 562,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e2dfc6ae-6ea3-409a-811c-a26a72d6f221",
+          "text": "reach station",
+          "type": "istar.Task",
+          "x": 971,
+          "y": 544,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "45dde8e4-dd21-4986-9d11-aff1fb3586ad",
+          "text": "charge battery",
+          "type": "istar.Task",
+          "x": 1157.5,
+          "y": 463,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d137f7f9-acce-4f85-99ef-69e8c6dcabb1",
+          "text": "observe battery level",
+          "type": "istar.Task",
+          "x": 823.5,
+          "y": 531,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "34cca105-0e03-4328-9263-4fe8bd10ea3e",
+          "text": "Battery level",
+          "type": "istar.Resource",
+          "x": 908,
+          "y": 644,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7f4f2d9b-f349-4ea3-b77f-9bf1b6fd42df",
+          "text": "dispose of dust",
+          "type": "istar.Task",
+          "x": 652,
+          "y": 333,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9b912c3d-3141-48e3-8899-6dee2bc2b2cb",
+          "text": "Dust",
+          "type": "istar.Resource",
+          "x": 578,
+          "y": 267,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7ae23cd8-f5db-4a28-aaa7-5ad353d119f1",
+          "text": "Dust reachable",
+          "type": "istar.Goal",
+          "x": 519,
+          "y": 412,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c4e1ee76-1055-4d5d-b0ef-93f335af30fc",
+          "text": "Suitable cleaning method performed",
+          "type": "istar.Goal",
+          "x": 664,
+          "y": 425,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "114c4845-209f-4b1c-9296-be6f6257c01f",
+          "text": "Dust disposed of ",
+          "type": "istar.Goal",
+          "x": 778,
+          "y": 260,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "85f212a1-1aa8-4d6f-8798-e253692bca5d",
+          "text": "Dust vacuumed",
+          "type": "istar.Task",
+          "x": 553,
+          "y": 548,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5822ff8d-f960-42ba-aea0-723336ba2421",
+          "text": "Dust picked up",
+          "type": "istar.Task",
+          "x": 687.5,
+          "y": 557,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5ab585f7-4e95-4022-bd90-26515766ce5d",
+          "text": "vacuum device",
+          "type": "istar.Resource",
+          "x": 543,
+          "y": 657,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "86873000-d342-4b1c-8475-78da80a5c0c1",
+          "text": "Robot arm",
+          "type": "istar.Resource",
+          "x": 685,
+          "y": 655.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c8da6e1a-05ff-4397-8cdf-7e94d6bf9ae3",
+          "text": "Current position detected",
+          "type": "istar.Goal",
+          "x": 1240,
+          "y": 396.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0ed44e50-ed47-418e-a22d-e1f27b684aad",
+          "text": "detect current posititon",
+          "type": "istar.Task",
+          "x": 1258.5,
+          "y": 500,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a212ee54-9314-49b4-97d9-9e8e0c2a5d5d",
+          "text": "Current position",
+          "type": "istar.Resource",
+          "x": 1232,
+          "y": 641.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d8db7e70-462c-4f8d-8161-b21d9aed0d29",
+          "text": "Object found",
+          "type": "istar.Goal",
+          "x": 1368,
+          "y": 416,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5f209dbf-59c9-4702-a5eb-e180feb089da",
+          "text": "Got close to object",
+          "type": "istar.Goal",
+          "x": 1482,
+          "y": 383,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "fd3d01b4-61e8-4de0-b454-1c2ae0b8837b",
+          "text": "maintain battery",
+          "type": "istar.Task",
+          "x": 1077,
+          "y": 312,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d7765155-87f4-4b7b-a5c8-dadab70e0b6b",
+          "text": "Battery",
+          "type": "istar.Resource",
+          "x": 1139,
+          "y": 373,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9fdee98e-a358-46e0-84dc-9c4efb84c9af",
+          "text": "find object",
+          "type": "istar.Task",
+          "x": 1393.5,
+          "y": 516,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3998658d-379b-46bb-8235-3a7c43e39dd8",
+          "text": "get close to object",
+          "type": "istar.Task",
+          "x": 1501.5,
+          "y": 480,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "24093813-12bd-445f-85ae-666ea71a7407",
+          "text": "Distance",
+          "type": "istar.Resource",
+          "x": 1555,
+          "y": 596.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "926974f8-06f5-4f03-af79-d99de5858ce1",
+          "text": "Object position",
+          "type": "istar.Resource",
+          "x": 1376,
+          "y": 637.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "73c66f85-5a9f-486d-9437-733d0c8861b5",
+      "type": "istar.AndRefinementLink",
+      "source": "114c4845-209f-4b1c-9296-be6f6257c01f",
+      "target": "f1b92baf-7c84-48a2-84f3-f476d87f63df"
+    },
+    {
+      "id": "1c2edb8d-4444-4822-b630-de49c5611000",
+      "type": "istar.AndRefinementLink",
+      "source": "e388e9a3-ab28-40e0-899b-4ec6de034175",
+      "target": "f1b92baf-7c84-48a2-84f3-f476d87f63df"
+    },
+    {
+      "id": "82024e35-1abe-4f5c-a99a-02bcbef62a1d",
+      "type": "istar.AndRefinementLink",
+      "source": "479fca70-e6a3-444e-953c-8afcc0edf14f",
+      "target": "f1b92baf-7c84-48a2-84f3-f476d87f63df"
+    },
+    {
+      "id": "b6410d44-511b-4b32-b777-576cdd7c1968",
+      "type": "istar.NeededByLink",
+      "source": "862d1c14-8030-4a59-b4eb-befbc569e35f",
+      "target": "45dde8e4-dd21-4986-9d11-aff1fb3586ad"
+    },
+    {
+      "id": "91483430-418e-4792-a156-473249c3e501",
+      "type": "istar.NeededByLink",
+      "source": "862d1c14-8030-4a59-b4eb-befbc569e35f",
+      "target": "e2dfc6ae-6ea3-409a-811c-a26a72d6f221"
+    },
+    {
+      "id": "cb1e11aa-fad7-4f49-9232-5c44b4c52f31",
+      "type": "istar.AndRefinementLink",
+      "source": "656b4a55-6a6d-463a-b199-52d85b0a5e6a",
+      "target": "e388e9a3-ab28-40e0-899b-4ec6de034175"
+    },
+    {
+      "id": "08766cfb-ef82-4424-8dab-8d4df42237fa",
+      "type": "istar.AndRefinementLink",
+      "source": "ca14f0ca-6a68-4f6f-9f29-877cad5aa6f7",
+      "target": "e388e9a3-ab28-40e0-899b-4ec6de034175"
+    },
+    {
+      "id": "b3c9b8eb-5b1a-49f6-a1cb-8db6f75c53ba",
+      "type": "istar.AndRefinementLink",
+      "source": "ce93fe38-3443-4e74-89ef-73dff63b1770",
+      "target": "e388e9a3-ab28-40e0-899b-4ec6de034175"
+    },
+    {
+      "id": "b911fb7f-46e5-4d90-b66b-6f6bc26ce1b2",
+      "type": "istar.OrRefinementLink",
+      "source": "45dde8e4-dd21-4986-9d11-aff1fb3586ad",
+      "target": "ce93fe38-3443-4e74-89ef-73dff63b1770"
+    },
+    {
+      "id": "106a420f-8820-4e23-b87c-2677daa839d5",
+      "type": "istar.OrRefinementLink",
+      "source": "e2dfc6ae-6ea3-409a-811c-a26a72d6f221",
+      "target": "ca14f0ca-6a68-4f6f-9f29-877cad5aa6f7"
+    },
+    {
+      "id": "817d2ab7-79c1-4d60-b05e-bd1c7d744354",
+      "type": "istar.OrRefinementLink",
+      "source": "d137f7f9-acce-4f85-99ef-69e8c6dcabb1",
+      "target": "656b4a55-6a6d-463a-b199-52d85b0a5e6a"
+    },
+    {
+      "id": "6faca420-dfba-40db-a49c-2bacaa7ecf33",
+      "type": "istar.NeededByLink",
+      "source": "34cca105-0e03-4328-9263-4fe8bd10ea3e",
+      "target": "d137f7f9-acce-4f85-99ef-69e8c6dcabb1"
+    },
+    {
+      "id": "d207ebf1-dcd7-4302-9961-149d77ab7380",
+      "type": "istar.NeededByLink",
+      "source": "34cca105-0e03-4328-9263-4fe8bd10ea3e",
+      "target": "45dde8e4-dd21-4986-9d11-aff1fb3586ad"
+    },
+    {
+      "id": "d31cbe39-c6fb-4088-be3a-d9873cd498a5",
+      "type": "istar.OrRefinementLink",
+      "source": "7f4f2d9b-f349-4ea3-b77f-9bf1b6fd42df",
+      "target": "114c4845-209f-4b1c-9296-be6f6257c01f"
+    },
+    {
+      "id": "ff1b9540-3cc0-4497-be6d-b58a2793e8e9",
+      "type": "istar.NeededByLink",
+      "source": "9b912c3d-3141-48e3-8899-6dee2bc2b2cb",
+      "target": "7f4f2d9b-f349-4ea3-b77f-9bf1b6fd42df"
+    },
+    {
+      "id": "0f1686fe-990a-45c7-8a37-df0d2da393f4",
+      "type": "istar.AndRefinementLink",
+      "source": "7ae23cd8-f5db-4a28-aaa7-5ad353d119f1",
+      "target": "7f4f2d9b-f349-4ea3-b77f-9bf1b6fd42df"
+    },
+    {
+      "id": "8379e00c-cadc-4b6a-93bc-d1ec187b8144",
+      "type": "istar.AndRefinementLink",
+      "source": "c4e1ee76-1055-4d5d-b0ef-93f335af30fc",
+      "target": "7f4f2d9b-f349-4ea3-b77f-9bf1b6fd42df"
+    },
+    {
+      "id": "95c4decd-958d-459e-9701-455a87c181c5",
+      "type": "istar.OrRefinementLink",
+      "source": "5822ff8d-f960-42ba-aea0-723336ba2421",
+      "target": "c4e1ee76-1055-4d5d-b0ef-93f335af30fc"
+    },
+    {
+      "id": "ba318566-e794-4080-8eb1-61c914aa644a",
+      "type": "istar.OrRefinementLink",
+      "source": "85f212a1-1aa8-4d6f-8798-e253692bca5d",
+      "target": "c4e1ee76-1055-4d5d-b0ef-93f335af30fc"
+    },
+    {
+      "id": "2cfa7005-f1fe-4f5c-89f0-a61a28aac552",
+      "type": "istar.NeededByLink",
+      "source": "5ab585f7-4e95-4022-bd90-26515766ce5d",
+      "target": "85f212a1-1aa8-4d6f-8798-e253692bca5d"
+    },
+    {
+      "id": "becd7d11-4c74-4956-a3fb-c1ab35d205bc",
+      "type": "istar.NeededByLink",
+      "source": "86873000-d342-4b1c-8475-78da80a5c0c1",
+      "target": "5822ff8d-f960-42ba-aea0-723336ba2421"
+    },
+    {
+      "id": "edc58026-53ff-41ab-859d-edc375946d24",
+      "type": "istar.AndRefinementLink",
+      "source": "c8da6e1a-05ff-4397-8cdf-7e94d6bf9ae3",
+      "target": "479fca70-e6a3-444e-953c-8afcc0edf14f"
+    },
+    {
+      "id": "f9b624c2-677b-4a10-827c-1f40372c5f1b",
+      "type": "istar.OrRefinementLink",
+      "source": "0ed44e50-ed47-418e-a22d-e1f27b684aad",
+      "target": "c8da6e1a-05ff-4397-8cdf-7e94d6bf9ae3"
+    },
+    {
+      "id": "c8f5470a-68c1-4e29-a0ac-34b9c5c56915",
+      "type": "istar.NeededByLink",
+      "source": "a212ee54-9314-49b4-97d9-9e8e0c2a5d5d",
+      "target": "0ed44e50-ed47-418e-a22d-e1f27b684aad"
+    },
+    {
+      "id": "356226a1-1c30-4fee-a960-9232f47ad7a7",
+      "type": "istar.AndRefinementLink",
+      "source": "d8db7e70-462c-4f8d-8161-b21d9aed0d29",
+      "target": "479fca70-e6a3-444e-953c-8afcc0edf14f"
+    },
+    {
+      "id": "23381f97-e9d7-4b2b-860a-9a60773d1bb9",
+      "type": "istar.AndRefinementLink",
+      "source": "5f209dbf-59c9-4702-a5eb-e180feb089da",
+      "target": "479fca70-e6a3-444e-953c-8afcc0edf14f"
+    },
+    {
+      "id": "5530c42d-ab8d-4c5a-b8e2-88e39b35faeb",
+      "type": "istar.AndRefinementLink",
+      "source": "fd3d01b4-61e8-4de0-b454-1c2ae0b8837b",
+      "target": "e388e9a3-ab28-40e0-899b-4ec6de034175"
+    },
+    {
+      "id": "89ec774a-34ad-457a-851e-c273cb6db86c",
+      "type": "istar.NeededByLink",
+      "source": "d7765155-87f4-4b7b-a5c8-dadab70e0b6b",
+      "target": "fd3d01b4-61e8-4de0-b454-1c2ae0b8837b"
+    },
+    {
+      "id": "f6e7759d-a30d-49bd-84d2-149ac3e23443",
+      "type": "istar.OrRefinementLink",
+      "source": "9fdee98e-a358-46e0-84dc-9c4efb84c9af",
+      "target": "d8db7e70-462c-4f8d-8161-b21d9aed0d29"
+    },
+    {
+      "id": "4d968d5f-ecc4-416c-911f-9d5ee454f167",
+      "type": "istar.OrRefinementLink",
+      "source": "3998658d-379b-46bb-8235-3a7c43e39dd8",
+      "target": "5f209dbf-59c9-4702-a5eb-e180feb089da"
+    },
+    {
+      "id": "54d21bb0-6f43-435c-a67f-ab2834f4b39c",
+      "type": "istar.NeededByLink",
+      "source": "926974f8-06f5-4f03-af79-d99de5858ce1",
+      "target": "9fdee98e-a358-46e0-84dc-9c4efb84c9af"
+    },
+    {
+      "id": "ec7b8a84-f06c-4a1a-b838-f2876013297b",
+      "type": "istar.NeededByLink",
+      "source": "24093813-12bd-445f-85ae-666ea71a7407",
+      "target": "3998658d-379b-46bb-8235-3a7c43e39dd8"
+    }
+  ],
+  "display": {
+    "c4e1ee76-1055-4d5d-b0ef-93f335af30fc": {
+      "width": 118.5,
+      "height": 49.34375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 25 May 2026 11:01:02 GMT",
+  "diagram": {
+    "width": 2047,
+    "height": 2000,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

@@ -1,0 +1,1044 @@
+{
+    "edges": [
+        {
+            "component": "edge", 
+            "id": 4251, 
+            "source": "Decrease [Phone Waiting Time] ", 
+            "target": "*Decrease [Phone Waiting Time] ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4252, 
+            "source": "Friendly [Web site] ", 
+            "target": "*Friendly [Web site] ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4253, 
+            "source": "Easy [Access to Post Reply] ", 
+            "target": "*Easy [Access to Post Reply] ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4254, 
+            "source": "!Use Tool to Talk to Other Parents ", 
+            "target": "*Help and information be acquired", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4255, 
+            "source": "*Friendly [Web site] ", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4256, 
+            "source": "*Similarity with other parents  problems ", 
+            "target": "* Support and Be Supported By Other Parents ", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4257, 
+            "source": "Provide feedback", 
+            "target": "Feedback", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4258, 
+            "source": "!Implement\\nTool to Allow Parents to Talk to Each Other ", 
+            "target": "!Use Tool to Talk to Other Parents ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4259, 
+            "source": "Similarity with other parents  problems ", 
+            "target": "*Similarity with other parents  problems ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4260, 
+            "source": "Implement Information Section", 
+            "target": "!Use Information section  ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4261, 
+            "source": "Phone Library of Recorded Messages1", 
+            "target": "* Support and Be Supported By Other Parents ", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4262, 
+            "source": "Services Be Free1", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4263, 
+            "source": "Immediacy [Services] ", 
+            "target": "Immediacy [Services] 1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4264, 
+            "source": "Availability [Service] ", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4265, 
+            "source": "High Quality [Services] ", 
+            "target": "High Quality [Service] ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4266, 
+            "source": "Patient [Counselor] ", 
+            "target": "*Patient [Counselor] ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4267, 
+            "source": "Use Phone Counselling", 
+            "target": "*Help and information be acquired", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4268, 
+            "source": "*Maintain PHL Phone Services", 
+            "target": "Use Phone Counselling", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4269, 
+            "source": "!Use Tool to Talk to Other Parents ", 
+            "target": "!Parents Use Service to Talk to Each Other ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4270, 
+            "source": "*Easy [Access to Post Reply] ", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4271, 
+            "source": "Anonymity [Services] ", 
+            "target": "Anonymity [Services] 1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4272, 
+            "source": "Maintain Bulletin Board with Replies", 
+            "target": "Use bulletin Board with Replies", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4273, 
+            "source": "*Get information and support on parenting problems", 
+            "target": "*Good [Parenting skills]", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4274, 
+            "source": "Use bulletin Board with Replies", 
+            "target": "Parents Use Bulletin Board with Replies", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4275, 
+            "source": "Confidentiality [Service] ", 
+            "target": "*Privacy", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4276, 
+            "source": "Services Be Free", 
+            "target": "Services Be Free1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4277, 
+            "source": "* Support and Be Supported By Other Parents ", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4278, 
+            "source": "Use Phone Counselling", 
+            "target": "Parents Use Phone Counselling", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4279, 
+            "source": "Connect Back to the Community 1", 
+            "target": "Connect Back to the Community ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4280, 
+            "source": "*Decrease [Phone Waiting Time] ", 
+            "target": "Timely support and information", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4281, 
+            "source": "!Use Information section  ", 
+            "target": "Parents Use Information Section", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4282, 
+            "source": "Anonymity [Services] 1", 
+            "target": "*Privacy", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4283, 
+            "source": "*Patient [Counselor] ", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4284, 
+            "source": "High Quality [Service] ", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4285, 
+            "source": "Confidentiality [Services] ", 
+            "target": "Confidentiality [Service] ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4286, 
+            "source": "*Help and information be acquired", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4287, 
+            "source": "Provide feedback", 
+            "target": "*Privacy", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4288, 
+            "source": "Phone Library of Recorded Messages", 
+            "target": "Phone Library of Recorded Messages1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4289, 
+            "source": "!Use Information section  ", 
+            "target": "*Help and information be acquired", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4290, 
+            "source": "Connect Back to the Community ", 
+            "target": "*Get information and support on parenting problems", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4291, 
+            "source": "Availability [Services] ", 
+            "target": "Availability [Service] ", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 4292, 
+            "source": "Use bulletin Board with Replies", 
+            "target": "*Help and information be acquired", 
+            "type": "decompositions", 
+            "value": "or"
+        }
+    ], 
+    "name": "Parents", 
+    "nodes": [
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4254, 
+                4267, 
+                4289, 
+                4292
+            ], 
+            "id": "*Help and information be acquired", 
+            "is_random": false, 
+            "name": "*Help and information be acquired", 
+            "to_edges": [
+                4286
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Services Be Free", 
+            "is_random": false, 
+            "name": "Services Be Free", 
+            "to_edges": [
+                4276
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Implement Information Section", 
+            "is_random": false, 
+            "name": "Implement Information Section", 
+            "to_edges": [
+                4260
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4288
+            ], 
+            "id": "Phone Library of Recorded Messages1", 
+            "is_random": false, 
+            "name": "Phone Library of Recorded Messages1", 
+            "to_edges": [
+                4261
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4265
+            ], 
+            "id": "High Quality [Service] ", 
+            "is_random": false, 
+            "name": "High Quality [Service] ", 
+            "to_edges": [
+                4284
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Maintain Bulletin Board with Replies", 
+            "is_random": false, 
+            "name": "Maintain Bulletin Board with Replies", 
+            "to_edges": [
+                4272
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Easy [Access to Post Reply] ", 
+            "is_random": false, 
+            "name": "Easy [Access to Post Reply] ", 
+            "to_edges": [
+                4253
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Similarity with other parents  problems ", 
+            "is_random": false, 
+            "name": "Similarity with other parents  problems ", 
+            "to_edges": [
+                4259
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4275, 
+                4282, 
+                4287
+            ], 
+            "id": "*Privacy", 
+            "is_random": false, 
+            "name": "*Privacy", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Patient [Counselor] ", 
+            "is_random": false, 
+            "name": "Patient [Counselor] ", 
+            "to_edges": [
+                4266
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Confidentiality [Services] ", 
+            "is_random": false, 
+            "name": "Confidentiality [Services] ", 
+            "to_edges": [
+                4285
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4271
+            ], 
+            "id": "Anonymity [Services] 1", 
+            "is_random": false, 
+            "name": "Anonymity [Services] 1", 
+            "to_edges": [
+                4282
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4258
+            ], 
+            "id": "!Use Tool to Talk to Other Parents ", 
+            "is_random": false, 
+            "name": "!Use Tool to Talk to Other Parents ", 
+            "to_edges": [
+                4254, 
+                4269
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4285
+            ], 
+            "id": "Confidentiality [Service] ", 
+            "is_random": false, 
+            "name": "Confidentiality [Service] ", 
+            "to_edges": [
+                4275
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Decrease [Phone Waiting Time] ", 
+            "is_random": false, 
+            "name": "Decrease [Phone Waiting Time] ", 
+            "to_edges": [
+                4251
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4256, 
+                4261
+            ], 
+            "id": "* Support and Be Supported By Other Parents ", 
+            "is_random": false, 
+            "name": "* Support and Be Supported By Other Parents ", 
+            "to_edges": [
+                4277
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4259
+            ], 
+            "id": "*Similarity with other parents  problems ", 
+            "is_random": false, 
+            "name": "*Similarity with other parents  problems ", 
+            "to_edges": [
+                4256
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4276
+            ], 
+            "id": "Services Be Free1", 
+            "is_random": false, 
+            "name": "Services Be Free1", 
+            "to_edges": [
+                4262
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4291
+            ], 
+            "id": "Availability [Service] ", 
+            "is_random": false, 
+            "name": "Availability [Service] ", 
+            "to_edges": [
+                4264
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Connect Back to the Community 1", 
+            "is_random": false, 
+            "name": "Connect Back to the Community 1", 
+            "to_edges": [
+                4279
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4268
+            ], 
+            "id": "Use Phone Counselling", 
+            "is_random": false, 
+            "name": "Use Phone Counselling", 
+            "to_edges": [
+                4267, 
+                4278
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4273
+            ], 
+            "id": "*Good [Parenting skills]", 
+            "is_random": false, 
+            "name": "*Good [Parenting skills]", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4263
+            ], 
+            "id": "Immediacy [Services] 1", 
+            "is_random": false, 
+            "name": "Immediacy [Services] 1", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "*Maintain PHL Phone Services", 
+            "is_random": false, 
+            "name": "*Maintain PHL Phone Services", 
+            "to_edges": [
+                4268
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4281
+            ], 
+            "id": "Parents Use Information Section", 
+            "is_random": false, 
+            "name": "Parents Use Information Section", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4274
+            ], 
+            "id": "Parents Use Bulletin Board with Replies", 
+            "is_random": false, 
+            "name": "Parents Use Bulletin Board with Replies", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4252
+            ], 
+            "id": "*Friendly [Web site] ", 
+            "is_random": false, 
+            "name": "*Friendly [Web site] ", 
+            "to_edges": [
+                4255
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Availability [Services] ", 
+            "is_random": false, 
+            "name": "Availability [Services] ", 
+            "to_edges": [
+                4291
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4251
+            ], 
+            "id": "*Decrease [Phone Waiting Time] ", 
+            "is_random": false, 
+            "name": "*Decrease [Phone Waiting Time] ", 
+            "to_edges": [
+                4280
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "!Implement\\nTool to Allow Parents to Talk to Each Other ", 
+            "is_random": false, 
+            "name": "!Implement\\nTool to Allow Parents to Talk to Each Other ", 
+            "to_edges": [
+                4258
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4260
+            ], 
+            "id": "!Use Information section  ", 
+            "is_random": false, 
+            "name": "!Use Information section  ", 
+            "to_edges": [
+                4281, 
+                4289
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Anonymity [Services] ", 
+            "is_random": false, 
+            "name": "Anonymity [Services] ", 
+            "to_edges": [
+                4271
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4266
+            ], 
+            "id": "*Patient [Counselor] ", 
+            "is_random": false, 
+            "name": "*Patient [Counselor] ", 
+            "to_edges": [
+                4283
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4279
+            ], 
+            "id": "Connect Back to the Community ", 
+            "is_random": false, 
+            "name": "Connect Back to the Community ", 
+            "to_edges": [
+                4290
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4269
+            ], 
+            "id": "!Parents Use Service to Talk to Each Other ", 
+            "is_random": false, 
+            "name": "!Parents Use Service to Talk to Each Other ", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4280
+            ], 
+            "id": "Timely support and information", 
+            "is_random": false, 
+            "name": "Timely support and information", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Friendly [Web site] ", 
+            "is_random": false, 
+            "name": "Friendly [Web site] ", 
+            "to_edges": [
+                4252
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Immediacy [Services] ", 
+            "is_random": false, 
+            "name": "Immediacy [Services] ", 
+            "to_edges": [
+                4263
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4257
+            ], 
+            "id": "Feedback", 
+            "is_random": false, 
+            "name": "Feedback", 
+            "to_edges": [], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "High Quality [Services] ", 
+            "is_random": false, 
+            "name": "High Quality [Services] ", 
+            "to_edges": [
+                4265
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Phone Library of Recorded Messages", 
+            "is_random": false, 
+            "name": "Phone Library of Recorded Messages", 
+            "to_edges": [
+                4288
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Provide feedback", 
+            "is_random": false, 
+            "name": "Provide feedback", 
+            "to_edges": [
+                4257, 
+                4287
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4278
+            ], 
+            "id": "Parents Use Phone Counselling", 
+            "is_random": false, 
+            "name": "Parents Use Phone Counselling", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4272
+            ], 
+            "id": "Use bulletin Board with Replies", 
+            "is_random": false, 
+            "name": "Use bulletin Board with Replies", 
+            "to_edges": [
+                4274, 
+                4292
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4253
+            ], 
+            "id": "*Easy [Access to Post Reply] ", 
+            "is_random": false, 
+            "name": "*Easy [Access to Post Reply] ", 
+            "to_edges": [
+                4270
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                4255, 
+                4262, 
+                4264, 
+                4270, 
+                4277, 
+                4283, 
+                4284, 
+                4286, 
+                4290
+            ], 
+            "id": "*Get information and support on parenting problems", 
+            "is_random": false, 
+            "name": "*Get information and support on parenting problems", 
+            "to_edges": [
+                4273
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }
+    ]
+}

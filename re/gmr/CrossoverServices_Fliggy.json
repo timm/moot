@@ -1,0 +1,397 @@
+{
+  "actors": [
+    {
+      "id": "38574007-3a26-4240-8763-7040a705e0ab",
+      "text": "Fliggy platform",
+      "type": "istar.Agent",
+      "x": 49,
+      "y": 591,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "8a3e8d19-d10b-4bb5-90d1-08d4c5e7eaf0",
+          "text": "Provide hotel booking service",
+          "type": "istar.Goal",
+          "x": 287,
+          "y": 606,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c0cf051c-5b49-4ae2-a8bb-9f235deb3095",
+          "text": "Hotel information retrival",
+          "type": "istar.Goal",
+          "x": 184,
+          "y": 679.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "71996b9e-b4d1-4d3f-8ee4-9c6f6985eab9",
+          "text": "Online hotel booking",
+          "type": "istar.Goal",
+          "x": 321,
+          "y": 684,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7319d3a3-467a-4ca4-b7bf-3178b88e77fc",
+          "text": "Order handling",
+          "type": "istar.Goal",
+          "x": 431,
+          "y": 661,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3d47e7b5-3b91-4dad-945f-512981822d28",
+          "text": "Make collections pay by alipay",
+          "type": "istar.Task",
+          "x": 525,
+          "y": 736,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3553b84b-d434-444c-8f62-3608a1fc3a7a",
+          "text": "Confirm an order",
+          "type": "istar.Task",
+          "x": 423.5,
+          "y": 725,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6c47af06-a764-4c8d-b2fc-7a93bf22b4b3",
+          "text": "Add to shopping cart",
+          "type": "istar.Task",
+          "x": 368,
+          "y": 783,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "54db2fce-c286-41f2-95e1-4d80e67576d2",
+          "text": "Scan hotel information",
+          "type": "istar.Task",
+          "x": 279,
+          "y": 759,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "66a70e22-4af1-4c05-abcc-ffe8dd103bbb",
+          "text": "Retrival by keyword",
+          "type": "istar.Task",
+          "x": 227,
+          "y": 806,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "00536516-19f2-4f52-b7d4-1ba2d0a6a12a",
+          "text": "Retrival by price",
+          "type": "istar.Task",
+          "x": 130,
+          "y": 829,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "171c43af-9838-4aa6-87a7-ffa2a34caa8b",
+          "text": "Retrival by location",
+          "type": "istar.Task",
+          "x": 49,
+          "y": 785,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "4bfff5e2-076c-47d4-ad58-15456070946b",
+      "text": "User",
+      "type": "istar.Role",
+      "x": 28,
+      "y": 72,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "ef116f2e-426f-4f88-b0e3-a6c235a54193",
+          "text": "Booking hotel",
+          "type": "istar.Goal",
+          "x": 214,
+          "y": 89,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "380ac20a-9be6-4b2b-ad6a-7601d3063a7f",
+          "text": "Booking online",
+          "type": "istar.Goal",
+          "x": 133,
+          "y": 183,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "386668f8-85ec-4ee4-91c3-6cf9c0925fd7",
+          "text": "Booking by phone",
+          "type": "istar.Goal",
+          "x": 449,
+          "y": 162,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "66b00d41-0d65-435a-9e12-bc24c80a3971",
+          "text": "Booking offline",
+          "type": "istar.Task",
+          "x": 277,
+          "y": 180,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bc92f004-4c8a-474c-a784-b3257c875f52",
+          "text": "Consume hotel service",
+          "type": "istar.Task",
+          "x": 302,
+          "y": 268,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "52a2548a-ad5b-4a08-aad4-19826bcc53bd",
+          "text": "Pay for hotel order",
+          "type": "istar.Goal",
+          "x": 252,
+          "y": 340,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0f35f222-b4d2-47bb-96e7-23e239d9b7bd",
+          "text": "Submit a hotel order",
+          "type": "istar.Task",
+          "x": 103,
+          "y": 331,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f23c64b6-d4db-4ac7-a9e8-94158b5a26ad",
+          "text": "Search hotel",
+          "type": "istar.Goal",
+          "x": 28,
+          "y": 292,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "961c7252-1e89-4f74-8368-0eff0876b0c7",
+          "text": "Pay by credit card",
+          "type": "istar.Task",
+          "x": 408,
+          "y": 358,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "67fa4fb1-21e9-45c9-b552-2b8b4e31b295",
+          "text": "Pay by alipay",
+          "type": "istar.Task",
+          "x": 286,
+          "y": 412,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "4e2d4a8c-8f93-4bc8-9ee8-fc880f42db8c",
+      "text": "Alipay service",
+      "type": "istar.Resource",
+      "x": 556,
+      "y": 508,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "67fa4fb1-21e9-45c9-b552-2b8b4e31b295",
+      "target": "3d47e7b5-3b91-4dad-945f-512981822d28"
+    }
+  ],
+  "links": [
+    {
+      "id": "3b5d4d2a-0762-45be-8ca8-1df737554c6d",
+      "type": "istar.DependencyLink",
+      "source": "4e2d4a8c-8f93-4bc8-9ee8-fc880f42db8c",
+      "target": "3d47e7b5-3b91-4dad-945f-512981822d28"
+    },
+    {
+      "id": "31a58f95-79eb-4926-bf19-1c5dc528f378",
+      "type": "istar.DependencyLink",
+      "source": "67fa4fb1-21e9-45c9-b552-2b8b4e31b295",
+      "target": "4e2d4a8c-8f93-4bc8-9ee8-fc880f42db8c"
+    },
+    {
+      "id": "be26d6fd-3093-4622-99a9-733ec214ffb4",
+      "type": "istar.OrRefinementLink",
+      "source": "386668f8-85ec-4ee4-91c3-6cf9c0925fd7",
+      "target": "ef116f2e-426f-4f88-b0e3-a6c235a54193"
+    },
+    {
+      "id": "9daac6c7-e2c9-44fd-a510-2058e5bbf87c",
+      "type": "istar.OrRefinementLink",
+      "source": "66b00d41-0d65-435a-9e12-bc24c80a3971",
+      "target": "ef116f2e-426f-4f88-b0e3-a6c235a54193"
+    },
+    {
+      "id": "eaa5b55c-ab70-4e47-872d-76ca6b746375",
+      "type": "istar.OrRefinementLink",
+      "source": "380ac20a-9be6-4b2b-ad6a-7601d3063a7f",
+      "target": "ef116f2e-426f-4f88-b0e3-a6c235a54193"
+    },
+    {
+      "id": "2fd04d49-1444-4df9-8936-b6bb9a37bbdf",
+      "type": "istar.AndRefinementLink",
+      "source": "0f35f222-b4d2-47bb-96e7-23e239d9b7bd",
+      "target": "380ac20a-9be6-4b2b-ad6a-7601d3063a7f"
+    },
+    {
+      "id": "07722a4b-eeea-495b-a994-be5762c5a1c9",
+      "type": "istar.AndRefinementLink",
+      "source": "f23c64b6-d4db-4ac7-a9e8-94158b5a26ad",
+      "target": "380ac20a-9be6-4b2b-ad6a-7601d3063a7f"
+    },
+    {
+      "id": "f34adc16-8d92-44eb-9386-6efd45c8629c",
+      "type": "istar.AndRefinementLink",
+      "source": "52a2548a-ad5b-4a08-aad4-19826bcc53bd",
+      "target": "380ac20a-9be6-4b2b-ad6a-7601d3063a7f"
+    },
+    {
+      "id": "871b5935-0b83-4afd-9972-7eae9a8b8987",
+      "type": "istar.AndRefinementLink",
+      "source": "bc92f004-4c8a-474c-a784-b3257c875f52",
+      "target": "380ac20a-9be6-4b2b-ad6a-7601d3063a7f"
+    },
+    {
+      "id": "7d229555-c185-4316-9897-60249b6c2ad5",
+      "type": "istar.OrRefinementLink",
+      "source": "67fa4fb1-21e9-45c9-b552-2b8b4e31b295",
+      "target": "52a2548a-ad5b-4a08-aad4-19826bcc53bd"
+    },
+    {
+      "id": "ad5479a5-40ba-45d0-86fe-927dfbeab3b2",
+      "type": "istar.OrRefinementLink",
+      "source": "961c7252-1e89-4f74-8368-0eff0876b0c7",
+      "target": "52a2548a-ad5b-4a08-aad4-19826bcc53bd"
+    },
+    {
+      "id": "c926009a-f8a6-4d85-92b8-bae3d3972e68",
+      "type": "istar.AndRefinementLink",
+      "source": "c0cf051c-5b49-4ae2-a8bb-9f235deb3095",
+      "target": "8a3e8d19-d10b-4bb5-90d1-08d4c5e7eaf0"
+    },
+    {
+      "id": "15889270-d65b-4b0f-a73d-d720d3c855cc",
+      "type": "istar.AndRefinementLink",
+      "source": "71996b9e-b4d1-4d3f-8ee4-9c6f6985eab9",
+      "target": "8a3e8d19-d10b-4bb5-90d1-08d4c5e7eaf0"
+    },
+    {
+      "id": "7335574e-b43d-4768-acde-1d668e6a5804",
+      "type": "istar.AndRefinementLink",
+      "source": "7319d3a3-467a-4ca4-b7bf-3178b88e77fc",
+      "target": "8a3e8d19-d10b-4bb5-90d1-08d4c5e7eaf0"
+    },
+    {
+      "id": "24d22b10-69cc-4c9e-a58b-630da8f5a1fe",
+      "type": "istar.AndRefinementLink",
+      "source": "3d47e7b5-3b91-4dad-945f-512981822d28",
+      "target": "7319d3a3-467a-4ca4-b7bf-3178b88e77fc"
+    },
+    {
+      "id": "dcd59e98-3338-4f28-81e3-9c66feb79687",
+      "type": "istar.OrRefinementLink",
+      "source": "66a70e22-4af1-4c05-abcc-ffe8dd103bbb",
+      "target": "c0cf051c-5b49-4ae2-a8bb-9f235deb3095"
+    },
+    {
+      "id": "4e31d26b-391b-40c1-850a-35cdc6636637",
+      "type": "istar.OrRefinementLink",
+      "source": "00536516-19f2-4f52-b7d4-1ba2d0a6a12a",
+      "target": "c0cf051c-5b49-4ae2-a8bb-9f235deb3095"
+    },
+    {
+      "id": "8370c10b-b7a5-4f32-9bb5-b1f9f7ae0177",
+      "type": "istar.OrRefinementLink",
+      "source": "171c43af-9838-4aa6-87a7-ffa2a34caa8b",
+      "target": "c0cf051c-5b49-4ae2-a8bb-9f235deb3095"
+    },
+    {
+      "id": "c70ba113-d4be-42d1-ab77-411fe96bf118",
+      "type": "istar.AndRefinementLink",
+      "source": "54db2fce-c286-41f2-95e1-4d80e67576d2",
+      "target": "71996b9e-b4d1-4d3f-8ee4-9c6f6985eab9"
+    },
+    {
+      "id": "665ad4c1-937b-4502-98e5-e5bb6adf7f08",
+      "type": "istar.AndRefinementLink",
+      "source": "6c47af06-a764-4c8d-b2fc-7a93bf22b4b3",
+      "target": "71996b9e-b4d1-4d3f-8ee4-9c6f6985eab9"
+    },
+    {
+      "id": "581b9bda-5b47-48c1-b3df-b8ddad4faa7e",
+      "type": "istar.AndRefinementLink",
+      "source": "3553b84b-d434-444c-8f62-3608a1fc3a7a",
+      "target": "7319d3a3-467a-4ca4-b7bf-3178b88e77fc"
+    }
+  ],
+  "display": {
+    "c0cf051c-5b49-4ae2-a8bb-9f235deb3095": {
+      "width": 106.5,
+      "height": 52.34375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Sun, 17 May 2026 11:54:20 GMT",
+  "diagram": {
+    "width": 1000,
+    "height": 1400,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

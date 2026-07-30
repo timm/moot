@@ -1,0 +1,434 @@
+{
+  "actors": [
+    {
+      "id": "9d56749a-bc56-465b-a9fd-528ece391604",
+      "text": "ATC System",
+      "type": "istar.Actor",
+      "x": 178,
+      "y": 182,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "f585a320-3202-4b30-8387-db5f5d13ce55",
+          "text": "Maintain [Safe ATC System]",
+          "type": "istar.Goal",
+          "x": 680,
+          "y": 182,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "49bdcb11-5498-4c48-ada5-2e957ebefc05",
+          "text": "Maintain [Robust and reliable ATC System]",
+          "type": "istar.Goal",
+          "x": 484,
+          "y": 276,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1e5ee97b-d80b-484d-b9f7-e70c9cbabadd",
+          "text": "Avoid [Hazardous Events]",
+          "type": "istar.Goal",
+          "x": 607,
+          "y": 400,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "66f65884-0062-40df-944b-9e64642fba1c",
+          "text": "Maintain [Perturbation Handling]",
+          "type": "istar.Goal",
+          "x": 812,
+          "y": 292,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3a154b59-e28b-4ece-8f29-d0d269d8d6e5",
+          "text": "Maintain [Secure ATC System]",
+          "type": "istar.Goal",
+          "x": 957,
+          "y": 290,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "27eed9cb-9ee3-4da0-ab1e-6f4317739000",
+          "text": "Maintain [Embedded Software secured]",
+          "type": "istar.Goal",
+          "x": 1028,
+          "y": 408,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "34ffa80a-b69c-4357-81bd-a750fbca39ff",
+          "text": "Maintain [Assess Weather Impact]",
+          "type": "istar.Goal",
+          "x": 886,
+          "y": 469,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "53f0792c-aa3b-4290-85e1-e0a472803bdc",
+          "text": "Maintain [Assess Equip. Malfunction]",
+          "type": "istar.Goal",
+          "x": 782,
+          "y": 411.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "837ff2d4-4ec1-4bbf-983e-f0d965ce0ac3",
+          "text": "Maintain [Safe Taking Off]",
+          "type": "istar.Goal",
+          "x": 699,
+          "y": 498,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b84681f8-15a4-412a-b4c3-3f50119b274a",
+          "text": "Maintain [Safe Landing]",
+          "type": "istar.Goal",
+          "x": 557,
+          "y": 491.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "71b20ca4-58fb-47d5-bf33-1412dec86db2",
+          "text": "Maintain [Safe Cruising]",
+          "type": "istar.Goal",
+          "x": 406,
+          "y": 489,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "24f071dc-8f69-486a-a861-50cef43ed4ff",
+          "text": "Achieve [Assess Fuel Level]",
+          "type": "istar.Goal",
+          "x": 178,
+          "y": 559,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cab5ca99-50c0-4fdc-be8d-fd1f95e1728e",
+          "text": "Maintain [Speed below maximum permitted speed ]",
+          "type": "istar.Goal",
+          "x": 208,
+          "y": 603,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "550e92da-e649-46ac-a4a9-9cbdbb454c4a",
+          "text": "Maintain [Communication available]",
+          "type": "istar.Goal",
+          "x": 262,
+          "y": 676,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "10523df9-b133-4948-9433-08e501ea6c5c",
+          "text": "Maintain [Emergency landing available]",
+          "type": "istar.Goal",
+          "x": 398,
+          "y": 637,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "56e84fa0-c072-4018-bad0-efc319b4a53c",
+          "text": "Achieve [Assess Separation standards]",
+          "type": "istar.Goal",
+          "x": 517,
+          "y": 693.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2f3e9396-386b-4562-9f23-4fbffdae39fe",
+          "text": "Maintain [Resolve flight places conflicts]",
+          "type": "istar.Goal",
+          "x": 559,
+          "y": 597,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "250af637-1255-4c4e-9bad-8a751ec20310",
+          "text": "Maintain [Responding ATC within permitted delay]",
+          "type": "istar.Goal",
+          "x": 217,
+          "y": 795,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2587a6c9-eebd-4613-8e82-040968165bf2",
+          "text": "Maintain [Connexion over dedicated bandwith channel]",
+          "type": "istar.Goal",
+          "x": 374,
+          "y": 796,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "07c77c2e-e073-47e5-8f97-95c73be8f196",
+          "text": "Avoid [Aircrafts in two different directions in the same route]",
+          "type": "istar.Goal",
+          "x": 609,
+          "y": 773.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e92d72e2-572b-4492-8c60-78994e7e53a7",
+          "text": "Maintain [Worst case flying distance]",
+          "type": "istar.Goal",
+          "x": 745,
+          "y": 713,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3bf90e95-8351-45af-826b-5deb161e5e09",
+          "text": "Maintain [Assess Minimum Separation in-trail standard]",
+          "type": "istar.Goal",
+          "x": 755,
+          "y": 614.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "aada5492-4731-41d1-bf31-6baf00db9252",
+      "type": "istar.AndRefinementLink",
+      "source": "49bdcb11-5498-4c48-ada5-2e957ebefc05",
+      "target": "f585a320-3202-4b30-8387-db5f5d13ce55"
+    },
+    {
+      "id": "41ed5193-d31d-4ff3-9c3c-97477f30d7d3",
+      "type": "istar.AndRefinementLink",
+      "source": "1e5ee97b-d80b-484d-b9f7-e70c9cbabadd",
+      "target": "f585a320-3202-4b30-8387-db5f5d13ce55"
+    },
+    {
+      "id": "a6a667dd-29d4-4edc-8394-fbcc61b4015a",
+      "type": "istar.AndRefinementLink",
+      "source": "66f65884-0062-40df-944b-9e64642fba1c",
+      "target": "f585a320-3202-4b30-8387-db5f5d13ce55"
+    },
+    {
+      "id": "8c7212c3-91b6-4bf8-8fb0-a8ddd447f692",
+      "type": "istar.AndRefinementLink",
+      "source": "3a154b59-e28b-4ece-8f29-d0d269d8d6e5",
+      "target": "f585a320-3202-4b30-8387-db5f5d13ce55"
+    },
+    {
+      "id": "2a8ac37a-3b33-46d5-9005-e0612af26db1",
+      "type": "istar.AndRefinementLink",
+      "source": "27eed9cb-9ee3-4da0-ab1e-6f4317739000",
+      "target": "3a154b59-e28b-4ece-8f29-d0d269d8d6e5"
+    },
+    {
+      "id": "db1cc03f-e586-424f-b09d-9939689ed411",
+      "type": "istar.AndRefinementLink",
+      "source": "53f0792c-aa3b-4290-85e1-e0a472803bdc",
+      "target": "66f65884-0062-40df-944b-9e64642fba1c"
+    },
+    {
+      "id": "4c4ece9f-2d5e-43d5-b048-16fb36139e06",
+      "type": "istar.AndRefinementLink",
+      "source": "34ffa80a-b69c-4357-81bd-a750fbca39ff",
+      "target": "66f65884-0062-40df-944b-9e64642fba1c"
+    },
+    {
+      "id": "12eadf9c-4f72-4b12-9e9d-eebc4fa8bca9",
+      "type": "istar.AndRefinementLink",
+      "source": "71b20ca4-58fb-47d5-bf33-1412dec86db2",
+      "target": "1e5ee97b-d80b-484d-b9f7-e70c9cbabadd"
+    },
+    {
+      "id": "6b686499-8e26-4af8-a8a8-75a4b15b9802",
+      "type": "istar.AndRefinementLink",
+      "source": "b84681f8-15a4-412a-b4c3-3f50119b274a",
+      "target": "1e5ee97b-d80b-484d-b9f7-e70c9cbabadd"
+    },
+    {
+      "id": "212d449f-ffd0-4dcb-a0e9-0c893edce6e7",
+      "type": "istar.AndRefinementLink",
+      "source": "837ff2d4-4ec1-4bbf-983e-f0d965ce0ac3",
+      "target": "1e5ee97b-d80b-484d-b9f7-e70c9cbabadd"
+    },
+    {
+      "id": "a537a17d-3664-42e3-9243-878f9bc901e0",
+      "type": "istar.AndRefinementLink",
+      "source": "24f071dc-8f69-486a-a861-50cef43ed4ff",
+      "target": "71b20ca4-58fb-47d5-bf33-1412dec86db2"
+    },
+    {
+      "id": "a250c136-b6e9-4bdb-880b-951740144cd6",
+      "type": "istar.AndRefinementLink",
+      "source": "cab5ca99-50c0-4fdc-be8d-fd1f95e1728e",
+      "target": "71b20ca4-58fb-47d5-bf33-1412dec86db2"
+    },
+    {
+      "id": "dad5fb5a-6bd9-4e2a-a94f-21d07a660b34",
+      "type": "istar.AndRefinementLink",
+      "source": "550e92da-e649-46ac-a4a9-9cbdbb454c4a",
+      "target": "71b20ca4-58fb-47d5-bf33-1412dec86db2"
+    },
+    {
+      "id": "0a5b00a0-c03b-4800-970a-15cbb65bf935",
+      "type": "istar.AndRefinementLink",
+      "source": "10523df9-b133-4948-9433-08e501ea6c5c",
+      "target": "71b20ca4-58fb-47d5-bf33-1412dec86db2"
+    },
+    {
+      "id": "4790888f-b656-4b47-b56b-1c9a1df55259",
+      "type": "istar.AndRefinementLink",
+      "source": "2f3e9396-386b-4562-9f23-4fbffdae39fe",
+      "target": "71b20ca4-58fb-47d5-bf33-1412dec86db2"
+    },
+    {
+      "id": "90c7df4c-1895-4746-9d19-ebb11cd78843",
+      "type": "istar.AndRefinementLink",
+      "source": "56e84fa0-c072-4018-bad0-efc319b4a53c",
+      "target": "71b20ca4-58fb-47d5-bf33-1412dec86db2"
+    },
+    {
+      "id": "12d495bd-771f-47b7-a5bb-c8a59b90e9ed",
+      "type": "istar.AndRefinementLink",
+      "source": "2587a6c9-eebd-4613-8e82-040968165bf2",
+      "target": "550e92da-e649-46ac-a4a9-9cbdbb454c4a"
+    },
+    {
+      "id": "4aab506f-59df-4110-90fa-186c2e2c49ac",
+      "type": "istar.AndRefinementLink",
+      "source": "250af637-1255-4c4e-9bad-8a751ec20310",
+      "target": "550e92da-e649-46ac-a4a9-9cbdbb454c4a"
+    },
+    {
+      "id": "a1b2a3e3-c57e-4307-85fa-550835b70d91",
+      "type": "istar.AndRefinementLink",
+      "source": "07c77c2e-e073-47e5-8f97-95c73be8f196",
+      "target": "56e84fa0-c072-4018-bad0-efc319b4a53c"
+    },
+    {
+      "id": "efd0ce4e-2061-407a-a35d-436c46c5ecbd",
+      "type": "istar.AndRefinementLink",
+      "source": "e92d72e2-572b-4492-8c60-78994e7e53a7",
+      "target": "56e84fa0-c072-4018-bad0-efc319b4a53c"
+    },
+    {
+      "id": "5bc51dad-d739-48e9-aa34-da202191e484",
+      "type": "istar.OrRefinementLink",
+      "source": "3bf90e95-8351-45af-826b-5deb161e5e09",
+      "target": "837ff2d4-4ec1-4bbf-983e-f0d965ce0ac3"
+    }
+  ],
+  "display": {
+    "49bdcb11-5498-4c48-ada5-2e957ebefc05": {
+      "width": 135.5,
+      "height": 51.34375
+    },
+    "27eed9cb-9ee3-4da0-ab1e-6f4317739000": {
+      "width": 131.5,
+      "height": 42.84375
+    },
+    "34ffa80a-b69c-4357-81bd-a750fbca39ff": {
+      "width": 153.5,
+      "height": 41.34375
+    },
+    "53f0792c-aa3b-4290-85e1-e0a472803bdc": {
+      "width": 104.5,
+      "height": 36.243743896484375
+    },
+    "cab5ca99-50c0-4fdc-be8d-fd1f95e1728e": {
+      "width": 159.5,
+      "height": 57.34375
+    },
+    "550e92da-e649-46ac-a4a9-9cbdbb454c4a": {
+      "width": 153.5,
+      "height": 52.84375
+    },
+    "10523df9-b133-4948-9433-08e501ea6c5c": {
+      "width": 125.5,
+      "height": 45.34375
+    },
+    "56e84fa0-c072-4018-bad0-efc319b4a53c": {
+      "width": 139.5,
+      "height": 38.34375
+    },
+    "2f3e9396-386b-4562-9f23-4fbffdae39fe": {
+      "width": 130.5,
+      "height": 50.34375
+    },
+    "250af637-1255-4c4e-9bad-8a751ec20310": {
+      "width": 140.5,
+      "height": 38.84375
+    },
+    "2587a6c9-eebd-4613-8e82-040968165bf2": {
+      "width": 180.5,
+      "height": 44.34375
+    },
+    "07c77c2e-e073-47e5-8f97-95c73be8f196": {
+      "width": 176.5,
+      "height": 65.34375
+    },
+    "e92d72e2-572b-4492-8c60-78994e7e53a7": {
+      "width": 147.5,
+      "height": 39.34375
+    },
+    "3bf90e95-8351-45af-826b-5deb161e5e09": {
+      "width": 169.5,
+      "height": 34.4437255859375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Sun, 24 May 2026 21:36:16 GMT",
+  "diagram": {
+    "width": 2047,
+    "height": 2000,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

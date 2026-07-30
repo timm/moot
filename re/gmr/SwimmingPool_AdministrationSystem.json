@@ -1,0 +1,1093 @@
+{
+  "actors": [
+    {
+      "id": "728afff1-88c3-4eaa-b74c-b55c638bc621",
+      "text": "Citizen",
+      "type": "istar.Actor",
+      "x": 210,
+      "y": 151,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "c36accf0-f352-47f1-aa5a-af5960fdec3c",
+          "text": "Use swimming pool facility",
+          "type": "istar.Goal",
+          "x": 464,
+          "y": 178,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "36090c5c-ebf2-4114-9839-55465709f136",
+          "text": "access swimming pool facility",
+          "type": "istar.Task",
+          "x": 601,
+          "y": 301,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "09eaa6bb-35d6-4ae9-ae67-1f2dac99eb0a",
+          "text": "register to swimming pool system",
+          "type": "istar.Goal",
+          "x": 436,
+          "y": 305.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9887fbe3-753b-47ff-b331-ff38be31550b",
+          "text": "obtain required certificates",
+          "type": "istar.Goal",
+          "x": 280,
+          "y": 293,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4e99662c-1711-49b7-924f-8a6cdc0d0fbd",
+          "text": "Badge",
+          "type": "istar.Resource",
+          "x": 631,
+          "y": 410,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b15554bc-21df-43e8-a93b-76cebb218031",
+          "text": "AMKA",
+          "type": "istar.Resource",
+          "x": 602,
+          "y": 501,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b8d52197-dfbe-49ec-b66f-6761e5196629",
+          "text": "Obtain birth certificate",
+          "type": "istar.Goal",
+          "x": 401,
+          "y": 404.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b114cf70-d91f-42f1-8c74-efd9314dbb1d",
+          "text": "Access MACS",
+          "type": "istar.Goal",
+          "x": 346,
+          "y": 484,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4ab581fb-42cf-4a91-a953-4e321af61262",
+          "text": "Obtain medical certificate",
+          "type": "istar.Goal",
+          "x": 210,
+          "y": 450,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "fabe439c-beb8-4843-b8ad-c46f2b0cecd9",
+      "text": "Clinic",
+      "type": "istar.Actor",
+      "x": 889,
+      "y": 125,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "cb54415f-b868-475d-b5b1-2f6c6737638b",
+          "text": "Obtain medical certificate",
+          "type": "istar.Goal",
+          "x": 977,
+          "y": 153,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "cbda8994-cc80-4ff9-bbcb-e24a3cacbe32",
+          "text": "create medical certificate",
+          "type": "istar.Task",
+          "x": 993,
+          "y": 266,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c3e1ee07-5dde-4aa9-b136-fe92c27293bd",
+          "text": "Medical certificate",
+          "type": "istar.Resource",
+          "x": 902,
+          "y": 213,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "6c34966f-1c6b-4318-b3a1-ae9eed412c13",
+      "text": "MACS",
+      "type": "istar.Actor",
+      "x": 23,
+      "y": 667,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "1fb0021a-72a5-42d2-a518-a841fa1b98a0",
+          "text": "Process citizen requests",
+          "type": "istar.Goal",
+          "x": 306,
+          "y": 672,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f51a5bc2-93c4-45a2-af5d-32353c4ae370",
+          "text": "Allow access to citizens",
+          "type": "istar.Goal",
+          "x": 143,
+          "y": 756.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "77c8e599-06a0-4593-b528-4bb2e11b8be1",
+          "text": "manage citizen documents",
+          "type": "istar.Goal",
+          "x": 295,
+          "y": 760.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "17b7578f-d27c-4d23-96a2-39677098bd3c",
+          "text": "obtain birth certificate",
+          "type": "istar.Goal",
+          "x": 543,
+          "y": 765,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c91958f0-2230-47d3-82ad-b2114601ff73",
+          "text": "sign in citizens with existing account",
+          "type": "istar.Task",
+          "x": 23,
+          "y": 863,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e8c0ce30-8b98-47bd-8975-ce9188fd865a",
+          "text": "create new citizen account ",
+          "type": "istar.Task",
+          "x": 158,
+          "y": 873,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ddfe7333-aa50-418c-9d5a-1aa112199172",
+          "text": "AMKA",
+          "type": "istar.Resource",
+          "x": 138,
+          "y": 982,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "84bc9265-b3c1-4001-88ec-53c6509b1001",
+          "text": "Store certificates",
+          "type": "istar.Task",
+          "x": 255.5,
+          "y": 898,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "54f717b2-34b6-4e10-8bda-f7ce29d72623",
+          "text": "Forward copies to third parties",
+          "type": "istar.Task",
+          "x": 368.5,
+          "y": 891,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f40c20bb-d433-4870-941f-f697e8c6fc77",
+          "text": "Medical certificate",
+          "type": "istar.Resource",
+          "x": 254,
+          "y": 980.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9c1eb2b6-2d3c-484c-8ef4-18e9bfa49ae8",
+          "text": "MACS database",
+          "type": "istar.Resource",
+          "x": 348,
+          "y": 1057,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "52013b1a-ff5c-4e72-bdd8-9d0aa488cf78",
+          "text": "create Citizen certificates cert...",
+          "type": "istar.Task",
+          "x": 453,
+          "y": 955,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "722dfa4f-0e30-41f5-9cb9-a434ebe8b06d",
+          "text": "Citizen certificate certified copy",
+          "type": "istar.Resource",
+          "x": 480,
+          "y": 1046,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7e4e3675-c14d-4aea-82a8-4d69a1feee94",
+          "text": "Receive request for birth certificate",
+          "type": "istar.Task",
+          "x": 517.5,
+          "y": 893,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "aa09197b-c040-4c8a-ba86-5b0d162981cd",
+          "text": "Retrieve citizen data",
+          "type": "istar.Task",
+          "x": 607,
+          "y": 920,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "233c3a1c-5c7e-49d1-b3c7-94e87729ee5b",
+          "text": "issue birth certificate",
+          "type": "istar.Task",
+          "x": 672,
+          "y": 863,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "dca4ffea-5c78-42ce-be44-211b11a34e9e",
+          "text": "birth certificate",
+          "type": "istar.Resource",
+          "x": 699,
+          "y": 975.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "45b39895-8393-4142-a5ad-61489aa7a5f0",
+      "text": "Swimming Pool administrator",
+      "type": "istar.Actor",
+      "x": 950,
+      "y": 1103,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "51862c5e-bb49-444d-839f-e68a959becfd",
+          "text": "Check citizen application",
+          "type": "istar.Goal",
+          "x": 1031,
+          "y": 1136,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "123e56ff-4c20-4ffe-897d-264cf6a073d5",
+          "text": "Check certificate validity",
+          "type": "istar.Task",
+          "x": 969.5,
+          "y": 1204,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4493301e-d1d3-48a5-8ac0-a5834618d4fe",
+          "text": "approve citizen registration",
+          "type": "istar.Task",
+          "x": 1144,
+          "y": 1204,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "4626c3c5-227e-4ad6-ace1-5f9b542e1e82",
+          "text": "create registration approval form",
+          "type": "istar.Task",
+          "x": 1135,
+          "y": 1302,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "adb3e719-27bf-4cb8-bcc9-fbe1ab012225",
+          "text": "Registration approval form",
+          "type": "istar.Resource",
+          "x": 995,
+          "y": 1318.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "42d4ea97-d4db-407f-a800-a97a581f8bdf",
+      "text": "Sports Facility Information System",
+      "type": "istar.Actor",
+      "x": 1094,
+      "y": 434,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "b46923f6-257e-460c-8743-20ff324f1803",
+          "text": "Facilitate swimming pool administration",
+          "type": "istar.Goal",
+          "x": 1295.5,
+          "y": 457,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "17970b82-6e5f-462b-8439-bb924ef5ed2f",
+          "text": "Register to swimming pool system",
+          "type": "istar.Goal",
+          "x": 1123.5,
+          "y": 565,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ddcac8b1-d5fc-4852-b438-e8ba9258c715",
+          "text": "Monitor access to facility",
+          "type": "istar.Goal",
+          "x": 1494.5,
+          "y": 560,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f92f6c11-12eb-44fe-9688-ebb694abbb39",
+          "text": "Check citizen application",
+          "type": "istar.Goal",
+          "x": 1098.5,
+          "y": 681,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "04e83f85-ad70-4144-85ca-24d194f35d5d",
+          "text": "Create new citizen account",
+          "type": "istar.Task",
+          "x": 1216.5,
+          "y": 714,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5e225e6f-8d58-4368-b195-611ac9a74895",
+          "text": "issue badge",
+          "type": "istar.Task",
+          "x": 1282.5,
+          "y": 666,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "957c540d-cbbe-4f9a-93db-18f9db5af968",
+          "text": "check badge validity",
+          "type": "istar.Task",
+          "x": 1426.5,
+          "y": 662,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "40c13ac3-a3ec-4b81-bd68-e6c7db9d53c2",
+          "text": "Log entrance to facility",
+          "type": "istar.Task",
+          "x": 1571.5,
+          "y": 672,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a29f4c2c-3a8e-4dab-923d-f92764c1fa98",
+          "text": "badge",
+          "type": "istar.Resource",
+          "x": 1395.5,
+          "y": 738.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6b9a0095-54c4-43b8-8fac-ccdf0af9bfd2",
+          "text": "create log",
+          "type": "istar.Task",
+          "x": 1577.5,
+          "y": 741,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "033e06c4-c3ce-4c53-bbc0-2d462f853337",
+          "text": "Log",
+          "type": "istar.Resource",
+          "x": 1607.5,
+          "y": 828,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "050c0c16-390e-4041-8e8d-940296189413",
+          "text": "Registration approval form",
+          "type": "istar.Resource",
+          "x": 1255.5,
+          "y": 812.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0df4c1b1-5ad5-4f5c-8d4c-5812d8841be3",
+          "text": "Citizen certificates certified copies",
+          "type": "istar.Resource",
+          "x": 1111.5,
+          "y": 826.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ba6372d1-8f1b-49cd-b8a0-89384702ffea",
+          "text": "check citizen certificate",
+          "type": "istar.Task",
+          "x": 1094,
+          "y": 765,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "e675b91b-623f-40f6-9fa2-cc0b227824de",
+      "text": "Registration approval form",
+      "type": "istar.Resource",
+      "x": 841,
+      "y": 763,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "42d4ea97-d4db-407f-a800-a97a581f8bdf",
+      "target": "45b39895-8393-4142-a5ad-61489aa7a5f0"
+    },
+    {
+      "id": "b21d233e-3ef6-4495-ae9a-b1057d3c9e81",
+      "text": "Check citizen application",
+      "type": "istar.Goal",
+      "x": 942,
+      "y": 796,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "45b39895-8393-4142-a5ad-61489aa7a5f0",
+      "target": "42d4ea97-d4db-407f-a800-a97a581f8bdf"
+    },
+    {
+      "id": "e0b54c7e-3f0a-448a-8ebc-b52df8c0d582",
+      "text": "Citizen certificates certified copies",
+      "type": "istar.Resource",
+      "x": 485,
+      "y": 606,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "42d4ea97-d4db-407f-a800-a97a581f8bdf",
+      "target": "6c34966f-1c6b-4318-b3a1-ae9eed412c13"
+    },
+    {
+      "id": "7b4c5e30-b336-4fb3-a079-ce27ebe9ec63",
+      "text": "AMKA",
+      "type": "istar.Resource",
+      "x": 52,
+      "y": 497,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "6c34966f-1c6b-4318-b3a1-ae9eed412c13",
+      "target": "728afff1-88c3-4eaa-b74c-b55c638bc621"
+    },
+    {
+      "id": "810ccec7-e31e-44e7-b8d0-5187c67c9495",
+      "text": "Obtain birth certificate",
+      "type": "istar.Goal",
+      "x": 9,
+      "y": 303,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "6c34966f-1c6b-4318-b3a1-ae9eed412c13",
+      "target": "728afff1-88c3-4eaa-b74c-b55c638bc621"
+    },
+    {
+      "id": "e76a2033-22ba-4560-a48e-ad1b4f63b56f",
+      "text": "obtain medical certificate",
+      "type": "istar.Goal",
+      "x": 473,
+      "y": 86,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "fabe439c-beb8-4843-b8ad-c46f2b0cecd9",
+      "target": "728afff1-88c3-4eaa-b74c-b55c638bc621"
+    },
+    {
+      "id": "200991c0-3f60-422b-847d-f1608893e97c",
+      "text": "register to swimming pool system",
+      "type": "istar.Goal",
+      "x": 604,
+      "y": 22,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "42d4ea97-d4db-407f-a800-a97a581f8bdf",
+      "target": "728afff1-88c3-4eaa-b74c-b55c638bc621"
+    },
+    {
+      "id": "2670bed8-6d2a-42be-9b24-c6ad4a8c759d",
+      "text": "Badge",
+      "type": "istar.Resource",
+      "x": 1141,
+      "y": 32,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "728afff1-88c3-4eaa-b74c-b55c638bc621",
+      "target": "42d4ea97-d4db-407f-a800-a97a581f8bdf"
+    }
+  ],
+  "links": [
+    {
+      "id": "74f647bf-c71a-4bdb-a1be-d3196839639f",
+      "type": "istar.DependencyLink",
+      "source": "2670bed8-6d2a-42be-9b24-c6ad4a8c759d",
+      "target": "42d4ea97-d4db-407f-a800-a97a581f8bdf"
+    },
+    {
+      "id": "1671daab-3f7d-49ec-958d-c0b914972ca2",
+      "type": "istar.DependencyLink",
+      "source": "728afff1-88c3-4eaa-b74c-b55c638bc621",
+      "target": "2670bed8-6d2a-42be-9b24-c6ad4a8c759d"
+    },
+    {
+      "id": "5385aaa9-02d3-4d8e-a747-66c7671b9c05",
+      "type": "istar.DependencyLink",
+      "source": "200991c0-3f60-422b-847d-f1608893e97c",
+      "target": "728afff1-88c3-4eaa-b74c-b55c638bc621"
+    },
+    {
+      "id": "9977cae7-a0a8-4d5f-a12e-43daeaeffe80",
+      "type": "istar.DependencyLink",
+      "source": "42d4ea97-d4db-407f-a800-a97a581f8bdf",
+      "target": "200991c0-3f60-422b-847d-f1608893e97c"
+    },
+    {
+      "id": "658c586a-2460-46d2-baec-38870409d29b",
+      "type": "istar.DependencyLink",
+      "source": "e76a2033-22ba-4560-a48e-ad1b4f63b56f",
+      "target": "728afff1-88c3-4eaa-b74c-b55c638bc621"
+    },
+    {
+      "id": "3b499a32-c7f9-4955-820e-d590bc934926",
+      "type": "istar.DependencyLink",
+      "source": "fabe439c-beb8-4843-b8ad-c46f2b0cecd9",
+      "target": "e76a2033-22ba-4560-a48e-ad1b4f63b56f"
+    },
+    {
+      "id": "e9165bf7-704a-4c40-b701-842956116901",
+      "type": "istar.DependencyLink",
+      "source": "810ccec7-e31e-44e7-b8d0-5187c67c9495",
+      "target": "728afff1-88c3-4eaa-b74c-b55c638bc621"
+    },
+    {
+      "id": "da4f420a-2038-481c-a3ff-e52035568e31",
+      "type": "istar.DependencyLink",
+      "source": "6c34966f-1c6b-4318-b3a1-ae9eed412c13",
+      "target": "810ccec7-e31e-44e7-b8d0-5187c67c9495"
+    },
+    {
+      "id": "7562ed40-cd99-4ad2-ae28-b2a2f779d39a",
+      "type": "istar.DependencyLink",
+      "source": "7b4c5e30-b336-4fb3-a079-ce27ebe9ec63",
+      "target": "728afff1-88c3-4eaa-b74c-b55c638bc621"
+    },
+    {
+      "id": "99fd31df-cb68-4404-b17f-f02fb70544ee",
+      "type": "istar.DependencyLink",
+      "source": "6c34966f-1c6b-4318-b3a1-ae9eed412c13",
+      "target": "7b4c5e30-b336-4fb3-a079-ce27ebe9ec63"
+    },
+    {
+      "id": "d8ddfd75-af07-4d66-ab6a-185dc64110e9",
+      "type": "istar.DependencyLink",
+      "source": "e0b54c7e-3f0a-448a-8ebc-b52df8c0d582",
+      "target": "6c34966f-1c6b-4318-b3a1-ae9eed412c13"
+    },
+    {
+      "id": "2cf1601b-b4fe-45c5-82ac-1ac65af9fb0e",
+      "type": "istar.DependencyLink",
+      "source": "42d4ea97-d4db-407f-a800-a97a581f8bdf",
+      "target": "e0b54c7e-3f0a-448a-8ebc-b52df8c0d582"
+    },
+    {
+      "id": "2644aa52-6ed8-42f0-b826-1fb894403acc",
+      "type": "istar.DependencyLink",
+      "source": "b21d233e-3ef6-4495-ae9a-b1057d3c9e81",
+      "target": "42d4ea97-d4db-407f-a800-a97a581f8bdf"
+    },
+    {
+      "id": "280fc915-e086-40e0-ba87-0077b89a8995",
+      "type": "istar.DependencyLink",
+      "source": "45b39895-8393-4142-a5ad-61489aa7a5f0",
+      "target": "b21d233e-3ef6-4495-ae9a-b1057d3c9e81"
+    },
+    {
+      "id": "c41e35eb-c996-4361-943b-7a42444ad14e",
+      "type": "istar.DependencyLink",
+      "source": "e675b91b-623f-40f6-9fa2-cc0b227824de",
+      "target": "45b39895-8393-4142-a5ad-61489aa7a5f0"
+    },
+    {
+      "id": "f5c7dc48-c2c1-4eb4-b3f9-42aed02f80e4",
+      "type": "istar.DependencyLink",
+      "source": "42d4ea97-d4db-407f-a800-a97a581f8bdf",
+      "target": "e675b91b-623f-40f6-9fa2-cc0b227824de"
+    },
+    {
+      "id": "6f0664ae-e711-4c4b-babe-5338c5d982e4",
+      "type": "istar.OrRefinementLink",
+      "source": "cb54415f-b868-475d-b5b1-2f6c6737638b",
+      "target": "cbda8994-cc80-4ff9-bbcb-e24a3cacbe32"
+    },
+    {
+      "id": "27d5a890-a81c-4a98-983d-f487717e9d1d",
+      "type": "istar.NeededByLink",
+      "source": "c3e1ee07-5dde-4aa9-b136-fe92c27293bd",
+      "target": "cbda8994-cc80-4ff9-bbcb-e24a3cacbe32"
+    },
+    {
+      "id": "8007547b-efa7-469c-bae6-34285d3a1795",
+      "type": "istar.AndRefinementLink",
+      "source": "9887fbe3-753b-47ff-b331-ff38be31550b",
+      "target": "c36accf0-f352-47f1-aa5a-af5960fdec3c"
+    },
+    {
+      "id": "2d0be109-70be-4c66-8dae-6bdd5c2d8a3f",
+      "type": "istar.AndRefinementLink",
+      "source": "09eaa6bb-35d6-4ae9-ae67-1f2dac99eb0a",
+      "target": "c36accf0-f352-47f1-aa5a-af5960fdec3c"
+    },
+    {
+      "id": "00654cf4-7691-422c-a973-111bd95761e2",
+      "type": "istar.AndRefinementLink",
+      "source": "36090c5c-ebf2-4114-9839-55465709f136",
+      "target": "c36accf0-f352-47f1-aa5a-af5960fdec3c"
+    },
+    {
+      "id": "3ee99688-f081-4ad3-b24d-d54b654fc0bc",
+      "type": "istar.NeededByLink",
+      "source": "4e99662c-1711-49b7-924f-8a6cdc0d0fbd",
+      "target": "36090c5c-ebf2-4114-9839-55465709f136"
+    },
+    {
+      "id": "2e280d71-300b-4bf5-a778-7e3c66c1823e",
+      "type": "istar.AndRefinementLink",
+      "source": "4ab581fb-42cf-4a91-a953-4e321af61262",
+      "target": "9887fbe3-753b-47ff-b331-ff38be31550b"
+    },
+    {
+      "id": "78fbfade-4eaf-49c9-a195-475425008f20",
+      "type": "istar.AndRefinementLink",
+      "source": "b114cf70-d91f-42f1-8c74-efd9314dbb1d",
+      "target": "9887fbe3-753b-47ff-b331-ff38be31550b"
+    },
+    {
+      "id": "0993f8f6-340c-4ba6-934f-d848a067f67c",
+      "type": "istar.AndRefinementLink",
+      "source": "b8d52197-dfbe-49ec-b66f-6761e5196629",
+      "target": "9887fbe3-753b-47ff-b331-ff38be31550b"
+    },
+    {
+      "id": "a085963a-2046-4209-91f2-1207277eae88",
+      "type": "istar.AndRefinementLink",
+      "source": "123e56ff-4c20-4ffe-897d-264cf6a073d5",
+      "target": "51862c5e-bb49-444d-839f-e68a959becfd"
+    },
+    {
+      "id": "a8c456ff-974e-4b1e-aee9-2efa6151f887",
+      "type": "istar.AndRefinementLink",
+      "source": "4493301e-d1d3-48a5-8ac0-a5834618d4fe",
+      "target": "51862c5e-bb49-444d-839f-e68a959becfd"
+    },
+    {
+      "id": "6f176ea7-a3f3-477a-bfb0-a42f5ccc054e",
+      "type": "istar.OrRefinementLink",
+      "source": "4493301e-d1d3-48a5-8ac0-a5834618d4fe",
+      "target": "4626c3c5-227e-4ad6-ace1-5f9b542e1e82"
+    },
+    {
+      "id": "e9e82f46-5b4f-4843-9e0e-37e9e278945d",
+      "type": "istar.AndRefinementLink",
+      "source": "f51a5bc2-93c4-45a2-af5d-32353c4ae370",
+      "target": "1fb0021a-72a5-42d2-a518-a841fa1b98a0"
+    },
+    {
+      "id": "98e3266b-5043-43c1-9031-9802c9f0ee0d",
+      "type": "istar.AndRefinementLink",
+      "source": "77c8e599-06a0-4593-b528-4bb2e11b8be1",
+      "target": "1fb0021a-72a5-42d2-a518-a841fa1b98a0"
+    },
+    {
+      "id": "518c64ba-a38c-455f-ab46-2ae2d91aa561",
+      "type": "istar.AndRefinementLink",
+      "source": "17b7578f-d27c-4d23-96a2-39677098bd3c",
+      "target": "1fb0021a-72a5-42d2-a518-a841fa1b98a0"
+    },
+    {
+      "id": "cdda13cc-f18f-4e30-9633-9af09a9924b5",
+      "type": "istar.OrRefinementLink",
+      "source": "e8c0ce30-8b98-47bd-8975-ce9188fd865a",
+      "target": "f51a5bc2-93c4-45a2-af5d-32353c4ae370"
+    },
+    {
+      "id": "05741729-34dd-456a-89ba-44d9d97f66f0",
+      "type": "istar.OrRefinementLink",
+      "source": "c91958f0-2230-47d3-82ad-b2114601ff73",
+      "target": "f51a5bc2-93c4-45a2-af5d-32353c4ae370"
+    },
+    {
+      "id": "5dc2df09-5283-4111-a545-04478f43373f",
+      "type": "istar.NeededByLink",
+      "source": "ddfe7333-aa50-418c-9d5a-1aa112199172",
+      "target": "e8c0ce30-8b98-47bd-8975-ce9188fd865a"
+    },
+    {
+      "id": "a1d1b197-3d23-4a89-a575-8c0b645bc27d",
+      "type": "istar.AndRefinementLink",
+      "source": "84bc9265-b3c1-4001-88ec-53c6509b1001",
+      "target": "77c8e599-06a0-4593-b528-4bb2e11b8be1"
+    },
+    {
+      "id": "1dcf9181-45cd-4fc6-be9b-425567de46d4",
+      "type": "istar.AndRefinementLink",
+      "source": "54f717b2-34b6-4e10-8bda-f7ce29d72623",
+      "target": "77c8e599-06a0-4593-b528-4bb2e11b8be1"
+    },
+    {
+      "id": "819a5d0d-e999-4992-ad83-a067c6605f5b",
+      "type": "istar.NeededByLink",
+      "source": "f40c20bb-d433-4870-941f-f697e8c6fc77",
+      "target": "84bc9265-b3c1-4001-88ec-53c6509b1001"
+    },
+    {
+      "id": "d229800a-d37e-4008-a99b-36788a776e6a",
+      "type": "istar.NeededByLink",
+      "source": "f40c20bb-d433-4870-941f-f697e8c6fc77",
+      "target": "54f717b2-34b6-4e10-8bda-f7ce29d72623"
+    },
+    {
+      "id": "c4650a0d-16e4-4e50-a237-6976dc01dbfb",
+      "type": "istar.NeededByLink",
+      "source": "9c1eb2b6-2d3c-484c-8ef4-18e9bfa49ae8",
+      "target": "84bc9265-b3c1-4001-88ec-53c6509b1001"
+    },
+    {
+      "id": "c5933c36-51bf-4877-a1ac-66b79e07dcc4",
+      "type": "istar.NeededByLink",
+      "source": "722dfa4f-0e30-41f5-9cb9-a434ebe8b06d",
+      "target": "52013b1a-ff5c-4e72-bdd8-9d0aa488cf78"
+    },
+    {
+      "id": "9c4e1c80-ed12-48f8-9b46-e538845ba6e8",
+      "type": "istar.OrRefinementLink",
+      "source": "54f717b2-34b6-4e10-8bda-f7ce29d72623",
+      "target": "52013b1a-ff5c-4e72-bdd8-9d0aa488cf78"
+    },
+    {
+      "id": "5b6e5eee-a0c7-4882-a1e3-e4cc1b04fd0a",
+      "type": "istar.AndRefinementLink",
+      "source": "7e4e3675-c14d-4aea-82a8-4d69a1feee94",
+      "target": "17b7578f-d27c-4d23-96a2-39677098bd3c"
+    },
+    {
+      "id": "0e7a9db8-b0fc-453f-a64f-eca32df6bc46",
+      "type": "istar.AndRefinementLink",
+      "source": "aa09197b-c040-4c8a-ba86-5b0d162981cd",
+      "target": "17b7578f-d27c-4d23-96a2-39677098bd3c"
+    },
+    {
+      "id": "f53b898c-9e79-44fa-9ea5-04a228e986cb",
+      "type": "istar.AndRefinementLink",
+      "source": "233c3a1c-5c7e-49d1-b3c7-94e87729ee5b",
+      "target": "17b7578f-d27c-4d23-96a2-39677098bd3c"
+    },
+    {
+      "id": "db105427-7715-46ac-9081-1e980b77fdf2",
+      "type": "istar.NeededByLink",
+      "source": "dca4ffea-5c78-42ce-be44-211b11a34e9e",
+      "target": "233c3a1c-5c7e-49d1-b3c7-94e87729ee5b"
+    },
+    {
+      "id": "d7685673-e6df-4183-8437-f281ac644131",
+      "type": "istar.NeededByLink",
+      "source": "9c1eb2b6-2d3c-484c-8ef4-18e9bfa49ae8",
+      "target": "aa09197b-c040-4c8a-ba86-5b0d162981cd"
+    },
+    {
+      "id": "8195474d-7e0b-4c4c-8ed3-fbd09330d306",
+      "type": "istar.AndRefinementLink",
+      "source": "17970b82-6e5f-462b-8439-bb924ef5ed2f",
+      "target": "b46923f6-257e-460c-8743-20ff324f1803"
+    },
+    {
+      "id": "a7d6b30f-09a8-4fee-85c4-9acddc3d2199",
+      "type": "istar.AndRefinementLink",
+      "source": "ddcac8b1-d5fc-4852-b438-e8ba9258c715",
+      "target": "b46923f6-257e-460c-8743-20ff324f1803"
+    },
+    {
+      "id": "02d93cae-e52b-42eb-a0ce-5cccdb605dfa",
+      "type": "istar.AndRefinementLink",
+      "source": "f92f6c11-12eb-44fe-9688-ebb694abbb39",
+      "target": "17970b82-6e5f-462b-8439-bb924ef5ed2f"
+    },
+    {
+      "id": "32111e63-f8cd-4e41-ad20-fdb5928741f6",
+      "type": "istar.AndRefinementLink",
+      "source": "04e83f85-ad70-4144-85ca-24d194f35d5d",
+      "target": "17970b82-6e5f-462b-8439-bb924ef5ed2f"
+    },
+    {
+      "id": "c05dc9a3-682d-441e-92fb-b7671a5b909e",
+      "type": "istar.AndRefinementLink",
+      "source": "5e225e6f-8d58-4368-b195-611ac9a74895",
+      "target": "17970b82-6e5f-462b-8439-bb924ef5ed2f"
+    },
+    {
+      "id": "6e3e8e30-990f-4d65-8dd5-77c8a18dd16f",
+      "type": "istar.AndRefinementLink",
+      "source": "957c540d-cbbe-4f9a-93db-18f9db5af968",
+      "target": "ddcac8b1-d5fc-4852-b438-e8ba9258c715"
+    },
+    {
+      "id": "5dcf9680-12b3-4047-8a72-b83279a36752",
+      "type": "istar.AndRefinementLink",
+      "source": "40c13ac3-a3ec-4b81-bd68-e6c7db9d53c2",
+      "target": "ddcac8b1-d5fc-4852-b438-e8ba9258c715"
+    },
+    {
+      "id": "425ab5b0-436d-4e81-8586-80a98de75fab",
+      "type": "istar.NeededByLink",
+      "source": "a29f4c2c-3a8e-4dab-923d-f92764c1fa98",
+      "target": "957c540d-cbbe-4f9a-93db-18f9db5af968"
+    },
+    {
+      "id": "2f583384-c422-4542-be04-cc7c06cc87f6",
+      "type": "istar.NeededByLink",
+      "source": "a29f4c2c-3a8e-4dab-923d-f92764c1fa98",
+      "target": "5e225e6f-8d58-4368-b195-611ac9a74895"
+    },
+    {
+      "id": "cfe9a57f-4b76-402f-9cfa-4cc09da07000",
+      "type": "istar.OrRefinementLink",
+      "source": "6b9a0095-54c4-43b8-8fac-ccdf0af9bfd2",
+      "target": "40c13ac3-a3ec-4b81-bd68-e6c7db9d53c2"
+    },
+    {
+      "id": "54442e1a-4b3b-4e86-94fb-7668c8f1fdd9",
+      "type": "istar.NeededByLink",
+      "source": "033e06c4-c3ce-4c53-bbc0-2d462f853337",
+      "target": "6b9a0095-54c4-43b8-8fac-ccdf0af9bfd2"
+    },
+    {
+      "id": "c25da865-252e-4932-98b4-2e174c603028",
+      "type": "istar.NeededByLink",
+      "source": "050c0c16-390e-4041-8e8d-940296189413",
+      "target": "04e83f85-ad70-4144-85ca-24d194f35d5d"
+    },
+    {
+      "id": "25d7fd33-d7ae-4a47-a174-98591931028a",
+      "type": "istar.NeededByLink",
+      "source": "0df4c1b1-5ad5-4f5c-8d4c-5812d8841be3",
+      "target": "ba6372d1-8f1b-49cd-b8a0-89384702ffea"
+    },
+    {
+      "id": "d1e606c8-3079-4423-bf2e-9d0df50eb774",
+      "type": "istar.OrRefinementLink",
+      "source": "ba6372d1-8f1b-49cd-b8a0-89384702ffea",
+      "target": "f92f6c11-12eb-44fe-9688-ebb694abbb39"
+    }
+  ],
+  "display": {
+    "c36accf0-f352-47f1-aa5a-af5960fdec3c": {
+      "width": 106.5,
+      "height": 45.34375
+    },
+    "36090c5c-ebf2-4114-9839-55465709f136": {
+      "width": 111.5,
+      "height": 44.84375
+    },
+    "09eaa6bb-35d6-4ae9-ae67-1f2dac99eb0a": {
+      "width": 107.5,
+      "height": 49.34375
+    },
+    "cb54415f-b868-475d-b5b1-2f6c6737638b": {
+      "width": 120.5,
+      "height": 47.34375
+    },
+    "77c8e599-06a0-4593-b528-4bb2e11b8be1": {
+      "width": 108.5,
+      "height": 44.34375
+    },
+    "c91958f0-2230-47d3-82ad-b2114601ff73": {
+      "width": 109.5,
+      "height": 52.84375
+    },
+    "54f717b2-34b6-4e10-8bda-f7ce29d72623": {
+      "width": 110,
+      "height": 46.84375
+    },
+    "b46923f6-257e-460c-8743-20ff324f1803": {
+      "width": 133.5,
+      "height": 55.34375
+    },
+    "17970b82-6e5f-462b-8439-bb924ef5ed2f": {
+      "width": 115.5,
+      "height": 51.34375
+    },
+    "0df4c1b1-5ad5-4f5c-8d4c-5812d8841be3": {
+      "width": 120.5,
+      "height": 44.34375
+    },
+    "e0b54c7e-3f0a-448a-8ebc-b52df8c0d582": {
+      "width": 118.5,
+      "height": 41.84375
+    },
+    "74f647bf-c71a-4bdb-a1be-d3196839639f": {
+      "vertices": [
+        {
+          "x": 1270,
+          "y": 260
+        }
+      ]
+    },
+    "1671daab-3f7d-49ec-958d-c0b914972ca2": {
+      "vertices": [
+        {
+          "x": 526,
+          "y": 76
+        }
+      ]
+    },
+    "5385aaa9-02d3-4d8e-a747-66c7671b9c05": {
+      "vertices": [
+        {
+          "x": 407,
+          "y": 64
+        }
+      ]
+    },
+    "9977cae7-a0a8-4d5f-a12e-43daeaeffe80": {
+      "vertices": [
+        {
+          "x": 1140,
+          "y": 110
+        }
+      ]
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 25 May 2026 09:37:45 GMT",
+  "diagram": {
+    "width": 2047,
+    "height": 2000,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "actors": [
+    {
+      "id": "d271f867-98a9-4b4c-99de-c7ba1211239f",
+      "text": "Lab. tec.",
+      "type": "istar.Actor",
+      "x": 626,
+      "y": 129,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "804b48f9-7a7f-464f-a05a-cb7e026a9a61",
+          "text": "Describe Patient Laboratory Test",
+          "type": "istar.Goal",
+          "x": 871,
+          "y": 129,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "efbee783-fa30-4018-b0ce-b0c306cae1a4",
+          "text": "Describe Patient",
+          "type": "istar.Goal",
+          "x": 700,
+          "y": 216.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8c0ed408-71d7-44bc-ac8f-90388facb9f7",
+          "text": "...",
+          "type": "istar.Goal",
+          "x": 626,
+          "y": 351,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "78468d9f-33c4-4fbb-9fae-f9441a8ce840",
+          "text": "Describe Patient Information",
+          "type": "istar.Goal",
+          "x": 737,
+          "y": 317,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5ef74768-acda-4aa4-9cb0-e867481e5b6d",
+          "text": "Describe Biological Sampling",
+          "type": "istar.Goal",
+          "x": 870,
+          "y": 245.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e7fd234c-0b84-4b45-94ad-c1f68fc2f5dc",
+          "text": "Describe Sampling Date/Hour",
+          "type": "istar.Goal",
+          "x": 780,
+          "y": 391,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a0174dcc-6248-4bba-b1e4-ff5a0a3bba29",
+          "text": "Identify Biological Sample Material",
+          "type": "istar.Goal",
+          "x": 879,
+          "y": 433,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "92a13088-695c-4e27-97ac-a23a703510fc",
+          "text": "Identify Sampling Procedure",
+          "type": "istar.Goal",
+          "x": 1000,
+          "y": 384,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "c19889d4-351b-4f76-a615-e4e70b2269ea",
+          "text": "Describe Sample Measurement",
+          "type": "istar.Goal",
+          "x": 1079,
+          "y": 240,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e26c1d24-ef6a-4ab4-b798-c86f71ded599",
+          "text": "Identify Chemical Property",
+          "type": "istar.Goal",
+          "x": 1030,
+          "y": 318,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5c21d8c1-c628-4d31-9df5-fa34e26569ea",
+          "text": "Describe Measure",
+          "type": "istar.Goal",
+          "x": 1129,
+          "y": 392,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b4cc4091-c584-4340-9570-5f07cd95db71",
+          "text": "Define Used Measure",
+          "type": "istar.Goal",
+          "x": 1084,
+          "y": 481,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "18063b3d-efcc-4814-b584-0ede4b21d691",
+          "text": "Identify Measure Unit",
+          "type": "istar.Goal",
+          "x": 1176,
+          "y": 510,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3edc1b93-bae1-4ebb-84ce-13421d45f3b8",
+          "text": "Describe Measurement",
+          "type": "istar.Goal",
+          "x": 1261,
+          "y": 342,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8a8515f2-0801-4cf6-af9d-216896116d7e",
+          "text": "Define Measurement Procedure",
+          "type": "istar.Goal",
+          "x": 1216,
+          "y": 445,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "13fe67b4-6ec9-4f3e-ab16-cb636d773ef7",
+          "text": "Define Measurement Act",
+          "type": "istar.Goal",
+          "x": 1316,
+          "y": 492,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6f4d8bc1-8314-42b6-9114-f3d512ec6e08",
+          "text": "Describe Measured Value",
+          "type": "istar.Goal",
+          "x": 1369,
+          "y": 425,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5807a289-9d1e-4c34-8ac6-c3899705d953",
+          "text": "Describe Measurement Analysis",
+          "type": "istar.Goal",
+          "x": 1417,
+          "y": 323,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1f13cdc0-3bbf-4d89-8c46-174d11900769",
+          "text": "Define Measurement Analysis Act",
+          "type": "istar.Goal",
+          "x": 1506,
+          "y": 427,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "63f19da3-ce13-41e6-b280-3608454da801",
+          "text": "Define Reference Values",
+          "type": "istar.Goal",
+          "x": 1637,
+          "y": 445,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a5fc078f-4ffe-4e43-99d7-7d37aea3accc",
+          "text": "Define Interpretation",
+          "type": "istar.Goal",
+          "x": 1626,
+          "y": 372.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "44f006b6-3ea3-487e-be94-4a8f17fc2782",
+          "text": "Define Analysis Result",
+          "type": "istar.Goal",
+          "x": 1618,
+          "y": 314.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [],
+  "links": [
+    {
+      "id": "25486364-afda-4a5a-9f02-6d32db757d5c",
+      "type": "istar.AndRefinementLink",
+      "source": "efbee783-fa30-4018-b0ce-b0c306cae1a4",
+      "target": "804b48f9-7a7f-464f-a05a-cb7e026a9a61"
+    },
+    {
+      "id": "0b6dc82c-970a-4cdb-a523-20294e4d948f",
+      "type": "istar.AndRefinementLink",
+      "source": "5ef74768-acda-4aa4-9cb0-e867481e5b6d",
+      "target": "804b48f9-7a7f-464f-a05a-cb7e026a9a61"
+    },
+    {
+      "id": "ed428f45-8775-4e27-89d0-f6f2d874188a",
+      "type": "istar.AndRefinementLink",
+      "source": "78468d9f-33c4-4fbb-9fae-f9441a8ce840",
+      "target": "efbee783-fa30-4018-b0ce-b0c306cae1a4"
+    },
+    {
+      "id": "bd22951a-72a4-48b2-ad3f-74f1293c4e2e",
+      "type": "istar.AndRefinementLink",
+      "source": "8c0ed408-71d7-44bc-ac8f-90388facb9f7",
+      "target": "efbee783-fa30-4018-b0ce-b0c306cae1a4"
+    },
+    {
+      "id": "b245b062-f937-4913-8723-7c9fdb4780ac",
+      "type": "istar.AndRefinementLink",
+      "source": "e7fd234c-0b84-4b45-94ad-c1f68fc2f5dc",
+      "target": "5ef74768-acda-4aa4-9cb0-e867481e5b6d"
+    },
+    {
+      "id": "6dca7ca1-258d-44ce-8cf9-c01815100cdb",
+      "type": "istar.AndRefinementLink",
+      "source": "a0174dcc-6248-4bba-b1e4-ff5a0a3bba29",
+      "target": "5ef74768-acda-4aa4-9cb0-e867481e5b6d"
+    },
+    {
+      "id": "1e030acf-357a-4876-90dd-a7998501131f",
+      "type": "istar.AndRefinementLink",
+      "source": "92a13088-695c-4e27-97ac-a23a703510fc",
+      "target": "5ef74768-acda-4aa4-9cb0-e867481e5b6d"
+    },
+    {
+      "id": "86830d8e-3898-4dec-af50-a9f4c4a77965",
+      "type": "istar.AndRefinementLink",
+      "source": "c19889d4-351b-4f76-a615-e4e70b2269ea",
+      "target": "804b48f9-7a7f-464f-a05a-cb7e026a9a61"
+    },
+    {
+      "id": "6e345c1e-a1fd-4c74-995c-f34984834195",
+      "type": "istar.AndRefinementLink",
+      "source": "e26c1d24-ef6a-4ab4-b798-c86f71ded599",
+      "target": "c19889d4-351b-4f76-a615-e4e70b2269ea"
+    },
+    {
+      "id": "140e8eb2-e546-4d06-843b-1b1ad0282e55",
+      "type": "istar.AndRefinementLink",
+      "source": "5c21d8c1-c628-4d31-9df5-fa34e26569ea",
+      "target": "c19889d4-351b-4f76-a615-e4e70b2269ea"
+    },
+    {
+      "id": "add02a34-1189-4c1d-baf0-486e396d8f33",
+      "type": "istar.AndRefinementLink",
+      "source": "b4cc4091-c584-4340-9570-5f07cd95db71",
+      "target": "5c21d8c1-c628-4d31-9df5-fa34e26569ea"
+    },
+    {
+      "id": "e0ffa912-a8d6-4236-9fb8-643917b1471f",
+      "type": "istar.AndRefinementLink",
+      "source": "18063b3d-efcc-4814-b584-0ede4b21d691",
+      "target": "5c21d8c1-c628-4d31-9df5-fa34e26569ea"
+    },
+    {
+      "id": "24432ccf-6cd0-4f2f-a8be-c3d080932e0f",
+      "type": "istar.AndRefinementLink",
+      "source": "8a8515f2-0801-4cf6-af9d-216896116d7e",
+      "target": "3edc1b93-bae1-4ebb-84ce-13421d45f3b8"
+    },
+    {
+      "id": "e632a3f2-a5ee-4e06-8169-92d53c837c00",
+      "type": "istar.AndRefinementLink",
+      "source": "3edc1b93-bae1-4ebb-84ce-13421d45f3b8",
+      "target": "c19889d4-351b-4f76-a615-e4e70b2269ea"
+    },
+    {
+      "id": "d57646fd-77c0-4708-97bf-8aed125af59c",
+      "type": "istar.AndRefinementLink",
+      "source": "13fe67b4-6ec9-4f3e-ab16-cb636d773ef7",
+      "target": "3edc1b93-bae1-4ebb-84ce-13421d45f3b8"
+    },
+    {
+      "id": "220659ff-b5cb-4716-b68b-fa6924714c6d",
+      "type": "istar.AndRefinementLink",
+      "source": "6f4d8bc1-8314-42b6-9114-f3d512ec6e08",
+      "target": "3edc1b93-bae1-4ebb-84ce-13421d45f3b8"
+    },
+    {
+      "id": "5545afdf-68a9-47b0-a51d-f68db6641e66",
+      "type": "istar.AndRefinementLink",
+      "source": "5807a289-9d1e-4c34-8ac6-c3899705d953",
+      "target": "c19889d4-351b-4f76-a615-e4e70b2269ea"
+    },
+    {
+      "id": "f79b7116-a161-476f-a511-1d82a322890c",
+      "type": "istar.AndRefinementLink",
+      "source": "1f13cdc0-3bbf-4d89-8c46-174d11900769",
+      "target": "5807a289-9d1e-4c34-8ac6-c3899705d953"
+    },
+    {
+      "id": "1af09e4b-9f06-45cd-8217-81cd4ef2ca30",
+      "type": "istar.AndRefinementLink",
+      "source": "63f19da3-ce13-41e6-b280-3608454da801",
+      "target": "5807a289-9d1e-4c34-8ac6-c3899705d953"
+    },
+    {
+      "id": "6267eebb-f80f-4852-937d-abecf8f3e87a",
+      "type": "istar.AndRefinementLink",
+      "source": "a5fc078f-4ffe-4e43-99d7-7d37aea3accc",
+      "target": "5807a289-9d1e-4c34-8ac6-c3899705d953"
+    },
+    {
+      "id": "60c83216-d874-48b1-bb55-1863c36154df",
+      "type": "istar.AndRefinementLink",
+      "source": "44f006b6-3ea3-487e-be94-4a8f17fc2782",
+      "target": "5807a289-9d1e-4c34-8ac6-c3899705d953"
+    }
+  ],
+  "display": {
+    "804b48f9-7a7f-464f-a05a-cb7e026a9a61": {
+      "width": 142.5,
+      "height": 43.34375
+    },
+    "efbee783-fa30-4018-b0ce-b0c306cae1a4": {
+      "backgroundColor": "#55FA2E"
+    },
+    "8c0ed408-71d7-44bc-ac8f-90388facb9f7": {
+      "backgroundColor": "#55FA2E"
+    },
+    "78468d9f-33c4-4fbb-9fae-f9441a8ce840": {
+      "backgroundColor": "#55FA2E",
+      "width": 101.5,
+      "height": 45.84375
+    },
+    "5ef74768-acda-4aa4-9cb0-e867481e5b6d": {
+      "backgroundColor": "#8BE7FA",
+      "width": 106.5,
+      "height": 50.34375
+    },
+    "e7fd234c-0b84-4b45-94ad-c1f68fc2f5dc": {
+      "backgroundColor": "#8BE7FA",
+      "width": 104.5,
+      "height": 45.84375
+    },
+    "a0174dcc-6248-4bba-b1e4-ff5a0a3bba29": {
+      "backgroundColor": "#8BE7FA",
+      "width": 120.5,
+      "height": 49.84375
+    },
+    "92a13088-695c-4e27-97ac-a23a703510fc": {
+      "backgroundColor": "#8BE7FA",
+      "width": 113.5,
+      "height": 50.84375
+    },
+    "c19889d4-351b-4f76-a615-e4e70b2269ea": {
+      "backgroundColor": "#A854FA",
+      "width": 135.5,
+      "height": 44.34375
+    },
+    "e26c1d24-ef6a-4ab4-b798-c86f71ded599": {
+      "backgroundColor": "#FAA6DD",
+      "width": 115.5,
+      "height": 52.34375
+    },
+    "5c21d8c1-c628-4d31-9df5-fa34e26569ea": {
+      "backgroundColor": "#FA779D",
+      "width": 96.5,
+      "height": 47.34375
+    },
+    "b4cc4091-c584-4340-9570-5f07cd95db71": {
+      "backgroundColor": "#FA779D"
+    },
+    "18063b3d-efcc-4814-b584-0ede4b21d691": {
+      "backgroundColor": "#FA779D",
+      "width": 96.5,
+      "height": 45.84375
+    },
+    "3edc1b93-bae1-4ebb-84ce-13421d45f3b8": {
+      "backgroundColor": "#FFB156",
+      "width": 108.5,
+      "height": 44.84375
+    },
+    "8a8515f2-0801-4cf6-af9d-216896116d7e": {
+      "backgroundColor": "#FFB156",
+      "width": 110.5,
+      "height": 47.34375
+    },
+    "13fe67b4-6ec9-4f3e-ab16-cb636d773ef7": {
+      "backgroundColor": "#FFB156",
+      "width": 122.5,
+      "height": 53.84375
+    },
+    "6f4d8bc1-8314-42b6-9114-f3d512ec6e08": {
+      "backgroundColor": "#FFB156",
+      "width": 116.5,
+      "height": 57.84375
+    },
+    "5807a289-9d1e-4c34-8ac6-c3899705d953": {
+      "backgroundColor": "#FFEE49",
+      "width": 105.5,
+      "height": 52.84375
+    },
+    "1f13cdc0-3bbf-4d89-8c46-174d11900769": {
+      "backgroundColor": "#FFEE49",
+      "width": 111.5,
+      "height": 54.34375
+    },
+    "63f19da3-ce13-41e6-b280-3608454da801": {
+      "backgroundColor": "#BBB5B5",
+      "width": 112.5,
+      "height": 48.84375
+    },
+    "a5fc078f-4ffe-4e43-99d7-7d37aea3accc": {
+      "backgroundColor": "#BBB5B5",
+      "width": 102.5,
+      "height": 43.34375
+    },
+    "44f006b6-3ea3-487e-be94-4a8f17fc2782": {
+      "backgroundColor": "#FFEE49",
+      "width": 105.5,
+      "height": 46.34375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 20 May 2026 10:57:11 GMT",
+  "diagram": {
+    "width": 2631,
+    "height": 2669,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

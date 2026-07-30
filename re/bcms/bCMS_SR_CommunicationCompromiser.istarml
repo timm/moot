@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version="1.0">
+   <diagram name="bCMS_ActorAssociation.ood">
+      <graphic content="SVG"/>
+      <ielement type="resource" id="_QE3rcNWUEeGoBsT_nT6Xsg" name="Confidential Information"
+                QualitativeReasoningCombinedLabel="Satisfied"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_DWO1oNWUEeGoBsT_nT6Xsg" aref="_0ngMQNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_bL04kNKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_cBDJkNWUEeGoBsT_nT6Xsg" name="Confidential Information"
+                QualitativeReasoningCombinedLabel="Satisfied"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_DWO1oNWUEeGoBsT_nT6Xsg" aref="_0ngMQNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_SgtikNKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_ip00YNWUEeGoBsT_nT6Xsg" name="Confidential Information"
+                QualitativeReasoningCombinedLabel="Satisfied"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_DWO1oNWUEeGoBsT_nT6Xsg" aref="_0ngMQNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_lO7OYNWUEeGoBsT_nT6Xsg" name="Confidential Information"
+                QualitativeReasoningCombinedLabel="Satisfied"
+                initialEvalLabel="Satisfied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender iref="_DWO1oNWUEeGoBsT_nT6Xsg" aref="_0ngMQNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_x4hMINWUEeGoBsT_nT6Xsg" name="Updates"
+                QualitativeReasoningCombinedLabel="PartiallyDenied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_x4pH8NWUEeGoBsT_nT6Xsg"
+                name="Updated Information and Instructions"
+                QualitativeReasoningCombinedLabel="PartiallyDenied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_0dtswNWUEeGoBsT_nT6Xsg"
+                name="Updated Information and Instructions"
+                QualitativeReasoningCombinedLabel="PartiallyDenied"
+                initialEvalLabel="PartiallyDenied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_0dzMUNWUEeGoBsT_nT6Xsg" name="Updates"
+                QualitativeReasoningCombinedLabel="PartiallyDenied"
+                initialEvalLabel="PartiallyDenied">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <actor type="role" id="_2i1X4NKvEeGgRv0sG0abZw" name="Fire Station Coordinator (FSC)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_BGGiUNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_7ajUwNKvEeGgRv0sG0abZw"
+             name="Police Station Coordinator (PSC)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_-aAvgNKvEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_-aAvgNKvEeGgRv0sG0abZw" name="Police Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_8nKcYNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_BGGiUNKwEeGgRv0sG0abZw" name="Fire Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_6PTNINKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_6PTNINKwEeGgRv0sG0abZw" name="Fire Station">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_8nKcYNKwEeGgRv0sG0abZw" name="Police Station">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_SgtikNKxEeGgRv0sG0abZw" name="Fire Station Database">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_6PTNINKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_bL04kNKxEeGgRv0sG0abZw" name="Police Station Database">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_8nKcYNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_zCXP4NKxEeGgRv0sG0abZw" name="Fireman">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_BGGiUNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_P5RJwNKyEeGgRv0sG0abZw" name="Police Officer (Policeman)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_-aAvgNKvEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_0ngMQNKyEeGgRv0sG0abZw" name="Communication Compromiser">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <boundary>
+            <graphic content="basic" xpos="708" ypos="408" width="541" height="433" shape="ellipse"
+                     unit="pt"
+                     bgcolor="FFFFFF"
+                     fontfamily="Segoe UI"
+                     fontcolor="000000"
+                     fontsize="12"/>
+            <ielement type="softgoal" id="_-6vhwNWTEeGoBsT_nT6Xsg" name="Achieve personal gain"
+                      QualitativeReasoningCombinedLabel="PartiallySatisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+            </ielement>
+            <ielement type="softgoal" id="_Ay0dsNWUEeGoBsT_nT6Xsg" name="Achieve monetary gain"
+                      QualitativeReasoningCombinedLabel="PartiallySatisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="some+" iref="_-6vhwNWTEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="goal" id="_DWO1oNWUEeGoBsT_nT6Xsg" name="Access confidential information"
+                      QualitativeReasoningCombinedLabel="Satisfied"
+                      initialEvalLabel="Satisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_Ay0dsNWUEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="decomposition" value="and" iref="_NUM6oNWUEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="goal" id="_G1RIUNWUEeGoBsT_nT6Xsg" name="Disrupt communications"
+                      QualitativeReasoningCombinedLabel="Satisfied"
+                      initialEvalLabel="Satisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_JscJwNWUEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="contribution" value="hurt" iref="_0dzMUNWUEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="contribution" value="hurt" iref="_0dtswNWUEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="contribution" value="hurt" iref="_x4hMINWUEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+               <ielementLink type="contribution" value="hurt" iref="_x4pH8NWUEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="softgoal" id="_JscJwNWUEeGoBsT_nT6Xsg"
+                      name="Disrupting handling of crisis situation"
+                      QualitativeReasoningCombinedLabel="PartiallySatisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_-6vhwNWTEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+            <ielement type="goal" id="_NUM6oNWUEeGoBsT_nT6Xsg" name="Change confidential information"
+                      QualitativeReasoningCombinedLabel="Satisfied"
+                      initialEvalLabel="Satisfied">
+               <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                        bgcolor="FFFFFF"
+                        fontfamily="Segoe UI"
+                        fontcolor="000000"
+                        fontsize="12"/>
+               <ielementLink type="contribution" value="help" iref="_Ay0dsNWUEeGoBsT_nT6Xsg">
+                  <graphic content="SVG"/>
+               </ielementLink>
+            </ielement>
+         </boundary>
+      </actor>
+   </diagram>
+</istarml>

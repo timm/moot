@@ -1,0 +1,573 @@
+{
+  "actors": [
+    {
+      "id": "b50f97eb-e327-4118-b5d3-a33ac44818a4",
+      "text": "INSURANCE REGULATOR",
+      "type": "istar.Actor",
+      "x": 231,
+      "y": 76,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "5c60d8ab-89c4-40a4-ab97-c24f464aedf6",
+      "text": "HEAD OF CUSTOMER DEPT.",
+      "type": "istar.Role",
+      "x": 1259,
+      "y": 614,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "6d59b8e1-6a3e-4934-83ea-273a406475e1",
+      "text": "LEAD PUBLICIST",
+      "type": "istar.Role",
+      "x": 1129,
+      "y": 563,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "c5b99a84-8164-4b5a-a611-6b312309ac29",
+      "text": "HEAD OF MARKETING",
+      "type": "istar.Role",
+      "x": 748,
+      "y": 602,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "72a76e61-c4dc-4b7e-8578-4ca0f7435327",
+      "text": "MARKETING DEPT",
+      "type": "istar.Agent",
+      "x": 748,
+      "y": 327,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "d24f48e3-b4cd-482f-a39e-fe96ae7213f9",
+      "text": "PRODUCT DESIGN DEPT",
+      "type": "istar.Agent",
+      "x": 459,
+      "y": 275,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "229d5618-13b5-4844-a356-2136bad0140f",
+      "text": "MARKET ANALYST",
+      "type": "istar.Role",
+      "x": 476,
+      "y": 524,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "e2a82583-d670-4ccb-9294-83babf133bae",
+      "text": "NEW CUSTOMERS",
+      "type": "istar.Actor",
+      "x": 901,
+      "y": 750,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "ab2af2a9-994f-4f5d-8334-9b1082a8df9c",
+      "text": "SHORTLIFE",
+      "type": "istar.Actor",
+      "x": 684.5,
+      "y": 65,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "6e2da9aa-9055-400f-be77-ba36847a1c0d",
+          "text": "Home theft insurance delivered",
+          "type": "istar.Goal",
+          "x": 812,
+          "y": 73,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0fc215f1-0368-42db-bfbc-a3dec5b0a08f",
+          "text": "create new product",
+          "type": "istar.Task",
+          "x": 684.5,
+          "y": 155,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3a5df4b1-c832-451e-b35d-6718d1f61a67",
+          "text": "Advertise new product",
+          "type": "istar.Task",
+          "x": 895,
+          "y": 162,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "cf2d4a12-7bdf-4526-b92c-f102687c5570",
+      "text": "CUSTOMER SERVICE",
+      "type": "istar.Agent",
+      "x": 1171,
+      "y": 276,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "8be17281-d891-46a8-b184-c9a6a96f9806",
+      "text": "EXISITING CUSTOMERS",
+      "type": "istar.Actor",
+      "x": 1367,
+      "y": 606,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "ba550394-a008-4e11-a562-1723f21d4b75",
+      "text": "Market researched in 10 days",
+      "type": "istar.Goal",
+      "x": 435,
+      "y": 397,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "d24f48e3-b4cd-482f-a39e-fe96ae7213f9",
+      "target": "229d5618-13b5-4844-a356-2136bad0140f"
+    },
+    {
+      "id": "594e3c94-9f3f-4b9b-97ce-59afa9eb2a4d",
+      "text": "Campaign delivered 10 days before release date",
+      "type": "istar.Goal",
+      "x": 715,
+      "y": 469,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "72a76e61-c4dc-4b7e-8578-4ca0f7435327",
+      "target": "c5b99a84-8164-4b5a-a611-6b312309ac29"
+    },
+    {
+      "id": "d781561c-4fbd-487d-9d36-eb234fe16c02",
+      "text": "new home theft insurance",
+      "type": "istar.Resource",
+      "x": 926,
+      "y": 489,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "e2a82583-d670-4ccb-9294-83babf133bae",
+      "target": "72a76e61-c4dc-4b7e-8578-4ca0f7435327"
+    },
+    {
+      "id": "9e208e55-35a5-410c-846e-f1ad7c8e2638",
+      "text": "20% of target customers reached",
+      "type": "istar.Goal",
+      "x": 1017,
+      "y": 421,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "72a76e61-c4dc-4b7e-8578-4ca0f7435327",
+      "target": "6d59b8e1-6a3e-4934-83ea-273a406475e1"
+    },
+    {
+      "id": "961f1e13-31ac-4147-94e8-fe6badc6c3ce",
+      "text": "Research market information",
+      "type": "istar.Task",
+      "x": 523,
+      "y": 185,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "0fc215f1-0368-42db-bfbc-a3dec5b0a08f",
+      "target": "d24f48e3-b4cd-482f-a39e-fe96ae7213f9"
+    },
+    {
+      "id": "f9e19d48-cc8d-478f-b899-2afd5d166a3e",
+      "text": "Design marketing campaign",
+      "type": "istar.Task",
+      "x": 821.5,
+      "y": 244.5,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "3a5df4b1-c832-451e-b35d-6718d1f61a67",
+      "target": "72a76e61-c4dc-4b7e-8578-4ca0f7435327"
+    },
+    {
+      "id": "d9ed3095-51ef-4285-8e61-3bc970bf1438",
+      "text": "perform telemarketing",
+      "type": "istar.Task",
+      "x": 1052,
+      "y": 175,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "3a5df4b1-c832-451e-b35d-6718d1f61a67",
+      "target": "cf2d4a12-7bdf-4526-b92c-f102687c5570"
+    },
+    {
+      "id": "e7b45142-ce8f-4437-b754-cd0460112849",
+      "text": "70% of current customers reached",
+      "type": "istar.Goal",
+      "x": 1202,
+      "y": 408,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "cf2d4a12-7bdf-4526-b92c-f102687c5570",
+      "target": "5c60d8ab-89c4-40a4-ab97-c24f464aedf6"
+    },
+    {
+      "id": "7027976b-cc1f-4d44-a871-b57cd0cc530c",
+      "text": "new home theft insurance",
+      "type": "istar.Resource",
+      "x": 1451,
+      "y": 322,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "8be17281-d891-46a8-b184-c9a6a96f9806",
+      "target": "cf2d4a12-7bdf-4526-b92c-f102687c5570"
+    },
+    {
+      "id": "662c89ad-c3b7-4cab-92bb-b297300282b2",
+      "text": "Hange on home theft insurance regulations",
+      "type": "istar.Resource",
+      "x": 366,
+      "y": 36,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "ab2af2a9-994f-4f5d-8334-9b1082a8df9c",
+      "target": "b50f97eb-e327-4118-b5d3-a33ac44818a4"
+    }
+  ],
+  "links": [
+    {
+      "id": "e1a004f9-6a8a-4aea-b98d-0e0a3629463c",
+      "type": "istar.DependencyLink",
+      "source": "662c89ad-c3b7-4cab-92bb-b297300282b2",
+      "target": "b50f97eb-e327-4118-b5d3-a33ac44818a4"
+    },
+    {
+      "id": "911a80da-094e-49ba-9239-3f3f7892005c",
+      "type": "istar.DependencyLink",
+      "source": "ab2af2a9-994f-4f5d-8334-9b1082a8df9c",
+      "target": "662c89ad-c3b7-4cab-92bb-b297300282b2"
+    },
+    {
+      "id": "a245f515-53e8-4a37-aa46-b8c3a23f707d",
+      "type": "istar.DependencyLink",
+      "source": "7027976b-cc1f-4d44-a871-b57cd0cc530c",
+      "target": "cf2d4a12-7bdf-4526-b92c-f102687c5570"
+    },
+    {
+      "id": "7be85642-d529-472e-9264-b066ecac45a5",
+      "type": "istar.DependencyLink",
+      "source": "8be17281-d891-46a8-b184-c9a6a96f9806",
+      "target": "7027976b-cc1f-4d44-a871-b57cd0cc530c"
+    },
+    {
+      "id": "e69a1aca-2b69-4714-b791-dcf4e5c6197f",
+      "type": "istar.DependencyLink",
+      "source": "e7b45142-ce8f-4437-b754-cd0460112849",
+      "target": "5c60d8ab-89c4-40a4-ab97-c24f464aedf6"
+    },
+    {
+      "id": "ec80c22f-9b91-4ffa-a7fd-7caacad89eeb",
+      "type": "istar.DependencyLink",
+      "source": "cf2d4a12-7bdf-4526-b92c-f102687c5570",
+      "target": "e7b45142-ce8f-4437-b754-cd0460112849"
+    },
+    {
+      "id": "bf44622a-84fa-4399-abde-572d06e703fe",
+      "type": "istar.DependencyLink",
+      "source": "d9ed3095-51ef-4285-8e61-3bc970bf1438",
+      "target": "cf2d4a12-7bdf-4526-b92c-f102687c5570"
+    },
+    {
+      "id": "db4822a7-6b60-44f9-9318-c2377df2bcc0",
+      "type": "istar.DependencyLink",
+      "source": "3a5df4b1-c832-451e-b35d-6718d1f61a67",
+      "target": "d9ed3095-51ef-4285-8e61-3bc970bf1438"
+    },
+    {
+      "id": "d3bc3975-b8bf-4db6-8f19-5d8753343545",
+      "type": "istar.DependencyLink",
+      "source": "f9e19d48-cc8d-478f-b899-2afd5d166a3e",
+      "target": "72a76e61-c4dc-4b7e-8578-4ca0f7435327"
+    },
+    {
+      "id": "e8050e7e-22fb-4192-84ac-ddc0cf52db3b",
+      "type": "istar.DependencyLink",
+      "source": "3a5df4b1-c832-451e-b35d-6718d1f61a67",
+      "target": "f9e19d48-cc8d-478f-b899-2afd5d166a3e"
+    },
+    {
+      "id": "2fecfb3d-7232-468a-9a1f-1c068bcfbac7",
+      "type": "istar.DependencyLink",
+      "source": "961f1e13-31ac-4147-94e8-fe6badc6c3ce",
+      "target": "d24f48e3-b4cd-482f-a39e-fe96ae7213f9"
+    },
+    {
+      "id": "2b68f6c9-99f7-49f0-a551-794da7bb2fac",
+      "type": "istar.DependencyLink",
+      "source": "0fc215f1-0368-42db-bfbc-a3dec5b0a08f",
+      "target": "961f1e13-31ac-4147-94e8-fe6badc6c3ce"
+    },
+    {
+      "id": "2b3e1c92-bc80-4af9-98b0-552601521c6e",
+      "type": "istar.DependencyLink",
+      "source": "9e208e55-35a5-410c-846e-f1ad7c8e2638",
+      "target": "6d59b8e1-6a3e-4934-83ea-273a406475e1"
+    },
+    {
+      "id": "c7ee8222-bd8c-47a8-b19f-01270ae86fba",
+      "type": "istar.DependencyLink",
+      "source": "72a76e61-c4dc-4b7e-8578-4ca0f7435327",
+      "target": "9e208e55-35a5-410c-846e-f1ad7c8e2638"
+    },
+    {
+      "id": "2b7c4bf4-21a0-4bdf-95a2-2fbab5b02019",
+      "type": "istar.DependencyLink",
+      "source": "d781561c-4fbd-487d-9d36-eb234fe16c02",
+      "target": "72a76e61-c4dc-4b7e-8578-4ca0f7435327"
+    },
+    {
+      "id": "0d92d47f-3275-40a0-8652-4be8aec2df35",
+      "type": "istar.DependencyLink",
+      "source": "e2a82583-d670-4ccb-9294-83babf133bae",
+      "target": "d781561c-4fbd-487d-9d36-eb234fe16c02"
+    },
+    {
+      "id": "1e9c3c40-0a88-4eee-bd22-761117caeca2",
+      "type": "istar.DependencyLink",
+      "source": "594e3c94-9f3f-4b9b-97ce-59afa9eb2a4d",
+      "target": "c5b99a84-8164-4b5a-a611-6b312309ac29"
+    },
+    {
+      "id": "839dedbc-5b8d-46c4-81e6-abe77365d41c",
+      "type": "istar.DependencyLink",
+      "source": "72a76e61-c4dc-4b7e-8578-4ca0f7435327",
+      "target": "594e3c94-9f3f-4b9b-97ce-59afa9eb2a4d"
+    },
+    {
+      "id": "4d867660-2ca9-4f3a-9e29-8fed9ff4d958",
+      "type": "istar.DependencyLink",
+      "source": "ba550394-a008-4e11-a562-1723f21d4b75",
+      "target": "229d5618-13b5-4844-a356-2136bad0140f"
+    },
+    {
+      "id": "a18b79ee-b117-4a43-8cff-e699e37e5f48",
+      "type": "istar.DependencyLink",
+      "source": "d24f48e3-b4cd-482f-a39e-fe96ae7213f9",
+      "target": "ba550394-a008-4e11-a562-1723f21d4b75"
+    },
+    {
+      "id": "67559042-f851-42d7-b1c7-a56ab5ce220c",
+      "type": "istar.ParticipatesInLink",
+      "source": "229d5618-13b5-4844-a356-2136bad0140f",
+      "target": "d24f48e3-b4cd-482f-a39e-fe96ae7213f9"
+    },
+    {
+      "id": "0aeee2c0-c8bc-42b9-a80d-fa07488c7779",
+      "type": "istar.ParticipatesInLink",
+      "source": "c5b99a84-8164-4b5a-a611-6b312309ac29",
+      "target": "72a76e61-c4dc-4b7e-8578-4ca0f7435327"
+    },
+    {
+      "id": "df37df24-060f-42c3-9f9a-734cb961a161",
+      "type": "istar.ParticipatesInLink",
+      "source": "6d59b8e1-6a3e-4934-83ea-273a406475e1",
+      "target": "72a76e61-c4dc-4b7e-8578-4ca0f7435327"
+    },
+    {
+      "id": "8a594c75-56f3-491b-b414-78ede5e36379",
+      "type": "istar.ParticipatesInLink",
+      "source": "d24f48e3-b4cd-482f-a39e-fe96ae7213f9",
+      "target": "ab2af2a9-994f-4f5d-8334-9b1082a8df9c"
+    },
+    {
+      "id": "2a3c5463-6432-428d-9414-7a29c447c58b",
+      "type": "istar.AndRefinementLink",
+      "source": "0fc215f1-0368-42db-bfbc-a3dec5b0a08f",
+      "target": "6e2da9aa-9055-400f-be77-ba36847a1c0d"
+    },
+    {
+      "id": "4718ad93-b7fb-4aa0-b5fd-2c50ea2cda4f",
+      "type": "istar.ParticipatesInLink",
+      "source": "72a76e61-c4dc-4b7e-8578-4ca0f7435327",
+      "target": "ab2af2a9-994f-4f5d-8334-9b1082a8df9c"
+    },
+    {
+      "id": "7e0e2555-b74f-48a7-826b-2b4613beaf0a",
+      "type": "istar.AndRefinementLink",
+      "source": "3a5df4b1-c832-451e-b35d-6718d1f61a67",
+      "target": "6e2da9aa-9055-400f-be77-ba36847a1c0d"
+    },
+    {
+      "id": "e2b5b359-71bd-4b8b-8ab2-8bc5f9b180f9",
+      "type": "istar.ParticipatesInLink",
+      "source": "5c60d8ab-89c4-40a4-ab97-c24f464aedf6",
+      "target": "cf2d4a12-7bdf-4526-b92c-f102687c5570"
+    },
+    {
+      "id": "dd2ad19b-042c-4ca4-a763-adf4166bc7f6",
+      "type": "istar.ParticipatesInLink",
+      "source": "cf2d4a12-7bdf-4526-b92c-f102687c5570",
+      "target": "ab2af2a9-994f-4f5d-8334-9b1082a8df9c"
+    }
+  ],
+  "display": {
+    "6e2da9aa-9055-400f-be77-ba36847a1c0d": {
+      "width": 114.5,
+      "height": 43.34375
+    },
+    "594e3c94-9f3f-4b9b-97ce-59afa9eb2a4d": {
+      "width": 111.5,
+      "height": 48.943756103515625
+    },
+    "e7b45142-ce8f-4437-b754-cd0460112849": {
+      "width": 105,
+      "height": 49.34375
+    },
+    "662c89ad-c3b7-4cab-92bb-b297300282b2": {
+      "width": 97.5,
+      "height": 52.84375
+    },
+    "67559042-f851-42d7-b1c7-a56ab5ce220c": {
+      "vertices": [
+        {
+          "x": 376,
+          "y": 425
+        }
+      ]
+    },
+    "0aeee2c0-c8bc-42b9-a80d-fa07488c7779": {
+      "vertices": [
+        {
+          "x": 646,
+          "y": 491
+        }
+      ]
+    },
+    "df37df24-060f-42c3-9f9a-734cb961a161": {
+      "vertices": [
+        {
+          "x": 1179,
+          "y": 378
+        }
+      ]
+    },
+    "8a594c75-56f3-491b-b414-78ede5e36379": {
+      "vertices": [
+        {
+          "x": 469,
+          "y": 104
+        }
+      ]
+    },
+    "4718ad93-b7fb-4aa0-b5fd-2c50ea2cda4f": {
+      "vertices": [
+        {
+          "x": 653,
+          "y": 270
+        }
+      ]
+    },
+    "e2b5b359-71bd-4b8b-8ab2-8bc5f9b180f9": {
+      "vertices": [
+        {
+          "x": 1401,
+          "y": 365
+        }
+      ]
+    },
+    "dd2ad19b-042c-4ca4-a763-adf4166bc7f6": {
+      "vertices": [
+        {
+          "x": 1169,
+          "y": 48
+        },
+        {
+          "x": 914,
+          "y": 36
+        }
+      ]
+    },
+    "b50f97eb-e327-4118-b5d3-a33ac44818a4": {
+      "collapsed": true
+    },
+    "5c60d8ab-89c4-40a4-ab97-c24f464aedf6": {
+      "collapsed": true
+    },
+    "6d59b8e1-6a3e-4934-83ea-273a406475e1": {
+      "collapsed": true
+    },
+    "c5b99a84-8164-4b5a-a611-6b312309ac29": {
+      "collapsed": true
+    },
+    "72a76e61-c4dc-4b7e-8578-4ca0f7435327": {
+      "collapsed": true
+    },
+    "d24f48e3-b4cd-482f-a39e-fe96ae7213f9": {
+      "collapsed": true
+    },
+    "229d5618-13b5-4844-a356-2136bad0140f": {
+      "collapsed": true
+    },
+    "e2a82583-d670-4ccb-9294-83babf133bae": {
+      "collapsed": true
+    },
+    "cf2d4a12-7bdf-4526-b92c-f102687c5570": {
+      "collapsed": true
+    },
+    "8be17281-d891-46a8-b184-c9a6a96f9806": {
+      "collapsed": true
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Wed, 20 May 2026 14:27:43 GMT",
+  "diagram": {
+    "width": 2631,
+    "height": 2669,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

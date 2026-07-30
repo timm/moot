@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<istarml version="1.0">
+   <diagram name="bCMS_ActorAssociation.ood">
+      <graphic content="SVG"/>
+      <ielement type="task" id="_faUZINZdEeGEcPF3l4_aDA" name="Introduction">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_fchYkNZdEeGEcPF3l4_aDA"
+                name="Strategy for handling crisis">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="goal" id="_fcnfMNZdEeGEcPF3l4_aDA"
+                name="Keep up to date on nature of crisis and deployed resources">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_fcuM4NZdEeGEcPF3l4_aDA"
+                name="Strategy for handling crisis">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="goal" id="_fcx3QNZdEeGEcPF3l4_aDA"
+                name="Keep up to date on nature of crisis and deployed resources">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="task" id="_fc2IsNZdEeGEcPF3l4_aDA" name="Introduction">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_I_5lENZeEeGEcPF3l4_aDA" name="Updates">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_JANHENZeEeGEcPF3l4_aDA"
+                name="Updated Information and Instructions">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_PokiMNZeEeGEcPF3l4_aDA" name="Updates">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_Po0Z0NZeEeGEcPF3l4_aDA"
+                name="Updated Information and Instructions">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_oi7G8NZeEeGEcPF3l4_aDA" name="Crisis-related Information">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <depender aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="__KjwwNKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_ojPQANZeEeGEcPF3l4_aDA" name="Instructions">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="__KjwwNKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+            <dependee aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_ojS6YNZeEeGEcPF3l4_aDA" name="Crisis status">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="__KjwwNKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+            <dependee aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_ojWkwNZeEeGEcPF3l4_aDA" name="Instructions">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_CSZrcNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+            <dependee aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_oja2MNZeEeGEcPF3l4_aDA" name="Crisis-related Information">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <depender aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_CSZrcNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_dGd1QNZfEeGEcPF3l4_aDA" name="Policies">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_dGpbcNZfEeGEcPF3l4_aDA" name="Funding">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_dGsewNZfEeGEcPF3l4_aDA" name="Policies">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_dGviENZfEeGEcPF3l4_aDA" name="Funding">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="goal" id="_dGylYNZfEeGEcPF3l4_aDA" name="Follow policies">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="goal" id="_dG2PwNZfEeGEcPF3l4_aDA" name="Follow policies">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_wHtnMNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_8nKcYNKwEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_WvZwENZgEeGEcPF3l4_aDA" name="Confidential Information">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_0ngMQNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_SgtikNKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_WvpnsNZgEeGEcPF3l4_aDA" name="Confidential Information">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_0ngMQNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_zCXP4NKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_WvsrANZgEeGEcPF3l4_aDA" name="Confidential Information">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_0ngMQNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_bL04kNKxEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_WvvuUNZgEeGEcPF3l4_aDA" name="Confidential Information">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_0ngMQNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_P5RJwNKyEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="goal" id="_d6b2gNcoEeGm38VlbacIsw"
+                name="Keep up to date on nature of crisis and deployed resources">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_d6ruINcoEeGm38VlbacIsw"
+                name="Strategy for handling crisis">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="task" id="_d6wmoNcoEeGm38VlbacIsw" name="Introduction">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_7ajUwNKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="goal" id="_fxjwMNcoEeGm38VlbacIsw"
+                name="Keep up to date on nature of crisis and deployed resources">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="resource" id="_fxvWYNcoEeGm38VlbacIsw"
+                name="Strategy for handling crisis">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <ielement type="task" id="_fx0O4NcoEeGm38VlbacIsw" name="Introduction">
+         <graphic content="basic" xpos="0" ypos="0" width="120" height="55" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <dependency>
+            <depender aref="_ZJI8sdZiEeGhVvZXcyIOAA">
+               <graphic content="SVG"/>
+            </depender>
+            <dependee aref="_2i1X4NKvEeGgRv0sG0abZw">
+               <graphic content="SVG"/>
+            </dependee>
+         </dependency>
+      </ielement>
+      <actor type="role" id="_2i1X4NKvEeGgRv0sG0abZw" name="Fire Station Coordinator (FSC)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_BGGiUNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+         <actorLink type="is_a" aref="_H6iDgNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_7ajUwNKvEeGgRv0sG0abZw"
+             name="Police Station Coordinator (PSC)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_H6iDgNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+         <actorLink type="is_a" aref="_-aAvgNKvEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_-aAvgNKvEeGgRv0sG0abZw" name="Police Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_8nKcYNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_BGGiUNKwEeGgRv0sG0abZw" name="Fire Personnel">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_6PTNINKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_H6iDgNKwEeGgRv0sG0abZw" name="Coordinators">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_QshdkNKwEeGgRv0sG0abZw" name="Human Distributed Coordinator">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="plays" aref="_H6iDgNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+         <actorLink type="plays" aref="_MM8TUNcjEeGm38VlbacIsw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_6PTNINKwEeGgRv0sG0abZw" name="Fire Station">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_8nKcYNKwEeGgRv0sG0abZw" name="Police Station">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_SgtikNKxEeGgRv0sG0abZw" name="Fire Station Database">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_6PTNINKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_bL04kNKxEeGgRv0sG0abZw" name="Police Station Database">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_part_of" aref="_8nKcYNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="_zCXP4NKxEeGgRv0sG0abZw" name="Fireman">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_BGGiUNKwEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="role" id="__KjwwNKxEeGgRv0sG0abZw" name="Victim">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="role" id="_CSZrcNKyEeGgRv0sG0abZw" name="Witnesses">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="role" id="_P5RJwNKyEeGgRv0sG0abZw" name="Police Officer (Policeman)">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+         <actorLink type="is_a" aref="_-aAvgNKvEeGgRv0sG0abZw">
+            <graphic content="SVG"/>
+         </actorLink>
+      </actor>
+      <actor type="agent" id="_wHtnMNKyEeGgRv0sG0abZw" name="Government Agency">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="role" id="_0ngMQNKyEeGgRv0sG0abZw" name="Communication Compromiser">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="agent" id="_ZJI8sdZiEeGhVvZXcyIOAA" name="bCMS">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+      <actor type="role" id="_MM8TUNcjEeGm38VlbacIsw" name="Lead Coordinator">
+         <graphic content="basic" xpos="0" ypos="0" width="100" height="100" unit="pt"
+                  bgcolor="FFFFFF"
+                  fontfamily="Segoe UI"
+                  fontcolor="000000"
+                  fontsize="12"/>
+      </actor>
+   </diagram>
+</istarml>

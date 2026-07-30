@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<istarml version='1.0'>
+    <diagram name='OSS Release' strategy_version='1.0' last_modification='25/06/2014'>
+        <actor id='USER' name='OSS User'>
+        </actor>
+        <actor id='CMP' name='OSS Adopter'>
+            <boundary>	
+                <ielement id='OSS-Release' name='Perform OSS Release' type='task'>
+                    <ielementLink type='decomposition'>
+						<ielement id='Act-DEV' name='Develop Project' type='task'/>
+		                <ielement id='Goal-Quality-Tech' name='Technical quality' type='softgoal'>
+							<ielementLink type='contribution' value='Help'>
+								<ielement iref='Act-ACQ-Tech'/>
+							</ielementLink>
+						</ielement>
+						<ielement id='Goal-USE' name='OSS component used' type='goal'>
+							<ielementLink type='means-end'>
+								<ielement id='Act-DEP' name='Deploy OSS component' type='task'/>
+								<ielement id='Act-INT' name='Include OSS component in other software' type='task'/>
+							</ielementLink>
+						</ielement>
+						<ielement id='Act-TEST-Prod' name='Test product' type='task'/>
+						<ielement id='Act-MAINT-Prod' name='Maintain product' type='task'/>
+						<ielement id='Act-RELEASE' name='Release OSS component' type='task'/>
+                    </ielementLink>
+                </ielement>
+            </boundary>
+        </actor>
+        <ielement id='Res-Tech-DOCUM' name='Technical documentation' type='resource'>
+            <dependency>
+                <depender aref='USER'/>
+                <depender aref='CMP' iref='Act-RELEASE'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-User-DOCUM' name='User documentation' type='resource'>
+            <dependency>
+                <depender aref='USER'/>
+                <depender aref='CMP' iref='Act-RELEASE'/>
+            </dependency>
+        </ielement>
+        <ielement id='Res-OSS-Comp' name='OSS component' type='resource'>
+            <dependency>
+                <depender aref='USER'/>
+                <depender aref='CMP' iref='Act-RELEASE'/>
+            </dependency>
+        </ielement>
+    </diagram>
+</istarml>

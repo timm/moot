@@ -1,0 +1,3253 @@
+{
+    "edges": [
+        {
+            "component": "edge", 
+            "id": 114, 
+            "source": "SA s are Outgoing1", 
+            "target": "SA s are Outgoing", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 115, 
+            "source": "Keep in Touch with Volunteers", 
+            "target": "Increase Involvement of SA s", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 116, 
+            "source": "Presenation Be Initiated", 
+            "target": "Give CS Presentations1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 117, 
+            "source": "Give CS Presentations1", 
+            "target": "Acquire Public Speaking Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 118, 
+            "source": "Run Fundraiser in Schools1", 
+            "target": "Acquire Fundraising Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 119, 
+            "source": "Speak at Fundraisers", 
+            "target": "Speak at Fundraisers2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 120, 
+            "source": "Put on SA Training Conferences", 
+            "target": "Engage Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 121, 
+            "source": "Happiness [Student Ambassadors]", 
+            "target": "SA s are Enthusiastic", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 122, 
+            "source": "Retrain SA s", 
+            "target": "Acquire Public Speaking Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 123, 
+            "source": "Increase Skills", 
+            "target": "Happiness [Student Ambassadors]2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 124, 
+            "source": "SA s are Confident1", 
+            "target": "SA s are Confident", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 125, 
+            "source": "Run Fundraiser in Schools2", 
+            "target": "Spread Awareness", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 126, 
+            "source": "Ask for Help with Presentations", 
+            "target": "Give CS Presentations1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 127, 
+            "source": "Speak at Fundraisers", 
+            "target": "Acquire Public Speaking Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 128, 
+            "source": "Acquire Volunteer Outreach Skills", 
+            "target": "Be Outgoing", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 129, 
+            "source": "Plan Social Events", 
+            "target": "Make New Friends2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 130, 
+            "source": "Give CS Presentations2", 
+            "target": "Give CS Presentations3", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 131, 
+            "source": "Run Fundraiser in Schools1", 
+            "target": "Run Fundraiser in Schools", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 132, 
+            "source": "Make New Friends", 
+            "target": "Happiness [Student Ambassadors]2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 133, 
+            "source": "Acquire Fundraising Skills", 
+            "target": "Be Organized", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 134, 
+            "source": "Provide Promotion Resources", 
+            "target": "Promotion Resources", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 135, 
+            "source": "SA s are Enthusiastic", 
+            "target": "Engage Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 136, 
+            "source": "Acquire Fundraising Skills", 
+            "target": "Be Outgoing", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 137, 
+            "source": "Train SA s", 
+            "target": "Acquire Public Speaking Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 138, 
+            "source": "Send out Emails1", 
+            "target": "Send out Emails2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 139, 
+            "source": "Help with Presentations", 
+            "target": "Help with Presentations1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 140, 
+            "source": "Write Articles for Newspaper1", 
+            "target": "Spread Awareness", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 141, 
+            "source": "Reduce Misconceptions1", 
+            "target": "Reduce Misconceptions", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 142, 
+            "source": "More Promotion Resources Available", 
+            "target": "Engage Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 143, 
+            "source": "Give Back to Community1", 
+            "target": "Give Back to Community", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 144, 
+            "source": "Speaches", 
+            "target": "Get Speaches", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 145, 
+            "source": "Kids Be Used to Communicate with Other Kids", 
+            "target": "Trust [of Kids]1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 146, 
+            "source": "Be Organized", 
+            "target": "Increase Skills", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 147, 
+            "source": "Help Put on SA Training Conferences1", 
+            "target": "Put on SA Training Conferences2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 148, 
+            "source": "Attend CS Meetings", 
+            "target": "Acquire Fundraising Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 149, 
+            "source": "Send out Emails", 
+            "target": "Send out Emails1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 150, 
+            "source": "Plan and Put on Reconnection Conferences", 
+            "target": "Increase Involvement of SA s", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 151, 
+            "source": "Trust [of Kids]1", 
+            "target": "Trust [of Kids]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 152, 
+            "source": "Write Articles for Newspaper1", 
+            "target": "Keep in Touch with Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 153, 
+            "source": "Be Outgoing", 
+            "target": "SA s are Outgoing1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 154, 
+            "source": "Attend SA Meetings", 
+            "target": "Make New Friends2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 155, 
+            "source": "More Promotion Resources Available", 
+            "target": "Spread Awareness", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 156, 
+            "source": "Help with Presentations1", 
+            "target": "Find Help with Presentations1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 157, 
+            "source": "Have Time for School2", 
+            "target": "Have Time for School1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 158, 
+            "source": "Write Articles for Newspaper", 
+            "target": "Write Articles for Newspaper2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 159, 
+            "source": "Have Time for School1", 
+            "target": "Have Time for School", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 160, 
+            "source": "Help Put on SA Training Conferences", 
+            "target": "Make New Friends2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 161, 
+            "source": "SA s are Organized1", 
+            "target": "SA s are Organized", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 162, 
+            "source": "Plan and Put on Reconnection Conferences", 
+            "target": "Keep in Touch with Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 163, 
+            "source": "Write Articles for Newspaper2", 
+            "target": "Write Articles for Newspaper1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 164, 
+            "source": "Happiness [Student Ambassadors]", 
+            "target": "Quality SA Services1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 165, 
+            "source": "Send out Emails2", 
+            "target": "Keep in Touch with Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 166, 
+            "source": "Acquire Volunteer Outreach Skills", 
+            "target": "Be Confident", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 167, 
+            "source": "Provide Speaches", 
+            "target": "Quality SA Services1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 168, 
+            "source": "Plan and Put on Reconnection Conferences1", 
+            "target": "Plan and Put on Reconnection Conferences", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 169, 
+            "source": "Initiate Presentation With Schools", 
+            "target": "Presenation Be Initiated", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 170, 
+            "source": "Run Fundraiser in Schools1", 
+            "target": "Acquire Volunteer Outreach Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 171, 
+            "source": "Retrain SA s", 
+            "target": "Acquire Fundraising Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 172, 
+            "source": "Help Put on SA Training Conferences", 
+            "target": "Help Put on SA Training Conferences1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 173, 
+            "source": "Spread Awareness", 
+            "target": "*Engagement Student Ambassadors in promoting awareness", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 174, 
+            "source": "Train SA s", 
+            "target": "Acquire Fundraising Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 175, 
+            "source": "Kids Be Used to Communicate with Other Kids", 
+            "target": "Improve Image to Kids1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 176, 
+            "source": "Spread Awareness", 
+            "target": "Spread Awareness1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 177, 
+            "source": "Experience for Resume", 
+            "target": "Happiness [Student Ambassadors]2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 178, 
+            "source": "High Presentation Attendance", 
+            "target": "*Expansion of SA Services", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 179, 
+            "source": "Happiness [Student Ambassadors]", 
+            "target": "Engage Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 180, 
+            "source": "Train SA s", 
+            "target": "Help Put on SA Training Conferences", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 181, 
+            "source": "Acquire Public Speaking Skills", 
+            "target": "Be Outgoing", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 182, 
+            "source": "Plan and Put on Reconnection Conferences2", 
+            "target": "Plan and Put on Reconnection Conferences1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 183, 
+            "source": "Speak at Fundraisers1", 
+            "target": "Spread Awareness", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 184, 
+            "source": "More Promotion Resources Available", 
+            "target": "Quality SA Services1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 185, 
+            "source": "Give Back to Community2", 
+            "target": "Give Back to Community1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 186, 
+            "source": "Quality SA Services1", 
+            "target": "Engage Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 187, 
+            "source": "Help with Presentations", 
+            "target": "Give Back to Community2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 188, 
+            "source": "SA s are Confident", 
+            "target": "Quality SA Services1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 189, 
+            "source": "Write Articles for Newspaper", 
+            "target": "Community Service Hours Completed1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 190, 
+            "source": "Run Fundraiser in Schools", 
+            "target": "Run Fundraiser in Schools2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 191, 
+            "source": "Happiness [Student Ambassadors]2", 
+            "target": "Happiness [Student Ambassadors]1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 192, 
+            "source": "Increase Involvement of SA s", 
+            "target": "*Expansion of SA Services", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 193, 
+            "source": "Acquire Fundraising Skills1", 
+            "target": "Acquire Fundraising Skills", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 194, 
+            "source": "Acquire Public Speaking Skills", 
+            "target": "Be Confident", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 195, 
+            "source": "SA s are Enthusiastic1", 
+            "target": "SA s are Enthusiastic", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 196, 
+            "source": "Attend CS Meetings", 
+            "target": "Community Service Hours Completed1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 197, 
+            "source": "Acquire Public Speaking Skills1", 
+            "target": "Acquire Public Speaking Skills", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 198, 
+            "source": "Promotion Resources1", 
+            "target": "Provide Promotion Resources", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 199, 
+            "source": "Positive Reputation [CS]", 
+            "target": "Engage Volunteers", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 200, 
+            "source": "Attend SA Meetings", 
+            "target": "Community Service Hours Completed1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 201, 
+            "source": "Positive Reputation [CS]", 
+            "target": "High Presentation Attendance", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 202, 
+            "source": "Provide Speaches", 
+            "target": "Speaches", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 203, 
+            "source": "Help Plan and Put on Reconnection Conferences", 
+            "target": "Help Plan and Put on Reconnection Conferences1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 204, 
+            "source": "Permission for Presentations Be Given", 
+            "target": "Initiate Presentation With Schools", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 205, 
+            "source": "Train SA s", 
+            "target": "Acquire Volunteer Outreach Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 206, 
+            "source": "Be Enthusiastic", 
+            "target": "SA s are Enthusiastic1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 207, 
+            "source": "Happiness [Student Ambassadors]1", 
+            "target": "Happiness [Student Ambassadors]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 208, 
+            "source": "Give CS Presentations1", 
+            "target": "Community Service Hours Completed1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 209, 
+            "source": "Make New Friends1", 
+            "target": "Make New Friends", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 210, 
+            "source": "Send out Emails", 
+            "target": "Find Help with Presentations1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 211, 
+            "source": "Community Service Hours Completed1", 
+            "target": "Have Time for School2", 
+            "type": "contribution", 
+            "value": "hurt"
+        }, 
+        {
+            "component": "edge", 
+            "id": 212, 
+            "source": "Be Organized", 
+            "target": "SA s are Organized1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 213, 
+            "source": "*Increase Writing Skills1", 
+            "target": "*Increase Writing Skills", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 214, 
+            "source": "Find Help with Presentations", 
+            "target": "Ask for Help with Presentations", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 215, 
+            "source": "Write Articles for Newspaper", 
+            "target": "*Increase Writing Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 216, 
+            "source": "Quality SA Services1", 
+            "target": "Quality SA Services", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 217, 
+            "source": "Retrain SA s", 
+            "target": "Acquire Volunteer Outreach Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 218, 
+            "source": "Increase Skills", 
+            "target": "Experience for Resume", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 219, 
+            "source": "Run Fundraiser in Schools1", 
+            "target": "Acquire Public Speaking Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 220, 
+            "source": "Speak at Fundraisers1", 
+            "target": "Speak at Fundraisers3", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 221, 
+            "source": "Provide Promotion Resources", 
+            "target": "Quality SA Services1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 222, 
+            "source": "Happiness [Student Ambassadors]", 
+            "target": "SA s are Outgoing", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 223, 
+            "source": "Acquire Public Speaking Skills2", 
+            "target": "Acquire Public Speaking Skills1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 224, 
+            "source": "Promotion Resources", 
+            "target": "Get Promotion Resources", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 225, 
+            "source": "Put on SA Training Conferences1", 
+            "target": "Put on SA Training Conferences", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 226, 
+            "source": "Speak at Fundraisers1", 
+            "target": "Reduce Misconceptions1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 227, 
+            "source": "Put on SA Training Conferences2", 
+            "target": "Put on SA Training Conferences1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 228, 
+            "source": "Have Time for School", 
+            "target": "Happiness [Student Ambassadors]2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 229, 
+            "source": "Community Service Hours Completed1", 
+            "target": "Community Service Hours Completed", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 230, 
+            "source": "Help Put on SA Training Conferences", 
+            "target": "Community Service Hours Completed1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 231, 
+            "source": "Be Confident", 
+            "target": "SA s are Confident1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 232, 
+            "source": "Give Back to Community", 
+            "target": "Happiness [Student Ambassadors]2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 233, 
+            "source": "Community Service Hours Completed2", 
+            "target": "Happiness [Student Ambassadors]2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 234, 
+            "source": "Acquire Volunteer Outreach Skills", 
+            "target": "Be Enthusiastic", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 235, 
+            "source": "Increased SA Resources1", 
+            "target": "More Promotion Resources Available", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 236, 
+            "source": "SA s are Organized", 
+            "target": "Quality SA Services1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 237, 
+            "source": "Acquire Volunteer Outreach Skills1", 
+            "target": "Acquire Volunteer Outreach Skills", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 238, 
+            "source": "Acquire Public Speaking Skills", 
+            "target": "Be Enthusiastic", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 239, 
+            "source": "Attend CS Meetings", 
+            "target": "Acquire Volunteer Outreach Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 240, 
+            "source": "Kids Be Used to Communicate with Other Kids", 
+            "target": "Quality SA Services1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 241, 
+            "source": "Acquire Fundraising Skills", 
+            "target": "Be Enthusiastic", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 242, 
+            "source": "Positive Reputation [CS]1", 
+            "target": "Positive Reputation [CS]", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 243, 
+            "source": "Community Service Hours Completed", 
+            "target": "Community Service Hours Completed2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 244, 
+            "source": "Help Plan and Put on Reconnection Conferences", 
+            "target": "Acquire Public Speaking Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 245, 
+            "source": "Acquire Fundraising Skills2", 
+            "target": "Acquire Fundraising Skills1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 246, 
+            "source": "Give CS Presentations2", 
+            "target": "Reduce Misconceptions1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 247, 
+            "source": "Improve Image to Kids1", 
+            "target": "Improve Image to Kids", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 248, 
+            "source": "Create Life Long Volunteer Spirit1", 
+            "target": "Create Life Long Volunteer Spirit", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 249, 
+            "source": "Help Plan and Put on Reconnection Conferences", 
+            "target": "Acquire Volunteer Outreach Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 250, 
+            "source": "Run Fundraiser in Schools1", 
+            "target": "Give Back to Community2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 251, 
+            "source": "Get Promotion Resources", 
+            "target": "Give CS Presentations1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 252, 
+            "source": "Acquire Volunteer Outreach Skills2", 
+            "target": "Acquire Volunteer Outreach Skills1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 253, 
+            "source": "Make New Friends2", 
+            "target": "Make New Friends1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 254, 
+            "source": "Spread Awareness", 
+            "target": "*Expansion of SA Services", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 255, 
+            "source": "Engage Volunteers", 
+            "target": "Create Life Long Volunteer Spirit1", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 256, 
+            "source": "Speak at Fundraisers", 
+            "target": "Give Back to Community2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 257, 
+            "source": "Help Plan and Put on Reconnection Conferences1", 
+            "target": "Plan and Put on Reconnection Conferences2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 258, 
+            "source": "Run Fundraiser in Schools1", 
+            "target": "Community Service Hours Completed1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 259, 
+            "source": "Be Confident", 
+            "target": "Increase Skills", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 260, 
+            "source": "Ask for Help with Presentations", 
+            "target": "Speak at Fundraisers", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 261, 
+            "source": "Retrain SA s", 
+            "target": "Help Plan and Put on Reconnection Conferences", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 262, 
+            "source": "Be Outgoing", 
+            "target": "Make New Friends", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 263, 
+            "source": "Write Articles for Newspaper", 
+            "target": "Make New Friends2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 264, 
+            "source": "Find Help with Presentations1", 
+            "target": "Find Help with Presentations", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 265, 
+            "source": "Happiness [Student Ambassadors]", 
+            "target": "Increase Involvement of SA s", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 266, 
+            "source": "Give CS Presentations", 
+            "target": "Give CS Presentations2", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 267, 
+            "source": "Give CS Presentations1", 
+            "target": "Give Back to Community2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 268, 
+            "source": "School Initiates Presenation", 
+            "target": "Presenation Be Initiated", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 269, 
+            "source": "Give CS Presentations2", 
+            "target": "Spread Awareness", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 270, 
+            "source": "Help Plan and Put on Reconnection Conferences", 
+            "target": "Community Service Hours Completed1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 271, 
+            "source": "Speak at Fundraisers2", 
+            "target": "Speak at Fundraisers1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 272, 
+            "source": "Give CS Presentations1", 
+            "target": "Give CS Presentations", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 273, 
+            "source": "Help with Presentations", 
+            "target": "Make New Friends2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 274, 
+            "source": "Speak at Fundraisers", 
+            "target": "Acquire Fundraising Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 275, 
+            "source": "Engage Volunteers", 
+            "target": "*Expansion of SA Services", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 276, 
+            "source": "*Increase Writing Skills2", 
+            "target": "*Increase Writing Skills1", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 277, 
+            "source": "Increased SA Resources1", 
+            "target": "Increased SA Resources", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 278, 
+            "source": "Give CS Presentations1", 
+            "target": "Acquire Volunteer Outreach Skills2", 
+            "type": "contribution", 
+            "value": "help"
+        }, 
+        {
+            "component": "edge", 
+            "id": 279, 
+            "source": "Speak at Fundraisers", 
+            "target": "Community Service Hours Completed1", 
+            "type": "decompositions", 
+            "value": "or"
+        }, 
+        {
+            "component": "edge", 
+            "id": 280, 
+            "source": "School Initiates Presenation1", 
+            "target": "School Initiates Presenation", 
+            "type": "dependency", 
+            "value": "dependency"
+        }, 
+        {
+            "component": "edge", 
+            "id": 281, 
+            "source": "Provide Promotion Resources", 
+            "target": "More Promotion Resources Available", 
+            "type": "contribution", 
+            "value": "hurt"
+        }
+    ], 
+    "name": "CSSAProgram", 
+    "nodes": [
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                252
+            ], 
+            "id": "Acquire Volunteer Outreach Skills1", 
+            "is_random": false, 
+            "name": "Acquire Volunteer Outreach Skills1", 
+            "to_edges": [
+                237
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                218
+            ], 
+            "id": "Experience for Resume", 
+            "is_random": false, 
+            "name": "Experience for Resume", 
+            "to_edges": [
+                177
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                202
+            ], 
+            "id": "Speaches", 
+            "is_random": false, 
+            "name": "Speaches", 
+            "to_edges": [
+                144
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                175
+            ], 
+            "id": "Improve Image to Kids1", 
+            "is_random": false, 
+            "name": "Improve Image to Kids1", 
+            "to_edges": [
+                247
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                260
+            ], 
+            "id": "Speak at Fundraisers", 
+            "is_random": false, 
+            "name": "Speak at Fundraisers", 
+            "to_edges": [
+                119, 
+                127, 
+                256, 
+                274, 
+                279
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                223
+            ], 
+            "id": "Acquire Public Speaking Skills1", 
+            "is_random": false, 
+            "name": "Acquire Public Speaking Skills1", 
+            "to_edges": [
+                197
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Attend SA Meetings", 
+            "is_random": false, 
+            "name": "Attend SA Meetings", 
+            "to_edges": [
+                154, 
+                200
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                277
+            ], 
+            "id": "Increased SA Resources", 
+            "is_random": false, 
+            "name": "Increased SA Resources", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                193
+            ], 
+            "id": "Acquire Fundraising Skills", 
+            "is_random": false, 
+            "name": "Acquire Fundraising Skills", 
+            "to_edges": [
+                133, 
+                136, 
+                241
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                115, 
+                150, 
+                265
+            ], 
+            "id": "Increase Involvement of SA s", 
+            "is_random": false, 
+            "name": "Increase Involvement of SA s", 
+            "to_edges": [
+                192
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                253
+            ], 
+            "id": "Make New Friends1", 
+            "is_random": false, 
+            "name": "Make New Friends1", 
+            "to_edges": [
+                209
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                229
+            ], 
+            "id": "Community Service Hours Completed", 
+            "is_random": false, 
+            "name": "Community Service Hours Completed", 
+            "to_edges": [
+                243
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                146, 
+                259
+            ], 
+            "id": "Increase Skills", 
+            "is_random": false, 
+            "name": "Increase Skills", 
+            "to_edges": [
+                123, 
+                218
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                151
+            ], 
+            "id": "Trust [of Kids]", 
+            "is_random": false, 
+            "name": "Trust [of Kids]", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                149
+            ], 
+            "id": "Send out Emails1", 
+            "is_random": false, 
+            "name": "Send out Emails1", 
+            "to_edges": [
+                138
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                180
+            ], 
+            "id": "Help Put on SA Training Conferences", 
+            "is_random": false, 
+            "name": "Help Put on SA Training Conferences", 
+            "to_edges": [
+                160, 
+                172, 
+                230
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                158
+            ], 
+            "id": "Write Articles for Newspaper2", 
+            "is_random": false, 
+            "name": "Write Articles for Newspaper2", 
+            "to_edges": [
+                163
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                198
+            ], 
+            "id": "Provide Promotion Resources", 
+            "is_random": false, 
+            "name": "Provide Promotion Resources", 
+            "to_edges": [
+                134, 
+                221, 
+                281
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                118, 
+                148, 
+                171, 
+                174, 
+                274
+            ], 
+            "id": "Acquire Fundraising Skills2", 
+            "is_random": false, 
+            "name": "Acquire Fundraising Skills2", 
+            "to_edges": [
+                245
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                248
+            ], 
+            "id": "Create Life Long Volunteer Spirit", 
+            "is_random": false, 
+            "name": "Create Life Long Volunteer Spirit", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                212
+            ], 
+            "id": "SA s are Organized1", 
+            "is_random": false, 
+            "name": "SA s are Organized1", 
+            "to_edges": [
+                161
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                178, 
+                192, 
+                254, 
+                275
+            ], 
+            "id": "*Expansion of SA Services", 
+            "is_random": false, 
+            "name": "*Expansion of SA Services", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                131
+            ], 
+            "id": "Run Fundraiser in Schools", 
+            "is_random": false, 
+            "name": "Run Fundraiser in Schools", 
+            "to_edges": [
+                190
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "School Initiates Presenation1", 
+            "is_random": false, 
+            "name": "School Initiates Presenation1", 
+            "to_edges": [
+                280
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                255
+            ], 
+            "id": "Create Life Long Volunteer Spirit1", 
+            "is_random": false, 
+            "name": "Create Life Long Volunteer Spirit1", 
+            "to_edges": [
+                248
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                116, 
+                126, 
+                251
+            ], 
+            "id": "Give CS Presentations1", 
+            "is_random": false, 
+            "name": "Give CS Presentations1", 
+            "to_edges": [
+                117, 
+                208, 
+                267, 
+                272, 
+                278
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Plan Social Events", 
+            "is_random": false, 
+            "name": "Plan Social Events", 
+            "to_edges": [
+                129
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                144
+            ], 
+            "id": "Get Speaches", 
+            "is_random": false, 
+            "name": "Get Speaches", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                190
+            ], 
+            "id": "Run Fundraiser in Schools2", 
+            "is_random": false, 
+            "name": "Run Fundraiser in Schools2", 
+            "to_edges": [
+                125
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                166, 
+                194
+            ], 
+            "id": "Be Confident", 
+            "is_random": false, 
+            "name": "Be Confident", 
+            "to_edges": [
+                231, 
+                259
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                224
+            ], 
+            "id": "Get Promotion Resources", 
+            "is_random": false, 
+            "name": "Get Promotion Resources", 
+            "to_edges": [
+                251
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                272
+            ], 
+            "id": "Give CS Presentations", 
+            "is_random": false, 
+            "name": "Give CS Presentations", 
+            "to_edges": [
+                266
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Increased SA Resources1", 
+            "is_random": false, 
+            "name": "Increased SA Resources1", 
+            "to_edges": [
+                235, 
+                277
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                153
+            ], 
+            "id": "SA s are Outgoing1", 
+            "is_random": false, 
+            "name": "SA s are Outgoing1", 
+            "to_edges": [
+                114
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                161
+            ], 
+            "id": "SA s are Organized", 
+            "is_random": false, 
+            "name": "SA s are Organized", 
+            "to_edges": [
+                236
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                207
+            ], 
+            "id": "Happiness [Student Ambassadors]", 
+            "is_random": false, 
+            "name": "Happiness [Student Ambassadors]", 
+            "to_edges": [
+                121, 
+                164, 
+                179, 
+                222, 
+                265
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                152, 
+                162, 
+                165
+            ], 
+            "id": "Keep in Touch with Volunteers", 
+            "is_random": false, 
+            "name": "Keep in Touch with Volunteers", 
+            "to_edges": [
+                115
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                182
+            ], 
+            "id": "Plan and Put on Reconnection Conferences1", 
+            "is_random": false, 
+            "name": "Plan and Put on Reconnection Conferences1", 
+            "to_edges": [
+                168
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Retrain SA s", 
+            "is_random": false, 
+            "name": "Retrain SA s", 
+            "to_edges": [
+                122, 
+                171, 
+                217, 
+                261
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                264
+            ], 
+            "id": "Find Help with Presentations", 
+            "is_random": false, 
+            "name": "Find Help with Presentations", 
+            "to_edges": [
+                214
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                234, 
+                238, 
+                241
+            ], 
+            "id": "Be Enthusiastic", 
+            "is_random": false, 
+            "name": "Be Enthusiastic", 
+            "to_edges": [
+                206
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                211
+            ], 
+            "id": "Have Time for School2", 
+            "is_random": false, 
+            "name": "Have Time for School2", 
+            "to_edges": [
+                157
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                225
+            ], 
+            "id": "Put on SA Training Conferences", 
+            "is_random": false, 
+            "name": "Put on SA Training Conferences", 
+            "to_edges": [
+                120
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                247
+            ], 
+            "id": "Improve Image to Kids", 
+            "is_random": false, 
+            "name": "Improve Image to Kids", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                242
+            ], 
+            "id": "Positive Reputation [CS]", 
+            "is_random": false, 
+            "name": "Positive Reputation [CS]", 
+            "to_edges": [
+                199, 
+                201
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                157
+            ], 
+            "id": "Have Time for School1", 
+            "is_random": false, 
+            "name": "Have Time for School1", 
+            "to_edges": [
+                159
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                227
+            ], 
+            "id": "Put on SA Training Conferences1", 
+            "is_random": false, 
+            "name": "Put on SA Training Conferences1", 
+            "to_edges": [
+                225
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                163
+            ], 
+            "id": "Write Articles for Newspaper1", 
+            "is_random": false, 
+            "name": "Write Articles for Newspaper1", 
+            "to_edges": [
+                140, 
+                152
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                139
+            ], 
+            "id": "Help with Presentations1", 
+            "is_random": false, 
+            "name": "Help with Presentations1", 
+            "to_edges": [
+                156
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                214
+            ], 
+            "id": "Ask for Help with Presentations", 
+            "is_random": false, 
+            "name": "Ask for Help with Presentations", 
+            "to_edges": [
+                126, 
+                260
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                176
+            ], 
+            "id": "Spread Awareness1", 
+            "is_random": false, 
+            "name": "Spread Awareness1", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                138
+            ], 
+            "id": "Send out Emails2", 
+            "is_random": false, 
+            "name": "Send out Emails2", 
+            "to_edges": [
+                165
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                145
+            ], 
+            "id": "Trust [of Kids]1", 
+            "is_random": false, 
+            "name": "Trust [of Kids]1", 
+            "to_edges": [
+                151
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                237
+            ], 
+            "id": "Acquire Volunteer Outreach Skills", 
+            "is_random": false, 
+            "name": "Acquire Volunteer Outreach Skills", 
+            "to_edges": [
+                128, 
+                166, 
+                234
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                257
+            ], 
+            "id": "Plan and Put on Reconnection Conferences2", 
+            "is_random": false, 
+            "name": "Plan and Put on Reconnection Conferences2", 
+            "to_edges": [
+                182
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                114, 
+                222
+            ], 
+            "id": "SA s are Outgoing", 
+            "is_random": false, 
+            "name": "SA s are Outgoing", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                123, 
+                132, 
+                177, 
+                228, 
+                232, 
+                233
+            ], 
+            "id": "Happiness [Student Ambassadors]2", 
+            "is_random": false, 
+            "name": "Happiness [Student Ambassadors]2", 
+            "to_edges": [
+                191
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                134
+            ], 
+            "id": "Promotion Resources", 
+            "is_random": false, 
+            "name": "Promotion Resources", 
+            "to_edges": [
+                224
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                128, 
+                136, 
+                181
+            ], 
+            "id": "Be Outgoing", 
+            "is_random": false, 
+            "name": "Be Outgoing", 
+            "to_edges": [
+                153, 
+                262
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                197
+            ], 
+            "id": "Acquire Public Speaking Skills", 
+            "is_random": false, 
+            "name": "Acquire Public Speaking Skills", 
+            "to_edges": [
+                181, 
+                194, 
+                238
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                243
+            ], 
+            "id": "Community Service Hours Completed2", 
+            "is_random": false, 
+            "name": "Community Service Hours Completed2", 
+            "to_edges": [
+                233
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                231
+            ], 
+            "id": "SA s are Confident1", 
+            "is_random": false, 
+            "name": "SA s are Confident1", 
+            "to_edges": [
+                124
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                220
+            ], 
+            "id": "Speak at Fundraisers3", 
+            "is_random": false, 
+            "name": "Speak at Fundraisers3", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Train SA s", 
+            "is_random": false, 
+            "name": "Train SA s", 
+            "to_edges": [
+                137, 
+                174, 
+                180, 
+                205
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Permission for Presentations Be Given", 
+            "is_random": false, 
+            "name": "Permission for Presentations Be Given", 
+            "to_edges": [
+                204
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                235, 
+                281
+            ], 
+            "id": "More Promotion Resources Available", 
+            "is_random": false, 
+            "name": "More Promotion Resources Available", 
+            "to_edges": [
+                142, 
+                155, 
+                184
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                124
+            ], 
+            "id": "SA s are Confident", 
+            "is_random": false, 
+            "name": "SA s are Confident", 
+            "to_edges": [
+                188
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Provide Speaches", 
+            "is_random": false, 
+            "name": "Provide Speaches", 
+            "to_edges": [
+                167, 
+                202
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                159
+            ], 
+            "id": "Have Time for School", 
+            "is_random": false, 
+            "name": "Have Time for School", 
+            "to_edges": [
+                228
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                187, 
+                250, 
+                256, 
+                267
+            ], 
+            "id": "Give Back to Community2", 
+            "is_random": false, 
+            "name": "Give Back to Community2", 
+            "to_edges": [
+                185
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Run Fundraiser in Schools1", 
+            "is_random": false, 
+            "name": "Run Fundraiser in Schools1", 
+            "to_edges": [
+                118, 
+                131, 
+                170, 
+                219, 
+                250, 
+                258
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                213
+            ], 
+            "id": "*Increase Writing Skills", 
+            "is_random": false, 
+            "name": "*Increase Writing Skills", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Kids Be Used to Communicate with Other Kids", 
+            "is_random": false, 
+            "name": "Kids Be Used to Communicate with Other Kids", 
+            "to_edges": [
+                145, 
+                175, 
+                240
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                168
+            ], 
+            "id": "Plan and Put on Reconnection Conferences", 
+            "is_random": false, 
+            "name": "Plan and Put on Reconnection Conferences", 
+            "to_edges": [
+                150, 
+                162
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                203
+            ], 
+            "id": "Help Plan and Put on Reconnection Conferences1", 
+            "is_random": false, 
+            "name": "Help Plan and Put on Reconnection Conferences1", 
+            "to_edges": [
+                257
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                276
+            ], 
+            "id": "*Increase Writing Skills1", 
+            "is_random": false, 
+            "name": "*Increase Writing Skills1", 
+            "to_edges": [
+                213
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                119
+            ], 
+            "id": "Speak at Fundraisers2", 
+            "is_random": false, 
+            "name": "Speak at Fundraisers2", 
+            "to_edges": [
+                271
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                185
+            ], 
+            "id": "Give Back to Community1", 
+            "is_random": false, 
+            "name": "Give Back to Community1", 
+            "to_edges": [
+                143
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                215
+            ], 
+            "id": "*Increase Writing Skills2", 
+            "is_random": false, 
+            "name": "*Increase Writing Skills2", 
+            "to_edges": [
+                276
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                125, 
+                140, 
+                155, 
+                183, 
+                269
+            ], 
+            "id": "Spread Awareness", 
+            "is_random": false, 
+            "name": "Spread Awareness", 
+            "to_edges": [
+                173, 
+                176, 
+                254
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Send out Emails", 
+            "is_random": false, 
+            "name": "Send out Emails", 
+            "to_edges": [
+                149, 
+                210
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                141
+            ], 
+            "id": "Reduce Misconceptions", 
+            "is_random": false, 
+            "name": "Reduce Misconceptions", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                172
+            ], 
+            "id": "Help Put on SA Training Conferences1", 
+            "is_random": false, 
+            "name": "Help Put on SA Training Conferences1", 
+            "to_edges": [
+                147
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Help with Presentations", 
+            "is_random": false, 
+            "name": "Help with Presentations", 
+            "to_edges": [
+                139, 
+                187, 
+                273
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Attend CS Meetings", 
+            "is_random": false, 
+            "name": "Attend CS Meetings", 
+            "to_edges": [
+                148, 
+                196, 
+                239
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                133
+            ], 
+            "id": "Be Organized", 
+            "is_random": false, 
+            "name": "Be Organized", 
+            "to_edges": [
+                146, 
+                212
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                209, 
+                262
+            ], 
+            "id": "Make New Friends", 
+            "is_random": false, 
+            "name": "Make New Friends", 
+            "to_edges": [
+                132
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                164, 
+                167, 
+                184, 
+                188, 
+                221, 
+                236, 
+                240
+            ], 
+            "id": "Quality SA Services1", 
+            "is_random": false, 
+            "name": "Quality SA Services1", 
+            "to_edges": [
+                186, 
+                216
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                173
+            ], 
+            "id": "*Engagement Student Ambassadors in promoting awareness", 
+            "is_random": false, 
+            "name": "*Engagement Student Ambassadors in promoting awareness", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                245
+            ], 
+            "id": "Acquire Fundraising Skills1", 
+            "is_random": false, 
+            "name": "Acquire Fundraising Skills1", 
+            "to_edges": [
+                193
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                206
+            ], 
+            "id": "SA s are Enthusiastic1", 
+            "is_random": false, 
+            "name": "SA s are Enthusiastic1", 
+            "to_edges": [
+                195
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Promotion Resources1", 
+            "is_random": false, 
+            "name": "Promotion Resources1", 
+            "to_edges": [
+                198
+            ], 
+            "type": "resource", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                147
+            ], 
+            "id": "Put on SA Training Conferences2", 
+            "is_random": false, 
+            "name": "Put on SA Training Conferences2", 
+            "to_edges": [
+                227
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                169, 
+                268
+            ], 
+            "id": "Presenation Be Initiated", 
+            "is_random": false, 
+            "name": "Presenation Be Initiated", 
+            "to_edges": [
+                116
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                204
+            ], 
+            "id": "Initiate Presentation With Schools", 
+            "is_random": false, 
+            "name": "Initiate Presentation With Schools", 
+            "to_edges": [
+                169
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                216
+            ], 
+            "id": "Quality SA Services", 
+            "is_random": false, 
+            "name": "Quality SA Services", 
+            "to_edges": [], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                280
+            ], 
+            "id": "School Initiates Presenation", 
+            "is_random": false, 
+            "name": "School Initiates Presenation", 
+            "to_edges": [
+                268
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Write Articles for Newspaper", 
+            "is_random": false, 
+            "name": "Write Articles for Newspaper", 
+            "to_edges": [
+                158, 
+                189, 
+                215, 
+                263
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                191
+            ], 
+            "id": "Happiness [Student Ambassadors]1", 
+            "is_random": false, 
+            "name": "Happiness [Student Ambassadors]1", 
+            "to_edges": [
+                207
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                120, 
+                135, 
+                142, 
+                179, 
+                186, 
+                199
+            ], 
+            "id": "Engage Volunteers", 
+            "is_random": false, 
+            "name": "Engage Volunteers", 
+            "to_edges": [
+                255, 
+                275
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                143
+            ], 
+            "id": "Give Back to Community", 
+            "is_random": false, 
+            "name": "Give Back to Community", 
+            "to_edges": [
+                232
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                170, 
+                205, 
+                217, 
+                239, 
+                249, 
+                278
+            ], 
+            "id": "Acquire Volunteer Outreach Skills2", 
+            "is_random": false, 
+            "name": "Acquire Volunteer Outreach Skills2", 
+            "to_edges": [
+                252
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                266
+            ], 
+            "id": "Give CS Presentations2", 
+            "is_random": false, 
+            "name": "Give CS Presentations2", 
+            "to_edges": [
+                130, 
+                246, 
+                269
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                201
+            ], 
+            "id": "High Presentation Attendance", 
+            "is_random": false, 
+            "name": "High Presentation Attendance", 
+            "to_edges": [
+                178
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                261
+            ], 
+            "id": "Help Plan and Put on Reconnection Conferences", 
+            "is_random": false, 
+            "name": "Help Plan and Put on Reconnection Conferences", 
+            "to_edges": [
+                203, 
+                244, 
+                249, 
+                270
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                189, 
+                196, 
+                200, 
+                208, 
+                230, 
+                258, 
+                270, 
+                279
+            ], 
+            "id": "Community Service Hours Completed1", 
+            "is_random": false, 
+            "name": "Community Service Hours Completed1", 
+            "to_edges": [
+                211, 
+                229
+            ], 
+            "type": "goal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                117, 
+                122, 
+                127, 
+                137, 
+                219, 
+                244
+            ], 
+            "id": "Acquire Public Speaking Skills2", 
+            "is_random": false, 
+            "name": "Acquire Public Speaking Skills2", 
+            "to_edges": [
+                223
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [], 
+            "id": "Positive Reputation [CS]1", 
+            "is_random": false, 
+            "name": "Positive Reputation [CS]1", 
+            "to_edges": [
+                242
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                156, 
+                210
+            ], 
+            "id": "Find Help with Presentations1", 
+            "is_random": false, 
+            "name": "Find Help with Presentations1", 
+            "to_edges": [
+                264
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                129, 
+                154, 
+                160, 
+                263, 
+                273
+            ], 
+            "id": "Make New Friends2", 
+            "is_random": false, 
+            "name": "Make New Friends2", 
+            "to_edges": [
+                253
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                226, 
+                246
+            ], 
+            "id": "Reduce Misconceptions1", 
+            "is_random": false, 
+            "name": "Reduce Misconceptions1", 
+            "to_edges": [
+                141
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                121, 
+                195
+            ], 
+            "id": "SA s are Enthusiastic", 
+            "is_random": false, 
+            "name": "SA s are Enthusiastic", 
+            "to_edges": [
+                135
+            ], 
+            "type": "softgoal", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                271
+            ], 
+            "id": "Speak at Fundraisers1", 
+            "is_random": false, 
+            "name": "Speak at Fundraisers1", 
+            "to_edges": [
+                183, 
+                220, 
+                226
+            ], 
+            "type": "task", 
+            "weighted_cost": 0
+        }, 
+        {
+            "component": "node", 
+            "container": null, 
+            "cost": 0, 
+            "from_edges": [
+                130
+            ], 
+            "id": "Give CS Presentations3", 
+            "is_random": false, 
+            "name": "Give CS Presentations3", 
+            "to_edges": [], 
+            "type": "task", 
+            "weighted_cost": 0
+        }
+    ]
+}

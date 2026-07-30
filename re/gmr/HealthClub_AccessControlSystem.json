@@ -1,0 +1,689 @@
+{
+  "actors": [
+    {
+      "id": "923daf3d-91a3-48a5-ab24-ea0f2eb2968f",
+      "text": "Access Control System",
+      "type": "istar.Actor",
+      "x": 676,
+      "y": 107,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "ad812e06-a7d9-435c-a9d8-20465a2a317d",
+          "text": "Access Control",
+          "type": "istar.Goal",
+          "x": 851,
+          "y": 107,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bbce0c99-b97a-446a-902c-d1508d7d10f5",
+          "text": "allow passage",
+          "type": "istar.Goal",
+          "x": 930,
+          "y": 221,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2a13f313-da90-4931-8e72-0b101041da00",
+          "text": "ensure that the card is used by its owner",
+          "type": "istar.Goal",
+          "x": 690,
+          "y": 207.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0fd580b0-80e8-47a0-90a3-8036063a82c1",
+          "text": "Card verified",
+          "type": "istar.Goal",
+          "x": 800,
+          "y": 318,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "fc89c909-b614-40b2-a9d0-5bdced762363",
+          "text": "register entry",
+          "type": "istar.Task",
+          "x": 967,
+          "y": 328,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f2b3780b-8c9e-4af1-b3bb-379297601b59",
+          "text": "register exit",
+          "type": "istar.Task",
+          "x": 1165,
+          "y": 305,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f75a0a74-6bda-4fc4-8636-8f729ca4ebaf",
+          "text": "card passed",
+          "type": "istar.Goal",
+          "x": 676,
+          "y": 386,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "af9aff0d-b0fe-46ae-ada9-262b4a0198d2",
+          "text": "card valid",
+          "type": "istar.Goal",
+          "x": 759,
+          "y": 431,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a531cd61-7dea-49ec-9f01-84a3cbde6594",
+          "text": "card detected",
+          "type": "istar.Goal",
+          "x": 860,
+          "y": 405.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "6d9d58dc-5b11-4fc9-864b-1b78ff92e5ca",
+      "text": "Access Controller",
+      "type": "istar.Actor",
+      "x": 645,
+      "y": 655,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "8fd6e63d-39d4-4a7b-bef7-2f20b1261802",
+          "text": "validate card upon entry",
+          "type": "istar.Task",
+          "x": 667,
+          "y": 801,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b3f952f3-bbaf-4e78-96a8-2fef3252cef4",
+          "text": "validate card upon exit",
+          "type": "istar.Task",
+          "x": 856,
+          "y": 803,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8307324e-50ac-48aa-951e-c5f6310de993",
+          "text": "validate card",
+          "type": "istar.Goal",
+          "x": 764,
+          "y": 692,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f4f59fd5-d943-4645-abe0-1d14d19dc7d7",
+          "text": "check last entry",
+          "type": "istar.Task",
+          "x": 869,
+          "y": 898,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "d37ee0be-0a59-4f0d-8445-980af62cc3af",
+          "text": "user permitted entry time is satisfied",
+          "type": "istar.Goal",
+          "x": 656,
+          "y": 895,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "404bf851-0057-4f3c-9d61-f238825156c7",
+          "text": "card",
+          "type": "istar.Resource",
+          "x": 763,
+          "y": 853,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "9cf970e0-86a2-4e49-8162-b15fc8a99914",
+      "text": "Card Reader",
+      "type": "istar.Actor",
+      "x": 974,
+      "y": 537,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "dec53fed-c5b8-4a01-adba-4ce197dad8d8",
+          "text": "detect card",
+          "type": "istar.Task",
+          "x": 1047.5,
+          "y": 592,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "65247609-8721-4710-92ce-c32541a39a59",
+      "text": "User",
+      "type": "istar.Actor",
+      "x": 392,
+      "y": 536,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "2723f00f-4b7d-4b65-a3d0-b53d6bf85442",
+          "text": "Card",
+          "type": "istar.Resource",
+          "x": 474,
+          "y": 605.5,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "03bc3613-530d-4932-80a8-9c1a8c705f85",
+      "text": "Staff",
+      "type": "istar.Actor",
+      "x": 262,
+      "y": 229,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "c5f1e76d-2afc-43c2-ac40-f2c8a667b3b2",
+          "text": "Compare user photo on the screen of reception",
+          "type": "istar.Task",
+          "x": 350,
+          "y": 280,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "967dc296-e8a4-4581-a750-67af710344cb",
+      "text": "Registration controller",
+      "type": "istar.Actor",
+      "x": 1184,
+      "y": 606,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "b96f2515-6282-4a76-8104-ddfc11f9d64f",
+          "text": "register entry",
+          "type": "istar.Goal",
+          "x": 1306,
+          "y": 645.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "428a5462-90b0-4f00-b46c-9f405ddb4265",
+          "text": "register exit",
+          "type": "istar.Goal",
+          "x": 1480,
+          "y": 635,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6dfffc8e-43c5-4ee5-8ef9-38cb5d29144a",
+          "text": "user permitted exit time is satisfied",
+          "type": "istar.Goal",
+          "x": 1372,
+          "y": 792,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2f6b735c-a74b-4490-a7e8-51897f04e972",
+          "text": "Member permitted exit time isnt satisfied",
+          "type": "istar.Goal",
+          "x": 1502,
+          "y": 843,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "7ae68a56-871b-4516-b28b-f452831ab705",
+          "text": "Staff permitted exit time is not satisfied",
+          "type": "istar.Goal",
+          "x": 1655,
+          "y": 806,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6077c9f5-900c-4f35-bb7f-4678bf114708",
+          "text": "register exit",
+          "type": "istar.Task",
+          "x": 1275,
+          "y": 729,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "aba36627-73ff-44b5-8cd8-014808764aa8",
+          "text": "Entries",
+          "type": "istar.Resource",
+          "x": 1184,
+          "y": 802,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "107e7e44-163b-4b58-a36f-f312c13ff33b",
+          "text": "register exit",
+          "type": "istar.Task",
+          "x": 1501,
+          "y": 716,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9c03ded1-b9b3-46c3-8a61-a5bb918280f9",
+          "text": "Exits",
+          "type": "istar.Resource",
+          "x": 1617,
+          "y": 658.5,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "a7159564-7981-4e60-91c4-2276ec6e045f",
+          "text": "Apply fine",
+          "type": "istar.Task",
+          "x": 1539,
+          "y": 963,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8c0926b1-73c4-4729-9d84-16e4e1644713",
+          "text": "Notify manager",
+          "type": "istar.Task",
+          "x": 1713,
+          "y": 913,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "ece624e9-c683-4436-9c0f-b5c7531f9d3a",
+      "text": "compare user photo on screen",
+      "type": "istar.Task",
+      "x": 542,
+      "y": 242,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "2a13f313-da90-4931-8e72-0b101041da00",
+      "target": "c5f1e76d-2afc-43c2-ac40-f2c8a667b3b2"
+    },
+    {
+      "id": "fbb8befe-1f4f-40ba-a1a1-6292dcf051ed",
+      "text": "register entry",
+      "type": "istar.Task",
+      "x": 1225,
+      "y": 491,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "fc89c909-b614-40b2-a9d0-5bdced762363",
+      "target": "b96f2515-6282-4a76-8104-ddfc11f9d64f"
+    },
+    {
+      "id": "9180d12b-6e81-4b09-8004-61ba0df4549c",
+      "text": "pass card",
+      "type": "istar.Task",
+      "x": 527,
+      "y": 465,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "f75a0a74-6bda-4fc4-8636-8f729ca4ebaf",
+      "target": "2723f00f-4b7d-4b65-a3d0-b53d6bf85442"
+    },
+    {
+      "id": "cea50593-43e2-47ca-b7f0-c4621ebc128b",
+      "text": "detect card",
+      "type": "istar.Task",
+      "x": 1038,
+      "y": 487,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a531cd61-7dea-49ec-9f01-84a3cbde6594",
+      "target": "dec53fed-c5b8-4a01-adba-4ce197dad8d8"
+    },
+    {
+      "id": "b66b38e5-bb94-4b9b-8412-9efa40b65492",
+      "text": "validate card",
+      "type": "istar.Task",
+      "x": 761.5,
+      "y": 561.5,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "af9aff0d-b0fe-46ae-ada9-262b4a0198d2",
+      "target": "8307324e-50ac-48aa-951e-c5f6310de993"
+    },
+    {
+      "id": "66fcf3c8-0d14-44f3-9a6c-24adcde9a6d8",
+      "text": "register exit",
+      "type": "istar.Task",
+      "x": 1333,
+      "y": 470,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "f2b3780b-8c9e-4af1-b3bb-379297601b59",
+      "target": "428a5462-90b0-4f00-b46c-9f405ddb4265"
+    }
+  ],
+  "links": [
+    {
+      "id": "df90cd4c-1251-45b1-a621-da01fb2331bd",
+      "type": "istar.DependencyLink",
+      "source": "66fcf3c8-0d14-44f3-9a6c-24adcde9a6d8",
+      "target": "428a5462-90b0-4f00-b46c-9f405ddb4265"
+    },
+    {
+      "id": "127fb557-a439-4e6e-a619-1a87aff26706",
+      "type": "istar.DependencyLink",
+      "source": "f2b3780b-8c9e-4af1-b3bb-379297601b59",
+      "target": "66fcf3c8-0d14-44f3-9a6c-24adcde9a6d8"
+    },
+    {
+      "id": "554cceb1-e7b8-4a86-a7d6-3a852bc7b54d",
+      "type": "istar.DependencyLink",
+      "source": "b66b38e5-bb94-4b9b-8412-9efa40b65492",
+      "target": "8307324e-50ac-48aa-951e-c5f6310de993"
+    },
+    {
+      "id": "b1f4c533-723a-4278-ad98-457364987bdb",
+      "type": "istar.DependencyLink",
+      "source": "af9aff0d-b0fe-46ae-ada9-262b4a0198d2",
+      "target": "b66b38e5-bb94-4b9b-8412-9efa40b65492"
+    },
+    {
+      "id": "9ae3a300-c269-45b9-b80a-3c979fe75aa3",
+      "type": "istar.DependencyLink",
+      "source": "cea50593-43e2-47ca-b7f0-c4621ebc128b",
+      "target": "dec53fed-c5b8-4a01-adba-4ce197dad8d8"
+    },
+    {
+      "id": "ff0cd37f-1270-49f4-aaea-2598da9a6bce",
+      "type": "istar.DependencyLink",
+      "source": "a531cd61-7dea-49ec-9f01-84a3cbde6594",
+      "target": "cea50593-43e2-47ca-b7f0-c4621ebc128b"
+    },
+    {
+      "id": "34de7c6b-10b9-4d5f-9947-0039a86288b7",
+      "type": "istar.DependencyLink",
+      "source": "9180d12b-6e81-4b09-8004-61ba0df4549c",
+      "target": "2723f00f-4b7d-4b65-a3d0-b53d6bf85442"
+    },
+    {
+      "id": "51793096-684a-4275-b75f-ef45aa9cd754",
+      "type": "istar.DependencyLink",
+      "source": "f75a0a74-6bda-4fc4-8636-8f729ca4ebaf",
+      "target": "9180d12b-6e81-4b09-8004-61ba0df4549c"
+    },
+    {
+      "id": "57370caa-0abd-4af1-a992-8dd93d9350e3",
+      "type": "istar.DependencyLink",
+      "source": "fbb8befe-1f4f-40ba-a1a1-6292dcf051ed",
+      "target": "b96f2515-6282-4a76-8104-ddfc11f9d64f"
+    },
+    {
+      "id": "fa242328-d94a-4741-b8e3-ac5dd871966f",
+      "type": "istar.DependencyLink",
+      "source": "fc89c909-b614-40b2-a9d0-5bdced762363",
+      "target": "fbb8befe-1f4f-40ba-a1a1-6292dcf051ed"
+    },
+    {
+      "id": "26031681-0fec-4f8e-ae1c-4f2ce1e88f75",
+      "type": "istar.DependencyLink",
+      "source": "ece624e9-c683-4436-9c0f-b5c7531f9d3a",
+      "target": "c5f1e76d-2afc-43c2-ac40-f2c8a667b3b2"
+    },
+    {
+      "id": "d3507543-4ba7-4d48-b098-09cb5bfd2151",
+      "type": "istar.DependencyLink",
+      "source": "2a13f313-da90-4931-8e72-0b101041da00",
+      "target": "ece624e9-c683-4436-9c0f-b5c7531f9d3a"
+    },
+    {
+      "id": "57b8f2b4-c7a4-4c89-a5c2-31d9dbf68051",
+      "type": "istar.AndRefinementLink",
+      "source": "2a13f313-da90-4931-8e72-0b101041da00",
+      "target": "ad812e06-a7d9-435c-a9d8-20465a2a317d"
+    },
+    {
+      "id": "60e78c6f-feff-48d4-afd5-563a4a669b40",
+      "type": "istar.AndRefinementLink",
+      "source": "bbce0c99-b97a-446a-902c-d1508d7d10f5",
+      "target": "ad812e06-a7d9-435c-a9d8-20465a2a317d"
+    },
+    {
+      "id": "59e3f26d-432b-4b9b-9ebb-a057bf8a27bf",
+      "type": "istar.AndRefinementLink",
+      "source": "fc89c909-b614-40b2-a9d0-5bdced762363",
+      "target": "bbce0c99-b97a-446a-902c-d1508d7d10f5"
+    },
+    {
+      "id": "5ea91982-a37a-43d0-9636-e62c100d011f",
+      "type": "istar.AndRefinementLink",
+      "source": "0fd580b0-80e8-47a0-90a3-8036063a82c1",
+      "target": "bbce0c99-b97a-446a-902c-d1508d7d10f5"
+    },
+    {
+      "id": "686d7e67-2a1a-467d-8465-7e9089f43aa5",
+      "type": "istar.AndRefinementLink",
+      "source": "f2b3780b-8c9e-4af1-b3bb-379297601b59",
+      "target": "bbce0c99-b97a-446a-902c-d1508d7d10f5"
+    },
+    {
+      "id": "1f8010b3-b68b-4381-aa1a-9f4d7f8b9498",
+      "type": "istar.AndRefinementLink",
+      "source": "af9aff0d-b0fe-46ae-ada9-262b4a0198d2",
+      "target": "0fd580b0-80e8-47a0-90a3-8036063a82c1"
+    },
+    {
+      "id": "3d2777c9-d8c1-41a4-ad9c-d74a7435460c",
+      "type": "istar.AndRefinementLink",
+      "source": "a531cd61-7dea-49ec-9f01-84a3cbde6594",
+      "target": "0fd580b0-80e8-47a0-90a3-8036063a82c1"
+    },
+    {
+      "id": "9e2e6184-57fc-43cb-b14c-22ad75e44032",
+      "type": "istar.AndRefinementLink",
+      "source": "f75a0a74-6bda-4fc4-8636-8f729ca4ebaf",
+      "target": "0fd580b0-80e8-47a0-90a3-8036063a82c1"
+    },
+    {
+      "id": "2c7a4063-e9b0-4634-9f83-a2d85db7dd44",
+      "type": "istar.AndRefinementLink",
+      "source": "8fd6e63d-39d4-4a7b-bef7-2f20b1261802",
+      "target": "8307324e-50ac-48aa-951e-c5f6310de993"
+    },
+    {
+      "id": "e249ee3d-9325-4c29-8f3d-02f285829588",
+      "type": "istar.AndRefinementLink",
+      "source": "b3f952f3-bbaf-4e78-96a8-2fef3252cef4",
+      "target": "8307324e-50ac-48aa-951e-c5f6310de993"
+    },
+    {
+      "id": "b4729b4f-385b-4f3e-9f30-44eb71e98973",
+      "type": "istar.OrRefinementLink",
+      "source": "d37ee0be-0a59-4f0d-8445-980af62cc3af",
+      "target": "8fd6e63d-39d4-4a7b-bef7-2f20b1261802"
+    },
+    {
+      "id": "aebed949-83fd-4ffe-8bff-1e95cf86b7cd",
+      "type": "istar.OrRefinementLink",
+      "source": "f4f59fd5-d943-4645-abe0-1d14d19dc7d7",
+      "target": "b3f952f3-bbaf-4e78-96a8-2fef3252cef4"
+    },
+    {
+      "id": "0cd77b72-e1ef-481a-9700-5336cdd45770",
+      "type": "istar.NeededByLink",
+      "source": "404bf851-0057-4f3c-9d61-f238825156c7",
+      "target": "b3f952f3-bbaf-4e78-96a8-2fef3252cef4"
+    },
+    {
+      "id": "82266126-bcaa-4fc1-98dd-27ed9dc4da37",
+      "type": "istar.NeededByLink",
+      "source": "404bf851-0057-4f3c-9d61-f238825156c7",
+      "target": "8fd6e63d-39d4-4a7b-bef7-2f20b1261802"
+    },
+    {
+      "id": "62cb0d84-b82f-4235-b142-66411db1e82b",
+      "type": "istar.NeededByLink",
+      "source": "aba36627-73ff-44b5-8cd8-014808764aa8",
+      "target": "6077c9f5-900c-4f35-bb7f-4678bf114708"
+    },
+    {
+      "id": "f1b32d97-c20a-4cb9-8c45-26885d981a42",
+      "type": "istar.OrRefinementLink",
+      "source": "6077c9f5-900c-4f35-bb7f-4678bf114708",
+      "target": "b96f2515-6282-4a76-8104-ddfc11f9d64f"
+    },
+    {
+      "id": "d322650d-d279-416c-91b1-de057b495143",
+      "type": "istar.OrRefinementLink",
+      "source": "6dfffc8e-43c5-4ee5-8ef9-38cb5d29144a",
+      "target": "107e7e44-163b-4b58-a36f-f312c13ff33b"
+    },
+    {
+      "id": "0e31c996-b0b9-4c06-b3bc-62b6c07bb2f1",
+      "type": "istar.OrRefinementLink",
+      "source": "2f6b735c-a74b-4490-a7e8-51897f04e972",
+      "target": "107e7e44-163b-4b58-a36f-f312c13ff33b"
+    },
+    {
+      "id": "12aa0325-35df-44fe-97ff-6ca8488f425f",
+      "type": "istar.OrRefinementLink",
+      "source": "7ae68a56-871b-4516-b28b-f452831ab705",
+      "target": "107e7e44-163b-4b58-a36f-f312c13ff33b"
+    },
+    {
+      "id": "84ba2a41-2542-418a-a649-5773b4a5ebc9",
+      "type": "istar.OrRefinementLink",
+      "source": "107e7e44-163b-4b58-a36f-f312c13ff33b",
+      "target": "428a5462-90b0-4f00-b46c-9f405ddb4265"
+    },
+    {
+      "id": "babd2ee4-dda6-4d27-9d54-51d87be89a21",
+      "type": "istar.NeededByLink",
+      "source": "9c03ded1-b9b3-46c3-8a61-a5bb918280f9",
+      "target": "107e7e44-163b-4b58-a36f-f312c13ff33b"
+    },
+    {
+      "id": "72fa8e9f-9501-4239-a86b-fad6448ba557",
+      "type": "istar.OrRefinementLink",
+      "source": "2f6b735c-a74b-4490-a7e8-51897f04e972",
+      "target": "a7159564-7981-4e60-91c4-2276ec6e045f"
+    },
+    {
+      "id": "fd3cdd68-3d27-4c34-b83d-c311864f2531",
+      "type": "istar.OrRefinementLink",
+      "source": "7ae68a56-871b-4516-b28b-f452831ab705",
+      "target": "8c0926b1-73c4-4729-9d84-16e4e1644713"
+    }
+  ],
+  "display": {
+    "2a13f313-da90-4931-8e72-0b101041da00": {
+      "width": 110.5,
+      "height": 43.34375
+    },
+    "d37ee0be-0a59-4f0d-8445-980af62cc3af": {
+      "width": 117.5,
+      "height": 53.84375
+    },
+    "c5f1e76d-2afc-43c2-ac40-f2c8a667b3b2": {
+      "width": 143,
+      "height": 57.84375
+    },
+    "6dfffc8e-43c5-4ee5-8ef9-38cb5d29144a": {
+      "width": 127.5,
+      "height": 45.84375
+    },
+    "2f6b735c-a74b-4490-a7e8-51897f04e972": {
+      "width": 137.5,
+      "height": 42.84375
+    },
+    "7ae68a56-871b-4516-b28b-f452831ab705": {
+      "width": 134.5,
+      "height": 38.84375
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Mon, 25 May 2026 10:22:06 GMT",
+  "diagram": {
+    "width": 2047,
+    "height": 2000,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
