@@ -1,11 +1,14 @@
-[![DOI](https://zenodo.org/badge/181570338.svg)](https://doi.org/10.5281/zenodo.17354082)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17354082-blue)](https://doi.org/10.5281/zenodo.17354082)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![MSR 2026](https://img.shields.io/badge/MSR-2026-blueviolet)](https://arxiv.org/abs/2511.16882)
 ![GitHub issues](https://img.shields.io/github/issues/timm/moot)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/timm/moot) 
 ![GitHub stars](https://img.shields.io/github/stars/timm/moot?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/timm/moot?style=social)
 
 # Moot: A repository of many Multi-objective optimization tasks
+
+<p align="center"><b>📄 Accepted at the <a href="https://arxiv.org/abs/2511.16882">Mining Software Repositories (MSR) 2026</a> conference</b></p>
 
 MOOT (**M**ulti **O**bjective **O**ptimization **T**asks) is a curated repository of real-world multi-objective optimization tasks drawn from recent software engineering and systems research. These tasks span software configuration, cloud and systems tuning, project health, process modeling, and hyperparameter optimization, among others.
 
@@ -16,6 +19,7 @@ The goal of MOOT is to provide a reusable, extensible benchmark suite that enabl
 
 ## MOOT at a glance
 
+<small>
 
 | # Datasets | Dataset Type | File Names | Primary Objective | x/y | # Rows | Cited By |
 |------------|--------------|------------|-------------------|-----|--------|----------|
@@ -42,11 +46,23 @@ The goal of MOOT is to provide a reusable, extensible benchmark suite that enabl
 | 2 | Software testing | test120, test600 | Optimize the class | 9/1 | 5,161 | — |
 | **127** | **Total** | | | | | |
 
+</small>
+
 **Note:** "x/y" denotes the number of independent and dependent attributes. All citations are detailed in [docs/cited_by.md](docs/cited_by.md).
 
 ## Team
 
 MOOT is a collaborative effort between researchers at [North Carolina State University](https://www.csc.ncsu.edu) and the [University of Birmingham](https://www.birmingham.ac.uk/schools/computer-science) led by [Dr. Tim Menzies](https://timm.fyi) and [Dr. Tao Chen](https://www.birmingham.ac.uk/staff/profiles/computer-science/tao-chen) to curate and maintain a large, open repository of multi-objective optimization tasks for software engineering and related domains. Building on prior experience with large-scale empirical resources such as the [PROMISE repository](https://openscience.us/repo/) and extensive work in search-based software engineering and optimization, the MOOT team offers a robust foundation for rigorous, reproducible research.
+
+<table align="center"><tr>
+  <td align="center"><img src="docs/author_images/timm.png" width="80" height="80" style="border-radius:50%; object-fit:cover;" alt="Tim Menzies"/><br/><sub><b>Tim Menzies</b></sub></td>
+  <td align="center"><img src="docs/author_images/taochen.png" width="80" height="80" style="border-radius:50%; object-fit:cover;" alt="Tao Chen"/><br/><sub><b>Tao Chen</b></sub></td>
+  <td align="center"><img src="docs/author_images/yulongye.png" width="80" height="80" style="border-radius:50%; object-fit:cover;" alt="Yulong Ye"/><br/><sub><b>Yulong Ye</b></sub></td>
+  <td align="center"><img src="docs/author_images/kishan.png" width="80" height="80" style="border-radius:50%; object-fit:cover;" alt="Kishan Kumar Ganguly"/><br/><sub><b>Kishan Kumar Ganguly</b></sub></td>
+  <td align="center"><img src="docs/author_images/amirali.png" width="80" height="80" style="border-radius:50%; object-fit:cover;" alt="Amirali Rayegan"/><br/><sub><b>Amirali Rayegan</b></sub></td>
+  <td align="center"><img src="docs/author_images/srinath.png" width="80" height="80" style="border-radius:50%; object-fit:cover;" alt="Srinath Srinivasan"/><br/><sub><b>Srinath Srinivasan</b></sub></td>
+  <td align="center"><img src="docs/author_images/andre.png" width="80" height="80" style="border-radius:50%; object-fit:cover;" alt="Andre Lustosa"/><br/><sub><b>Andre Lustosa</b></sub></td>
+</tr></table>
 
 ## Citing MOOT
 If you use MOOT in your research, please cite the following paper:
@@ -74,9 +90,9 @@ arXiv:2511.16882
 ## Key Resources
 
 - MOOT GitHub repository: <https://github.com/timm/moot>  
-- MOOT paper: *“MOOT: a Repository of Many Multi-Objective Optimization Tasks”* – <https://arxiv.org/abs/2511.16882>  
-- Tim Menzies’ homepage: <https://timm.fyi>  
-- “The Case for Compact AI” (Communications of the ACM article discussing compact AI and related ideas): <https://cacm.acm.org/opinion/the-case-for-compact-ai/>
+- MOOT paper: *"MOOT: a Repository of Many Multi-Objective Optimization Tasks"* – <https://arxiv.org/abs/2511.16882>  
+- Tim Menzies' homepage: <https://timm.fyi>  
+- "The Case for Compact AI" (Communications of the ACM article discussing compact AI and related ideas): <https://cacm.acm.org/opinion/the-case-for-compact-ai/>
 
 Moot is such a good name for datasets to be used to assess different algorithms. Its definition is 
 

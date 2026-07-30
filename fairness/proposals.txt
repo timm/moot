@@ -1,0 +1,20 @@
+# format: FILE<TAB>COLNAME<TAB>reason
+# delete lines to REJECT. keep lines to APPROVE.
+# then run: make apply
+adult.csv	Age	numeric -> needs discretization
+adult.csv	marital	top2=Married-civ-spouse,Never-married cover=0.79
+adult.csv	race	top2=White,Black cover=0.95
+adult.csv	sex	top2=Male,Female cover=1.00
+bank.csv	Age	numeric -> needs discretization
+bank.csv	marital	top2=married,single cover=0.88
+communities.csv	Racepctblack	numeric -> needs discretization
+communities.csv	RacePctWhite	numeric -> needs discretization
+communities.csv	PctForeignBorn	numeric -> needs discretization
+compas.csv	sex	top2=Male,Female cover=1.00
+compas.csv	Age	numeric -> needs discretization
+compas.csv	age_cat	top2=25 - 45,Greater than 45 cover=0.79
+compas.csv	race	top2=African-American,Caucasian cover=0.85
+german.csv	sex_marital	top2=A93,A92 cover=0.86
+german.csv	Age	numeric -> needs discretization
+law.csv	sex	top2=male,female cover=1.00
+law.csv	race	top2=White,Non-White cover=1.00
